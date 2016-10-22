@@ -1,0 +1,53 @@
+# Lokaverkefni-vefforitun
+
+Hvað og hvernig.
+
+Fjöldi leika : fjöldi file-a
+Total loading time : Frá byrjun að tímasetningu þegar loading endar(GAMESTATE_GAMELOOP End)
+Total play time :  Frá enda loading fram að enda leikjar ({"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_WIN"})
+Win rate : Wins/total games
+Meðaltími leiks : Time in game / fjöldi leikja
+
+*IRL Data*
+Code: --- Log started at Fri Sep 28 16:38:15 2012
+Klukkan hvað loadar oftast inn í leik. Leikir per dag
+
+
+*Blue/Red side*
+Code: blue -> (team 100). red -> (team 200)
+Samtals leikir á blue/red side : telja saman blue red
+Winrate á blue / red
+% af leikjum á blue/red
+
+*Game mode*
+Code: (Initializing GameModeComponents for mode=CLASSIC.)
+Þá normal, ranked, bot, etc...
+Leyfa að flokka stats eftir gamemode
+
+*Deaths*
+Code: (The Killer was: XXX)
+Hversu oft deyrð per game:
+Fylgni deaths og winrate
+
+*Aðrir spilarar*
+Code: Spawning champion (Teemo) with skinID 5 on team 200 for clientID 8 and summonername (Ban Gragas) (is HUMAN PLAYER)
+Með hverjum hefur spilað mest
+Hversu marga unique players hefur hitt
+Winrate með player
+Time played together
+% af fjölda leikja spilað sama
+Top champions hjá þeim þeim spilurum, þá playrate og winrate, fav skin á þeim champ
+
+*Þínir champions*
+Code: Spawning champion (Teemo) with skinID 5 on team 200 for clientID 8 and summonername (Ban Gragas) (is HUMAN PLAYER)
+Winrate per champion
+Games played per champion
+Time ingame per champion
+Average game time per champion
+Games won
+Games lost
+Blue side % +winrate
+Red side % +winrate
+Favourite skin á þeim champion
+Hér væri svo hægt að loada info frá RIOT API til að bera saman þín stats miðað við normal stats. t.d. þitt winrate á champ m.v. normal winrate á champ
+
