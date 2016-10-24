@@ -34,10 +34,12 @@
           loadingTime: "",
           endTime: "",
           winLoss: "",
+          summonersChamps: [],
         };
 
         // test fall a medhondlun gagna
-        oneTestDbInstance.date = reducedArray[0];
+        let dateIndex = reducedArray[0].indexOf("started at") + 11;
+        oneTestDbInstance.date = reducedArray[0].substring(dateIndex, dateIndex+10);
         for (let j = 0; j < reducedArray.length; j++) {
           if (reducedArray[j].includes("GAMESTATE_GAMELOOP Begin")) {
             let data = reducedArray[j].substring(0,10);
@@ -51,6 +53,12 @@
             let indexResult = reducedArray[j].indexOf("EXITCODE") + 9;
             data = reducedArray[j].substring(indexResult, indexResult+4);
             oneTestDbInstance.winLoss = data;
+          }
+
+          if (reducedArray[j].includes("created for")) {
+            console.log("created for");
+            let data = reducedArray[j];
+            oneTestDbInstance.summonersChamps.push(data);
           }
         }
         testDB.push(oneTestDbInstance);
