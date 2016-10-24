@@ -24,23 +24,43 @@
         let textArray = text.split('\n');
         var reducedArray = textArray.filter(function (input) {
           return !(input.includes('WARN')||input.includes('ERROR')||
-          input.includes('Expression: ALE')||input.includes('Data Error message'));}
-        ).filter(function (input2) {
-          if(input2.length > 2) {
-            return input2;
-          }
-        });
+          input.includes('Expression: ALE')||input.includes('Data Error message'))
+          && input.length > 2;}
+        );
+
+        // object til ad geyma gogn um leik
+        let oneTestDbInstance = {
+          date: "",
+          loadingTime: "",
+          endTime: "",
+          winLoss: "",
+        };
 
         // test fall a medhondlun gagna
-        for (var j = 0; j < reducedArray.length; j++) {
+        oneTestDbInstance.date = reducedArray[0];
+        for (let j = 0; j < reducedArray.length; j++) {
+          if (reducedArray[j].includes("GAMESTATE_GAMELOOP Begin")) {
+            let data = reducedArray[j].substring(0,10);
+            oneTestDbInstance.loadingTime = data;
+          }
+
+          if (reducedArray[j].includes("EXITCODE")) {
+            let data = reducedArray[j].substring(0,10);
+            oneTestDbInstance.endTime = data;
+
+            let indexResult = reducedArray[j].indexOf("EXITCODE") + 9;
+            data = reducedArray[j].substring(indexResult, indexResult+4);
+            oneTestDbInstance.winLoss = data;
+          }
         }
+        testDB.push(oneTestDbInstance);
       }
       reader.readAsText(f);
    }
+   console.log(testDB);
 
-   // no. files chosen sem kemur
-   document.getElementById('output-html').innerHTML = '<ul>' + output.join('') + '</ul>';
- }
-
+   // veit ekki
+  document.getElementById('output-html').innerHTML = '<ul>' + output.join('') + '</ul>';
+  }
 
 }());
