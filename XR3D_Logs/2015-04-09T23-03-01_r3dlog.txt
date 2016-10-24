@@ -1,0 +1,1567 @@
+000000.000|       0.0000kb|      0.0000kb added| ALWAYS| Logging started at 2015-04-09T23:03:01.761
+000000.000|       0.0000kb|      0.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.85\deploy".
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/solutionmanifest")
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/configurationmanifest")
+000000.002|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.0.253/releasemanifest")
+000000.073|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.1.25/releasemanifest")
+000000.376|       0.0000kb|      0.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.397|       0.0000kb|      0.0000kb added|   OKAY| Unable to process data overlay file ./ToolsConfig.xml, defaulting to overlay now
+000000.397|       0.0000kb|      0.0000kb added| ALWAYS| Data overlay start folder initialized to DATA, Content/Src
+000000.397|       0.0000kb|      0.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.397|       0.0000kb|      0.0000kb added| ALWAYS| Build Version: Version 5.7.0.275 (Apr  3 2015/15:13:34) [PUBLIC] <Releases/5.7> ChangeList: 956731
+000000.559|       0.0000kb|      0.0000kb added| ALWAYS| Started System Init
+000000.560|       0.0000kb|      0.0000kb added| ALWAYS| Maestro Init
+000000.572|       0.0000kb|      0.0000kb added| ALWAYS| Maestro completed init
+000000.573|       0.0000kb|      0.0000kb added| ALWAYS| zip manifest, 'ClientZips.txt', not found (expected).
+000000.581|       0.0000kb|      0.0000kb added| ALWAYS| StartSession called
+000000.581|       0.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.581|       0.0000kb|      0.0000kb added| ALWAYS| Waiting until connection...
+000000.688|       0.0000kb|      0.0000kb added| ALWAYS| InitRenderer() enter
+000000.688|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Init(0x00091b60) enter
+000000.698|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.868|       0.0000kb|      0.0000kb added| ALWAYS| Loaded locale en_GB via fontconfig
+000000.872|       0.0000kb|      0.0000kb added| ALWAYS| IME file, 'C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml', is optional. The following error is expected.
+000000.872|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.872|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml
+000000.872|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.872|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml
+000000.875|       0.0000kb|      0.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.139/deploy/preferences/
+000000.878|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000000.878|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(35c808) and resolution (1920 x 1080) 
+000000.878|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(35c808) and resolution (960 x 540) 
+000000.879|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000000.879|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1920, YRes = 1080, BPP = 32,  Flags=1284) enter
+000000.879|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000001.000|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000001.192|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000001.235|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000001.272|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([relativeTeams, 1] in DATA/Menu/HUD/minimap_fenrir.ini
+000001.274|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for client ID
+000001.574|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000001.574|       0.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000001.575|       0.0000kb|      0.0000kb added| ALWAYS| Set focus to app
+000001.575|       0.0000kb|      0.0000kb added| ALWAYS| Input started
+000001.620|       0.0000kb|      0.0000kb added| ALWAYS| Query Status Req started
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| OS Version String: 7 Service Pack 1 Ultimate, x64
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 3376
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| Display info: LogMeIn Mirror Driver 2001003404 7.1.542.0
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 17179869184
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"7 Service Pack 1 Ultimate, x64","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"LogMeIn Mirror Driver","video_memory":"2001003404","driver_version":"7.1.542.0","physical_memory":17179869184,"wine":false}
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| Operating System: 7 Service Pack 1 Ultimate, x64
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: LogMeIn Mirror Driver
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2001003404
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 7.1.542.0
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 3400
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 17179869184
+000001.686|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.780|       0.0000kb|      0.0000kb added| ALWAYS| Query Status Req ended
+000001.780|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000001.887|       0.0000kb|      0.0000kb added| ALWAYS| Initializing GameModeComponents for mode=CLASSIC.
+000001.887|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = default.
+000001.887|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = LoadingScreenBackground(Data).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = Clouds(Clouds).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = FOWTexture(FogOfWarOverlay.dds).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = HudSkin(Default).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = NavigationMesh(AIPath).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MiniMapTexture(2DLevelMinimap.dds).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MapMusic(None).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = BotSummonerIcon(0).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = EndOfGameScreenText(Default).
+000001.888|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = EnemyRespawnTimers(0).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = HealthTextModifier(default).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = DamageTextModifier(default).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = RenderUIScoreboard(0).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MapObjectESportTeamCustomization(0).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = LocalizationEncryptKey(none).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = UseTrackerBuffs(1).
+000001.889|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = CLASSIC.
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = URF.
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = CooldownReductionCap(-0.80).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = AmbientGold(25).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = NoSnowballItems.
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = EndOfGameScreenText(secondplace).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = URFNumericFloatingTextModifier(1000).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = HealthTextModifier(tons).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = DamageTextModifier(tons).
+000001.890|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = WIPScript1.
+000001.891|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = LocalizationEncryptKey(URFISHIDDEN2015).
+000001.891|       0.0000kb|      0.0000kb added| ALWAYS| netUID: 8 defaultname
+000001.902|       0.0000kb|      0.0000kb added| ALWAYS| PlayGame Started
+000002.610|       0.0000kb|      0.0000kb added|   WARN| General performance warning: more than 11 texture samplers are being used simultanously.
+Please bump this number if this is intentional up to 16 (inclusive)
+000002.612|       0.0000kb|      0.0000kb added| ALWAYS| PlayGame Entered
+000002.612|       0.0000kb|      0.0000kb added| ALWAYS| gRenderPipeline
+000002.623|       0.0000kb|      0.0000kb added| ALWAYS| CreateParticleSystemManager
+000003.610|       0.0000kb|      0.0000kb added| ALWAYS| CreateAudioManager: Create audio manager Wwise.
+000003.634|       0.0000kb|      0.0000kb added| ALWAYS| AudioManager: Wwise Version v2013.2.2 initialized.
+000003.641|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeTripleKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000003.641|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeUnrealKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000003.642|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Shared/Sounds/EventLookupTable.csv" because it's not in the manifest.
+000004.123|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file ENV_Map11_SFX_audio_FUTURE.bnk! Error description: File not found.
+000004.123|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file ENV_Map11_SFX_events_FUTURE.bnk! Error description: File not found.
+000004.123|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file NPC_Map11_VO_audio_FUTURE.bnk! Error description: File not found.
+000004.123|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file NPC_Map11_VO_events_FUTURE.bnk! Error description: File not found.
+000004.160|       0.0000kb|      0.0000kb added|  ERROR| Audio::LoadLevelSoundBanks(): Error when loading sound banks for Map [11].
+000005.721|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <LuxCrashingBlitz2.dds> *********
+000005.721|       0.0000kb|      0.0000kb added|  ERROR| Failed to load LuxCrashingBlitz2.dds
+000005.721|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: LuxCrashingBlitz2.dds - not found. Dummy texture created.
+000005.722|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TurretInitialArmor.dds> *********
+000005.722|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TurretInitialArmor.dds
+000005.722|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TurretInitialArmor.dds - not found. Dummy texture created.
+000005.796|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Chaos_Inhibitor_Activation_VerticalGlow.dds>
+000005.814|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_ambientGlow>
+000006.458|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <MushroomBuff.dds>
+000006.458|       0.0000kb|      0.0000kb added|  ERROR| Failed to load .skn file [], Simple Skin []
+000006.666|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TemplateFighterPassive.dds> *********
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TemplateFighterPassive.dds
+000006.850|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TemplateFighterPassive.dds - not found. Dummy texture created.
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TempChar_Circle.dds> *********
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TempChar_Circle.dds
+000006.850|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TempChar_Circle.dds - not found. Dummy texture created.
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TempChar_Square.dds> *********
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TempChar_Square.dds
+000006.850|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TempChar_Square.dds - not found. Dummy texture created.
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.851|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.868|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <ChaosTurretWorm_Circle.dds> *********
+000006.868|       0.0000kb|      0.0000kb added|  ERROR| Failed to load ChaosTurretWorm_Circle.dds
+000006.868|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: ChaosTurretWorm_Circle.dds - not found. Dummy texture created.
+000006.868|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <ChaosTurretWorm_Square.dds> *********
+000006.868|       0.0000kb|      0.0000kb added|  ERROR| Failed to load ChaosTurretWorm_Square.dds
+000006.868|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: ChaosTurretWorm_Square.dds - not found. Dummy texture created.
+000006.873|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.873|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.873|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.873|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.879|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.879|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.879|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.879|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.886|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.886|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.886|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.886|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.941|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Shen_ShadowDash.dds> *********
+000006.941|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Shen_ShadowDash.dds
+000006.942|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Shen_ShadowDash.dds - not found. Dummy texture created.
+000007.009|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Chaos_Inhibitor_Activation_VerticalGlow.dds>
+000007.022|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.022|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.022|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.022|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.036|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_ambientGlow>
+000007.052|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.052|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.052|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.052|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.088|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.088|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.088|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.088|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.160|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.160|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.160|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.160|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.605|       0.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000007.682|       0.0000kb|      0.0000kb added| ALWAYS| End Game Object Update
+000007.863|       0.0000kb|      0.0000kb added|  ERROR| ?:0: attempt to call global 'SetDampenerRespawnAnimationDuration' (a nil value)
+000007.938|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3210_Instigator.dds> *********
+000007.938|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3210_Instigator.dds
+000007.938|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3210_Instigator.dds - not found. Dummy texture created.
+000007.964|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <FallenAngel_BlackShield.dds> *********
+000007.964|       0.0000kb|      0.0000kb added|  ERROR| Failed to load FallenAngel_BlackShield.dds
+000007.964|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: FallenAngel_BlackShield.dds - not found. Dummy texture created.
+000007.983|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <055_Borses_Staff_of_Apocalypse.tga> *********
+000007.983|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 055_Borses_Staff_of_Apocalypse.tga
+000007.983|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 055_Borses_Staff_of_Apocalypse.tga - not found. Dummy texture created.
+000008.056|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Summoner_fortify.dds> *********
+000008.056|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Summoner_fortify.dds
+000008.056|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Summoner_fortify.dds - not found. Dummy texture created.
+000008.213|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-wraith_flicker.tga>
+000008.213|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-wraith_flicker.tga>
+000008.214|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <wraith_twirl.tga>
+000008.214|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <wraith_hit.sco>.
+000008.246|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3154_WriggleLantern.dds> *********
+000008.246|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3154_WriggleLantern.dds
+000008.247|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3154_WriggleLantern.dds - not found. Dummy texture created.
+000008.262|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Minotaur_TriumphantRoar.dds> *********
+000008.262|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Minotaur_TriumphantRoar.dds
+000008.263|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Minotaur_TriumphantRoar.dds - not found. Dummy texture created.
+000008.264|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <2051_Guardians_Horn_Counter.dds> *********
+000008.264|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 2051_Guardians_Horn_Counter.dds
+000008.264|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 2051_Guardians_Horn_Counter.dds - not found. Dummy texture created.
+000008.344|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <2222_Transmutation_Crystal.dds> *********
+000008.344|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 2222_Transmutation_Crystal.dds
+000008.344|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 2222_Transmutation_Crystal.dds - not found. Dummy texture created.
+000008.534|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3085.dds> *********
+000008.534|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3085.dds
+000008.534|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3085.dds - not found. Dummy texture created.
+000008.617|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Global_Asc_teleport_dust.tga>
+000008.617|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Global_Asc_teleport_dust.scb>.
+000008.688|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000008.711|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000008.844|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000008.935|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3712_Kindled_Spirit.dds> *********
+000008.935|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3712_Kindled_Spirit.dds
+000008.935|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3712_Kindled_Spirit.dds - not found. Dummy texture created.
+000008.948|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Soraka_heal_color.tga>
+000008.981|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "timebombcountdown"
+000008.981|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "timebombcountdown"
+000008.987|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3400_Karache.dds> *********
+000008.987|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3400_Karache.dds
+000008.988|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3400_Karache.dds - not found. Dummy texture created.
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/-nolink.dds
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/TurretTipImage.png-nolink.dds" because it's not in the manifest.
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/TurretTipImage.png-nolink.dds
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/recapSplash.png-nolink.dds" because it's not in the manifest.
+000009.263|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/recapSplash.png-nolink.dds
+000010.313|       0.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000010.353|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_Turret1_HotCenter.dds>
+000010.414|       0.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000010.420|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <48thSlave_Pacify.dds> *********
+000010.420|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 48thSlave_Pacify.dds
+000010.420|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 48thSlave_Pacify.dds - not found. Dummy texture created.
+000010.425|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Fiddlesticks_Terrify.dds> *********
+000010.425|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Fiddlesticks_Terrify.dds
+000010.425|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Fiddlesticks_Terrify.dds - not found. Dummy texture created.
+000010.425|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Teemo_TranquilizingShot.dds> *********
+000010.425|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Teemo_TranquilizingShot.dds
+000010.425|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Teemo_TranquilizingShot.dds - not found. Dummy texture created.
+000010.634|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_pallybase_platform_godRaysMult.dds>
+000010.883|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_W_Streak_tar.dds>
+000010.883|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <VelkozSkin01_W_Streak_Tar.sco>.
+000010.884|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_Rampdown_rgba.dds>
+000010.891|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <VelkozPassive.dds> *********
+000010.892|       0.0000kb|      0.0000kb added|  ERROR| Failed to load VelkozPassive.dds
+000010.892|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: VelkozPassive.dds - not found. Dummy texture created.
+000010.899|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+000010.899|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000010.899|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+000010.899|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000010.899|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+000010.900|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+000010.900|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+000010.900|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000010.900|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+000010.900|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+000010.910|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_R_Side_Beam.dds>
+000010.910|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_LensFlare_01.dds>
+000010.916|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_Soft_Glow.dds>
+000010.937|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <FallenAngel_DarkBinding.dds> *********
+000010.937|       0.0000kb|      0.0000kb added|  ERROR| Failed to load FallenAngel_DarkBinding.dds
+000010.937|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: FallenAngel_DarkBinding.dds - not found. Dummy texture created.
+000010.961|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_SoftDot.dds>
+000010.961|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_Mis_Mesh_RGBA.dds>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Q_Trails.tga>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_mis_rgba.dds>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_Mis_Mesh.dds>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <VelkozSkin01_E_Mis.sco>.
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_Mis_RGBA.dds>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_Flash.dds>
+000010.962|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_E_Mis_RGBA.dds>
+000010.966|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Q_Mis_Glow.dds>
+000010.966|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_GlowSoft.dds>
+000010.966|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Q_ball_mis_rgba.tga>
+000010.966|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_Void_BG1.dds>
+000010.966|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <VelkozSkin01_Q_Fireball.sco>.
+000010.967|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_q_split_tail.dds>
+000010.967|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Q_Mis_Inferno.dds>
+000011.008|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_SoftDot.dds>
+000011.008|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Base_BA_Sparks_rgba.dds>
+000011.009|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_SoftDot.dds>
+000011.009|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Base_BA_Sparks_rgba.dds>
+000011.017|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <VelkozSkin01_Z_Flare_Red.dds>
+000011.018|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Velkoz_Skin01_Z_Sparks_grey.dds>
+000011.018|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Velkoz_Skin01_Base_BA_Sparks_rgba.dds>
+000011.044|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Tristana_headshot.dds> *********
+000011.044|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Tristana_headshot.dds
+000011.044|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Tristana_headshot.dds - not found. Dummy texture created.
+000011.051|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+000011.051|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+000011.052|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+000011.091|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Ezreal_PulseFire_Shockwave_Flat.sco>.
+000011.270|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Fiddlesticks_DarkWind.dds> *********
+000011.270|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Fiddlesticks_DarkWind.dds
+000011.270|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Fiddlesticks_DarkWind.dds - not found. Dummy texture created.
+000011.273|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <ahridash.tga>
+000011.286|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Katarina_Cyber_blade_projectile.sco>.
+000011.289|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Katarina_Cyber_Solid_Blade.tga>
+000011.289|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Katarina_Cyber_blade_projectile.sco>.
+000011.365|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <katarina_cyber_deathlotus_swirl.tga>
+000011.366|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Katarina_Cyber_R_Bubble.tga>
+000011.366|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Udyr_Spirit_Bear_Sphere.sco>.
+000011.374|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <katarina_cyber_deathlotus_swirl.tga>
+000011.375|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Katarina_Cyber_R_Bubble.tga>
+000011.375|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Udyr_Spirit_Bear_Sphere.sco>.
+000011.393|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Katarina_Cyber_blade_projectile.sco>.
+000011.779|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Soraka_Circle.dds> *********
+000011.779|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Soraka_Circle.dds
+000011.780|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Soraka_Circle.dds - not found. Dummy texture created.
+000011.780|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Soraka_Square.dds> *********
+000011.780|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Soraka_Square.dds
+000011.780|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Soraka_Square.dds - not found. Dummy texture created.
+000011.791|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <TEST_Maokai_Q_Mis_softglow.dds>
+000011.795|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <TEST_Maokai_Q_Mis_softglow.dds>
+000011.797|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Bowmaster_ArchersMark.dds> *********
+000011.797|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Bowmaster_ArchersMark.dds
+000011.798|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Bowmaster_ArchersMark.dds - not found. Dummy texture created.
+000012.398|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Voidwalker_Riftwalk.dds> *********
+000012.398|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Voidwalker_Riftwalk.dds
+000012.398|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Voidwalker_Riftwalk.dds - not found. Dummy texture created.
+000013.767|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000013.767|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000014.146|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000014.147|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/loadtimings_Map11_default.txt" because it's not in the manifest.
+000014.166|       0.0000kb|      0.0000kb added| ALWAYS| Start Main Loop
+000014.166|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect
+000014.166|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000066.074|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.076|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Shaco) with skinID 0 on team 100 for clientID 7 and summonername (n1x337) (is HUMAN PLAYER)
+000066.076|       0.0000kb|      0.0000kb added| ALWAYS| Hero Shaco(0) created for n1x337
+000066.159|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.165|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Velkoz_Skin01_ba_beam.dds>
+000066.165|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Velkoz_Skin01_ba_beam_rgba.dds>
+000066.166|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Velkoz) with skinID 0 on team 100 for clientID 1 and summonername (CETNIK101) (is HUMAN PLAYER)
+000066.166|       0.0000kb|      0.0000kb added| ALWAYS| Hero Velkoz(0) created for CETNIK101
+000066.166|       0.0000kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000066.175|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.183|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Evelynn) with skinID 0 on team 100 for clientID 3 and summonername (hi im gavo) (is HUMAN PLAYER)
+000066.183|       0.0000kb|      0.0000kb added| ALWAYS| Hero Evelynn(0) created for hi im gavo
+000066.183|       0.0000kb|      0.0000kb added| ALWAYS| Finished spawning heroes/minions
+000066.184|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+000066.200|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+000066.279|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <lightning_12.tga>
+000066.358|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Lux) with skinID 5 on team 100 for clientID 2 and summonername (zix96) (is HUMAN PLAYER)
+000066.358|       0.0000kb|      0.0000kb added| ALWAYS| Hero Lux(5) created for zix96
+000066.358|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.364|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Katarina_Voracity.dds> *********
+000066.364|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Katarina_Voracity.dds
+000066.364|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Katarina_Voracity.dds - not found. Dummy texture created.
+000066.364|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Katarina) with skinID 7 on team 100 for clientID 9 and summonername (hi im Matti) (is HUMAN PLAYER)
+000066.364|       0.0000kb|      0.0000kb added| ALWAYS| Hero Katarina(7) created for hi im Matti
+000066.365|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.370|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Urgot) with skinID 0 on team 200 for clientID 6 and summonername (FizzedInMyPants) (is HUMAN PLAYER)
+000066.370|       0.0000kb|      0.0000kb added| ALWAYS| Hero Urgot(0) created for FizzedInMyPants
+000066.370|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.372|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Maokai) with skinID 0 on team 200 for clientID 0 and summonername (templarx) (is HUMAN PLAYER)
+000066.372|       0.0000kb|      0.0000kb added| ALWAYS| Hero Maokai(0) created for templarx
+000066.373|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.378|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Ziggs) with skinID 0 on team 200 for clientID 4 and summonername (KingstonHyperX3k) (is HUMAN PLAYER)
+000066.378|       0.0000kb|      0.0000kb added| ALWAYS| Hero Ziggs(0) created for KingstonHyperX3k
+000066.379|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000066.381|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Nautilus) with skinID 0 on team 200 for clientID 8 and summonername (LucianStoleMyTv) (is HUMAN PLAYER)
+000066.381|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Nautilus/Recommended/RIOT_ItemSet_1.json" because it's not in the manifest.
+000066.381|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Nautilus/Recommended/RIOT_ItemSet_2.json" because it's not in the manifest.
+000066.414|       0.0000kb|      0.0000kb added| ALWAYS| Hero Nautilus(0) created for LucianStoleMyTv
+000067.043|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000067.086|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Ezreal) with skinID 5 on team 200 for clientID 5 and summonername (Hvutteh) (is HUMAN PLAYER)
+000067.086|       0.0000kb|      0.0000kb added| ALWAYS| Hero Ezreal(5) created for Hvutteh
+000067.171|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000067.171|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000067.171|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000067.171|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000067.197|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "jannahowlinggale"
+000067.250|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "jannahowlinggale"
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000071.684|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000071.684|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000071.684|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000071.695|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000071.695|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000071.695|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000071.695|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000071.699|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000071.700|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000071.700|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000071.791|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000071.791|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000071.791|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000071.791|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000071.841|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000071.841|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000071.841|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000071.841|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000071.841|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000071.845|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000075.717|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Shaco
+000076.501|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Evelynn
+000076.867|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Lux
+000077.267|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Katarina
+000077.651|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Urgot
+000078.067|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Maokai
+000078.434|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Ziggs
+000078.817|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Nautilus
+000079.217|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Ezreal
+000418.889|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000418.889|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000418.889|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: n1x337
+000418.889|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000418.889|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 233.697 heal 233.697 with abilities [twoshivpoison|damage:233.697(0|233.697|0)|heal:0|priority:260]
+000418.889|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 598.641 heal 598.641 with abilities [luxlightstrikekugel|damage:263.539(0|263.539|0)|heal:0|priority:270][luxlightbinding|damage:154.296(0|154.296|0)|heal:0|priority:170][_Passive|damage:73.5139(0|73.5139|0)|heal:0|priority:73][_BasicAttack|damage:107.293(107.293|0|0)|heal:0|priority:61]
+000418.889|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000524.291|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000524.292|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: zix96
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 363.557 heal 363.557 with abilities [luxmalicecannon|damage:312.313(0|312.313|0)|heal:0|priority:320][_BasicAttack|damage:51.2445(46.6409|4.60356|0)|heal:0|priority:46]
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 981.211 heal 895.476 with abilities [twoshivpoison|damage:569.553(0|569.553|0)|heal:0|priority:598][hallucinatefull|damage:325.923(42.2421|283.681|0)|heal:0|priority:325][ItemMagicShankMis|damage:85.7357(0|85.7357|0)|heal:0|priority:114]
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000524.292|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 30.2094 heal 30.2094 with abilities [nautilusgrandlinestart|damage:30.2094(0|0|0)|heal:30.2094|priority:28]
+000526.675|       0.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000591.140|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000591.140|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000591.140|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: n1x337
+000591.140|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000591.140|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 577.155 heal 577.155 with abilities [luxlightstrikekugel|damage:226.939(0|226.939|0)|heal:0|priority:235][_Passive|damage:127.729(0|127.729|0)|heal:0|priority:127][luxlightbinding|damage:79.2095(0|79.2095|0)|heal:0|priority:96][_BasicAttack|damage:143.278(136.257|7.02105|0)|heal:0|priority:92]
+000591.140|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 758.862 heal 699.197 with abilities [twoshivpoison|damage:589.035(0|589.035|0)|heal:0|priority:618][_BasicAttack|damage:105.956(105.956|0|0)|heal:0|priority:105][ItemMagicShankMis|damage:59.6649(0|59.6649|0)|heal:0|priority:89][_Passive|damage:4.20561(0|4.20561|0)|heal:0|priority:4]
+000591.140|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000703.988|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: zix96
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS|   Minion applied damage 10.4663 heal 10.4663 with abilities [_BasicAttack|damage:10.4663(10.4663|0|0)|heal:0|priority:10]
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 1150.22 heal 984.816 with abilities [luxlightstrikekugel|damage:459.422(0|459.422|0)|heal:0|priority:468][luxmalicecannon|damage:227.787(0|227.787|0)|heal:0|priority:236][_Passive|damage:123.572(0|123.572|0)|heal:0|priority:123][ItemMagicShankMis|damage:165.402(0|165.402|0)|heal:0|priority:108][_BasicAttack|damage:112.05(102.533|9.51709|0)|heal:0|priority:102][luxlightbinding|damage:61.9848(0|61.9848|0)|heal:0|priority:81]
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000703.988|       0.0000kb|      0.0000kb added| ALWAYS|   Tower applied damage 0 heal 0 with abilities [SRTurretSecondaryShielder|damage:0(0|0|0)|heal:0|priority:0]
+000763.220|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 009576d2
+000763.220|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000763.220|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000763.220|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 04ec9a85
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: n1x337
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS|   Minion applied damage 38.8156 heal 38.8156 with abilities [_BasicAttack|damage:38.8156(38.8156|0|0)|heal:0|priority:38]
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 604.593 heal 544.354 with abilities [twoshivpoison|damage:430.702(0|430.702|0)|heal:0|priority:463][_BasicAttack|damage:106.958(106.958|0|0)|heal:0|priority:106][ItemMagicShankMis|damage:60.2386(0|60.2386|0)|heal:0|priority:92][_Passive|damage:6.69462(0|6.69462|0)|heal:0|priority:6]
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS|   CETNIK101 applied damage 784.23 heal 670.262 with abilities [velkozresearchproc|damage:250(0|0|250)|heal:0|priority:250][velkozw|damage:117.279(0|117.279|0)|heal:0|priority:137][velkozr|damage:75.8336(0|75.8336|0)|heal:0|priority:110][velkoze|damage:91.36(0|91.36|0)|heal:0|priority:91][ItemMagicShankMis|damage:113.969(0|113.969|0)|heal:0|priority:89][velkozq|damage:80.8117(0|80.8117|0)|heal:0|priority:80][_BasicAttack|damage:54.9771(50.2862|4.69082|0)|heal:0|priority:50]
+000763.220|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000798.303|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000799.336|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000803.519|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000803.619|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000804.552|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000807.435|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000808.735|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000810.569|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000811.335|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000811.602|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000812.652|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000815.519|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000815.786|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000816.319|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000816.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000816.569|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000819.436|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000819.702|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000820.753|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000823.352|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000823.635|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000824.669|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000827.555|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000827.785|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000828.586|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000831.452|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000831.702|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000832.401|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000832.752|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000835.368|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000835.618|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000836.685|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000839.535|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000839.802|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000840.586|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000843.452|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000843.702|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000844.452|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000844.752|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000845.269|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000847.368|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000847.635|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000848.685|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000849.468|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000849.584|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000849.585|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 083aa402
+000849.585|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000849.585|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: n1x337
+000849.585|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000849.585|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 766.047 heal 766.047 with abilities [twoshivpoison|damage:570.657(0|570.657|0)|heal:0|priority:605][jackinthebox|damage:195.39(0|195.39|0)|heal:0|priority:208]
+000849.585|       0.0000kb|      0.0000kb added| ALWAYS|   hi im Matti applied damage 941.372 heal 941.372 with abilities [katarinaq|damage:363.853(0|363.853|0)|heal:0|priority:291][katarinaw|damage:169.479(0|169.479|0)|heal:0|priority:169][katarinarmis|damage:228.451(0|228.451|0)|heal:0|priority:125][_BasicAttack|damage:92.7756(92.7756|0|0)|heal:0|priority:92][katarinae|damage:75.611(0|75.611|0)|heal:0|priority:75][_Passive|damage:11.2025(0|11.2025|0)|heal:0|priority:11]
+000849.585|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000851.568|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000851.818|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000852.601|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000853.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000855.468|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000855.749|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000856.785|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000857.302|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000859.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000859.651|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000860.685|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000861.468|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000863.551|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000863.818|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000864.601|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000865.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000867.468|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000868.785|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000869.301|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000871.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000872.701|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000873.468|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000875.567|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000876.601|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000877.400|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000879.484|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000880.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000881.301|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000883.384|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000884.701|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000884.918|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000885.484|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000885.767|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000887.318|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000888.634|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000889.400|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000889.934|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000891.501|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000892.534|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000893.351|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000893.851|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000894.868|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000895.418|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000895.684|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000896.717|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000897.500|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000897.767|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000899.317|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000899.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000900.634|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000901.417|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000901.934|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000902.587|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000902.589|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000903.519|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000903.523|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000903.523|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000903.767|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000904.550|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000904.633|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000905.334|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000905.617|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000905.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000907.416|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000907.702|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000907.702|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000908.717|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000909.500|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000909.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000909.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000911.317|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000911.584|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000911.867|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000912.651|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000913.417|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000913.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000913.967|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000915.500|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000915.517|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000915.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000916.550|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000917.334|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000917.600|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000917.867|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000919.433|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000919.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000919.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000920.734|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000921.267|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000921.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000921.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000923.350|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000923.617|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000923.884|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000924.667|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000925.433|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000925.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000925.954|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000927.516|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000927.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000927.783|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000928.567|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000929.367|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000929.599|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000929.883|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000931.450|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000931.701|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000931.701|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000932.750|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000933.266|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000933.784|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000933.799|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000935.350|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000935.616|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000935.883|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000936.666|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000937.450|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000937.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000937.983|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000939.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000939.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000939.783|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000940.566|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000941.349|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000941.616|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000941.901|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000943.449|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000943.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000943.700|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000944.766|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000945.368|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000945.800|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000945.800|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000947.366|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000947.634|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000947.883|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000948.686|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000949.449|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000949.716|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000949.983|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000951.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000951.549|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000951.800|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000952.584|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000953.366|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000953.633|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000953.899|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000955.733|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000955.733|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000955.866|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 04ec9a85
+000955.866|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+000955.866|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+000955.866|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0012fa53
+000955.866|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: n1x337
+000955.866|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000955.866|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 811.177 heal 736.542 with abilities [luxmalicecannon|damage:409.183(0|409.183|0)|heal:0|priority:419][luxlightstrikekugel|damage:229.681(0|229.681|0)|heal:0|priority:239][luxlightbinding|damage:97.6773(0|97.6773|0)|heal:0|priority:119][ItemMagicShankMis|damage:74.6348(0|74.6348|0)|heal:0|priority:96]
+000955.866|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 943.527 heal 943.527 with abilities [twoshivpoison|damage:943.527(0|943.527|0)|heal:0|priority:981]
+000955.866|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000956.766|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000957.299|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000957.834|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000957.834|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000959.633|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000959.900|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000961.482|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000961.733|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000961.733|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000963.558|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000963.833|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000965.384|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000965.649|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000965.916|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000967.766|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000967.766|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000969.299|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000969.833|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000969.833|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000971.649|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000971.917|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000973.483|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000973.732|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000973.749|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000975.565|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000975.832|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000977.399|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000977.666|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000977.932|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000979.482|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000979.749|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000981.315|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000981.582|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000981.849|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000983.683|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000983.683|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000985.232|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000985.748|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000985.765|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000986.333|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000987.333|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000987.582|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000987.849|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000989.416|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000989.683|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000989.949|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000991.516|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000991.516|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000991.765|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000993.332|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000993.599|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000993.850|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000995.465|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000995.682|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000995.682|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000997.248|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000997.764|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000997.782|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000999.348|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000999.598|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000999.865|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001001.698|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001001.948|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001003.517|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001003.517|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001003.764|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001005.615|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001005.865|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001007.415|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001007.699|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001007.699|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001009.799|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001009.799|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001011.348|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001011.598|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001011.882|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001013.715|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001013.981|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001015.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001015.533|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001015.815|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001017.632|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001017.881|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001019.448|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001019.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001019.715|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001019.715|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001020.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001021.798|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001021.815|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001023.381|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001023.648|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001023.648|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001024.182|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001024.698|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001025.214|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001025.749|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001025.749|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001027.315|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001027.582|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001027.831|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001028.632|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001029.414|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001029.666|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001029.932|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001031.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001031.514|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001031.764|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001032.564|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001033.365|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001033.598|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001033.865|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001035.448|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001035.715|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001035.715|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001036.748|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001037.281|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001037.797|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001037.814|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001039.364|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001039.632|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001039.632|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001040.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001041.214|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001041.747|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001043.297|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001043.565|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001043.848|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001044.632|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001044.981|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001045.397|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001045.664|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001045.932|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001047.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001047.513|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001047.764|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001048.548|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001049.332|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001049.599|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001050.131|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001051.430|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001051.698|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001052.481|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001053.263|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001053.547|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001054.064|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001055.364|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001055.630|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001056.681|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001057.235|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001057.731|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001057.997|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001059.298|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001060.614|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001060.731|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001061.398|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001061.664|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001061.931|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001063.497|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001064.547|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001065.331|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001065.414|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001065.851|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001066.113|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001066.380|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001067.447|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001068.464|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001069.247|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001069.800|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001070.047|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001070.581|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001071.347|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001072.680|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001073.196|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001073.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001073.997|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001074.497|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001075.280|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001076.614|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001077.382|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001077.647|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001077.914|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001078.431|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001079.481|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001080.532|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001081.331|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001081.848|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001082.114|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001082.380|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001083.414|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001084.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001085.247|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001085.663|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001085.780|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001086.047|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001086.581|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001087.346|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001088.664|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001089.196|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001089.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001089.980|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001090.497|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001091.296|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001092.598|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001093.397|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001093.648|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001093.931|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001094.464|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001095.480|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001096.547|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001097.313|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001097.847|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001098.113|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001098.363|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001099.413|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001100.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001101.046|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001101.246|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001101.763|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001102.031|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001102.063|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001102.563|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001103.346|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001104.646|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001105.180|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001105.713|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001105.980|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001106.246|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001106.496|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001107.279|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001108.596|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001109.380|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001109.646|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001109.913|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001110.163|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001110.429|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001111.480|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001112.513|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001113.312|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001113.829|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001114.096|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001114.096|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001114.346|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001115.396|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001116.446|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001117.229|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001117.762|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001118.029|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001118.296|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001118.546|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001119.329|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001120.646|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001121.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001121.696|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001121.963|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001122.229|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001122.496|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001123.279|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001124.613|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001125.380|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001125.630|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001125.896|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001126.162|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001126.429|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001127.462|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001128.513|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001129.312|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001129.829|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001130.096|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001130.096|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001130.362|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001131.413|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001132.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001133.245|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001133.779|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001134.046|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001134.047|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001134.562|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001135.345|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001136.664|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001137.196|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001137.712|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001137.979|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001138.246|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001138.495|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001139.295|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001140.612|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001141.129|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001141.662|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001141.929|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001142.195|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001142.446|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001144.545|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001145.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001145.881|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001145.881|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001146.112|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001146.379|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001148.478|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001149.261|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001149.312|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001149.796|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001150.045|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001150.062|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001150.312|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001150.579|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001152.412|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001153.196|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001153.348|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001153.728|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001153.979|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001154.245|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001154.245|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001154.612|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001154.612|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001156.613|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001157.146|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001157.662|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001157.930|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001158.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001158.446|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001158.446|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001158.446|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001160.545|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001161.346|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001161.612|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001161.861|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001162.129|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001162.396|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001162.396|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001162.396|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001164.495|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001165.278|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001165.795|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001166.063|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001166.063|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001166.312|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001166.329|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001166.329|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001168.412|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001169.213|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001169.728|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001170.012|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001170.012|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001170.245|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001170.529|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001170.529|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001172.628|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001173.145|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001173.678|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001173.945|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001174.195|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001174.445|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001174.461|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001174.478|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001174.478|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001175.245|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001177.346|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001177.611|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001177.879|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001178.145|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001178.395|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001178.412|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001178.412|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001179.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001181.811|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001182.078|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001182.078|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001182.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001182.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001182.345|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001183.395|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001185.745|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001186.012|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001186.012|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001186.294|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001186.545|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001186.545|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001187.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001189.696|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001189.961|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001190.211|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001190.479|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001190.479|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001190.479|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001191.264|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001193.644|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001193.931|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001194.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001194.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001194.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001194.463|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001194.921|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+001194.922|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 083aa402
+001194.922|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0012fa53
+001194.922|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: hi im Matti
+001194.922|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001194.922|       0.0000kb|      0.0000kb added| ALWAYS|   CETNIK101 applied damage 414.368 heal 358.96 with abilities [velkozq|damage:158.056(0|158.056|0)|heal:0|priority:158][velkozqmissile|damage:147.515(0|147.515|0)|heal:0|priority:158][ItemMagicShankMis|damage:55.4083(0|55.4083|0)|heal:0|priority:55][zephyrslamentburn|damage:53.3888(0|53.3888|0)|heal:0|priority:53]
+001194.922|       0.0000kb|      0.0000kb added| ALWAYS|   hi im Matti applied damage 933.918 heal 855.385 with abilities [katarinaw|damage:281.518(0|281.518|0)|heal:0|priority:281][katarinarmis|damage:314.528(0|314.528|0)|heal:0|priority:167][katarinae|damage:113.718(0|113.718|0)|heal:0|priority:113][katarinaq|damage:84.631(0|84.631|0)|heal:0|priority:103][ItemMagicShankMis|damage:78.5333(0|78.5333|0)|heal:0|priority:78][_BasicAttack|damage:51.9415(51.9415|0|0)|heal:0|priority:51][_Passive|damage:9.04823(0|9.04823|0)|heal:0|priority:9]
+001194.922|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+001195.495|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001197.595|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001197.861|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001198.144|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001198.394|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001198.411|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001198.411|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001199.447|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001201.903|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001202.078|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001202.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001202.345|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001202.345|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001203.394|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001205.744|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001206.027|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001206.278|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001206.278|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001206.278|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001207.311|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001209.678|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001210.211|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001210.212|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001210.461|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001210.461|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001211.244|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001213.612|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001214.144|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001214.394|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001214.411|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001214.411|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001215.444|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001218.077|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001218.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001218.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001218.328|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001219.377|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001221.994|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001222.261|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001222.261|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001223.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001226.194|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001226.194|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001226.460|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001227.244|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001230.127|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001230.399|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001230.399|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001231.428|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001234.060|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001234.311|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001234.311|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001235.360|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001237.993|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001238.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001238.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001239.294|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001242.177|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001242.177|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001242.477|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001243.227|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001245.410|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001246.110|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001246.377|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001246.378|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001246.378|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001247.427|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001250.060|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001250.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001250.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001250.576|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001251.360|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001253.976|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001254.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001254.244|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001254.511|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001255.293|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001258.176|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001258.444|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001258.444|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001259.226|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001259.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001259.543|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001260.294|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001260.543|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001262.395|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001262.395|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001262.395|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001263.443|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001264.477|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001264.743|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001266.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001266.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001266.560|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001267.376|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001268.293|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001268.410|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001268.659|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001269.211|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001269.842|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+001269.842|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+001269.842|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: CETNIK101
+001269.842|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001269.842|       0.0000kb|      0.0000kb added| ALWAYS|   hi im Matti applied damage 266.614 heal 188.583 with abilities [katarinaw|damage:141.583(0|141.583|0)|heal:0|priority:141][ItemMagicShankMis|damage:78.031(0|78.031|0)|heal:0|priority:78][blessingofthelizardelder|damage:47(0|0|47)|heal:0|priority:47]
+001269.842|       0.0000kb|      0.0000kb added| ALWAYS|   CETNIK101 applied damage 744.681 heal 690.208 with abilities [velkozresearchproc|damage:175(0|0|175)|heal:0|priority:175][velkozq|damage:321.808(0|321.808|0)|heal:0|priority:166][velkozw|damage:56.2335(0|56.2335|0)|heal:0|priority:79][_BasicAttack|damage:119.165(108.38|10.7856|0)|heal:0|priority:54][ItemMagicShankMis|damage:54.4729(0|54.4729|0)|heal:0|priority:54][zephyrslamentburn|damage:18.001(0|18.001|0)|heal:0|priority:18]
+001269.843|       0.0000kb|      0.0000kb added| ALWAYS|   zix96 applied damage 1080.77 heal 1015.58 with abilities [luxlightbinding|damage:367.657(0|367.657|0)|heal:0|priority:392][luxmalicecannon|damage:300.848(0|300.848|0)|heal:0|priority:312][luxlightstrikekugel|damage:197.658(0|197.658|0)|heal:0|priority:208][_Passive|damage:89.8914(0|89.8914|0)|heal:0|priority:89][ItemMagicShankMis|damage:65.1944(0|65.1944|0)|heal:0|priority:76][_BasicAttack|damage:59.5255(50.5148|9.01066|0)|heal:0|priority:50]
+001269.843|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+001269.843|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 12.4288 heal 12.4288 with abilities [nautilusanchordrag|damage:12.4288(0|0|0)|heal:12.4288|priority:10]
+001270.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001270.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001270.510|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001271.293|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001272.343|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001272.609|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001273.393|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001274.198|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001274.444|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001274.444|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001275.227|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001276.277|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001276.543|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001277.326|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001278.361|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001278.378|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001278.378|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001279.427|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001280.477|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001280.743|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001281.260|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001282.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001282.310|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001282.576|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001283.344|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001284.393|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001284.659|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001285.193|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001286.226|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001286.226|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001286.509|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001287.293|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001288.343|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001288.609|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001289.392|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001290.176|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001290.443|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001290.459|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001291.242|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001292.276|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001292.544|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001293.326|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001294.377|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001294.377|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001294.377|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001295.426|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001296.476|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001296.726|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001297.259|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001298.309|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001298.309|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001298.575|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001299.359|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001300.409|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001300.676|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001301.192|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001302.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001302.243|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001302.508|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001303.309|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001304.342|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001304.608|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001305.392|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001306.193|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001306.459|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001307.242|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001308.292|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001308.559|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001309.342|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001310.375|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001311.176|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001312.479|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001312.743|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001313.258|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001314.575|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001315.359|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001316.409|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001316.675|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001317.210|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001318.509|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001319.293|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001320.360|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001320.609|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001321.392|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001322.459|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001323.225|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001324.275|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001324.542|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001325.325|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001326.375|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001327.175|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001328.475|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001328.742|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001329.258|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001330.575|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001332.409|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001332.659|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001333.192|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001334.525|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001336.342|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001336.608|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001338.442|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001340.272|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001340.546|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001341.088|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0012fa53
+001341.088|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09cccdc8
+001341.088|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 06f17f92
+001341.088|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec9a8c2
+001341.088|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: CETNIK101
+001341.088|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001341.088|       0.0000kb|      0.0000kb added| ALWAYS|   CETNIK101 applied damage 219.679 heal 170.399 with abilities [velkozqmissile|damage:102.388(0|102.388|0)|heal:0|priority:113][velkozr|damage:41.6812(0|41.6812|0)|heal:0|priority:83][ItemMagicShankMis|damage:49.2801(0|49.2801|0)|heal:0|priority:73][zephyrslamentburn|damage:26.3301(0|26.3301|0)|heal:0|priority:26]
+001341.088|       0.0000kb|      0.0000kb added| ALWAYS|   n1x337 applied damage 552.707 heal 552.707 with abilities [hallucinatefull|damage:552.707(0|552.707|0)|heal:0|priority:552]
+001341.089|       0.0000kb|      0.0000kb added|  ERROR| >>> BuffHashMap::HashToName - Match not found for hash 00b45680
+001341.089|       0.0000kb|      0.0000kb added|  ERROR| Assertion failed!
+
+Expression: ALE-00171CB6
+001341.089|       0.0000kb|      0.0000kb added| ALWAYS|   hi im gavo applied damage 1164.88 heal 1100.19 with abilities [evelynnq|damage:395.692(0|395.692|0)|heal:0|priority:407][evelynne|damage:356.215(339.109|17.1067|0)|heal:0|priority:348][evelynnr|damage:137.374(0|137.374|0)|heal:0|priority:162][|damage:108.018(0|108.018|0)|heal:0|priority:109][_BasicAttack|damage:85.7828(85.7828|0|0)|heal:0|priority:85][ItemMagicShankMis|damage:64.6868(0|64.6868|0)|heal:0|priority:76][_Passive|damage:17.1067(0|17.1067|0)|heal:0|priority:17]
+001341.089|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+001341.089|       0.0000kb|      0.0000kb added|  ERROR| >>> BuffHashMap::HashToName - Match not found for hash 0615c1a4
+001341.089|       0.0000kb|      0.0000kb added|  ERROR| Assertion failed!
+
+Expression: ALE-00171CB6
+001341.089|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 74.0117 heal 74.0117 with abilities [|damage:74.0117(0|0|0)|heal:74.0117|priority:72]
+001342.393|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001344.492|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001346.092|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001346.324|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001347.125|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001348.691|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001350.524|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001351.308|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001352.643|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001354.475|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001355.257|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001356.574|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001358.408|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001359.174|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001360.507|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001362.342|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001363.174|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001364.691|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001366.557|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001368.624|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001370.458|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001372.574|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001376.491|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001380.690|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001384.607|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001388.557|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001392.490|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001396.055|       0.0000kb|      0.0000kb added| ALWAYS| End game message processing!
+001396.072|       0.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| Finished Main Loop
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average = 59.653008
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average Minimum = 34.024513
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average Maximum = 83.209831
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| FPS Variance = 2.842153
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| FPS Slow Count = 29
+001400.290|       0.0000kb|      0.0000kb added| ALWAYS| Total Frame Count = 4211735
+001403.365|       0.0000kb|      0.0000kb added| ALWAYS| Finished Play game
+001403.365|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_LOSE"}
+001403.492|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "blue_superminion_TX_CM_Red.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechmelee_Square.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_WallVisionBearer.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_gingerBread_TX_CM.dds" ref count 2.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_stone_TX_CM.dds" ref count 2.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ward_NewSkins_TX_CM.dds" ref count 2.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_Urf2015.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Order_Minion_Siege_TX_CM_Red.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chaos_Minion_Siege_TX_CM_Blue.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_caster_TX_CM_Red.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_Melee_TX_CM_Red.dds" ref count 1.
+001403.522|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ward_NewSkins_TX_CM.dds" ref count 2.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightward_Riot_TX_CM.dds" ref count 2.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Red_Caster_TX_CM_Blue.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosMinion_Melee_TX_CM_Blue.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_championshipS3_TX_CM.dds" ref count 2.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "WardOverwrite.tga" ref count 10.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Duck_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lux_steellegion_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LuxFinaleFunkeln.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "skillshot_Rectangle_tip_r01_v01.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "skillshot_Rectangle_Base_r01_v01.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LuxLightStrikeKugel.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LuxCrashingBlitz2.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lux_Square_0.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LuxIlluminatingFraulein.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon785.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ezreal_cyber_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ezreal_cyber3_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ezreal_cyber2_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ezreal_cyber1_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_Square_0.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Nautilus_Square_0.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "nautilus_base_TX_CM.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_leona_outer.dds" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ziggs_base_TX_CM.tga" ref count 1.
+001403.523|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ziggs_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Maokai_Base_2014_TX_CM.dds" ref count 2.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Maokai_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "urgot_base_TX_CM.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Urgot_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Katarina_DeathLotus.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Katarina_E.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_brand.dds" ref count 2.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Katarina_W.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Katarina_Q.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "katarina_xmas_TX_CM.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Katarina_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RG_Evelynn_Clr.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Evelynn_AgonysEmbrace.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Evelynn_Ravage.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Evelynn_OnlyHellToPay.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Evelynn_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_base_TX_GM.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_R.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_W.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_Q1.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Velkoz_Passive.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Jester.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Jester_HallucinogenBomb.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Jester_IncrediblyPrecise.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Jester_DeathWard.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JackintheBox.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Jester_Square.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+001403.524|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Basic_Attack.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3136_Haunting_Guise.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3145_Hextech_Revolver.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "073_Zettas_Mana-Stick.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3089_Banksys_wizard_Hat.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3340_YellowTrinket.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3004_Manamune.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3001_Abyssal_Scepter.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueTrinket_TX_CM.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2009_Mini_Pot.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers_A.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Health_Potion.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidSpawnTracer.dds" ref count 2.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidSpawn_TX_CM.dds" ref count 2.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidGate_base_TX_CM.DDS" ref count 2.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3512_Zzrot_Portal.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1006_Rejuvenation_Bead.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+001403.525|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1011_Mighty_Waistband_of_the_Reaver.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 2.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_TX_CM.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3113_Aether_Wisp.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "066_Sindoran_Shielding_Amulet.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "126_Zeal_and_Sheen.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3151_Liandrys_Lament.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "113_Tome_of_Minor_Necro_Compulsion.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3157_Zhonyas_Hourglass.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3035_Last_Whisper.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3057_Sheen.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3105_AegisOfTheLegion.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3060_Banner_of_Command.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3070_Tear_of_the_Goddess.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3285_Ludens_Echo.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "HA_AP_Poro.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Trinket_Yellow_Upgrade_TX_CM.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2053_Raptor_Cloak.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon545.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1033_Elementium_Threaded_Cloak.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1058_Needlessly_Large_Wand.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1029_Cloth_Armour.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1026_Blasting_Band.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "161_Elementium_Woven_Mantle.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PetAttack.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_MageCrystal_TX_CM_blue.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderTurret5_red.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon7.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Turret_Blue_Square.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Turret_Red_Square.dds" ref count 1.
+001403.526|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Brush.dds" ref count 10.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Chaosnexus_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosNexus_TX_CM_blue.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 2.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "tower_destroyed_diff.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Ordernexus_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderNexus_TX_CM_red.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Chaosinhibitor_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosInhibitor_TX_CM_blue.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Inhibitor_Blue_Square.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Chaos1_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Orderinhibitor_Rubble_TX_CM.dds" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderInhibitor_TX_CM_red.DDS" ref count 1.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Crab_TX_CM.dds" ref count 2.
+001403.527|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_StoreKeeperSouth_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_StoreKeeperNorth_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Lizard_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Gromp_Prop_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Antlermouse_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Bird.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Dragon_Prop_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Snail_CM_TX.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_flag_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_MageCrystal_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon659.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BaronSpawn_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Baron_TX_GM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Dragon_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Gromp_base_TX_GM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_KrugMini_base_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Krug.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Razorbeak_Mini_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Razorbeak_TX_CM.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_MurkwolfMini.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Spiritwolf.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 3.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Murkwolf.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_RedMini.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "48thSlave_WaveOfLoathing.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Red.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BlueMini2.dds" ref count 1.
+001403.528|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BlueMini.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Blue_Golem_V2.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon693.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosNexus_TX_CM.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderNexus_TX_CM.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosInhibitor_TX_CM.dds" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderInhibitor_TX_CM.DDS" ref count 1.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Chaos1_TX_CM_blue.dds" ref count 4.
+001403.529|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_turret_Chaos1_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_TX_CM_red.dds" ref count 4.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Red_Caster_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosMinion_Melee_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "red_superminion_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chaos_Minion_Siege_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_caster_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_Melee_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "blue_superminion_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Order_Minion_Siege_TX_CM.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 12.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon786.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+001403.530|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_teleport.dds" ref count 1.
+001403.532|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001403.533|       0.0000kb|      0.0000kb added| ALWAYS| Destroying the Renderer (1)
+001403.533|       0.0000kb|      0.0000kb added|   WARN| Dradis: CleanupDradis, cluster is still active
+001404.146|       0.0000kb|      0.0000kb added| ALWAYS| game::Shutdown
+001404.146|       0.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001404.148|       0.0000kb|      0.0000kb added| ALWAYS| Bugsplat disabled (end of game?)
+001404.160|       0.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain

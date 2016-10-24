@@ -1,0 +1,888 @@
+000000.000|       0.0000kb|      0.0000kb added| ALWAYS| Logging started at 2015-04-13T21:20:54.363
+000000.000|       0.0000kb|      0.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.85\deploy".
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/solutionmanifest")
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/configurationmanifest")
+000000.001|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.0.253/releasemanifest")
+000000.085|       0.0000kb|      0.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.1.25/releasemanifest")
+000000.383|       0.0000kb|      0.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.405|       0.0000kb|      0.0000kb added|   OKAY| Unable to process data overlay file ./ToolsConfig.xml, defaulting to overlay now
+000000.405|       0.0000kb|      0.0000kb added| ALWAYS| Data overlay start folder initialized to DATA, Content/Src
+000000.405|       0.0000kb|      0.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.405|       0.0000kb|      0.0000kb added| ALWAYS| Build Version: Version 5.7.0.275 (Apr  3 2015/15:13:34) [PUBLIC] <Releases/5.7> ChangeList: 956731
+000000.563|       0.0000kb|      0.0000kb added| ALWAYS| Started System Init
+000000.563|       0.0000kb|      0.0000kb added| ALWAYS| Maestro Init
+000000.572|       0.0000kb|      0.0000kb added| ALWAYS| Maestro completed init
+000000.572|       0.0000kb|      0.0000kb added| ALWAYS| zip manifest, 'ClientZips.txt', not found (expected).
+000000.582|       0.0000kb|      0.0000kb added| ALWAYS| StartSession called
+000000.582|       0.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.582|       0.0000kb|      0.0000kb added| ALWAYS| Waiting until connection...
+000000.695|       0.0000kb|      0.0000kb added| ALWAYS| InitRenderer() enter
+000000.695|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Init(0x000515e2) enter
+000000.709|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.881|       0.0000kb|      0.0000kb added| ALWAYS| Loaded locale en_GB via fontconfig
+000000.885|       0.0000kb|      0.0000kb added| ALWAYS| IME file, 'C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml', is optional. The following error is expected.
+000000.885|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.885|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml
+000000.885|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.885|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.85/deploy/Data/Menu/IMEConfig.xml
+000000.888|       0.0000kb|      0.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.139/deploy/preferences/
+000000.890|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000000.890|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(6e72668) and resolution (1920 x 1080) 
+000000.890|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(6e72668) and resolution (960 x 540) 
+000000.895|       0.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000000.895|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1920, YRes = 1080, BPP = 32,  Flags=1284) enter
+000000.895|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000001.025|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000001.216|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000001.266|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000001.299|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([relativeTeams, 1] in DATA/Menu/HUD/minimap_fenrir.ini
+000001.301|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for client ID
+000001.604|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000001.604|       0.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000001.606|       0.0000kb|      0.0000kb added| ALWAYS| Set focus to app
+000001.606|       0.0000kb|      0.0000kb added| ALWAYS| Input started
+000001.664|       0.0000kb|      0.0000kb added| ALWAYS| Query Status Req started
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| OS Version String: 7 Service Pack 1 Ultimate, x64
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 3500
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 760 2147483648 9.18.13.4788
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 17179869184
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"7 Service Pack 1 Ultimate, x64","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 760","video_memory":"2147483648","driver_version":"9.18.13.4788","physical_memory":17179869184,"wine":false}
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| Operating System: 7 Service Pack 1 Ultimate, x64
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 760
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2147483648
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 9.18.13.4788
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 3400
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| Physical memory: 17179869184
+000001.688|       0.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.814|       0.0000kb|      0.0000kb added| ALWAYS| Query Status Req ended
+000001.814|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000002.017|       0.0000kb|      0.0000kb added| ALWAYS| Initializing GameModeComponents for mode=CLASSIC.
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = default.
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = LoadingScreenBackground(Data).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = Clouds(Clouds).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = FOWTexture(FogOfWarOverlay.dds).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = HudSkin(Default).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = NavigationMesh(AIPath).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MiniMapTexture(2DLevelMinimap.dds).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MapMusic(None).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = BotSummonerIcon(0).
+000002.018|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = EndOfGameScreenText(Default).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = EnemyRespawnTimers(0).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = HealthTextModifier(default).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = DamageTextModifier(default).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = RenderUIScoreboard(0).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = MapObjectESportTeamCustomization(0).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = LocalizationEncryptKey(none).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = UseTrackerBuffs(1).
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| ... Processing GameMode Mutator = CLASSIC.
+000002.019|       0.0000kb|      0.0000kb added| ALWAYS| netUID: 7 defaultname
+000002.033|       0.0000kb|      0.0000kb added| ALWAYS| PlayGame Started
+000002.743|       0.0000kb|      0.0000kb added|   WARN| General performance warning: more than 11 texture samplers are being used simultanously.
+Please bump this number if this is intentional up to 16 (inclusive)
+000002.745|       0.0000kb|      0.0000kb added| ALWAYS| PlayGame Entered
+000002.745|       0.0000kb|      0.0000kb added| ALWAYS| gRenderPipeline
+000002.755|       0.0000kb|      0.0000kb added| ALWAYS| CreateParticleSystemManager
+000003.744|       0.0000kb|      0.0000kb added| ALWAYS| CreateAudioManager: Create audio manager Wwise.
+000003.768|       0.0000kb|      0.0000kb added| ALWAYS| AudioManager: Wwise Version v2013.2.2 initialized.
+000003.774|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeTripleKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000003.775|       0.0000kb|      0.0000kb added|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeUnrealKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000003.776|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Shared/Sounds/EventLookupTable.csv" because it's not in the manifest.
+000004.314|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file ENV_Map11_SFX_audio_FUTURE.bnk! Error description: File not found.
+000004.314|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file ENV_Map11_SFX_events_FUTURE.bnk! Error description: File not found.
+000004.314|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file NPC_Map11_VO_audio_FUTURE.bnk! Error description: File not found.
+000004.314|       0.0000kb|      0.0000kb added|  ERROR| AudioManager: Failed to load bank file NPC_Map11_VO_events_FUTURE.bnk! Error description: File not found.
+000004.351|       0.0000kb|      0.0000kb added|  ERROR| Audio::LoadLevelSoundBanks(): Error when loading sound banks for Map [11].
+000006.067|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <LuxCrashingBlitz2.dds> *********
+000006.067|       0.0000kb|      0.0000kb added|  ERROR| Failed to load LuxCrashingBlitz2.dds
+000006.067|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: LuxCrashingBlitz2.dds - not found. Dummy texture created.
+000006.067|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TurretInitialArmor.dds> *********
+000006.067|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TurretInitialArmor.dds
+000006.067|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TurretInitialArmor.dds - not found. Dummy texture created.
+000006.142|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Chaos_Inhibitor_Activation_VerticalGlow.dds>
+000006.161|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_ambientGlow>
+000006.834|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <MushroomBuff.dds>
+000006.834|       0.0000kb|      0.0000kb added|  ERROR| Failed to load .skn file [], Simple Skin []
+000007.046|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TemplateFighterPassive.dds> *********
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TemplateFighterPassive.dds
+000007.179|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TemplateFighterPassive.dds - not found. Dummy texture created.
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TempChar_Circle.dds> *********
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TempChar_Circle.dds
+000007.179|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TempChar_Circle.dds - not found. Dummy texture created.
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <TempChar_Square.dds> *********
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load TempChar_Square.dds
+000007.179|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: TempChar_Square.dds - not found. Dummy texture created.
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.179|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.197|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <ChaosTurretWorm_Circle.dds> *********
+000007.197|       0.0000kb|      0.0000kb added|  ERROR| Failed to load ChaosTurretWorm_Circle.dds
+000007.197|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: ChaosTurretWorm_Circle.dds - not found. Dummy texture created.
+000007.197|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <ChaosTurretWorm_Square.dds> *********
+000007.197|       0.0000kb|      0.0000kb added|  ERROR| Failed to load ChaosTurretWorm_Square.dds
+000007.198|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: ChaosTurretWorm_Square.dds - not found. Dummy texture created.
+000007.203|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.203|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.203|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.203|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.209|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.210|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.210|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.210|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.214|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.215|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.215|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.215|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.276|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Shen_ShadowDash.dds> *********
+000007.276|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Shen_ShadowDash.dds
+000007.276|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Shen_ShadowDash.dds - not found. Dummy texture created.
+000007.343|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Chaos_Inhibitor_Activation_VerticalGlow.dds>
+000007.355|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.355|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.355|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.355|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.369|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_ambientGlow>
+000007.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.385|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.421|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.421|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.421|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.421|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.498|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.882|       0.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000007.966|       0.0000kb|      0.0000kb added| ALWAYS| End Game Object Update
+000008.095|       0.0000kb|      0.0000kb added|  ERROR| ?:0: attempt to call global 'SetDampenerRespawnAnimationDuration' (a nil value)
+000008.171|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3210_Instigator.dds> *********
+000008.171|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3210_Instigator.dds
+000008.171|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3210_Instigator.dds - not found. Dummy texture created.
+000008.198|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <FallenAngel_BlackShield.dds> *********
+000008.198|       0.0000kb|      0.0000kb added|  ERROR| Failed to load FallenAngel_BlackShield.dds
+000008.198|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: FallenAngel_BlackShield.dds - not found. Dummy texture created.
+000008.219|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <055_Borses_Staff_of_Apocalypse.tga> *********
+000008.219|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 055_Borses_Staff_of_Apocalypse.tga
+000008.219|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 055_Borses_Staff_of_Apocalypse.tga - not found. Dummy texture created.
+000008.288|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Summoner_fortify.dds> *********
+000008.288|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Summoner_fortify.dds
+000008.289|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Summoner_fortify.dds - not found. Dummy texture created.
+000008.425|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-wraith_flicker.tga>
+000008.426|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-wraith_flicker.tga>
+000008.427|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <wraith_twirl.tga>
+000008.427|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <wraith_hit.sco>.
+000008.460|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3154_WriggleLantern.dds> *********
+000008.460|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3154_WriggleLantern.dds
+000008.460|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3154_WriggleLantern.dds - not found. Dummy texture created.
+000008.476|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Minotaur_TriumphantRoar.dds> *********
+000008.476|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Minotaur_TriumphantRoar.dds
+000008.476|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Minotaur_TriumphantRoar.dds - not found. Dummy texture created.
+000008.478|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <2051_Guardians_Horn_Counter.dds> *********
+000008.478|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 2051_Guardians_Horn_Counter.dds
+000008.478|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 2051_Guardians_Horn_Counter.dds - not found. Dummy texture created.
+000008.558|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <2222_Transmutation_Crystal.dds> *********
+000008.558|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 2222_Transmutation_Crystal.dds
+000008.558|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 2222_Transmutation_Crystal.dds - not found. Dummy texture created.
+000008.747|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3085.dds> *********
+000008.747|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3085.dds
+000008.747|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3085.dds - not found. Dummy texture created.
+000008.832|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Global_Asc_teleport_dust.tga>
+000008.832|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Global_Asc_teleport_dust.scb>.
+000008.902|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000008.923|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000009.059|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000009.144|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3712_Kindled_Spirit.dds> *********
+000009.144|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3712_Kindled_Spirit.dds
+000009.144|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3712_Kindled_Spirit.dds - not found. Dummy texture created.
+000009.158|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Soraka_heal_color.tga>
+000009.191|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "timebombcountdown"
+000009.191|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "timebombcountdown"
+000009.197|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <3400_Karache.dds> *********
+000009.198|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 3400_Karache.dds
+000009.198|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 3400_Karache.dds - not found. Dummy texture created.
+000009.479|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000009.480|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/-nolink.dds
+000009.480|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/TurretTipImage.png-nolink.dds" because it's not in the manifest.
+000009.480|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/TurretTipImage.png-nolink.dds
+000009.480|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "DATA/Menu_SC4/recapSplash.png-nolink.dds" because it's not in the manifest.
+000009.480|       0.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/recapSplash.png-nolink.dds
+000010.526|       0.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000010.567|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_Order_Turret1_HotCenter.dds>
+000010.630|       0.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000010.637|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <48thSlave_Pacify.dds> *********
+000010.637|       0.0000kb|      0.0000kb added|  ERROR| Failed to load 48thSlave_Pacify.dds
+000010.637|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: 48thSlave_Pacify.dds - not found. Dummy texture created.
+000010.642|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Fiddlesticks_Terrify.dds> *********
+000010.642|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Fiddlesticks_Terrify.dds
+000010.642|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Fiddlesticks_Terrify.dds - not found. Dummy texture created.
+000010.642|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Teemo_TranquilizingShot.dds> *********
+000010.642|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Teemo_TranquilizingShot.dds
+000010.642|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Teemo_TranquilizingShot.dds - not found. Dummy texture created.
+000010.854|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <SRU_pallybase_platform_godRaysMult.dds>
+000011.034|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <teemo_skin08_w_buf2_glowbase.scb>.
+000011.057|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Bowmaster_ArchersMark.dds> *********
+000011.057|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Bowmaster_ArchersMark.dds
+000011.057|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Bowmaster_ArchersMark.dds - not found. Dummy texture created.
+000011.174|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Voidwalker_Riftwalk.dds> *********
+000011.174|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Voidwalker_Riftwalk.dds
+000011.174|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Voidwalker_Riftwalk.dds - not found. Dummy texture created.
+000011.190|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <FallenAngel_DarkBinding.dds> *********
+000011.190|       0.0000kb|      0.0000kb added|  ERROR| Failed to load FallenAngel_DarkBinding.dds
+000011.190|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: FallenAngel_DarkBinding.dds - not found. Dummy texture created.
+000011.339|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-Karma_Idle_purp.tga>
+000011.339|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-flicker_purp.tga>
+000011.355|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_Q_light_purp.tga>
+000011.356|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <speed_blur_purp.tga>
+000011.356|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_Q_light_purp.tga>
+000011.377|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Karma_Skin05_Q_bolt_03.dds>
+000011.383|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.dds>
+000011.383|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.395|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.395|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.398|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.398|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.398|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-flicker_purp.tga>
+000011.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-karma_q_02.tga>
+000011.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.406|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.406|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.410|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.421|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_skn3_glow.tga>
+000011.425|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_skn2_glow.tga>
+000011.430|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_skn1_glow.tga>
+000011.430|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_lunar_glow_TX_CM.tga>
+000011.430|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.430|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.430|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-Karma_Idle_purp.tga>
+000011.434|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Ryze_LightningFlux.dds> *********
+000011.434|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Ryze_LightningFlux.dds
+000011.434|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Ryze_LightningFlux.dds - not found. Dummy texture created.
+000011.463|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-karma_q_02.tga>
+000011.464|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-purp_fade.tga>
+000011.464|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.469|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <beamshapes_purp_02.tga>
+000011.469|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.470|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.470|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_Q_light_purp.tga>
+000011.477|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-flicker_purp.tga>
+000011.477|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.dds>
+000011.478|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-glowbuildup_purp.tga>
+000011.484|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-karma_q_02.tga>
+000011.485|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_Q_skybeam_purp.tga>
+000011.486|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-glowdown_purp.tga>
+000011.490|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <karma_Q_light_purp.tga>
+000011.491|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <flare-purp_02.tga>
+000011.491|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-flicker_purp.tga>
+000011.491|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <beamshapes_purp_02.tga>
+000011.544|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Irelia_zapball2.dds>
+000011.593|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Irelia_zapball2.dds>
+000011.597|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <color-firfade.tga>
+000012.049|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_R_SoulShackle_Color.dds>
+000012.066|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Sona_Base_E_Buff_WispColor.dds>
+000012.209|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+000012.209|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000012.209|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+000012.209|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000012.209|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+000012.210|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+000012.210|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+000012.210|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000012.210|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+000012.210|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+000013.222|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <AkaliCrescentSlash.dds> *********
+000013.222|       0.0000kb|      0.0000kb added|  ERROR| Failed to load AkaliCrescentSlash.dds
+000013.222|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: AkaliCrescentSlash.dds - not found. Dummy texture created.
+000013.223|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "fizzwbonusbuff"
+000013.223|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "fizzwbonusbuff"
+000013.234|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Fizz_Skin04_R_FoamRamp.dds>
+000013.239|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Fizz_Skin04_R_FoamRamp.dds>
+000013.250|       0.0000kb|      0.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000013.257|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "renektonbloodsplattertarget"
+000013.259|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "renektonbloodsplattertarget"
+000013.261|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "fizzwbonusbuff"
+000013.283|       0.0000kb|      0.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000013.347|       0.0000kb|      0.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000013.355|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_flash.dds>
+000013.356|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_notes.DDS>
+000013.359|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_flash.dds>
+000013.369|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.371|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_buf_flash.dds>
+000013.389|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_bellcurve.dds>
+000013.390|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_mesh_lines.DDS>
+000013.395|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.396|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_mis_rgba.dds>
+000013.396|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_buf_flash.dds>
+000013.396|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_bellcurve.dds>
+000013.398|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_heart.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+000013.399|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+000013.400|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_heart.DDS>
+000013.402|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_R_dash_bellcurve.dds>
+000013.406|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_buf_flash.dds>
+000013.418|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_R_mesh_scroll.dds>
+000013.418|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_bellcurve.dds>
+000013.419|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.422|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_flash.dds>
+000013.427|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_back.DDS>
+000013.427|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_whisps.dds>
+000013.427|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_color.DDS>
+000013.428|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_ring.dds>
+000013.428|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_pink.DDS>
+000013.428|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin05_Idle_swirl.dds>
+000013.434|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.434|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_passive.dds>
+000013.434|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_whisps.dds>
+000013.434|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_color.DDS>
+000013.436|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_flash.dds>
+000013.440|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_fire_burst.tga>
+000013.444|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glow2.dds>
+000013.444|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_trail.dds>
+000013.444|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_trai_bellcurvel.dds>
+000013.444|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glowring.dds>
+000013.444|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glowring_rgb.DDS>
+000013.445|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notes.dds>
+000013.445|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_bellcurve.dds>
+000013.445|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_musiclines.dds>
+000013.445|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_black.dds>
+000013.449|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_mis_back_glowring.DDS>
+000013.449|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glowring_rgb.DDS>
+000013.450|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_ring.dds>
+000013.453|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_buf_flash.dds>
+000013.458|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_flash.DDS>
+000013.458|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_bellcurve.dds>
+000013.458|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.460|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_heart.DDS>
+000013.464|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_BA_tar_heart.tga>
+000013.464|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_notetrail_color.dds>
+000013.465|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_black.dds>
+000013.465|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_trai_bellcurvel.dds>
+000013.465|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_E_mis_heart_mesh.dds>
+000013.468|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_buf_flash.dds>
+000013.468|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_R_tar_notes.dds>
+000013.469|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glow.dds>
+000013.472|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_glow.dds>
+000013.472|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_R_trail.dds>
+000013.472|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_Q_trai_bellcurvel.dds>
+000013.472|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_R_fire_color.dds>
+000013.473|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.473|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_idle_tails.dds>
+000013.544|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_W_hearts.dds>
+000013.544|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Ahri_Skin04_taunt_line.dds>
+000014.599|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000014.600|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000014.829|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000014.830|       0.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/loadtimings_Map11_default.txt" because it's not in the manifest.
+000014.850|       0.0000kb|      0.0000kb added| ALWAYS| Start Main Loop
+000014.850|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect
+000014.850|       0.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000157.286|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.321|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Teemo) with skinID 8 on team 100 for clientID 6 and summonername (Elisha) (is HUMAN PLAYER)
+000157.321|       0.0000kb|      0.0000kb added| ALWAYS| Hero Teemo(8) created for Elisha
+000157.341|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.369|       0.0000kb|      0.0000kb added|  ERROR| Failed to load .skn file [], Simple Skin []
+000157.369|       0.0000kb|      0.0000kb added|  ERROR| CharacterData::Load: Failed to load Skin description ezreal_cyber_1.ini Skin 0
+000157.383|       0.0000kb|      0.0000kb added|  ERROR| Failed to load .skn file [], Simple Skin []
+000157.383|       0.0000kb|      0.0000kb added|  ERROR| CharacterData::Load: Failed to load Skin description ezreal_cyber_2.ini Skin 0
+000157.433|       0.0000kb|      0.0000kb added|  ERROR| Failed to load .skn file [], Simple Skin []
+000157.433|       0.0000kb|      0.0000kb added|  ERROR| CharacterData::Load: Failed to load Skin description ezreal_cyber_3.ini Skin 0
+000157.445|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Ezreal) with skinID 0 on team 100 for clientID 0 and summonername (Lomzynski Koks) (is HUMAN PLAYER)
+000157.445|       0.0000kb|      0.0000kb added| ALWAYS| Hero Ezreal(0) created for Lomzynski Koks
+000157.445|       0.0000kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000157.454|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+000157.458|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+000157.458|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.459|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <KarmaInnerFlame.dds> *********
+000157.459|       0.0000kb|      0.0000kb added|  ERROR| Failed to load KarmaInnerFlame.dds
+000157.459|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: KarmaInnerFlame.dds - not found. Dummy texture created.
+000157.460|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Karma) with skinID 0 on team 100 for clientID 4 and summonername (godfather9192) (is HUMAN PLAYER)
+000157.460|       0.0000kb|      0.0000kb added| ALWAYS| Hero Karma(0) created for godfather9192
+000157.474|       0.0000kb|      0.0000kb added| ALWAYS| Finished spawning heroes/minions
+000157.474|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.477|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Irelia_zapball2.dds>
+000157.479|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Irelia) with skinID 0 on team 100 for clientID 3 and summonername (Magiczny Jakub) (is HUMAN PLAYER)
+000157.479|       0.0000kb|      0.0000kb added| ALWAYS| Hero Irelia(0) created for Magiczny Jakub
+000157.558|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.569|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <VarusQ.dds> *********
+000157.569|       0.0000kb|      0.0000kb added|  ERROR| Failed to load VarusQ.dds
+000157.570|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: VarusQ.dds - not found. Dummy texture created.
+000157.618|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <VarusQCharging.dds> *********
+000157.618|       0.0000kb|      0.0000kb added|  ERROR| Failed to load VarusQCharging.dds
+000157.618|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: VarusQCharging.dds - not found. Dummy texture created.
+000157.667|       0.0000kb|      0.0000kb added|  ERROR| Can not open file <Kassadin_ForcePulse.dds> *********
+000157.667|       0.0000kb|      0.0000kb added|  ERROR| Failed to load Kassadin_ForcePulse.dds
+000157.668|       0.0000kb|      0.0000kb added|   WARN| r3dTexture EX: Kassadin_ForcePulse.dds - not found. Dummy texture created.
+000157.671|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Gangplank_SpecialForces_muzzle_flash.tga>
+000157.751|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Racer_BasicAttack_SpeedLines.dds>
+000157.757|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Racer_BasicAttack_2.dds>
+000157.767|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Racer_BasicAttack_2.dds>
+000157.768|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Impact_05.tga>
+000157.769|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Impact_05>
+000157.786|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Racer_Q_Dash_Radial.dds>
+000157.786|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Vi_Racer_Q_Dash_Head.dds>
+000157.819|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <Vi_R_Jump_Mesh.sco>.
+000157.842|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Vi) with skinID 2 on team 100 for clientID 5 and summonername (Adamkito) (is HUMAN PLAYER)
+000157.843|       0.0000kb|      0.0000kb added| ALWAYS| Hero Vi(2) created for Adamkito
+000157.843|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.846|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Morgana) with skinID 6 on team 200 for clientID 1 and summonername (Kosa1337) (is HUMAN PLAYER)
+000157.846|       0.0000kb|      0.0000kb added| ALWAYS| Hero Morgana(6) created for Kosa1337
+000157.846|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.851|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Caitlyn) with skinID 3 on team 200 for clientID 2 and summonername (Dziaq) (is HUMAN PLAYER)
+000157.851|       0.0000kb|      0.0000kb added| ALWAYS| Hero Caitlyn(3) created for Dziaq
+000157.851|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000157.854|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Hecarim) with skinID 4 on team 200 for clientID 7 and summonername (LucianStoleMyTv) (is HUMAN PLAYER)
+000157.892|       0.0000kb|      0.0000kb added| ALWAYS| Hero Hecarim(4) created for LucianStoleMyTv
+000158.622|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000158.628|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Fizz) with skinID 3 on team 200 for clientID 8 and summonername (Pharts) (is HUMAN PLAYER)
+000158.628|       0.0000kb|      0.0000kb added| ALWAYS| Hero Fizz(3) created for Pharts
+000158.628|       0.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000158.630|       0.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Ahri) with skinID 0 on team 200 for clientID 9 and summonername (Fenacious) (is HUMAN PLAYER)
+000158.630|       0.0000kb|      0.0000kb added| ALWAYS| Hero Ahri(0) created for Fenacious
+000158.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000158.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000158.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000158.714|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos1
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000163.712|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Order1
+000163.712|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000163.712|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000163.726|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000163.726|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000163.726|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000163.726|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000163.730|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000163.731|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000163.731|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000163.811|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000163.811|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000163.811|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000163.811|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000163.878|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000163.878|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000163.878|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000163.878|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000163.878|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000163.882|       0.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000168.061|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Ezreal
+000168.433|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Karma
+000168.813|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Irelia
+000169.243|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Vi
+000169.629|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Morgana
+000169.995|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Caitlyn
+000170.759|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Fizz
+000171.180|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Respawn, for character: Ahri
+000185.673|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000185.682|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000367.346|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000368.315|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+000369.915|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+000369.915|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+000387.262|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000451.110|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000484.309|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000501.258|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000503.000|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ed0d67c
+000503.001|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09b0f4e0
+000503.001|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0892c19e
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: Adamkito
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS|   Minion applied damage 90.4417 heal 90.4417 with abilities [_BasicAttack|damage:90.4417(90.4417|0|0)|heal:0|priority:90]
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS|   Adamkito applied damage 296.558 heal 296.558 with abilities [_BasicAttack|damage:132.622(132.622|0|0)|heal:0|priority:132][vie|damage:80.0944(80.0944|0|0)|heal:0|priority:80][s5_summonersmiteplayerganker|damage:52(0|0|52)|heal:0|priority:52][viw|damage:31.8412(31.8412|0|0)|heal:0|priority:31]
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS|   Magiczny Jakub applied damage 608.871 heal 608.871 with abilities [_BasicAttack|damage:316.715(316.715|0|0)|heal:0|priority:316][ireliaequilibriumstrike|damage:172.156(0|172.156|0)|heal:0|priority:179][ireliahitenstyle|damage:120(0|0|120)|heal:0|priority:127]
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000503.001|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 93.8111 heal 93.8111 with abilities [hecarimw|damage:93.8111(0|0|0)|heal:93.8111|priority:92]
+000525.491|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000538.091|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+000539.473|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000576.439|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000590.222|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000594.389|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Fizz_Skin04_R_FoamRamp.dds>
+000594.389|       0.0000kb|      0.0000kb added|  ERROR| Missing effect texture <Fizz_Skin04_R_FoamRamp.dds>
+000609.605|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000626.338|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ed0d67c
+000626.338|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09b0f4e0
+000626.338|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0892c19e
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: Adamkito
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS|   Adamkito applied damage 178.684 heal 178.684 with abilities [viq|damage:178.684(178.684|0|0)|heal:0|priority:186]
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS|   Lomzynski Koks applied damage 395.726 heal 395.726 with abilities [_BasicAttack|damage:189.673(189.673|0|0)|heal:0|priority:126][ezrealmysticshot|damage:105.361(105.361|0|0)|heal:0|priority:105][ezrealarcaneshift|damage:100.692(0|100.692|0)|heal:0|priority:100]
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS|   Elisha applied damage 871.521 heal 871.521 with abilities [toxicshot|damage:418.348(0|418.348|0)|heal:0|priority:263][bantamtrap|damage:194.478(0|194.478|0)|heal:0|priority:255][blindingdart|damage:114.756(0|114.756|0)|heal:0|priority:205][toxicshotattack|damage:143.94(134.686|9.25359|0)|heal:0|priority:134]
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000626.339|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 51.7139 heal 51.7139 with abilities [_BasicAttack|damage:44.7898(0|0|0)|heal:44.7898|priority:43][hecarimw|damage:6.92407(0|0|0)|heal:6.92407|priority:5]
+000626.346|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000650.603|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000723.118|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000746.317|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000783.582|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000833.949|       0.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000846.131|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000880.163|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000885.109|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ed0d67c
+000885.109|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07a79e91
+000885.109|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09b0f4e0
+000885.109|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0892c19e
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: Adamkito
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS|   Elisha applied damage 185.548 heal 185.548 with abilities [bantamtrap|damage:185.548(0|185.548|0)|heal:0|priority:251]
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS|   Adamkito applied damage 798.235 heal 798.235 with abilities [vir|damage:177.51(177.51|0|0)|heal:0|priority:360][vie|damage:253.368(253.368|0|0)|heal:0|priority:253][_BasicAttack|damage:222.452(222.452|0|0)|heal:0|priority:222][s5_summonersmiteplayerganker|damage:76(0|0|76)|heal:0|priority:76][viw|damage:68.9049(68.9049|0|0)|heal:0|priority:68]
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+000885.109|       0.0000kb|      0.0000kb added| ALWAYS|   Dziaq applied damage 38.6383 heal 38.6383 with abilities [caitlynaceinthehole|damage:38.6383(0|0|0)|heal:38.6383|priority:37]
+000889.912|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000905.062|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000937.412|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle_activated, for character: SRUAP_Turret_Chaos2
+000969.126|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001021.791|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001042.291|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001068.357|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001137.339|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001163.004|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001174.671|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001223.452|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001274.551|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001288.833|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001300.752|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 08585073
+001300.752|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 09b0f4e0
+001300.752|       0.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0892c19e
+001300.752|       0.0000kb|      0.0000kb added| ALWAYS| The Killer was: Lomzynski Koks
+001300.752|       0.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+001300.752|       0.0000kb|      0.0000kb added|  ERROR| >>> BuffHashMap::HashToName - Match not found for hash 00b45128
+001300.752|       0.0000kb|      0.0000kb added|  ERROR| Assertion failed!
+
+Expression: ALE-00171CB6
+001300.752|       0.0000kb|      0.0000kb added| ALWAYS|   Adamkito applied damage 90.9722 heal 90.9722 with abilities [|damage:67.7483(0|67.7483|0)|heal:0|priority:69][s5_summonersmiteplayerganker|damage:23.2239(0|23.2239|0)|heal:0|priority:23]
+001300.752|       0.0000kb|      0.0000kb added| ALWAYS|   Lomzynski Koks applied damage 427.332 heal 427.332 with abilities [_BasicAttack|damage:234.903(234.903|0|0)|heal:0|priority:234][ezrealmysticshot|damage:192.429(192.429|0|0)|heal:0|priority:192]
+001300.752|       0.0000kb|      0.0000kb added| ALWAYS|   Elisha applied damage 1738.65 heal 1738.65 with abilities [bantamtrap|damage:584.386(0|584.386|0)|heal:0|priority:655][toxicshot|damage:623.771(0|623.771|0)|heal:0|priority:426][blindingdart|damage:252.785(0|252.785|0)|heal:0|priority:359][toxicshotattack|damage:277.705(241.141|36.5633|0)|heal:0|priority:241]
+001300.753|       0.0000kb|      0.0000kb added| ALWAYS| HEAL
+001300.753|       0.0000kb|      0.0000kb added| ALWAYS|   Pharts applied damage 50.5726 heal 50.5726 with abilities [summonerdot|damage:50.5726(0|0|0)|heal:50.5726|priority:49]
+001300.753|       0.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied damage 288.801 heal 288.801 with abilities [hecarimw|damage:288.801(0|0|0)|heal:288.801|priority:287]
+001300.983|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001349.100|       0.0000kb|      0.0000kb added|  ERROR| Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+001385.197|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001407.413|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001454.045|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001491.494|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Aggro_spawn, for character: SRU_Spiritwolf
+001514.527|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001528.510|       0.0000kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "attack1"
+001568.991|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001578.190|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Idle1_a2n_PAR, for character: SRU_Baron
+001591.390|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001668.355|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001679.716|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001690.554|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001701.854|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001802.901|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001822.249|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001838.199|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001854.222|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001863.765|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001929.080|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001942.179|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001963.528|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001984.028|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002056.692|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002068.625|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002123.340|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002133.474|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002142.872|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002163.705|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002172.688|       0.0000kb|      0.0000kb added|  ERROR| Assertion failed!
+
+Expression: ALE-01F96DFA
+002184.338|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002215.854|       0.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002233.786|       0.0000kb|      0.0000kb added| ALWAYS| End game message processing!
+002233.803|       0.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| Finished Main Loop
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average = 59.799046
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average Minimum = 44.494255
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| FPS Average Maximum = 84.115791
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| FPS Variance = 2.563903
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| FPS Slow Count = 56
+002238.316|       0.0000kb|      0.0000kb added| ALWAYS| Total Frame Count = 388221
+002241.476|       0.0000kb|      0.0000kb added| ALWAYS| Finished Play game
+002241.476|       0.0000kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_WIN"}
+002241.602|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "red_superminion_TX_CM_Blue.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ward_NewSkins_TX_CM.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_spider_TX_CM.dds" ref count 2.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_tree_TX_CM.dds" ref count 2.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_lantern_TX_CM.dds" ref count 2.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_Draven_TX_CM.dds" ref count 2.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightWard_championshipS3_TX_CM.dds" ref count 3.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ward_NewSkins_TX_CM.dds" ref count 2.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Order_Minion_Siege_TX_CM_Red.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chaos_Minion_Siege_TX_CM_Blue.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_caster_TX_CM_Red.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_Melee_TX_CM_Red.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Red_Caster_TX_CM_Blue.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosMinion_Melee_TX_CM_Blue.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "sightward_Riot_TX_CM.dds" ref count 4.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_WallVisionBearer.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+002241.641|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Duck_TX_CM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "WardOverwrite.tga" ref count 9.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vi_Skin02_TX_GM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViR.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViE.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViQ.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vi_Square.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon627.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ahri_base_TX_CM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ahri_Square.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Fizz_fisherman_TX_CM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "FizzShark_fisherman_TX_CM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Fizz_Square_0.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "hecarim_arcade_TX_GM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Skeleton_Minion_Melee.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "skillshot_hecarim_tip.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "skillshot_hecarim_base.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_hecarim.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon566.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Hecarim_Square_0.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon781.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_exhaust.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caitlyn_Safari_TX_CM.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caitlyn_base_TX_CM_v01.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Caitlyn_Square.dds" ref count 1.
+002241.642|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Morgana_Skin06_TX_CM.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Morgana_Square_0.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon661.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "irelia_base_TX_CM.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Irelia_EquilibriumStrike.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Irelia_HitenStyle.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Irelia_Square_0.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "karma_Base_2012_CM.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_leona_outer.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_brand.dds" ref count 2.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Karma_Square.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_ProdigalExplorer.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_ArcaneShift.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_Square_0.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_Skin08_TX.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "teemo_toxic_TX_CM.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_ArchersMark.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_PoisonedDart.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_TranquilizingShot.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_Square_0.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon642.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Basic_Attack.dds" ref count 1.
+002241.643|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3143_Randuins_Omen.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3136_Haunting_Guise.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3024_Glacial_Shroud.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3058_Sheen_and_Phage.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3087_Statikk_Shiv.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3082_Wardens_Mail.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3098_KagesPick.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3028_Harmony_Ring.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lulu_Q_Skillshot_Tip.dds" ref count 2.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lulu_Q_Skillshot_Base.dds" ref count 2.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3092_Kages_Last_Breath.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3341_RedTrinket.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3340_YellowTrinket.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueTrinket_TX_CM.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3363_OracleRedTrinket.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2009_Mini_Pot.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves_A.dds" ref count 1.
+002241.644|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3222_Mikaels_Crucible.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Health_Potion.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2004_Mana_Potion.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidSpawnTracer.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidSpawn_TX_CM.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VoidGate_base_TX_CM.DDS" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1004_Faerie_Charm.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1011_Mighty_Waistband_of_the_Reaver.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1042_Dagger.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3706_Stalkers_Blade1.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3706_Stalkers_Blade.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3706_Stalkers_Blade3.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Smite_Blue.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3172_Zephyr.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3114_Forbidden_Idol.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3165_Morellonomicon.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3116_Rylais_Sceptre.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3004_Assault_Treads.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3174_AthenesUnholyGrail.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_TX_CM.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "066_Sindoran_Shielding_Amulet.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3151_Liandrys_Lament.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3144_Bilgewater_Cutlass.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3153_Blade_of_the_Ruined_King.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "113_Tome_of_Minor_Necro_Compulsion.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3157_Zhonyas_Hourglass.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3191_Seekers_Armguard.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3046_Phantom_Dancer.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "122_Frozen_Heart.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3044_Phage.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3751_Bamis_Cinder.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3068_SunfireCape.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3035_Last_Whisper.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3031_Infinity_Edge.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3057_Sheen.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3078_Trinity_Force.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3072_The_Bloodthirster.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3070_Tear_of_the_Goddess.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3065_Spirit_Visage.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3067_Kindlegem.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3090_Thoughtbreaker.dds" ref count 1.
+002241.645|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "HA_AP_Poro.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Trinket_Yellow_Upgrade_TX_CM.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2049_Sightstone.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2049_Ruby_Ward.DDS" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2041_Crystalline_Flask.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1031_Chain_Vest.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_MysticShot.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1020_Glowing_Orb.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1033_Elementium_Threaded_Cloak.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness_A.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1037_Broadsword.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1036_Long_Sword.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1038_BF_Sword.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1053_Vampiric_Scepter.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1029_Cloth_Armour.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1026_Blasting_Band.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1027_Sapphire_Sphere.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "165_Harmony_Ring.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PetAttack.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_MageCrystal_TX_CM_blue.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderTurret5_red.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Turret_Blue_Square.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Turret_Red_Square.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Brush.dds" ref count 10.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Chaosnexus_Rubble_TX_CM.dds" ref count 1.
+002241.646|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosNexus_TX_CM_blue.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 3.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "tower_destroyed_diff.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Ordernexus_Rubble_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderNexus_TX_CM_red.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_Rubble_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Chaosinhibitor_Rubble_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosInhibitor_TX_CM_blue.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Chaos1_Rubble_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sruap_Orderinhibitor_Rubble_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderInhibitor_TX_CM_red.DDS" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Inhibitor_Red_Square.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Crab_TX_CM.dds" ref count 2.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_StoreKeeperSouth_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_StoreKeeperNorth_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Lizard_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Gromp_Prop_TX_CM.dds" ref count 1.
+002241.647|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Antlermouse_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Bird.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Dragon_Prop_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Sru_Snail_CM_TX.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_flag_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_MageCrystal_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BaronSpawn_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Baron_TX_GM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Dragon_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Dragon_Square.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Gromp_base_TX_GM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_KrugMini_base_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon523.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_heal.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Krug.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Razorbeak_Mini_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Razorbeak_TX_CM.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_MurkwolfMini.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Spiritwolf.dds" ref count 3.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "lichLoadScreen.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Murkwolf.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_RedMini.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Red.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BlueMini2.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_BlueMini.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3211_SpectresCowl.dds" ref count 1.
+002241.648|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRU_Blue_Golem_V2.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosNexus_TX_CM.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon550.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderNexus_TX_CM.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_ChaosInhibitor_TX_CM.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_OrderInhibitor_TX_CM.DDS" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Chaos1_TX_CM_blue.dds" ref count 4.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_turret_Chaos1_TX_CM.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "096_Eye_of_the_Observer.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_TX_CM_red.dds" ref count 4.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SRUAP_Turret_Order1_TX_CM.dds" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002241.649|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Red_Caster_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosMinion_Melee_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "red_superminion_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chaos_Minion_Siege_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_caster_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderMinion_Melee_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "blue_superminion_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Order_Minion_Siege_TX_CM.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 11.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon785.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_teleport.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon689.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon786.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_smite.dds" ref count 1.
+002241.650|       0.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+002241.654|       0.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+002241.654|       0.0000kb|      0.0000kb added| ALWAYS| Destroying the Renderer (1)
+002241.654|       0.0000kb|      0.0000kb added|   WARN| Dradis: CleanupDradis, cluster is still active
+002242.258|       0.0000kb|      0.0000kb added| ALWAYS| game::Shutdown
+002242.258|       0.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002242.260|       0.0000kb|      0.0000kb added| ALWAYS| Bugsplat disabled (end of game?)
+002242.279|       0.0000kb|      0.0000kb added| ALWAYS| Exiting WinMain
