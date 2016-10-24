@@ -1,0 +1,931 @@
+000000.000|    9756.0000kb|   9756.0000kb added| ALWAYS| Logging started at 2014-01-16T17:48:41.174
+000000.001|    9772.0000kb|     16.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.022|    9880.0000kb|    108.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.6\deploy".
+000000.022|    9896.0000kb|     16.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.022|    9908.0000kb|     12.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.6/solutionmanifest")
+000000.023|    9940.0000kb|     32.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.6/configurationmanifest")
+000000.023|    9944.0000kb|      4.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.0.167/releasemanifest")
+000000.023|   10000.0000kb|     56.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.0.195/releasemanifest")
+000000.221|   15948.0000kb|   5948.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.239|   42864.0000kb|  26916.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.67/deploy/preferences/
+000000.241|   43276.0000kb|    412.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.241|   43344.0000kb|     68.0000kb added| ALWAYS| Build Version: Version 4.1.0.171 (Jan 13 2014/13:04:56) [PUBLIC] <Releases/4.1> ChangeList: 458058
+000000.278|   45588.0000kb|   2244.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.1.67/deploy/LolClient.exe" "77.242.203.131 5100 s6CcPGg1VnwmUdWJO12XwQ== <id_removed>"
+000000.280|   45912.0000kb|    324.0000kb added| ALWAYS| Started System Init
+000000.280|   46076.0000kb|    164.0000kb added| ALWAYS| Maestro Init
+000000.286|   46628.0000kb|    552.0000kb added| ALWAYS| Maestro completed init
+000000.286|   46640.0000kb|     12.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "ClientZips.txt" because it's not in the manifest.
+000000.286|   46672.0000kb|     32.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = r; errno = 2; pFilename = ClientZips.txt; msg = No such file or directory;
+000000.286|   46672.0000kb|      0.0000kb added|  ERROR| Failed to open "ClientZips.txt"
+000000.294|   48560.0000kb|   1888.0000kb added| ALWAYS| StartSession called
+000000.294|   48560.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.295|   48684.0000kb|    124.0000kb added| ALWAYS| Waiting until connection...
+000001.405|   56968.0000kb|   8284.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.405|   56968.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000001.405|   56968.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 3405
+000001.405|   56968.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 760 2147483648 9.18.13.3182
+000001.405|   56968.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.405|   57000.0000kb|     32.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 760","video_memory":"2147483648","driver_version":"9.18.13.3182","physical_memory":8589934592}
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| Operating System: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 760
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2147483648
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 9.18.13.3182
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 3400
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.405|   57000.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.492|   57340.0000kb|    340.0000kb added| ALWAYS| InitRenderer() enter
+000001.492|   57532.0000kb|    192.0000kb added| ALWAYS| r3dRenderLayer::Init(0x00050654) enter
+000001.499|   60560.0000kb|   3028.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000001.933|   69864.0000kb|   9304.0000kb added| ALWAYS| Loaded locale en_GB via fontconfig
+000001.937|   66584.0000kb|  -3280.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.6/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000001.937|   66584.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.6/deploy/Data/Menu/IMEConfig.xml; msg = No such file or directory;
+000001.937|   66584.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.6/deploy/Data/Menu/IMEConfig.xml
+000001.944|   66864.0000kb|    280.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1920, YRes = 1080, BPP = 32,  Flags=256) enter
+000001.944|   66864.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000002.290|   89080.0000kb|  22216.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000002.467|   91340.0000kb|   2260.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000002.710|   92500.0000kb|   1160.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.432|   93432.0000kb|    932.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000003.432|   93432.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(5b95a00) and resolution (1920 x 1080) 
+000003.432|   93432.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(5b95a00) and resolution (960 x 540) 
+000003.434|   93436.0000kb|      4.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000003.469|   96964.0000kb|   3528.0000kb added| ALWAYS| Sleeping
+000003.568|   96964.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.569|   96980.0000kb|     16.0000kb added| ALWAYS| End processing App Update
+000003.569|   96980.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.668|   96980.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.669|   96992.0000kb|     12.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000003.669|   97008.0000kb|     16.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID: 000000002bd89b94, PlatformID: EUN1
+000003.669|   97008.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.669|   97008.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000003.669|   96876.0000kb|   -132.0000kb added| ALWAYS| Set focus to app
+000003.670|   96880.0000kb|      4.0000kb added| ALWAYS| Input started
+000003.674|   96924.0000kb|     44.0000kb added|   WARN| Duplicate key/value pair ([evtToggleQC, [z]] in DATA/CFG/defaults/Input.ini
+000003.715|   96828.0000kb|    -96.0000kb added| ALWAYS| Query Status Req started
+000003.878|   96912.0000kb|     84.0000kb added| ALWAYS| Query Status Req ended
+000003.878|   96912.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000004.078|   96924.0000kb|     12.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 4.1.0.171 [PUBLIC]
+000004.080|   96960.0000kb|     36.0000kb added| ALWAYS| netUID: 7 defaultname
+000004.080|   96960.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map8.zip
+000004.117|   97116.0000kb|    156.0000kb added| ALWAYS| PlayGame Started
+000004.119|   97256.0000kb|    140.0000kb added| ALWAYS| Performing WSAStartup
+000004.573|  104368.0000kb|   7112.0000kb added| ALWAYS| Performing WSACleanup
+000004.983|  127880.0000kb|  23512.0000kb added| ALWAYS| PlayGame Entered
+000004.983|  127928.0000kb|     48.0000kb added| ALWAYS| CurRenderPipeline
+000004.988|  127960.0000kb|     32.0000kb added| ALWAYS| CreateParticleSystemManager
+000005.348|  129152.0000kb|   1192.0000kb added| ALWAYS| CreateAudioManager: Create audio manager FMOD.
+000007.220|  139324.0000kb|  10172.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_GB
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load en_GB/LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.220|  139324.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: en_GB/LoL_Audio_en_GB.fev
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\LoL_Audio_en_GB.fev
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.220|  139324.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: LoL_Audio_en_GB.fev
+000007.220|  139324.0000kb|      0.0000kb added|  ERROR| FMOD: Failed to load localized audio [LoL_Audio_en_GB.fev] from either locale-specific directory (en_GB/LoL_Audio_en_GB.fev) or general audio directory.
+000007.220|  139324.0000kb|      0.0000kb added|   WARN| Audio::Load(): Failed to load desired language locale: LoL_Audio_en_GB.fev
+000008.150|  143300.0000kb|   3976.0000kb added| ALWAYS| Audio::Load(): Successfully loaded default fail-safe language locale: LoL_Audio_en_US.fev
+000010.136|  329812.0000kb| 186512.0000kb added|  ERROR| Failed to load spell ini or script: "odingolembombbuff"
+000010.277|  337300.0000kb|   7488.0000kb added|  ERROR| Failed to load spell ini or script: "OdinShrineAura"
+000011.516|  365328.0000kb|  28028.0000kb added| ALWAYS| GameWorld.Update()
+000011.516|  365332.0000kb|      4.0000kb added| ALWAYS| Begin Game Object Update
+000011.553|  367176.0000kb|   1844.0000kb added| ALWAYS| End Game Object Update
+000011.700|  369052.0000kb|   1876.0000kb added| ALWAYS| PreloadGlobalEffects()
+000011.700|  369052.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000011.928|  377656.0000kb|   8604.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000012.152|  409512.0000kb|  31856.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000012.152|  409512.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000012.241|  412780.0000kb|   3268.0000kb added| ALWAYS| Preload Announcements
+000012.443|  424600.0000kb|  11820.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000012.443|  424640.0000kb|     40.0000kb added| ALWAYS| FogOfWar::Init()
+000012.451|  424736.0000kb|     96.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000012.455|  424856.0000kb|    120.0000kb added| ALWAYS| SimulationClock->Init()
+000012.750|  473748.0000kb|  48892.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink.dds; msg = No such file or directory;
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink.dds
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink1.dds" because it's not in the manifest.
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink1.dds; msg = No such file or directory;
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink1.dds
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink2.dds" because it's not in the manifest.
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink2.dds; msg = No such file or directory;
+000012.750|  473748.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink2.dds
+000015.537|  517248.0000kb|  43500.0000kb added|  ERROR| Failed to load mesh file name<Tryndamere_Skin06_R_Fire_Mesh.scb>.
+000015.540|  517248.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<test_crystals.sco>.
+000020.652|  602076.0032kb|  84828.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000020.704|  602712.0000kb|    636.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000020.886|  615580.0032kb|  12868.0000kb added|   WARN| Bone name too long.  Truncating name: pasted__pasted__pasted__pasted_!
+000021.182|  620892.0032kb|   5312.0000kb added|  ERROR| Failed to load spell ini or script: "udyrphoenixstancecounter"
+000021.332|  625376.0000kb|   4484.0000kb added|  ERROR| Failed to load mesh file name<Udyr_Spirit_Turtle_Shield_v2.sco>.
+000021.333|  625376.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Udyr_Spirit_Bear_Sphere.sco>.
+000021.334|  625376.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Udyr_Spirit_Turtle_Shield_Scroll.sco>.
+000021.502|  631112.0000kb|   5736.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000021.503|  631116.0032kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000022.379|  714216.0000kb|  83100.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000022.383|  714192.0000kb|    -24.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/loadtimings_Map8_default.txt" because it's not in the manifest.
+000022.384|  714192.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = r; errno = 2; pFilename = Data/loadtimings_Map8_default.txt; msg = No such file or directory;
+000022.384|  714192.0000kb|      0.0000kb added|  ERROR| Failed to open "Data/loadtimings_Map8_default.txt"
+000024.256|  726852.0968kb|  12660.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000024.256|  726852.0968kb|      0.0000kb added| ALWAYS| Start Main Loop
+000024.256|  726852.0968kb|      0.0000kb added| ALWAYS| Waiting for all players to connect
+000024.256|  726852.0968kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000024.755|  745032.0000kb|  18180.0000kb added|  ERROR| Failed to load mesh file name<wraith_hit.sco>.
+000125.048|  693296.0000kb| -51736.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000180.954|  724292.0968kb|  30996.0000kb added| ALWAYS| PKT_S2C_StartSpawn
+000180.954|  724292.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000180.977|  724368.0000kb|     76.0000kb added| ALWAYS| Spawning champion (Talon) with skinID 0 on team 100 for clientID 9 and summonername (csuli) (is HUMAN PLAYER)
+000180.978|  724372.0968kb|      4.0000kb added| ALWAYS| Hero Talon(0) created for csuli
+000180.978|  724372.0968kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000180.993|  724392.0000kb|     20.0000kb added| ALWAYS| Finished spawning heroes/minions
+000181.503|  724392.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000181.544|  724396.0032kb|      4.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000181.547|  724396.0032kb|      0.0000kb added| ALWAYS| Spawning champion (Tryndamere) with skinID 0 on team 100 for clientID 2 and summonername (Wardreth) (is HUMAN PLAYER)
+000181.547|  724396.0032kb|      0.0000kb added| ALWAYS| Hero Tryndamere(0) created for Wardreth
+000182.065|  724400.0000kb|      4.0000kb added| ALWAYS| Creating Hero...
+000182.342|  746696.0000kb|  22296.0000kb added| ALWAYS| Spawning champion (Rengar) with skinID 0 on team 100 for clientID 8 and summonername (kostyrikas) (is HUMAN PLAYER)
+000182.342|  746696.0000kb|      0.0000kb added| ALWAYS| Hero Rengar(0) created for kostyrikas
+000182.852|  746696.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000182.993|  748588.0032kb|   1892.0000kb added| ALWAYS| Spawning champion (Teemo) with skinID 0 on team 100 for clientID 3 and summonername (pennygovi) (is HUMAN PLAYER)
+000182.993|  748588.0032kb|      0.0000kb added| ALWAYS| Hero Teemo(0) created for pennygovi
+000184.075|  748744.0000kb|    156.0000kb added| ALWAYS| Creating Hero...
+000184.093|  748744.0000kb|      0.0000kb added| ALWAYS| Spawning champion (Akali) with skinID 0 on team 100 for clientID 1 and summonername (BuniasPL) (is HUMAN PLAYER)
+000184.093|  748744.0000kb|      0.0000kb added| ALWAYS| Hero Akali(0) created for BuniasPL
+000184.093|  748744.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000184.562|  753420.0032kb|   4676.0000kb added|  ERROR| Failed to load spell ini or script: "Yasuowindwallfake"
+000184.970|  762776.0000kb|   9356.0000kb added| ALWAYS| Spawning champion (Yasuo) with skinID 0 on team 200 for clientID 7 and summonername (LucianStoleMyTv) (is HUMAN PLAYER)
+000184.972|  762780.0032kb|      4.0000kb added| ALWAYS| Hero Yasuo(0) created for LucianStoleMyTv
+000185.483|  762780.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000185.485|  762780.0032kb|      0.0000kb added| ALWAYS| Spawning champion (Talon) with skinID 0 on team 200 for clientID 0 and summonername (CrUsH Is Low) (is HUMAN PLAYER)
+000185.485|  762780.0032kb|      0.0000kb added| ALWAYS| Hero Talon(0) created for CrUsH Is Low
+000185.486|  762780.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000185.493|  762800.0000kb|     20.0000kb added| ALWAYS| Spawning champion (Ahri) with skinID 0 on team 200 for clientID 6 and summonername (MedSeka) (is HUMAN PLAYER)
+000185.493|  762800.0000kb|      0.0000kb added| ALWAYS| Hero Ahri(0) created for MedSeka
+000185.514|  763668.0968kb|    868.0000kb added| ALWAYS| Creating Hero...
+000185.537|  763752.0000kb|     84.0000kb added| ALWAYS| Spawning champion (Fizz) with skinID 0 on team 200 for clientID 4 and summonername (Vazeroo) (is HUMAN PLAYER)
+000185.537|  763752.0000kb|      0.0000kb added| ALWAYS| Hero Fizz(0) created for Vazeroo
+000186.047|  763752.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000186.080|  763804.0032kb|     52.0000kb added| ALWAYS| Spawning champion (Udyr) with skinID 0 on team 200 for clientID 5 and summonername (King Yordle) (is HUMAN PLAYER)
+000186.080|  763804.0032kb|      0.0000kb added| ALWAYS| Hero Udyr(0) created for King Yordle
+000190.195|  823472.0000kb|  59668.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_8.sco>.
+000190.196|  823472.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_21.sco>.
+000190.198|  823476.0968kb|      4.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_18.sco>.
+000190.797|  827244.0032kb|   3768.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_8.sco>.
+000190.798|  827244.0032kb|      0.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_21.sco>.
+000190.800|  827244.0032kb|      0.0000kb added|  ERROR| Failed to load mesh file name<crystal_shard_18.sco>.
+000190.809|  827768.0000kb|    524.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000200.046|  827784.0000kb|     16.0000kb added| ALWAYS| PKT_StartGame
+000201.322|  856388.0968kb|  28604.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000201.323|  856600.0000kb|    212.0000kb added|  ERROR| Assertion failed!
+
+File: ..\..\..\..\..\..\..\HeroWars_clientServer\Sources\ObjectsCode\Region.cpp
+Line: 41
+
+Function: Riot::RegionManager::CreateRegionFromAddRegionPkt
+
+Expression: attachedUnit
+
+Description: Assert occurred, game may crash.
+000201.334|  857972.0968kb|   1372.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000201.334|  857972.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000201.336|  858012.0032kb|     40.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000201.336|  858012.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000201.336|  858016.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000201.337|  858016.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000201.339|  858304.0000kb|    288.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000201.444|  863604.0968kb|   5300.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000201.445|  863640.0000kb|     36.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000201.583|  906104.0000kb|  42464.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000201.583|  906140.0032kb|     36.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000201.583|  906192.0000kb|     52.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000201.596|  920444.0032kb|  14252.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000201.686|  954432.0000kb|  33988.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Yasuo/Recommended/RIOT_ItemSet_1.json" because it's not in the manifest.
+000201.687|  954560.0000kb|    128.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000201.687|  954560.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000201.687|  954560.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000202.344|  981996.0032kb|  27436.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000202.345|  981996.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000202.345|  981996.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000202.345|  981996.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000202.345|  982000.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000202.347|  982064.0000kb|     64.0000kb added| ALWAYS| Performing WSAStartup
+000202.349|  964656.0000kb| -17408.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000202.395|  975404.0032kb|  10748.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000202.396|  975408.0000kb|      4.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000202.396|  975408.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000202.836| 1025332.0968kb|  49924.0000kb added| ALWAYS| Performing WSACleanup
+000205.409| 1011528.0000kb| -13804.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000205.482| 1011528.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000206.831| 1050132.0968kb|  38604.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000206.920| 1050136.0000kb|      4.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000211.614| 1056180.0968kb|   6044.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000211.690| 1056180.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000215.779| 1061800.0000kb|   5620.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_3
+000215.779| 1061800.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_4
+000215.779| 1061800.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_5
+000217.414| 1070152.0000kb|   8352.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000217.514| 1070152.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000217.604| 1070228.0968kb|     76.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000217.691| 1070536.0000kb|    308.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000217.795| 1070608.0000kb|     72.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000217.882| 1070608.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000217.973| 1040004.0968kb| -30604.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000218.084| 1040796.0032kb|    792.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000218.147| 1040864.0000kb|     68.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000218.234| 1042892.0032kb|   2028.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000219.648| 1035332.0968kb|  -7560.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000222.549| 1081680.0000kb|  46348.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000222.664| 1081924.0968kb|    244.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000226.965| 1085616.0000kb|   3692.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000227.081| 1085700.0968kb|     84.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000234.795| 1085024.0000kb|   -676.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000250.226| 1097868.0032kb|  12844.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000250.226| 1097868.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000250.226| 1097868.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000250.234| 1098364.0032kb|    496.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000250.234| 1098364.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000250.234| 1098364.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000260.915| 1095304.0936kb|  -3060.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000267.183| 1057384.0000kb| -37920.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000314.528| 1188208.0000kb| 130824.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000317.460| 1178448.0000kb|  -9760.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000317.709| 1184248.0064kb|   5800.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000317.874| 1172168.0936kb| -12080.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000317.874| 1172168.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000317.874| 1172168.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000320.379| 1169260.0032kb|  -2908.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000321.829| 1173736.0936kb|   4476.0000kb added| ALWAYS| Performing WSAStartup
+000322.315| 1173776.0000kb|     40.0000kb added| ALWAYS| Performing WSACleanup
+000323.814| 1199492.0968kb|  25716.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000324.347| 1205988.0968kb|   6496.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000324.614| 1205988.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000324.614| 1205988.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000328.388| 1192288.0000kb| -13700.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000328.701| 1192736.0000kb|    448.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000328.702| 1192736.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000331.138| 1184756.0968kb|  -7980.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000331.138| 1184756.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000331.138| 1184756.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000331.144| 1184756.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000331.144| 1184756.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000331.144| 1184756.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000344.562| 1192016.0000kb|   7260.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000345.665| 1192704.0000kb|    688.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000346.014| 1195776.0000kb|   3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000346.108| 1196252.0032kb|    476.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000346.946| 1191992.0064kb|  -4260.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000346.946| 1191992.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000346.946| 1191992.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000357.128| 1180848.0000kb| -11144.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000357.380| 1196752.0000kb|  15904.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000357.545| 1196752.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000357.768| 1193860.0968kb|  -2892.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000357.769| 1193860.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000357.769| 1193860.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000357.774| 1193860.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000357.775| 1193860.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000357.775| 1193860.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000359.800| 1192748.0032kb|  -1112.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000359.800| 1192748.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000359.800| 1192748.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000369.383| 1195624.0936kb|   2876.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000369.383| 1195624.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000369.383| 1195624.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000369.388| 1195628.0032kb|      4.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000369.388| 1195628.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000369.388| 1195628.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000371.043| 1194504.0936kb|  -1124.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000371.627| 1194556.0032kb|     52.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000371.891| 1194560.0000kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000374.279| 1207892.0968kb|  13332.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 09dc7d69
+000375.210| 1207892.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000375.479| 1207892.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000375.479| 1207892.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000375.479| 1207892.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000379.836| 1187028.0968kb| -20864.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000380.133| 1187028.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000380.133| 1187028.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000383.027| 1213436.0032kb|  26408.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000390.010| 1208180.0968kb|  -5256.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000390.278| 1205108.0968kb|  -3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000394.180| 1205876.0968kb|    768.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000394.562| 1205876.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000402.812| 1218396.0032kb|  12520.0000kb added|  ERROR| character Tryndamere does not have animation '' (spell 'OdinCaptureChannelBomb')
+000402.812| 1218396.0032kb|      0.0000kb added|   WARN| character Tryndamere does not have animation '' (spell 'OdinCaptureChannelBomb')
+000403.695| 1219540.0968kb|   1144.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000403.943| 1219540.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000407.645| 1213804.0032kb|  -5736.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000407.876| 1213804.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000409.643| 1219444.0968kb|   5640.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000409.926| 1219444.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000410.043| 1216356.0968kb|  -3088.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000410.043| 1216356.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000410.043| 1216356.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000413.343| 1223704.0064kb|   7348.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000414.428| 1226000.0000kb|   2296.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000417.793| 1213684.0968kb| -12316.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000418.092| 1213684.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000418.092| 1213684.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000420.690| 1214808.0064kb|   1124.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+000420.690| 1214812.0032kb|      4.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000420.690| 1214812.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000420.690| 1214816.0000kb|      4.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+000420.690| 1214816.0000kb|      0.0000kb added|   WARN| Death Recap damage has two different types! Spell: _BasicAttack
+000420.690| 1214816.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+000420.690| 1214816.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07a04cf5
+000420.690| 1214816.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0e437d65
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS| The Killer was: Wardreth
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS| HEALS
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 0 with abilities [YasuoDashWrapper|amount:0|priority:58][YasuoQW|amount:0|priority:28][YasuoIsInCombat|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][YasuoNotInCombat|amount:0|priority:0][_BasicAttack|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0]
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS|   Wardreth applied amount 704.455 with abilities [_BasicAttack|amount:508.683|priority:209][slashCast|amount:118.815|priority:118][MockingShout|amount:0|priority:86][OdinCenterRelicBuffDamage|amount:76.9579|priority:76][FacingMe|amount:0|priority:0]
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS|   kostyrikas applied amount 418.205 with abilities [_BasicAttack|amount:324.844|priority:324][RengarE|amount:58.039|priority:174][RengarW|amount:35.3224|priority:151]
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 0 with abilities [OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0]
+000420.690| 1214816.0000kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+000423.342| 1223476.0968kb|   8660.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000423.425| 1223476.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000424.819| 1209288.0936kb| -14188.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000424.945| 1209288.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000431.680| 1228352.0000kb|  19064.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00120fe0
+000439.762| 1234944.0000kb|   6592.0000kb added|  ERROR| character Fizz does not have animation '' (spell 'OdinCaptureChannelBomb')
+000439.762| 1234944.0000kb|      0.0000kb added|   WARN| character Fizz does not have animation '' (spell 'OdinCaptureChannelBomb')
+000441.824| 1219600.0000kb| -15344.0000kb added| ALWAYS| Performing WSAStartup
+000442.335| 1219600.0000kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000444.592| 1218800.0000kb|   -800.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000448.726| 1198072.0064kb| -20728.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000448.726| 1198072.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000448.726| 1198072.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000448.733| 1198072.0064kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000448.734| 1198072.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000448.734| 1198072.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000462.192| 1235416.0064kb|  37344.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000479.124| 1242696.0936kb|   7280.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000479.240| 1242696.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000479.656| 1239688.0936kb|  -3008.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000480.023| 1231056.0000kb|  -8632.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000480.023| 1231056.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000480.023| 1231056.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000485.241| 1233516.0032kb|   2460.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000486.296| 1242736.0000kb|   9220.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000486.779| 1202744.0064kb| -39992.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000487.015| 1202744.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000487.015| 1202744.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000490.359| 1220972.0032kb|  18228.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000490.359| 1220972.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000490.359| 1220972.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000490.359| 1220972.0032kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000490.359| 1220972.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000490.359| 1220972.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000492.924| 1216860.0032kb|  -4112.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000494.191| 1228624.0000kb|  11764.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000494.191| 1228624.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000494.191| 1228624.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000494.274| 1229748.0968kb|   1124.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000494.541| 1224884.0968kb|  -4864.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000494.541| 1224884.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000494.758| 1224884.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000497.609| 1227432.0936kb|   2548.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000497.791| 1227432.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000499.777| 1218244.0968kb|  -9188.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+000499.777| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000499.777| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000499.777| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+000499.778| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+000499.778| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03556482
+000499.778| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 04fdf3b4
+000499.778| 1218244.0968kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f723441
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS| The Killer was: Wardreth
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS| HEALS
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 27.3394 with abilities [YasuoDashWrapper|amount:0|priority:60][game_item_displayname_3087|amount:20.22|priority:18][YasuoQW|amount:7.11938|priority:5][YasuoIsInCombat|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][_BasicAttack|amount:0|priority:0][itemstatikshank|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0][YasuoNotInCombat|amount:0|priority:0][DariusCleave|amount:0|priority:0][YasuoTauntNinja|amount:0|priority:0]
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   Wardreth applied amount 532.359 with abilities [_BasicAttack|amount:532.359|priority:334]
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   pennygovi applied amount 470.386 with abilities [BantamTrap|amount:331.804|priority:392][ToxicShot|amount:98.2376|priority:61][ToxicShotAttack|amount:40.3442|priority:40]
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   Minion applied amount 172.708 with abilities [_BasicAttack|amount:172.708|priority:172][OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0][OdinScoreLowHPAttacker|amount:0|priority:0][OdinScoreAvengerTarget|amount:0|priority:0]
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+000499.778| 1218244.0968kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 0 with abilities [_Cheat|amount:0|priority:0]
+000500.358| 1219272.0936kb|   1028.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_1
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_2
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_2
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_6
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_7
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_1
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_2
+000500.358| 1219272.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn7_btn_2
+000506.611| 1208236.0032kb| -11036.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000506.717| 1211208.0936kb|   2972.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000519.066| 1188204.0032kb| -23004.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000519.066| 1188204.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000519.066| 1188204.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000519.066| 1188204.0032kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000519.066| 1188204.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000519.066| 1188204.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000525.088| 1238832.0000kb|  50628.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000543.274| 1243680.0000kb|   4848.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000543.506| 1243692.0032kb|     12.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000544.885| 1236540.0032kb|  -7152.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000544.885| 1236540.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000544.885| 1236540.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000545.860| 1239292.0032kb|   2752.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000546.056| 1239608.0064kb|    316.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000546.056| 1239608.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000548.511| 1216104.0936kb| -23504.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000548.744| 1216104.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000550.940| 1232780.0032kb|  16676.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000551.307| 1232780.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000551.340| 1232780.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000553.624| 1233792.0000kb|   1012.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03556482
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+000553.624| 1233792.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f723441
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS| The Killer was: kostyrikas
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS| HEALS
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 0 with abilities [YasuoDashWrapper|amount:0|priority:63][YasuoRKnockUpComboW|amount:0|priority:63][YasuoQW|amount:0|priority:31][game_item_displayname_3087|amount:0|priority:0][_BasicAttack|amount:0|priority:0][YasuoIsInCombat|amount:0|priority:0][DariusCleave|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][YasuoTauntNinja|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0]
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS|   kostyrikas applied amount 787.788 with abilities [_BasicAttack|amount:616.305|priority:616][RengarE|amount:94.9329|priority:222][RengarW|amount:76.5503|priority:203]
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS|   BuniasPL applied amount 487.697 with abilities [AkaliShadowSwipe|amount:238.867|priority:238][AkaliShadowDance|amount:131.003|priority:139][AkaliMota|amount:117.827|priority:117]
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 0 with abilities [OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0][OdinScoreLowHPAttacker|amount:0|priority:0]
+000553.624| 1233792.0000kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+000560.641| 1247136.0000kb|  13344.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000560.710| 1248148.0968kb|   1012.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000560.714| 1248148.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000561.829| 1248204.0032kb|     56.0000kb added| ALWAYS| Performing WSAStartup
+000562.338| 1248340.0968kb|    136.0000kb added| ALWAYS| Performing WSACleanup
+000581.772| 1237640.0936kb| -10700.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000581.772| 1237640.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000581.772| 1237640.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000581.772| 1237640.0936kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000581.772| 1237640.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000581.772| 1237640.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000594.105| 1238512.0000kb|    872.0000kb added|  ERROR| character Rengar does not have animation '' (spell 'OdinCaptureChannelBomb')
+000594.105| 1238512.0000kb|      0.0000kb added|   WARN| character Rengar does not have animation '' (spell 'OdinCaptureChannelBomb')
+000595.506| 1239412.0968kb|    900.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000598.853| 1253320.0936kb|  13908.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000601.954| 1253064.0936kb|   -256.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000602.110| 1259424.0000kb|   6360.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000602.110| 1260112.0000kb|    688.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000615.625| 1243040.0000kb| -17072.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000630.957| 1254668.0032kb|  11628.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000631.150| 1254668.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000631.781| 1258480.0000kb|   3812.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000633.966| 1254116.0968kb|  -4364.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000633.966| 1254116.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000633.966| 1254116.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000634.428| 1252128.0000kb|  -1988.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000634.596| 1252128.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000634.978| 1234688.0000kb| -17440.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000637.186| 1251112.0936kb|  16424.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000637.386| 1252128.0000kb|   1016.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000637.387| 1252128.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000638.475| 1243544.0064kb|  -8584.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000638.475| 1243544.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000638.475| 1243544.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000638.475| 1243544.0064kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000638.475| 1243544.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000638.475| 1243544.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000641.140| 1246088.0936kb|   2544.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000641.140| 1246088.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000641.140| 1246088.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000641.636| 1247160.0064kb|   1072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000641.790| 1247160.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000644.477| 1249392.0000kb|   2232.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000649.772| 1255612.0032kb|   6220.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000649.974| 1258684.0032kb|   3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000649.974| 1258684.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000649.975| 1258684.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000653.034| 1259964.0032kb|   1280.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000653.034| 1259964.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000653.034| 1259964.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000653.034| 1259964.0032kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000653.034| 1259964.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000653.034| 1259964.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000658.493| 1230712.0064kb| -29252.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000662.839| 1257304.0064kb|  26592.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000662.943| 1257304.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000663.939| 1257304.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000664.036| 1257304.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000681.490| 1255928.0064kb|  -1376.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000681.620| 1255928.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000681.821| 1255984.0000kb|     56.0000kb added| ALWAYS| Performing WSAStartup
+000681.998| 1256020.0968kb|     36.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000682.375| 1255984.0000kb|    -36.0000kb added| ALWAYS| Performing WSACleanup
+000682.879| 1209760.0000kb| -46224.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000682.879| 1209760.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000682.879| 1209760.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000696.690| 1246820.0968kb|  37060.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000696.835| 1246820.0968kb|      0.0000kb added|  ERROR| character Udyr does not have animation '' (spell 'OdinCaptureChannelBomb')
+000696.835| 1246820.0968kb|      0.0000kb added|   WARN| character Udyr does not have animation '' (spell 'OdinCaptureChannelBomb')
+000701.502| 1258320.0000kb|  11500.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000708.499| 1196892.0032kb| -61428.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000708.499| 1196892.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000708.499| 1196892.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000708.499| 1196892.0032kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000708.499| 1196892.0032kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000708.499| 1196892.0032kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000709.804| 1241772.0032kb|  44880.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000709.938| 1241772.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000714.352| 1257952.0000kb|  16180.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000714.402| 1257952.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000714.620| 1250800.0000kb|  -7152.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000714.621| 1250800.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000714.621| 1250800.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000717.823| 1239560.0936kb| -11240.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 09dc7d69
+000719.250| 1241104.0000kb|   1544.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+000719.250| 1241104.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000719.251| 1241104.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000719.251| 1241104.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+000719.251| 1241104.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f723441
+000719.251| 1241104.0000kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS| The Killer was: BuniasPL
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS| HEALS
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 0 with abilities [YasuoDashWrapper|amount:0|priority:71][YasuoQW|amount:0|priority:34][game_item_displayname_3087|amount:0|priority:0][YasuoIsInCombat|amount:0|priority:0][YasuoWTrueCast|amount:0|priority:0][YasuoWMovingWall|amount:0|priority:0][YasuoWindWallTimerMis1|amount:0|priority:0][YasuoNotInCombat|amount:0|priority:0][YasuoTauntNinja|amount:0|priority:0][_BasicAttack|amount:0|priority:0][itemstatikshank|amount:0|priority:0][DariusCleave|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][RegenerationPotion|amount:0|priority:0]
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS|   BuniasPL applied amount 1122.37 with abilities [AkaliMota|amount:387.967|priority:387][AkaliShadowSwipe|amount:320.507|priority:320][AkaliShadowDance|amount:296.115|priority:305][_BasicAttack|amount:55.382|priority:55][AkaliTwinDisciplines|amount:50.5213|priority:50][_Passive|amount:11.8773|priority:11]
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 216.158 with abilities [_BasicAttack|amount:216.158|priority:216][AkaliSmokeBomb|amount:0|priority:23][OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0]
+000719.251| 1241104.0000kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+000732.325| 1250636.0032kb|   9532.0000kb added|   WARN| [King Yordle] warning: PKT_CastSpell received for dead Unit. Spell: UdyrBasicAttack
+000747.369| 1255540.0968kb|   4904.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000747.369| 1255540.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000747.369| 1255540.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000747.369| 1255540.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000747.369| 1255540.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000747.369| 1255540.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000752.855| 1257060.0968kb|   1520.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000764.757| 1267892.0968kb|  10832.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000764.757| 1267892.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000764.757| 1267892.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000765.639| 1232020.0968kb| -35872.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000767.166| 1251524.0968kb|  19504.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000767.337| 1251524.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000769.550| 1253256.0936kb|   1732.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+000769.550| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000769.551| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+000769.551| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+000769.551| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f723441
+000769.551| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+000769.551| 1253256.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07a04cf5
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS| The Killer was: BuniasPL
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS| HEALS
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 0 with abilities [YasuoDashWrapper|amount:0|priority:74][YasuoQW|amount:0|priority:36][game_item_displayname_3087|amount:0|priority:0][YasuoIsInCombat|amount:0|priority:0][YasuoWTrueCast|amount:0|priority:0][YasuoWMovingWall|amount:0|priority:0][YasuoWindWallTimerMis1|amount:0|priority:0][YasuoTauntNinja|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][itemstatikshank|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0]
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS| DAMAGE
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS|   BuniasPL applied amount 940.942 with abilities [AkaliShadowDance|amount:472.417|priority:482][AkaliMota|amount:376.117|priority:376][_BasicAttack|amount:58.6047|priority:58][AkaliTwinDisciplines|amount:27.715|priority:27][_Passive|amount:6.08807|priority:6]
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS|   Wardreth applied amount 609.994 with abilities [_BasicAttack|amount:609.994|priority:417][MockingShout|amount:0|priority:110][FacingMe|amount:0|priority:0][slashCast|amount:0|priority:0]
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS|   Minion applied amount 0 with abilities [OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0]
+000769.551| 1253256.0936kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+000787.769| 1258160.0000kb|   4904.0000kb added|  ERROR| character Talon does not have animation '' (spell 'OdinCaptureChannelBomb')
+000787.769| 1258160.0000kb|      0.0000kb added|   WARN| character Talon does not have animation '' (spell 'OdinCaptureChannelBomb')
+000792.433| 1259180.0032kb|   1020.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000797.899| 1265872.0000kb|   6692.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000797.899| 1265872.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000797.899| 1265872.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000797.899| 1265872.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000797.899| 1265872.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000797.899| 1265872.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000801.819| 1267452.0032kb|   1580.0000kb added| ALWAYS| Performing WSAStartup
+000802.335| 1267452.0032kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000813.866| 1275760.0000kb|   8308.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000814.003| 1275760.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000819.787| 1251848.0936kb| -23912.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000819.982| 1253944.0064kb|   2096.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000819.982| 1253944.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000821.383| 1253944.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000822.382| 1254688.0000kb|    744.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000822.550| 1254688.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000841.332| 1258016.0000kb|   3328.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000842.270| 1258016.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000844.596| 1255692.0032kb|  -2324.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000844.750| 1255692.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000844.750| 1255692.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000851.515| 1257184.0000kb|   1492.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 09dc7d69
+000853.498| 1257268.0968kb|     84.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000853.652| 1257268.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000853.652| 1257268.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000865.321| 1271816.0936kb|  14548.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000888.017| 1277352.0936kb|   5536.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000888.485| 1274280.0936kb|  -3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000921.829| 1265424.0000kb|  -8856.0000kb added| ALWAYS| Performing WSAStartup
+000922.366| 1265456.0000kb|     32.0000kb added| ALWAYS| Performing WSACleanup
+000931.030| 1279808.0000kb|  14352.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000931.513| 1280328.0936kb|    520.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000931.663| 1280356.0968kb|     28.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000933.430| 1271800.0064kb|  -8556.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+000933.430| 1271800.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+000933.430| 1271800.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+000936.269| 1270384.0000kb|  -1416.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000936.366| 1271424.0000kb|   1040.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000943.266| 1244696.0064kb| -26728.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+000943.266| 1244696.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+000943.266| 1244696.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+000943.266| 1244696.0064kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+000943.266| 1244696.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+000943.266| 1244696.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+000944.695| 1245460.0968kb|    764.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000944.845| 1245460.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000944.846| 1245460.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000946.619| 1246232.0064kb|    772.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000946.762| 1246232.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000948.392| 1249312.0000kb|   3080.0000kb added|  ERROR| character Fizz does not have animation '' (spell 'OdinCaptureChannelBomb')
+000948.393| 1249312.0000kb|      0.0000kb added|   WARN| character Fizz does not have animation '' (spell 'OdinCaptureChannelBomb')
+000951.797| 1269568.0000kb|  20256.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000951.963| 1269624.0064kb|     56.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000953.096| 1269628.0032kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+000953.313| 1269628.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000953.447| 1269628.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000953.447| 1269628.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000962.162| 1265996.0032kb|  -3632.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000962.296| 1265996.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000967.229| 1269836.0032kb|   3840.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000982.448| 1258488.0064kb| -11348.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000982.562| 1258488.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+000988.096| 1262300.0032kb|   3812.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+000988.262| 1262300.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000988.262| 1262300.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+000988.263| 1262300.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000991.868| 1265112.0064kb|   2812.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+000992.028| 1265112.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+000997.345| 1279936.0000kb|  14824.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000997.861| 1289164.0032kb|   9228.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+000998.016| 1286092.0032kb|  -3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+001000.800| 1256072.0936kb| -30020.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+001000.800| 1256072.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+001000.800| 1256072.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+001002.915| 1257132.0032kb|   1060.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+001003.066| 1257132.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001008.016| 1263412.0968kb|   6280.0000kb added|  ERROR| character Talon does not have animation '' (spell 'OdinCaptureChannelBomb')
+001008.016| 1263412.0968kb|      0.0000kb added|   WARN| character Talon does not have animation '' (spell 'OdinCaptureChannelBomb')
+001012.758| 1266192.0000kb|   2780.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 08307ab5
+001012.771| 1254960.0000kb| -11232.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+001012.771| 1254960.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+001012.771| 1254960.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+001012.776| 1254960.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+001012.777| 1254960.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+001012.777| 1254960.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+001015.531| 1261928.0936kb|   6968.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001016.265| 1258576.0000kb|  -3352.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+001016.265| 1258576.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+001016.265| 1258576.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+001016.394| 1256552.0936kb|  -2024.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+001016.533| 1256592.0000kb|     40.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001016.533| 1256592.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001016.533| 1256592.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+001018.165| 1242320.0000kb| -14272.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+001018.298| 1242320.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001019.716| 1243568.0000kb|   1248.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+001019.849| 1243568.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001019.849| 1243568.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001019.850| 1243568.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001021.129| 1252808.0936kb|   9240.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0c47e1f2
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0d016910
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03c8f2c0
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03556482
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 01e3affc
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0e437d65
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 04fdf3b4
+001021.129| 1252808.0936kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f723441
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS| The Killer was: csuli
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS| HEALS
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 27.2069 with abilities [YasuoDashWrapper|amount:0|priority:82][YasuoQW|amount:0|priority:40][game_item_displayname_3087|amount:27.2069|priority:25][SummonerFlash|amount:0|priority:10][YasuoIsInCombat|amount:0|priority:0][_BasicAttack|amount:0|priority:0][YasuoQSelfReveal|amount:0|priority:0][itemstatikshank|amount:0|priority:0][YasuoTauntNinja|amount:0|priority:0][YasuoPassiveMSShieldOn|amount:0|priority:0]
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS| DAMAGE
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS|   csuli applied amount 1485.87 with abilities [_BasicAttack|amount:924.554|priority:924][TalonNoxianDiplomacy|amount:355.464|priority:274][OdinCenterRelicBuffDamage|amount:136.563|priority:136][TalonRake|amount:69.2883|priority:79]
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS|   Minion applied amount 0 with abilities [OdinScoreKiller|amount:0|priority:0][CallForHelp|amount:0|priority:0][OdinScoreLowHP|amount:0|priority:0][OdinScoreLowHPAttacker|amount:0|priority:0][OdinScoreAvengerTarget|amount:0|priority:0]
+001021.129| 1252808.0936kb|      0.0000kb added| ALWAYS|   Tower applied amount 0 with abilities [CallForHelp|amount:0|priority:0]
+001029.621| 1258224.0000kb|   5416.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 09dc7d69
+001031.927| 1265572.0968kb|   7348.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001032.001| 1272576.0000kb|   7004.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001041.825| 1210040.0064kb| -62536.0000kb added| ALWAYS| Performing WSAStartup
+001042.341| 1210040.0064kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001043.684| 1241412.0968kb|  31372.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+001043.684| 1241412.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+001043.684| 1241412.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+001043.690| 1241412.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+001043.690| 1241412.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+001043.690| 1241424.0000kb|     12.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+001057.032| 1264796.0032kb|  23372.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001071.677| 1275520.0000kb|  10724.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001072.127| 1276328.0936kb|    808.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+001072.272| 1276328.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001072.272| 1276328.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+001074.351| 1270200.0064kb|  -6128.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+001074.351| 1270200.0064kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+001074.351| 1270200.0064kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+001079.250| 1259972.0968kb| -10228.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+001079.378| 1259972.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001079.378| 1259972.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001085.627| 1265140.0968kb|   5168.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+001085.795| 1265176.0064kb|     36.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001088.514| 1266364.0032kb|   1188.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001090.876| 1267632.0000kb|   1268.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001093.020| 1270704.0000kb|   3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 09dc7d69
+001095.105| 1290340.0968kb|  19636.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+001095.105| 1290340.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+001095.105| 1290340.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+001095.110| 1290340.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+001095.110| 1290340.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+001095.110| 1290340.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+001102.493| 1260064.0000kb| -30276.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001102.910| 1260808.0936kb|    744.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0fa9dcd9
+001102.973| 1260808.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0b0a2639
+001104.996| 1254676.0968kb|  -6132.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+001104.996| 1254676.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+001104.996| 1254676.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+001105.002| 1255736.0064kb|   1060.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0879dcd9
+001105.152| 1255736.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001105.152| 1255736.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d4040f9
+001105.152| 1255736.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0d0fbd19
+001107.843| 1262156.0032kb|   6420.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001108.242| 1262160.0000kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f89dcd9
+001118.487| 1273188.0968kb|  11028.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_empty.usm" because it's not in the manifest.
+001118.487| 1273188.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_empty.usm; msg = No such file or directory;
+001118.487| 1273188.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_empty.usm
+001118.492| 1273188.0968kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_windShield_tip.usm" because it's not in the manifest.
+001118.492| 1273188.0968kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_windShield_tip.usm; msg = No such file or directory;
+001118.492| 1273188.0968kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_windShield_tip.usm
+001145.636| 1271972.0968kb|  -1216.0000kb added|   WARN| [Wardreth] warning: PKT_CastSpell received for dead Unit. Spell: TryndamereCritAttack
+001154.911| 1269148.0032kb|  -2824.0000kb added|  ERROR| Tried to get value on a stat (WARD_KILLED) that doesn't exist in this mode!
+001156.664| 1271944.0936kb|   2796.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/bar_wind_tip.usm" because it's not in the manifest.
+001156.664| 1271944.0936kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/bar_wind_tip.usm; msg = No such file or directory;
+001156.664| 1271944.0936kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/bar_wind_tip.usm
+001161.813| 1268988.0032kb|  -2956.0000kb added| ALWAYS| Performing WSAStartup
+001162.395| 1264884.0968kb|  -4104.0000kb added| ALWAYS| Performing WSACleanup
+001169.504| 1192960.0000kb| -71924.0000kb added| ALWAYS| End game message processing!
+001169.505| 1192960.0000kb|      0.0000kb added| ALWAYS| End game message processed!
+001169.521| 1192960.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001170.923|  976096.0000kb| -216864.0000kb added| ALWAYS| Finished Main Loop
+001170.925|  976148.0968kb|     52.0000kb added| ALWAYS| Performing WSAStartup
+001170.925|  976176.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001171.668|  976220.0032kb|     44.0000kb added| ALWAYS| Performing WSACleanup
+001172.168|  976164.0968kb|    -56.0000kb added| ALWAYS| Performing WSACleanup
+001174.946|  735052.0032kb| -241112.0000kb added| ALWAYS| Finished Play game
+001174.946|  735052.0032kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_WIN"}
+001174.947|  735080.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001174.962|  734328.0000kb|   -752.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001175.044|  610072.0000kb| -124256.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Swain_Square_0.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SwainTacticalSupremacy.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1041_Long_Staff.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_PoisonedDart.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_Square_0.dds" ref count 2.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_Circle_0.dds" ref count 3.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Teemo_Camouflage.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RengarE.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RengarW.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Rengar_Square_0.dds" ref count 2.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Rengar_Circle_0.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Rengar_Passive.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_heal.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon588.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinketUpgrade_Square.dds" ref count 1.
+001175.044|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_Square.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3004_Assault_Treads_E.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3191_Seekers_Armguard.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3184_Entropy.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3181_SanguineBlade.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3158_Ionian_Boots_of_Lucidity.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3146_Hextech_Gunblade.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3145_Hextech_Revolver.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3144_Bilgewater_Cutlass.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3142_YomuuGhostblade.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "073_Zettas_Mana-Stick.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "037_Big_Stick.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3122_Wicked_Hatchet.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3004_Assault_Treads.dds" ref count 1.
+001175.045|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3116_Rylais_Sceptre.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3115_Nashors_Tooth.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3104_Lord_Van_Damms_Pillager.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "059_Sheen.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "126_Zeal_and_Sheen.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3093_Avarice_Blade.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3090_Wooglets_Witchcap.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3087_Statikk_Shiv.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3058_Sheen_and_Phage.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3078_Trinity_Force.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3067_Kindlegem.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3057_Sheen.dds" ref count 5.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3047_Phase_Striders.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3046_Phantom_Dancer.dds" ref count 1.
+001175.046|  610072.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3044_Phage.dds" ref count 1.
+001175.047|  609640.0000kb|   -432.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3035_Last_Whisper.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith_Square.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3009_Boots_of_Teleportation.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_Square.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard_Square.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_ArchersMark.dds" ref count 2.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2004_Mana_Potion.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Health_Potion.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1063_ProspectorsRing2.dds" ref count 1.
+001175.047|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "033_Buckler.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1053_Vampiric_Scepter.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1051_Brawlers_Gloves.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1042_Dagger.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1037_Broadsword.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1036_Long_Sword.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1027_Sapphire_Sphere.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1026_Blasting_Band.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1018_Cloak_of_Agility.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1011_Mighty_Waistband_of_the_Reaver.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_Square.dds" ref count 2.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_BearStance.dds" ref count 3.
+001175.048|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_Square.dds" ref count 3.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_Square.dds" ref count 3.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_Square.dds" ref count 3.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Udyr_MonkeysAgility.dds" ref count 8.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "XinZhao_TirelessWarrior.dds" ref count 1.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "GW_Debuff.dds" ref count 3.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Fizz_Square_0.dds" ref count 2.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Fizz_Circle_0.dds" ref count 3.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "FizzPassive.dds" ref count 1.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ahri_Square.dds" ref count 2.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ahri_SoulEater.dds" ref count 1.
+001175.049|  609640.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SkeletonMelee_Square.dds" ref count 1.
+001175.049|  609600.0000kb|    -40.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Yasuo_Square.dds" ref count 2.
+001175.049|  609600.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Yasuo_Circle.dds" ref count 6.
+001175.049|  609600.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Yasuo_Passive.dds" ref count 2.
+001175.049|  609600.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Color_yasuo_w_windwall_dust.dds" ref count 3.
+001175.049|  609544.0000kb|    -56.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AkaliShadowDance.dds" ref count 1.
+001175.049|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AkaliCrescentSlash.dds" ref count 1.
+001175.049|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AkaliTwilightShroud.dds" ref count 1.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AkaliMota.dds" ref count 1.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Akali_Square_0.dds" ref count 2.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Akali_Circle_0.dds" ref count 3.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AkaliTwinDisciplines.dds" ref count 1.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DarkChampion_Slash.dds" ref count 1.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "48thSlave_Pacify.dds" ref count 2.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Tryndamere_Square_0.dds" ref count 2.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Tryndamere_Circle_0.dds" ref count 4.
+001175.050|  609544.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DarkChampion_Fury.dds" ref count 1.
+001175.050|  609412.0968kb|   -132.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "TalonNoxianDiplomacy.dds" ref count 1.
+001175.050|  609412.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Talon_Square_0.dds" ref count 2.
+001175.050|  609412.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Talon_Circle_0.dds" ref count 2.
+001175.051|  609412.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "TalonMercy.dds" ref count 1.
+001175.051|  608044.0032kb|  -1368.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon582.dds" ref count 1.
+001175.051|  608044.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001175.051|  608044.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001175.051|  608044.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001175.051|  608044.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+001175.051|  608044.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+001175.051|  608028.0032kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+001175.051|  608028.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+001175.051|  608028.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+001175.051|  608028.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+001175.051|  608028.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+001175.051|  607956.0968kb|    -72.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ring.tga" ref count 22.
+001175.051|  607696.0000kb|   -260.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+001175.051|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Basic_Attack.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+001175.052|  607696.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lamp.dds" ref count 462.
+001175.052|  607316.0968kb|   -380.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderRider_Square.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon21.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OdinRedSuperminion_Square.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OdinBlueSuperminion_Square.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "CrystalScarsAura.dds" ref count 2.
+001175.052|  607316.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OdinNeutralGuardian_DR_White.dds" ref count 2.
+001175.053|  607264.0000kb|    -52.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon23.dds" ref count 1.
+001175.053|  607264.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerBarrier.dds" ref count 1.
+001175.053|  607264.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechmelee_Square.dds" ref count 1.
+001175.053|  607252.0968kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedMelee_Square.dds" ref count 1.
+001175.053|  607252.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+001175.053|  607228.0032kb|    -24.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechcannon_Square.dds" ref count 1.
+001175.053|  607228.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechmelee_Square.dds" ref count 1.
+001175.053|  607208.0000kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueMelee_Square.dds" ref count 1.
+001175.053|  607208.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+001175.053|  607196.0032kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechcannon_Square.dds" ref count 1.
+001175.053|  607156.0968kb|    -40.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon578.dds" ref count 1.
+001175.053|  607156.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 6.
+001175.053|  606884.0968kb|   -272.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon507.dds" ref count 1.
+001175.053|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_exhaust.dds" ref count 1.
+001175.053|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon22.dds" ref count 1.
+001175.053|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_haste.dds" ref count 1.
+001175.054|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon16.dds" ref count 1.
+001175.054|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon27.dds" ref count 1.
+001175.054|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+001175.054|  606884.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+001175.055|  603536.0000kb|  -3348.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001175.055|  603520.0000kb|    -16.0000kb added| ALWAYS| Destroying the Renderer (1)
+001175.055|  603512.0000kb|     -8.0000kb added| ALWAYS| game::Shutdown
+001175.055|  603500.0032kb|    -12.0000kb added| ALWAYS| ClientFacade::Stop
+001175.055|  603492.0968kb|     -8.0000kb added| ALWAYS| Exiting WinMain

@@ -1,0 +1,635 @@
+000000.000|   10588.0000kb|  10588.0000kb added| ALWAYS| Logging started at 2014-01-12T02:38:39.538
+000000.002|   10604.0000kb|     16.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.003|   10712.0000kb|    108.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.3\deploy".
+000000.003|   10728.0000kb|     16.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.003|   10740.0000kb|     12.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/solutionmanifest")
+000000.003|   10772.0000kb|     32.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/configurationmanifest")
+000000.003|   10776.0000kb|      4.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.0.164/releasemanifest")
+000000.004|   10832.0000kb|     56.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.0.193/releasemanifest")
+000000.204|   16316.0000kb|   5484.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.222|   43700.0000kb|  27384.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.66/deploy/preferences/
+000000.224|   44136.0000kb|    436.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.224|   44204.0000kb|     68.0000kb added| ALWAYS| Build Version: Version 3.15.0.255 (Dec 13 2013/17:11:08) [PUBLIC] <Releases/3.15> ChangeList: 428866
+000000.272|   46568.0000kb|   2364.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.1.66/deploy/LolClient.exe" "95.172.70.163 5101 Qu+q657Rz6Y0oz/0SA8lDg== <id_removed>"
+000000.274|   46752.0000kb|    184.0000kb added| ALWAYS| Started System Init
+000000.275|   46908.0000kb|    156.0000kb added| ALWAYS| Maestro Init
+000000.283|   47584.0000kb|    676.0000kb added| ALWAYS| Maestro completed init
+000000.283|   47600.0000kb|     16.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "ClientZips.txt" because it's not in the manifest.
+000000.283|   47612.0000kb|     12.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = r; errno = 2; pFilename = ClientZips.txt; msg = No such file or directory;
+000000.283|   47612.0000kb|      0.0000kb added|  ERROR| Failed to open "ClientZips.txt"
+000000.292|   48912.0000kb|   1300.0000kb added| ALWAYS| StartSession called
+000000.292|   48912.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.293|   49060.0000kb|    148.0000kb added| ALWAYS| Waiting until connection...
+000001.393|   57124.0000kb|   8064.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.393|   57124.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000001.393|   57124.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 3510
+000001.393|   57124.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 760 2147483648 9.18.13.3182
+000001.393|   57124.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.393|   57176.0000kb|     52.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 760","video_memory":"2147483648","driver_version":"9.18.13.3182","physical_memory":8589934592}
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| Operating System: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 760
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2147483648
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 9.18.13.3182
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 3400
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.393|   57176.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.515|   57692.0000kb|    516.0000kb added| ALWAYS| InitRenderer() enter
+000001.515|   57888.0000kb|    196.0000kb added| ALWAYS| r3dRenderLayer::Init(0x000708c6) enter
+000001.523|   60932.0000kb|   3044.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000002.025|   70264.0000kb|   9332.0000kb added| ALWAYS| Loaded locale en_GB via fontconfig
+000002.029|   66984.0000kb|  -3280.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000002.029|   66984.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml; msg = No such file or directory;
+000002.029|   66984.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml
+000002.035|   67280.0000kb|    296.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1920, YRes = 1080, BPP = 32,  Flags=256) enter
+000002.035|   67280.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000002.415|   89712.0000kb|  22432.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000002.642|   92016.0000kb|   2304.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000002.886|   93100.0000kb|   1084.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.597|   94008.0000kb|    908.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000003.597|   94008.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(5f9d6e0) and resolution (1920 x 1080) 
+000003.597|   94008.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(5f9d6e0) and resolution (960 x 540) 
+000003.598|   94056.0000kb|     48.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000003.633|   97852.0000kb|   3796.0000kb added| ALWAYS| Sleeping
+000003.733|   97852.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.733|   97868.0000kb|     16.0000kb added| ALWAYS| End processing App Update
+000003.733|   97872.0000kb|      4.0000kb added| ALWAYS| Sleeping
+000003.833|   97872.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.833|   97888.0000kb|     16.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000003.833|   97888.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.833|   97888.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000003.833|   97756.0000kb|   -132.0000kb added| ALWAYS| Set focus to app
+000003.833|   97760.0000kb|      4.0000kb added| ALWAYS| Input started
+000003.836|   97800.0000kb|     40.0000kb added|   WARN| Duplicate key/value pair ([evtToggleQC, [z]] in DATA/CFG/defaults/Input.ini
+000003.863|   97696.0000kb|   -104.0000kb added| ALWAYS| Query Status Req started
+000003.873|   97712.0000kb|     16.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID: 000000002ba8e542, PlatformID: EUN1
+000004.026|   97748.0000kb|     36.0000kb added| ALWAYS| Query Status Req ended
+000004.026|   97748.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000004.226|   97760.0000kb|     12.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 3.15.0.255 [PUBLIC]
+000004.228|   97788.0000kb|     28.0000kb added| ALWAYS| netUID: 9 defaultname
+000004.228|   97788.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000004.255|   97796.0000kb|      8.0000kb added| ALWAYS| PlayGame Started
+000004.257|   97888.0000kb|     92.0000kb added| ALWAYS| Performing WSAStartup
+000004.714|  104400.0000kb|   6512.0000kb added| ALWAYS| Performing WSACleanup
+000005.024|  129680.0000kb|  25280.0000kb added| ALWAYS| PlayGame Entered
+000005.024|  129692.0000kb|     12.0000kb added| ALWAYS| CurRenderPipeline
+000005.033|  129820.0000kb|    128.0000kb added| ALWAYS| CreateParticleSystemManager
+000005.394|  130824.0000kb|   1004.0000kb added| ALWAYS| CreateAudioManager: Create audio manager FMOD.
+000007.143|  140472.0000kb|   9648.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_GB
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load en_GB/LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.143|  140472.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: en_GB/LoL_Audio_en_GB.fev
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.143|  140472.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.144|  140472.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\LoL_Audio_en_GB.fev
+000007.144|  140472.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.144|  140472.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: LoL_Audio_en_GB.fev
+000007.144|  140472.0000kb|      0.0000kb added|  ERROR| FMOD: Failed to load localized audio [LoL_Audio_en_GB.fev] from either locale-specific directory (en_GB/LoL_Audio_en_GB.fev) or general audio directory.
+000007.144|  140472.0000kb|      0.0000kb added|   WARN| Audio::Load(): Failed to load desired language locale: LoL_Audio_en_GB.fev
+000008.064|  144328.0000kb|   3856.0000kb added| ALWAYS| Audio::Load(): Successfully loaded default fail-safe language locale: LoL_Audio_en_US.fev
+000008.765|  260440.0000kb| 116112.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000011.017|  364760.0000kb| 104320.0000kb added| ALWAYS| GameWorld.Update()
+000011.017|  364760.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000011.370|  385988.0000kb|  21228.0000kb added| ALWAYS| End Game Object Update
+000011.503|  389476.0000kb|   3488.0000kb added| ALWAYS| PreloadGlobalEffects()
+000011.503|  389476.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000011.951|  428256.0000kb|  38780.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000011.951|  428256.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000012.042|  431652.0000kb|   3396.0000kb added| ALWAYS| Preload Announcements
+000012.243|  448268.0000kb|  16616.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000012.310|  450392.0000kb|   2124.0000kb added| ALWAYS| FogOfWar::Init()
+000012.317|  450476.0000kb|     84.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000012.320|  450508.0000kb|     32.0000kb added| ALWAYS| SimulationClock->Init()
+000012.579|  493716.0000kb|  43208.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink.dds; msg = No such file or directory;
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink.dds
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink1.dds" because it's not in the manifest.
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink1.dds; msg = No such file or directory;
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink1.dds
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink2.dds" because it's not in the manifest.
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink2.dds; msg = No such file or directory;
+000012.579|  493716.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink2.dds
+000015.833|  561256.0000kb|  67540.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_R_Post.sco>.
+000015.833|  561256.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_R_Post2.sco>.
+000015.842|  561992.0000kb|    736.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_R_Post.sco>.
+000015.843|  561992.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_R_Post2.sco>.
+000015.954|  568332.0032kb|   6340.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_Q_Chain.sco>.
+000015.954|  568332.0032kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_Q_Hook.sco>.
+000015.979|  568900.0968kb|    568.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_Q_Chain.sco>.
+000015.980|  568900.0968kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_Q_Hook.sco>.
+000016.115|  581240.0000kb|  12340.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_W_ShineDisc.sco>.
+000016.125|  581368.0000kb|    128.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_W_ShineDisc.sco>.
+000016.348|  594528.0000kb|  13160.0000kb added|  ERROR| Failed to load mesh file name<Thresh_Skin02_W_Lantern.sco>.
+000016.605|  625392.0000kb|  30864.0000kb added|  ERROR| RadsOpenFile: RADS cannot open a file with an empty path.
+000016.605|  625392.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 22; pFilename = ; msg = Invalid argument;
+000016.605|  625392.0000kb|      0.0000kb added|  ERROR| Failed to load 
+000016.605|  625392.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open a file with an empty path.
+000016.605|  625392.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 22; pFilename = ; msg = Invalid argument;
+000016.606|  625392.0000kb|      0.0000kb added|  ERROR| Failed to load particle animation file: 
+000020.039|  677624.0000kb|  52232.0000kb added|  ERROR| Failed to load spell ini or script: "championchampiondelta"
+000020.936|  716184.0000kb|  38560.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000020.936|  716232.0000kb|     48.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000021.656|  735172.0968kb|  18940.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000023.542|  744352.0000kb|   9180.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000023.542|  744352.0000kb|      0.0000kb added| ALWAYS| Start Main Loop
+000023.542|  744360.0000kb|      8.0000kb added| ALWAYS| Waiting for all players to connect
+000023.542|  744360.0000kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000024.181|  757364.0968kb|  13004.0000kb added|  ERROR| Failed to load mesh file name<wraith_hit.sco>.
+000139.374|  801960.0000kb|  44596.0000kb added| ALWAYS| PKT_S2C_StartSpawn
+000139.374|  801960.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000139.379|  802052.0968kb|     92.0000kb added| ALWAYS| Spawning champion (JarvanIV) with skinID 0 on team 100 for clientID 7 and summonername (Mr Minek) (is HUMAN PLAYER)
+000139.380|  802056.0000kb|      4.0000kb added| ALWAYS| Hero JarvanIV(0) created for Mr Minek
+000139.402|  802644.0968kb|    588.0000kb added| ALWAYS| Spawning heroes/minions
+000139.402|  802644.0968kb|      0.0000kb added| ALWAYS| Finished spawning heroes/minions
+000139.911|  802644.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000140.074|  813032.0000kb|  10388.0000kb added| ALWAYS| Spawning champion (Shen) with skinID 0 on team 100 for clientID 8 and summonername (Vierson) (is HUMAN PLAYER)
+000140.074|  813032.0000kb|      0.0000kb added| ALWAYS| Hero Shen(0) created for Vierson
+000140.592|  813108.0968kb|     76.0000kb added| ALWAYS| Creating Hero...
+000140.649|  814436.0968kb|   1328.0000kb added| ALWAYS| Spawning champion (Thresh) with skinID 0 on team 100 for clientID 3 and summonername (ZasadyNieRolady) (is HUMAN PLAYER)
+000140.649|  814436.0968kb|      0.0000kb added| ALWAYS| Hero Thresh(0) created for ZasadyNieRolady
+000141.697|  815928.0000kb|   1492.0000kb added| ALWAYS| Creating Hero...
+000141.705|  815756.0032kb|   -172.0000kb added| ALWAYS| Spawning champion (Vayne) with skinID 2 on team 100 for clientID 4 and summonername (bestiowski) (is HUMAN PLAYER)
+000141.705|  815756.0032kb|      0.0000kb added| ALWAYS| Hero Vayne(2) created for bestiowski
+000141.711|  815772.0032kb|     16.0000kb added| ALWAYS| Creating Hero...
+000141.714|  815772.0032kb|      0.0000kb added| ALWAYS| Spawning champion (Galio) with skinID 0 on team 100 for clientID 0 and summonername (qrizon) (is HUMAN PLAYER)
+000141.714|  815772.0032kb|      0.0000kb added| ALWAYS| Hero Galio(0) created for qrizon
+000141.714|  815772.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000141.718|  815772.0032kb|      0.0000kb added| ALWAYS| Spawning champion (LeeSin) with skinID 4 on team 200 for clientID 6 and summonername (Le Addi) (is HUMAN PLAYER)
+000141.718|  815772.0032kb|      0.0000kb added| ALWAYS| Hero LeeSin(4) created for Le Addi
+000142.223|  815772.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000142.237|  815772.0032kb|      0.0000kb added| ALWAYS| Spawning champion (Nidalee) with skinID 0 on team 200 for clientID 1 and summonername (Steambath) (is HUMAN PLAYER)
+000142.237|  815772.0032kb|      0.0000kb added| ALWAYS| Hero Nidalee(0) created for Steambath
+000142.238|  815772.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000142.243|  815772.0032kb|      0.0000kb added| ALWAYS| Spawning champion (Leona) with skinID 0 on team 200 for clientID 2 and summonername (Runnyyyy) (is HUMAN PLAYER)
+000142.243|  815772.0032kb|      0.0000kb added| ALWAYS| Hero Leona(0) created for Runnyyyy
+000142.244|  815772.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000142.384|  822504.0000kb|   6732.0000kb added| ALWAYS| Spawning champion (Ezreal) with skinID 0 on team 200 for clientID 9 and summonername (LucianStoleMyTv) (is HUMAN PLAYER)
+000142.386|  822504.0000kb|      0.0000kb added| ALWAYS| Hero Ezreal(0) created for LucianStoleMyTv
+000142.896|  823024.0000kb|    520.0000kb added| ALWAYS| Creating Hero...
+000143.151|  832380.0032kb|   9356.0000kb added|  ERROR| Failed to load mesh file name<EightPoint_Cards.sco>.
+000143.632|  854976.0000kb|  22596.0000kb added| ALWAYS| Spawning champion (Elise) with skinID 0 on team 200 for clientID 5 and summonername (walgen) (is HUMAN PLAYER)
+000143.632|  854976.0000kb|      0.0000kb added| ALWAYS| Hero Elise(0) created for walgen
+000144.738|  863920.0000kb|   8944.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000146.085|  835992.0000kb| -27928.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000148.201|  891348.0968kb|  55356.0000kb added| ALWAYS| PKT_StartGame
+000149.779|  929464.0000kb|  38116.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000149.793|  929888.0000kb|    424.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000149.793|  929888.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000149.798|  930076.0032kb|    188.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000149.798|  930080.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000149.798|  930084.0968kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000149.798|  930084.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000149.801|  930084.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000149.805|  930324.0968kb|    240.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000149.806|  930324.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000149.910|  945772.0032kb|  15448.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000149.910|  945772.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000149.910|  945776.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000149.913|  946384.0000kb|    608.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000150.688| 1001664.0000kb|  55280.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000150.688| 1001664.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000150.688| 1001664.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000150.688| 1001664.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000150.688| 1001676.0032kb|     12.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000150.694| 1001816.0000kb|    140.0000kb added| ALWAYS| Performing WSAStartup
+000150.697|  980268.0032kb| -21548.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000151.121| 1053020.0032kb|  72752.0000kb added| ALWAYS| Performing WSACleanup
+000165.460| 1087080.0936kb|  34060.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000266.039| 1252532.0968kb| 165452.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000270.456| 1252660.0968kb|    128.0000kb added| ALWAYS| Performing WSAStartup
+000270.895| 1242480.0000kb| -10180.0000kb added| ALWAYS| Performing WSACleanup
+000378.402| 1284580.0968kb|  42100.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000386.726| 1310596.0968kb|  26016.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000386.732| 1310600.0936kb|      4.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+000386.732| 1310600.0936kb|      0.0000kb added|   WARN| Death Recap damage has two different types! Spell: _BasicAttack
+000386.732| 1310600.0936kb|      0.0000kb added|   WARN| Death Recap damage from unknown source
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS| The Killer was: bestiowski
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS| HEALS
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 36 with abilities [_BasicAttack|amount:24|priority:16][EzrealMysticShot|amount:12|priority:10][EzrealArcaneShift|amount:0|priority:0]
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS| DAMAGE
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 247.582 with abilities [_BasicAttack|amount:126.527|priority:78][ThreshQ|amount:61.4978|priority:76][ThreshQPassive|amount:59.5574|priority:59]
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS|   Mr Minek applied amount 136.943 with abilities [_BasicAttack|amount:136.943|priority:64]
+000386.732| 1310600.0936kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 135.367 with abilities [_BasicAttack|amount:135.367|priority:135][VayneSilveredBolts|amount:0|priority:0][VayneHunted|amount:0|priority:0]
+000389.834| 1273220.0968kb| -37380.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 41).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+000390.454| 1270444.0032kb|  -2776.0000kb added| ALWAYS| Performing WSAStartup
+000390.895| 1286756.0968kb|  16312.0000kb added| ALWAYS| Performing WSACleanup
+000398.199| 1298488.0064kb|  11732.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000398.249| 1298488.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000398.966| 1300772.0968kb|   2284.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000399.060| 1300772.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000402.345| 1259788.0032kb| -40984.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000402.440| 1259792.0000kb|      4.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000479.432| 1315948.0032kb|  56156.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000479.433| 1315948.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000496.431| 1308492.0032kb|  -7456.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000496.733| 1308492.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000503.047| 1301016.0064kb|  -7476.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000510.450| 1303064.0064kb|   2048.0000kb added| ALWAYS| Performing WSAStartup
+000510.890| 1303200.0000kb|    136.0000kb added| ALWAYS| Performing WSACleanup
+000538.529| 1304660.0968kb|   1460.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000541.601| 1305764.0968kb|   1104.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000548.163| 1305004.0032kb|   -760.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+000548.164| 1305004.0032kb|      0.0000kb added|   WARN| Death Recap damage has two different types! Spell: VayneTumble
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS| The Killer was: bestiowski
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS| HEALS
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 3 with abilities [EzrealMysticShot|amount:3|priority:1][EzrealArcaneShift|amount:0|priority:0][Recall|amount:0|priority:0]
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 353.927 with abilities [VayneTumble|amount:271.043|priority:217][_BasicAttack|amount:82.8843|priority:82][VayneSilveredBolts|amount:0|priority:0][VayneHunted|amount:0|priority:0][BlessingoftheLizardElder|amount:0|priority:0]
+000548.164| 1305004.0032kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 62.6939 with abilities [ThreshQ|amount:62.6939|priority:78]
+000549.296| 1293920.0000kb| -11084.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000552.811| 1308296.0936kb|  14376.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000552.898| 1308296.0936kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000560.143| 1309612.0032kb|   1316.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000560.239| 1309616.0000kb|      4.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000562.113| 1309972.0968kb|    356.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000562.263| 1309972.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000562.329| 1309972.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000562.332| 1309972.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000604.402| 1297600.0000kb| -12372.0000kb added|   WARN| character Vayne does not have animation 'NONE' (spell 'Recall')
+000630.459| 1314320.0000kb|  16720.0000kb added| ALWAYS| Performing WSAStartup
+000630.901| 1314340.0968kb|     20.0000kb added| ALWAYS| Performing WSACleanup
+000633.843| 1311768.0064kb|  -2572.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000640.075| 1317376.0000kb|   5608.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+000640.075| 1317376.0000kb|      0.0000kb added| ALWAYS| The Killer was: bestiowski
+000640.075| 1317376.0000kb|      0.0000kb added| ALWAYS| HEALS
+000640.075| 1317376.0000kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 12 with abilities [EzrealMysticShot|amount:6|priority:4][_BasicAttack|amount:6|priority:4][EzrealEssenceFlux|amount:0|priority:0][EzrealArcaneShift|amount:0|priority:0]
+000640.076| 1317376.0000kb|      0.0000kb added| ALWAYS| DAMAGE
+000640.076| 1317376.0000kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 604.702 with abilities [_BasicAttack|amount:249.434|priority:249][VayneTumble|amount:257.308|priority:150][VayneSilveredBolts|amount:97.96|priority:97][VayneHunted|amount:0|priority:0]
+000640.076| 1317376.0000kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 439.93 with abilities [ThreshE|amount:95.6009|priority:103][ThreshQPassive|amount:87.5146|priority:87][ThreshQ|amount:63.5235|priority:80][AhriSeduce|amount:48.3226|priority:65][_BasicAttack|amount:144.968|priority:48][SummonerExhaust|amount:0|priority:0]
+000640.076| 1317376.0000kb|      0.0000kb added| ALWAYS|   Minion applied amount 17.8225 with abilities [_BasicAttack|amount:17.8225|priority:17]
+000640.181| 1297884.0032kb| -19492.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000640.436| 1297884.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000706.745| 1318036.0968kb|  20152.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000724.441| 1324468.0968kb|   6432.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000724.441| 1324468.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000724.441| 1324468.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000733.835| 1316236.0032kb|  -8232.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000736.940| 1318352.0000kb|   2116.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000750.454| 1313292.0032kb|  -5060.0000kb added| ALWAYS| Performing WSAStartup
+000750.867| 1313296.0000kb|      4.0000kb added| ALWAYS| Performing WSACleanup
+000762.476| 1324580.0968kb|  11284.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000776.145| 1301004.0032kb| -23576.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000777.237| 1325672.0936kb|  24668.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000783.434| 1307256.0064kb| -18416.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000797.638| 1315020.0032kb|   7764.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+000797.638| 1315020.0032kb|      0.0000kb added|   WARN| Death Recap damage has two different types! Spell: JarvanIVCataclysm
+000797.638| 1315020.0032kb|      0.0000kb added|   WARN| Death Recap damage has two different types! Spell: JarvanIVDragonStrike
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS| The Killer was: bestiowski
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS| HEALS
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 12 with abilities [SummonerFlash|amount:0|priority:7][_BasicAttack|amount:9|priority:4][EzrealMysticShot|amount:3|priority:1][EzrealArcaneShift|amount:0|priority:0][EzrealEssenceFlux|amount:0|priority:0]
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS|   Mr Minek applied amount 673.745 with abilities [JarvanIVDragonStrike|amount:393.726|priority:365][JarvanIVCataclysm|amount:237.021|priority:190][JarvanIVDemacianStandard|amount:42.9984|priority:103]
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 503.447 with abilities [_BasicAttack|amount:209.226|priority:209][VayneTumble|amount:152.815|priority:152][VayneSilveredBolts|amount:107.56|priority:107][game_item_displayname_3153|amount:33.8458|priority:35][VayneHunted|amount:0|priority:0]
+000797.638| 1315020.0032kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 64.6544 with abilities [ThreshQ|amount:64.6544|priority:82]
+000804.832| 1324256.0000kb|   9236.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000809.070| 1323588.0968kb|   -668.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000809.070| 1323588.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000809.070| 1323588.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+000809.344| 1327192.0064kb|   3604.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000818.203| 1181760.0000kb| -145432.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000831.167| 1322640.0000kb| 140880.0000kb added|  ERROR| Assertion failed!
+
+File: ..\..\..\..\..\..\..\Game\LoL\Spell\Effect\Client\SpellEffectClient.cpp
+Line: 626
+
+Function: SpellFXRenderer::Start
+
+Expression: 0
+
+Description: Assert occurred, game may crash.
+000870.451| 1346056.0936kb|  23416.0000kb added| ALWAYS| Performing WSAStartup
+000870.877| 1346056.0936kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000885.167| 1347788.0032kb|   1732.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000885.646| 1319072.0000kb| -28716.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000891.983| 1324068.0968kb|   4996.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000910.420| 1351880.0936kb|  27812.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000958.231| 1320400.0000kb| -31480.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000958.781| 1320412.0032kb|     12.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000958.814| 1320412.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000959.598| 1320644.0968kb|    232.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000959.662| 1320644.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000973.546| 1343208.0936kb|  22564.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000990.449| 1334488.0064kb|  -8720.0000kb added| ALWAYS| Performing WSAStartup
+000990.888| 1334488.0064kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001023.130| 1330712.0064kb|  -3776.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001023.130| 1330712.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001054.370| 1313744.0000kb| -16968.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001054.371| 1313744.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001057.263| 1321952.0000kb|   8208.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001060.531| 1338388.0968kb|  16436.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001062.635| 1338412.0032kb|     24.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+001062.635| 1338412.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a8d3fcb
+001062.635| 1338412.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+001062.635| 1338412.0032kb|      0.0000kb added|   WARN| Death Recap damage from unknown source
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS| The Killer was: bestiowski
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS| HEALS
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS|   Runnyyyy applied amount 94.5539 with abilities [game_item_displayname_3097|amount:94.5539|priority:93]
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 45 with abilities [_BasicAttack|amount:30|priority:16][EzrealMysticShot|amount:15|priority:13][CantAttack|amount:0|priority:0][EzrealArcaneShift|amount:0|priority:0][game_item_displayname_3044|amount:0|priority:0]
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 1260.53 with abilities [_BasicAttack|amount:539.697|priority:539][VayneTumble|amount:384.528|priority:225][game_item_displayname_3153|amount:194.882|priority:196][VayneSilveredBolts|amount:141.42|priority:141][VayneHunted|amount:0|priority:0]
+001062.635| 1338412.0032kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 464.453 with abilities [ThreshQPassive|amount:153.756|priority:153][ThreshE|amount:118.531|priority:127][ThreshQ|amount:95.9239|priority:114][_BasicAttack|amount:96.2426|priority:96]
+001062.682| 1339636.0968kb|   1224.0000kb added|   WARN| [LucianStoleMyTv] warning: PKT_CastSpell received for dead Unit. Spell: EzrealBasicAttack
+001063.469| 1341708.0032kb|   2072.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001071.463| 1324640.0000kb| -17068.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001071.541| 1324640.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001072.946| 1334240.0000kb|   9600.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001072.996| 1334240.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001072.999| 1334240.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001095.364| 1352996.0968kb|  18756.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001095.364| 1352996.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001095.364| 1352996.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001110.443| 1345880.0064kb|  -7116.0000kb added| ALWAYS| Performing WSAStartup
+001110.881| 1345880.0064kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001113.617| 1361332.0968kb|  15452.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001116.715| 1344984.0064kb| -16348.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001143.074| 1346100.0968kb|   1116.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.075| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.093| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.094| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.107| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.108| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.123| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.124| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.143| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.144| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.163| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.164| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.224| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.225| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.236| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.239| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.249| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.251| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.262| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.263| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.272| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.273| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.284| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.285| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.294| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.295| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.309| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.310| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001143.321| 1346100.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001166.527| 1347416.0064kb|   1316.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001176.157| 1348468.0968kb|   1052.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001176.257| 1348468.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001182.559| 1344372.0968kb|  -4096.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001210.175| 1303640.0064kb| -40732.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001210.234| 1303640.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001230.440| 1346236.0032kb|  42596.0000kb added| ALWAYS| Performing WSAStartup
+001230.869| 1323668.0968kb| -22568.0000kb added| ALWAYS| Performing WSACleanup
+001238.590| 1356408.0064kb|  32740.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001239.168| 1313324.0032kb| -43084.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001242.459| 1349276.0032kb|  35952.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+001242.459| 1349276.0032kb|      0.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+001242.459| 1349276.0032kb|      0.0000kb added|   WARN| Death Recap damage from unknown source
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS| The Killer was: ZasadyNieRolady
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS| HEALS
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 16.6774 with abilities [_BasicAttack|amount:10.6774|priority:9][EzrealMysticShot|amount:6|priority:4][EzrealArcaneShift|amount:0|priority:0][game_item_displayname_3057|amount:0|priority:0][game_item_displayname_3044|amount:0|priority:0]
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS| DAMAGE
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 1019.81 with abilities [_BasicAttack|amount:517.101|priority:517][VayneTumble|amount:207.441|priority:207][game_item_displayname_3153|amount:148.245|priority:149][VayneSilveredBolts|amount:147.02|priority:147][VayneHunted|amount:0|priority:0]
+001242.459| 1349276.0032kb|      0.0000kb added| ALWAYS|   ZasadyNieRolady applied amount 471.412 with abilities [ThreshQPassive|amount:153.739|priority:153][ThreshE|amount:141.125|priority:150][ThreshQ|amount:126.698|priority:146][_BasicAttack|amount:49.8502|priority:49]
+001245.507| 1346204.0032kb|  -3072.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001256.990| 1338004.0968kb|  -8200.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001263.258| 1338080.0000kb|     76.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001272.023| 1347784.0936kb|   9704.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001273.005| 1347784.0936kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001277.542| 1339592.0936kb|  -8192.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001299.806| 1363316.0968kb|  23724.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0b88caf4
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS| The Killer was: qrizon
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS| HEALS
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 21 with abilities [_BasicAttack|amount:15|priority:10][EzrealMysticShot|amount:6|priority:4][game_item_displayname_3044|amount:0|priority:0][EzrealEssenceFlux|amount:0|priority:0][game_item_displayname_3057|amount:0|priority:0][EzrealArcaneShift|amount:0|priority:0]
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS|   qrizon applied amount 1599.36 with abilities [GalioIdolOfDurand|amount:468.036|priority:621][GalioRighteousGust|amount:545.612|priority:545][GalioResoluteSmite|amount:399.715|priority:437][SummonerDot|amount:186|priority:196][game_item_displayname_3001|amount:0|priority:0]
+001299.807| 1363316.0968kb|      0.0000kb added| ALWAYS|   bestiowski applied amount 0 with abilities [VayneHunted|amount:0|priority:0]
+001330.754| 1347688.0936kb| -15628.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001346.619| 1339484.0032kb|  -8204.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001346.620| 1339484.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001346.620| 1339484.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0987f939
+001349.204| 1332304.0000kb|  -7180.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.206| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.206| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.221| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.223| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.239| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.241| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.253| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.254| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.270| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.271| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.287| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.288| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.303| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.306| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.320| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.322| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.336| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.338| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.353| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.355| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001349.372| 1332304.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001350.436| 1332368.0000kb|     64.0000kb added| ALWAYS| Performing WSAStartup
+001350.877| 1332368.0000kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001352.336| 1332332.0032kb|    -36.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001357.185| 1342608.0000kb|  10276.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001360.416| 1158360.0064kb| -184248.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001363.110| 1190248.0936kb|  31888.0000kb added| ALWAYS| End game message processing!
+001363.110| 1190248.0936kb|      0.0000kb added| ALWAYS| End game message processed!
+001363.111| 1190256.0000kb|      8.0000kb added| ALWAYS| Performing WSAStartup
+001363.544| 1190256.0000kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001363.549| 1190256.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001365.486|  919096.0000kb| -271160.0000kb added| ALWAYS| Finished Main Loop
+001365.488|  919156.0968kb|     60.0000kb added| ALWAYS| Performing WSAStartup
+001365.488|  919184.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001365.921|  919276.0032kb|     92.0000kb added| ALWAYS| Performing WSACleanup
+001366.334|  919220.0968kb|    -56.0000kb added| ALWAYS| Performing WSACleanup
+001369.122|  727524.0968kb| -191696.0000kb added| ALWAYS| Finished Play game
+001369.122|  727524.0968kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_LOSE"}
+001369.122|  727552.0000kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+001369.148|  727092.0968kb|   -460.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+001369.235|  608012.0032kb| -119080.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 13.
+001369.235|  607756.0032kb|   -256.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 13.
+001369.235|  607756.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 13.
+001369.235|  606728.0000kb|  -1028.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "MasteryPickpocket.dds" ref count 1.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "WardOverwrite.tga" ref count 32.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EliseSpiderlingSquare.DDS" ref count 1.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Elise_Square.dds" ref count 3.
+001369.235|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Elise_Circle.dds" ref count 7.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ElisePassive.dds" ref count 2.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_Q2.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Shen_Square.dds" ref count 2.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Shen_Circle.dds" ref count 7.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Shen_KiStrike.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3401_MartyrsShroud.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3351_GreaterRedTrinket.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinketUpgrade_Square.dds" ref count 2.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3350_GreaterYellowTrinket.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3341_RedTrinket.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_Square.dds" ref count 3.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3340_YellowTrinket.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3052_Reverb_Coil.dds" ref count 1.
+001369.236|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3209_SoulEaterLizard.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3207_SoulEaterGolem.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3174_AthenesUnholyGrail.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3153_Blade_of_the_Ruined_King.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3144_Bilgewater_Cutlass.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "113_Tome_of_Minor_Necro_Compulsion.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Commander_Passive.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3097_ReaperEmblem.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3058_Sheen_and_Phage.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3070_Tear_of_the_Goddess.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3046_Phantom_Dancer.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3044_Phage.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3028_Harmony_Ring.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+001369.237|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves.dds" ref count 1.
+001369.238|  606728.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3001_Abyssal_Scepter.dds" ref count 1.
+001369.238|  606688.0000kb|    -40.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2049_Sightstone.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2049_Ruby_Ward.DDS" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_Square.dds" ref count 3.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard_Square.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2009_Mini_Pot.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2004_Flask_of_Crystal_Water.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Regeneration_Potion.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1080_SoulEater.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "165_Harmony_Ring.dds" ref count 1.
+001369.238|  606688.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PetAttack.dds" ref count 1.
+001369.238|  606616.0000kb|    -72.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "033_Buckler.dds" ref count 1.
+001369.238|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1053_Vampiric_Scepter.dds" ref count 1.
+001369.238|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+001369.238|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1051_Brawlers_Gloves.dds" ref count 1.
+001369.238|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1042_Dagger.dds" ref count 1.
+001369.238|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1039_Butchers_Machete.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1036_Long_Sword.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1033_Elementium_Threaded_Cloak.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1018_Cloak_of_Agility.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1011_Mighty_Waistband_of_the_Reaver.dds" ref count 1.
+001369.239|  606616.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+001369.239|  605304.0000kb|  -1312.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_Square_0.dds" ref count 2.
+001369.239|  605304.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_Circle_0.dds" ref count 8.
+001369.239|  605304.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ezreal_RisingSpellForce.dds" ref count 1.
+001369.240|  605304.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_leona_outer.dds" ref count 1.
+001369.240|  605304.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeonaZenithBlade.dds" ref count 2.
+001369.240|  605304.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Leona_Square.dds" ref count 2.
+001369.240|  605164.0032kb|   -140.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Leona_Circle.dds" ref count 8.
+001369.240|  605120.0000kb|    -44.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeonaSunlight.dds" ref count 1.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Nidalee_Bushwhack.dds" ref count 1.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Nidalee_Square.dds" ref count 3.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Nidalee_Circle.dds" ref count 8.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Nidalee_OnTheProwl.dds" ref count 2.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1020_Glowing_Orb.dds" ref count 1.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSin_Square.dds" ref count 2.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSin_Circle.dds" ref count 6.
+001369.240|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSinPassive.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_IdolOfDurand.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_RighteousGust.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon23.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_ResoluteSmite.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_Square_0.dds" ref count 2.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_Circle_0.dds" ref count 9.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Galio_RunicSkin.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vayne_SilveredBolts.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vayne_Tumble.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vayne_Square.dds" ref count 2.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vayne_Circle.dds" ref count 19.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vayne_NightHunter.dds" ref count 1.
+001369.241|  605120.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OdinNeutralGuardian_DR_White.dds" ref count 1.
+001369.242|  604144.0000kb|   -976.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Pentagram.dds" ref count 1.
+001369.242|  600032.0000kb|  -4112.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DirectionalRectangle3.dds" ref count 1.
+001369.242|  599000.0000kb|  -1032.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_E.dds" ref count 1.
+001369.242|  598964.0968kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_W.dds" ref count 1.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_Q.dds" ref count 1.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_Square.dds" ref count 2.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_Circle.dds" ref count 3.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Thresh_Passive.dds" ref count 2.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_brand.dds" ref count 1.
+001369.242|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_Cataclysm.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_DemacianStandard.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_DemacianStandard.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_DragonStrike.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_Square_0.dds" ref count 2.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_Circle_0.dds" ref count 4.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_MartialCadence.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon539.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+001369.243|  598964.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+001369.243|  598956.0032kb|     -8.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+001369.243|  598956.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+001369.244|  598956.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+001369.244|  598956.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+001369.244|  598048.0000kb|   -908.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ring.tga" ref count 79.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Basic_Attack.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon578.dds" ref count 1.
+001369.244|  598048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "GSB_stun.dds" ref count 1.
+001369.244|  597960.0000kb|    -88.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+001369.244|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+001369.244|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lamp.dds" ref count 374.
+001369.245|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+001369.245|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+001369.245|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1031_Chain_Vest.dds" ref count 1.
+001369.245|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosTurretWorm_Square.dds" ref count 1.
+001369.245|  597960.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+001369.245|  597948.0032kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YoungLizard_Square.dds" ref count 1.
+001369.245|  597948.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LizardElder_Square.dds" ref count 1.
+001369.245|  597948.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Giantwolf_Square.dds" ref count 1.
+001369.245|  597948.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith_Square.dds" ref count 1.
+001369.245|  597948.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AncientGolem_Square.dds" ref count 1.
+001369.245|  597948.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wolf_Square.dds" ref count 1.
+001369.245|  597940.0968kb|     -8.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon546.dds" ref count 1.
+001369.245|  597940.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerBarrier.dds" ref count 1.
+001369.245|  597940.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+001369.245|  597940.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Dragon_Square.dds" ref count 1.
+001369.246|  597940.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lizard_Square.dds" ref count 1.
+001369.246|  597060.0968kb|   -880.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+001369.246|  597060.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosGateTower_Icon.dds" ref count 1.
+001369.246|  597060.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon_C.dds" ref count 2.
+001369.246|  597024.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon.dds" ref count 2.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon507.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_exhaust.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderGateTower_Icon.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderHqTower_Icon.dds" ref count 1.
+001369.246|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechmelee_Square.dds" ref count 1.
+001369.247|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedMelee_Square.dds" ref count 1.
+001369.247|  597024.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+001369.247|  596976.0000kb|    -48.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechcannon_Square.dds" ref count 1.
+001369.247|  596928.0000kb|    -48.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechmelee_Square.dds" ref count 1.
+001369.247|  596892.0032kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueMelee_Square.dds" ref count 1.
+001369.247|  596892.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+001369.247|  596876.0032kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon584.dds" ref count 1.
+001369.247|  596876.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_smite.dds" ref count 1.
+001369.247|  596876.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechcannon_Square.dds" ref count 1.
+001369.247|  596852.0968kb|    -24.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 7.
+001369.247|  596424.0000kb|   -428.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon27.dds" ref count 1.
+001369.247|  596424.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon588.dds" ref count 1.
+001369.247|  596424.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+001369.247|  596424.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+001369.248|  593520.0000kb|  -2904.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+001369.249|  593484.0032kb|    -36.0000kb added| ALWAYS| Destroying the Renderer (1)
+001369.249|  593484.0032kb|      0.0000kb added| ALWAYS| game::Shutdown
+001369.249|  593484.0032kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+001369.249|  593476.0968kb|     -8.0000kb added| ALWAYS| Exiting WinMain
