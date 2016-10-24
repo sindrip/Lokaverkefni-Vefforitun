@@ -1,14 +1,10 @@
 {
-  "name": "v4",
-  "version": "1.0.0",
+  "name": "lokaverkefni-vefforitun",
+  "version": "0.0.1",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
-    "babel-preset-es2015": "^6.16.0",
-    "browser-sync": "^2.17.3",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-sass": "^2.3.2"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
@@ -18,20 +14,23 @@
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.4.1",
+    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-browserify": "^0.5.1",
     "gulp-eslint": "^3.0.1",
-    "gulp-jshint": "^2.0.1",
     "gulp-sass": "^2.3.2",
     "gulp-scsslint": "0.0.5",
     "gulp-stylelint": "^3.4.0",
-    "gulp-uglify": "^2.0.0",
-    "jshint": "^2.9.3",
     "stylelint": "^7.4.2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindrip/Lokaverkefni-vefforitun.git"
   },
-  "author": "Ketman",
-  "license": "ISC"
+  "author": "spiketbjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindrip/Lokaverkefni-vefforitun/issues"
+  },
+  "homepage": "https://github.com/sindrip/Lokaverkefni-vefforitun#readme"
 }
