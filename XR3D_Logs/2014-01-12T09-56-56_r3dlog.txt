@@ -1,0 +1,1531 @@
+000000.000|   10724.0000kb|  10724.0000kb added| ALWAYS| Logging started at 2014-01-12T09:56:56.859
+000000.001|   10740.0000kb|     16.0000kb added| ALWAYS| Loading RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.003|   10852.0000kb|    112.0000kb added|   OKAY| Riot::RADS::Reader::RadsExportsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.3\deploy".
+000000.003|   10868.0000kb|     16.0000kb added|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.003|   10880.0000kb|     12.0000kb added|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/solutionmanifest")
+000000.003|   10912.0000kb|     32.0000kb added|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/configurationmanifest")
+000000.003|   10916.0000kb|      4.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.0.164/releasemanifest")
+000000.004|   10972.0000kb|     56.0000kb added|   OKAY| Riot::RADS::Reader::ReleaseManifest::Load: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.0.193/releasemanifest")
+000000.212|   16452.0000kb|   5480.0000kb added| ALWAYS| Loaded RADS dynamic library: C:\Riot Games\League of Legends\RADS\RiotRadsIO.dll
+000000.229|   43792.0000kb|  27340.0000kb added| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.66/deploy/preferences/
+000000.231|   44228.0000kb|    436.0000kb added| ALWAYS| Global logging level set to   WARN
+000000.231|   44296.0000kb|     68.0000kb added| ALWAYS| Build Version: Version 3.15.0.255 (Dec 13 2013/17:11:08) [PUBLIC] <Releases/3.15> ChangeList: 428866
+000000.268|   45848.0000kb|   1552.0000kb added| ALWAYS| "8394" "LoLLauncher.exe" "C:/Riot Games/League of Legends/RADS/projects/lol_air_client/releases/0.0.1.66/deploy/LolClient.exe" "95.172.70.228 5144 8XiouA6b6N033jT9ovVTMw== <id_removed>"
+000000.271|   46056.0000kb|    208.0000kb added| ALWAYS| Started System Init
+000000.277|   46732.0000kb|    676.0000kb added| ALWAYS| Maestro Init
+000000.284|   47588.0000kb|    856.0000kb added| ALWAYS| Maestro completed init
+000000.284|   47604.0000kb|     16.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "ClientZips.txt" because it's not in the manifest.
+000000.284|   47616.0000kb|     12.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = r; errno = 2; pFilename = ClientZips.txt; msg = No such file or directory;
+000000.284|   47616.0000kb|      0.0000kb added|  ERROR| Failed to open "ClientZips.txt"
+000000.295|   49176.0000kb|   1560.0000kb added| ALWAYS| StartSession called
+000000.295|   49176.0000kb|      0.0000kb added| ALWAYS| Started Init event arguments
+000000.295|   49304.0000kb|    128.0000kb added| ALWAYS| Waiting until connection...
+000001.389|   57060.0000kb|   7756.0000kb added| ALWAYS| OS Version String: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.389|   57060.0000kb|      0.0000kb added| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000001.389|   57060.0000kb|      0.0000kb added| ALWAYS| Measured processor speed: 3502
+000001.389|   57060.0000kb|      0.0000kb added| ALWAYS| Display info: NVIDIA GeForce GTX 760 2147483648 9.18.13.3182
+000001.389|   57060.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.389|   57112.0000kb|     52.0000kb added| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 760","video_memory":"2147483648","driver_version":"9.18.13.3182","physical_memory":8589934592}
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| Operating System: Microsoft Windows 7 Ultimate Edition Service Pack 1 (build 7601), 64-bit
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 760
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| GPU Memory: 2147483648
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| GPU Driver Version: 9.18.13.3182
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| CPU Brand: GenuineIntel
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| CPU Speed: 3400
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| CPU Topology: 4 Core
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| Physical memory: 8589934592
+000001.390|   57112.0000kb|      0.0000kb added| ALWAYS| -----HARDWARE INFORMATION END-----
+000001.520|   57728.0000kb|    616.0000kb added| ALWAYS| InitRenderer() enter
+000001.520|   57932.0000kb|    204.0000kb added| ALWAYS| r3dRenderLayer::Init(0x000b07e2) enter
+000001.528|   60980.0000kb|   3048.0000kb added| ALWAYS| r3dRenderLayer::Init() exit successfully
+000001.978|   70296.0000kb|   9316.0000kb added| ALWAYS| Loaded locale en_GB via fontconfig
+000001.981|   67020.0000kb|  -3276.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000001.982|   67020.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml; msg = No such file or directory;
+000001.982|   67020.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.3/deploy/Data/Menu/IMEConfig.xml
+000001.988|   67316.0000kb|    296.0000kb added| ALWAYS| r3dRenderLayer::SetMode(XRes = 1920, YRes = 1080, BPP = 32,  Flags=256) enter
+000001.988|   67316.0000kb|      0.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Creating d3d device
+000002.334|   89872.0000kb|  22556.0000kb added| ALWAYS| r3dRenderLayer::SetMode: Initialize shaders for current rendering path
+000002.526|   92164.0000kb|   2292.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000002.767|   93232.0000kb|   1068.0000kb added| ALWAYS| r3dRenderLayer::SetMode exit successfully
+000003.479|   94160.0000kb|    928.0000kb added| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000003.479|   94160.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: Initial VideoMode(5edd6e0) and resolution (1920 x 1080) 
+000003.479|   94160.0000kb|      0.0000kb added| ALWAYS| In Riot::Win::Resize: VideoMode(5edd6e0) and resolution (960 x 540) 
+000003.479|   94164.0000kb|      4.0000kb added| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000003.514|   97584.0000kb|   3420.0000kb added| ALWAYS| Sleeping
+000003.614|   97584.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.614|   97600.0000kb|     16.0000kb added| ALWAYS| End processing App Update
+000003.614|   97600.0000kb|      0.0000kb added| ALWAYS| Sleeping
+000003.714|   97600.0000kb|      0.0000kb added| ALWAYS| Start processing App Update
+000003.714|   97616.0000kb|     16.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000003.714|   97616.0000kb|      0.0000kb added| ALWAYS| End processing App Update
+000003.714|   97616.0000kb|      0.0000kb added| ALWAYS| Received client ID
+000003.715|   97484.0000kb|   -132.0000kb added| ALWAYS| Set focus to app
+000003.716|   97492.0000kb|      8.0000kb added| ALWAYS| Input started
+000003.723|   97532.0000kb|     40.0000kb added|   WARN| Duplicate key/value pair ([evtToggleQC, [z]] in DATA/CFG/defaults/Input.ini
+000003.769|   97428.0000kb|   -104.0000kb added| ALWAYS| Query Status Req started
+000003.778|   97444.0000kb|     16.0000kb added| ALWAYS| Receiving PKT_World_SendGameNumber, GameID: 000000002baa3fcb, PlatformID: EUN1
+000003.931|   97528.0000kb|     84.0000kb added| ALWAYS| Query Status Req ended
+000003.931|   97528.0000kb|      0.0000kb added| ALWAYS| Waiting for server response...
+000004.131|   97536.0000kb|      8.0000kb added| ALWAYS| Receiving PKT_SynchVersionS2C_s, Server :Version 3.15.0.255 [PUBLIC]
+000004.134|   97564.0000kb|     28.0000kb added| ALWAYS| netUID: 7 defaultname
+000004.135|   97564.0000kb|      0.0000kb added| ALWAYS| Adding level zip file: Map1.zip
+000004.169|   97700.0000kb|    136.0000kb added| ALWAYS| PlayGame Started
+000004.173|   97828.0000kb|    128.0000kb added| ALWAYS| Performing WSAStartup
+000004.794|  117232.0000kb|  19404.0000kb added| ALWAYS| Performing WSACleanup
+000004.956|  130488.0000kb|  13256.0000kb added| ALWAYS| PlayGame Entered
+000004.956|  130500.0000kb|     12.0000kb added| ALWAYS| CurRenderPipeline
+000004.961|  130620.0000kb|    120.0000kb added| ALWAYS| CreateParticleSystemManager
+000005.321|  131484.0000kb|    864.0000kb added| ALWAYS| CreateAudioManager: Create audio manager FMOD.
+000007.086|  141408.0000kb|   9924.0000kb added| ALWAYS| FMOD: Attempting to load localized audio for en_GB
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\en_GB/LoL_Audio_en_GB.fev
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load en_GB/LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.086|  141408.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: en_GB/LoL_Audio_en_GB.fev
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data\Sounds\FMOD\LoL_Audio_en_GB.fev" because it's not in the manifest.
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data\Sounds\FMOD\LoL_Audio_en_GB.fev; msg = No such file or directory;
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| MyFMODFileOpenCallback: Failed to open Data\Sounds\FMOD\LoL_Audio_en_GB.fev
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| Manager::LoadEventFile(); attempting to load LoL_Audio_en_GB.fev.  FMOD 23, File not found. 
+000007.086|  141408.0000kb|      0.0000kb added|   WARN| AudioManager::LoadEventFile: Failed to load event file: LoL_Audio_en_GB.fev
+000007.086|  141408.0000kb|      0.0000kb added|  ERROR| FMOD: Failed to load localized audio [LoL_Audio_en_GB.fev] from either locale-specific directory (en_GB/LoL_Audio_en_GB.fev) or general audio directory.
+000007.086|  141408.0000kb|      0.0000kb added|   WARN| Audio::Load(): Failed to load desired language locale: LoL_Audio_en_GB.fev
+000008.013|  145128.0000kb|   3720.0000kb added| ALWAYS| Audio::Load(): Successfully loaded default fail-safe language locale: LoL_Audio_en_US.fev
+000009.067|  234944.0000kb|  89816.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000011.455|  334400.0000kb|  99456.0000kb added| ALWAYS| GameWorld.Update()
+000011.455|  334400.0000kb|      0.0000kb added| ALWAYS| Begin Game Object Update
+000011.798|  355380.0000kb|  20980.0000kb added| ALWAYS| End Game Object Update
+000011.930|  359072.0000kb|   3692.0000kb added| ALWAYS| PreloadGlobalEffects()
+000011.930|  359072.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalEffects
+000012.365|  401076.0000kb|  42004.0000kb added| ALWAYS| PreloadGlobalEffects Finished
+000012.365|  401076.0000kb|      0.0000kb added| ALWAYS| PreloadGlobalBuffAssets()
+000012.453|  404324.0000kb|   3248.0000kb added| ALWAYS| Preload Announcements
+000012.652|  414880.0000kb|  10556.0000kb added| ALWAYS| ObjectManager_RegisterNetworkWorld()
+000012.654|  414924.0000kb|     44.0000kb added| ALWAYS| FogOfWar::Init()
+000012.660|  415192.0000kb|    268.0000kb added| ALWAYS| Gamma::CreateIAPI()
+000012.664|  415256.0000kb|     64.0000kb added| ALWAYS| SimulationClock->Init()
+000012.913|  460472.0000kb|  45216.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink.dds; msg = No such file or directory;
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink.dds
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink1.dds" because it's not in the manifest.
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink1.dds; msg = No such file or directory;
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink1.dds
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "Data/Menu_SC4/-nolink2.dds" because it's not in the manifest.
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| std_fopen failed: pFile = 0x00000000; pMode = rb; errno = 2; pFilename = Data/Menu_SC4/-nolink2.dds; msg = No such file or directory;
+000012.913|  460472.0000kb|      0.0000kb added|  ERROR| Missing file on r3dGFile open :Data/Menu_SC4/-nolink2.dds
+000016.491|  529148.0000kb|  68676.0000kb added|  ERROR| Failed to load mesh file name<thorn_ring_09.sco>.
+000016.665|  532152.0000kb|   3004.0000kb added|  ERROR| Failed to load mesh file name<thorn_ring_09.sco>.
+000018.665|  593172.0968kb|  61020.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleavebuffer"
+000018.665|  593172.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleave"
+000018.665|  593172.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleavebuffered"
+000018.665|  593172.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleavebufferb"
+000018.665|  593172.0968kb|      0.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleavebufferlock"
+000018.796|  595804.0032kb|   2632.0000kb added|  ERROR| Failed to load spell ini or script: "marthtricleaveunlock"
+000019.541|  607352.0000kb|  11548.0000kb added|  ERROR| Failed to load mesh file name<Riven_Skin05_E_Shield.sco>.
+000019.542|  607352.0000kb|      0.0000kb added|  ERROR| Failed to load mesh file name<Riven_Skin05_Smoke_Wrap.sco>.
+000019.629|  609868.0032kb|   2516.0000kb added|  ERROR| Failed to load mesh file name<Riven_Skin05_R_Sword.sco>.
+000020.436|  646736.0000kb|  36868.0000kb added|  ERROR| Failed to load mesh file name<Vi_R_Jump_Mesh.sco>.
+000020.469|  647420.0032kb|    684.0000kb added|  ERROR| Failed to load mesh file name<VI_BasicAttack_Cylinder.sco>.
+000020.470|  647420.0032kb|      0.0000kb added|  ERROR| Failed to load mesh file name<VI_BasicAttack_Cylinder.sco>.
+000025.838|  705300.0968kb|  57880.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000025.838|  705340.0032kb|     40.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000026.562|  724720.0000kb|  19380.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000028.436|  733140.0968kb|   8420.0000kb added| ALWAYS| PKT_C2S_CharSelected sent
+000028.436|  733140.0968kb|      0.0000kb added| ALWAYS| Start Main Loop
+000028.436|  733148.0032kb|      8.0000kb added| ALWAYS| Waiting for all players to connect
+000028.436|  733148.0032kb|      0.0000kb added| ALWAYS| Waiting for all players to connect end
+000029.193|  748452.0968kb|  15304.0000kb added|  ERROR| Failed to load mesh file name<wraith_hit.sco>.
+000090.903|  791124.0968kb|  42672.0000kb added| ALWAYS| PKT_S2C_StartSpawn
+000090.903|  791124.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000090.918|  791204.0968kb|     80.0000kb added| ALWAYS| Spawning champion (Kassadin) with skinID 0 on team 100 for clientID 5 and summonername (XisraeliXXXForce) (is HUMAN PLAYER)
+000090.919|  791208.0000kb|      4.0000kb added| ALWAYS| Hero Kassadin(0) created for XisraeliXXXForce
+000090.919|  791208.0000kb|      0.0000kb added| ALWAYS| Spawning heroes/minions
+000090.943|  791296.0000kb|     88.0000kb added| ALWAYS| Finished spawning heroes/minions
+000091.453|  791488.0000kb|    192.0000kb added| ALWAYS| Creating Hero...
+000091.467|  791504.0000kb|     16.0000kb added| ALWAYS| Spawning champion (LeeSin) with skinID 3 on team 100 for clientID 1 and summonername (psaikofski007) (is HUMAN PLAYER)
+000091.467|  791504.0000kb|      0.0000kb added| ALWAYS| Hero LeeSin(3) created for psaikofski007
+000092.002|  792408.0000kb|    904.0000kb added| ALWAYS| Creating Hero...
+000092.076|  793428.0968kb|   1020.0000kb added| ALWAYS| Spawning champion (Ashe) with skinID 0 on team 100 for clientID 9 and summonername (Doctor Marios) (is HUMAN PLAYER)
+000092.076|  793428.0968kb|      0.0000kb added| ALWAYS| Hero Ashe(0) created for Doctor Marios
+000092.617|  794216.0000kb|    788.0000kb added| ALWAYS| Creating Hero...
+000092.737|  796512.0000kb|   2296.0000kb added| ALWAYS| Spawning champion (Zyra) with skinID 2 on team 100 for clientID 8 and summonername (Namíra) (is HUMAN PLAYER)
+000092.737|  796512.0000kb|      0.0000kb added| ALWAYS| Hero Zyra(2) created for Namíra
+000093.252|  796516.0968kb|      4.0000kb added| ALWAYS| Creating Hero...
+000093.261|  796520.0000kb|      4.0000kb added| ALWAYS| Spawning champion (DrMundo) with skinID 0 on team 100 for clientID 2 and summonername (Felciu) (is HUMAN PLAYER)
+000093.261|  796520.0000kb|      0.0000kb added| ALWAYS| Hero DrMundo(0) created for Felciu
+000093.819|  797008.0000kb|    488.0000kb added| ALWAYS| Creating Hero...
+000093.829|  797012.0968kb|      4.0000kb added| ALWAYS| Spawning champion (Leona) with skinID 0 on team 200 for clientID 3 and summonername (Merwenus) (is HUMAN PLAYER)
+000093.829|  797012.0968kb|      0.0000kb added| ALWAYS| Hero Leona(0) created for Merwenus
+000093.830|  797012.0968kb|      0.0000kb added| ALWAYS| Creating Hero...
+000093.883|  797016.0000kb|      4.0000kb added| ALWAYS| Spawning champion (Riven) with skinID 0 on team 200 for clientID 6 and summonername (Osteri96) (is HUMAN PLAYER)
+000093.883|  797016.0000kb|      0.0000kb added| ALWAYS| Hero Riven(0) created for Osteri96
+000094.394|  797016.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000094.422|  797044.0968kb|     28.0000kb added| ALWAYS| Spawning champion (Vi) with skinID 2 on team 200 for clientID 7 and summonername (LucianStoleMyTv) (is HUMAN PLAYER)
+000094.426|  797544.0000kb|    500.0000kb added| ALWAYS| Hero Vi(2) created for LucianStoleMyTv
+000094.933|  797544.0000kb|      0.0000kb added| ALWAYS| Creating Hero...
+000094.977|  797740.0032kb|    196.0000kb added| ALWAYS| Spawning champion (Lucian) with skinID 0 on team 200 for clientID 4 and summonername (mogyesz) (is HUMAN PLAYER)
+000094.977|  797740.0032kb|      0.0000kb added| ALWAYS| Hero Lucian(0) created for mogyesz
+000095.497|  797740.0032kb|      0.0000kb added| ALWAYS| Creating Hero...
+000095.572|  799068.0032kb|   1328.0000kb added| ALWAYS| Spawning champion (Xerath) with skinID 3 on team 200 for clientID 0 and summonername (Echetleos) (is HUMAN PLAYER)
+000095.572|  799068.0032kb|      0.0000kb added| ALWAYS| Hero Xerath(3) created for Echetleos
+000096.734|  810724.0968kb|  11656.0000kb added| ALWAYS| PKT_S2C_EndSpawn
+000099.305|  812764.0032kb|   2040.0000kb added| ALWAYS| PKT_StartGame
+000100.810|  848984.0000kb|  36220.0000kb added| ALWAYS| PKT_StartGame Finished proccessing
+000100.873|  851520.0000kb|   2536.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Begin
+000100.873|  851520.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Update World
+000100.876|  851520.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000100.876|  851524.0968kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000100.876|  851528.0000kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000100.876|  851528.0000kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000100.878|  851596.0032kb|     68.0000kb added| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000100.881|  852684.0032kb|   1088.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000100.881|  852684.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP Render
+000100.926|  864332.0032kb|  11648.0000kb added| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000100.926|  864332.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000100.926|  864332.0032kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000100.927|  865760.0000kb|   1428.0000kb added| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000100.927|  865764.0968kb|      4.0000kb added| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000100.927|  865764.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000100.927|  865764.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000100.927|  865764.0968kb|      0.0000kb added| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000100.928|  865776.0000kb|     12.0000kb added| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000100.933|  865840.0000kb|     64.0000kb added| ALWAYS| Performing WSAStartup
+000100.935|  848856.0000kb| -16984.0000kb added| ALWAYS| GAMESTATE_GAMELOOP End
+000101.360|  856364.0032kb|   7508.0000kb added| ALWAYS| Performing WSACleanup
+000109.215|  839536.0000kb| -16828.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000109.451|  889992.0000kb|  50456.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Vi/Recommended/RIOT_ItemSet_1.json" because it's not in the manifest.
+000109.452|  889992.0000kb|      0.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Vi/Recommended/RIOT_ItemSet_2.json" because it's not in the manifest.
+000109.452|  889996.0032kb|      4.0000kb added|  ERROR| RadsOpenFile: RADS cannot open file "C:/Riot Games/League of Legends/Config/Champions/Vi/Recommended/RIOT_ItemSet_3.json" because it's not in the manifest.
+000117.375| 1000064.0000kb| 110068.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000117.446| 1000228.0968kb|    164.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000117.543| 1019712.0000kb|  19484.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000117.615| 1036036.0968kb|  16324.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000117.710| 1039688.0000kb|   3652.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000117.793| 1040336.0000kb|    648.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000117.894| 1037900.0032kb|  -2436.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000117.962| 1037964.0032kb|     64.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000118.061| 1037972.0968kb|      8.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000118.127| 1038036.0968kb|     64.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000118.211| 1038036.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000118.284| 1038100.0968kb|     64.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000118.361| 1038100.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000118.430| 1038168.0000kb|     68.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000118.558| 1038168.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000118.610| 1038192.0000kb|     24.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000118.761| 1038192.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000118.794| 1038192.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000140.308|  935420.0032kb| -102772.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000183.443| 1145816.0064kb| 210396.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 055b95c9
+000184.407| 1113016.0064kb| -32800.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000208.234| 1064208.0000kb| -48808.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000216.241| 1222316.0032kb| 158108.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000220.140| 1215964.0032kb|  -6352.0000kb added| ALWAYS| Performing WSAStartup
+000220.580| 1215980.0032kb|     16.0000kb added| ALWAYS| Performing WSACleanup
+000232.681| 1205524.0968kb| -10456.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000305.844| 1250592.0000kb|  45068.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000313.255| 1270620.0032kb|  20028.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000335.764| 1217108.0968kb| -53512.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000335.764| 1217108.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000335.804| 1217108.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000336.304| 1219724.0032kb|   2616.0000kb added|  ERROR| Failed to load spell ini or script: "ZyraThornPlantMissileOnSpawn02"
+000336.304| 1219724.0032kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000337.782| 1284572.0032kb|  64848.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000340.135| 1267668.0968kb| -16904.0000kb added| ALWAYS| Performing WSAStartup
+000340.575| 1267668.0968kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000346.453| 1267980.0032kb|    312.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000360.717| 1288772.0968kb|  20792.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000360.717| 1288772.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000360.718| 1288772.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000362.555| 1289872.0000kb|   1100.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000377.955| 1304736.0000kb|  14864.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000377.955| 1304736.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000377.955| 1304736.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000379.509| 1281356.0032kb| -23380.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000381.218| 1276184.0064kb|  -5172.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000384.842| 1267352.0064kb|  -8832.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000385.385| 1275576.0064kb|   8224.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000388.353| 1301272.0064kb|  25696.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000397.531| 1282892.0032kb| -18380.0000kb added|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000404.784| 1283844.0968kb|    952.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000408.733| 1296700.0032kb|  12856.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000408.733| 1296700.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000408.815| 1296700.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000411.077| 1265940.0968kb| -30760.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000416.985| 1308176.0000kb|  42236.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 41).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+000432.465| 1291908.0968kb| -16268.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000432.466| 1291908.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000432.466| 1291908.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000433.859| 1288844.0032kb|  -3064.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000455.750| 1294208.0000kb|   5364.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000460.133| 1272756.0968kb| -21452.0000kb added| ALWAYS| Performing WSAStartup
+000460.559| 1272892.0032kb|    136.0000kb added| ALWAYS| Performing WSACleanup
+000461.318| 1272836.0968kb|    -56.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000469.783| 1307840.0000kb|  35004.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000471.529| 1304388.0968kb|  -3452.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000471.596| 1293196.0032kb| -11192.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000472.098| 1301336.0064kb|   8140.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000472.186| 1301336.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000472.536| 1302068.0968kb|    732.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000472.589| 1302068.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000473.033| 1302292.0968kb|    224.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000473.083| 1302324.0968kb|     32.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000474.548| 1302644.0968kb|    320.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000474.596| 1302644.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000474.898| 1303024.0000kb|    380.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000474.962| 1303024.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000475.139| 1303276.0032kb|    252.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000475.199| 1303276.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000481.266| 1311480.0064kb|   8204.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000493.614| 1307132.0032kb|  -4348.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000494.063| 1307192.0064kb|     60.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000494.064| 1307192.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000494.064| 1307192.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000494.136| 1307192.0064kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000496.033| 1307380.0968kb|    188.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000508.382| 1307928.0064kb|    548.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000508.980| 1307928.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000511.446| 1308952.0064kb|   1024.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000513.347| 1308956.0032kb|      4.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000546.045| 1316584.0936kb|   7628.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000546.045| 1316584.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000546.046| 1316584.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000547.482| 1313492.0968kb|  -3092.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000551.335| 1272516.0968kb| -40976.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000561.216| 1308404.0968kb|  35888.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000573.914| 1265324.0032kb| -43080.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000580.143| 1308476.0032kb|  43152.0000kb added| ALWAYS| Performing WSAStartup
+000580.563| 1308488.0936kb|     12.0000kb added| ALWAYS| Performing WSACleanup
+000582.360| 1308432.0000kb|    -56.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000582.360| 1308432.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000582.388| 1308432.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000584.304| 1305396.0968kb|  -3036.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000597.944| 1308980.0968kb|   3584.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000609.845| 1317356.0032kb|   8376.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000610.044| 1317356.0032kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000610.044| 1317356.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000610.044| 1317356.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000612.246| 1317412.0968kb|     56.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000633.277| 1310212.0968kb|  -7200.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000634.393| 1310444.0032kb|    232.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000637.397| 1310464.0000kb|     20.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000637.424| 1310464.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000641.974| 1310756.0968kb|    292.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000641.974| 1310756.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000642.057| 1310756.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000643.878| 1311036.0032kb|    280.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000664.427| 1308596.0968kb|  -2440.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000664.645| 1308596.0968kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000667.485| 1268148.0968kb| -40448.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000679.364| 1313864.0936kb|  45716.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000679.784| 1313864.0936kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000679.784| 1313864.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000679.785| 1313864.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000680.408| 1313864.0936kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000681.291| 1313868.0032kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000683.404| 1269880.0064kb| -43988.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000686.677| 1298628.0968kb|  28748.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000691.339| 1316740.0968kb|  18112.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+000694.114| 1312660.0968kb|  -4080.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000700.142| 1315800.0064kb|   3140.0000kb added| ALWAYS| Performing WSAStartup
+000700.409| 1316124.0032kb|    324.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000700.569| 1324008.0936kb|   7884.0000kb added| ALWAYS| Performing WSACleanup
+000704.990| 1312976.0000kb| -11032.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000705.054| 1312976.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000705.338| 1313472.0000kb|    496.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000705.407| 1313472.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000705.790| 1313484.0032kb|     12.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000705.865| 1313484.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000707.374| 1293044.0968kb| -20440.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000707.457| 1309364.0968kb|  16320.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000707.840| 1314764.0032kb|   5400.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000707.907| 1314764.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000708.174| 1315020.0032kb|    256.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000708.240| 1315020.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000708.774| 1315280.0000kb|    260.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000708.807| 1315300.0968kb|     20.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000715.558| 1316108.0032kb|    808.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000727.426| 1307960.0064kb|  -8148.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000727.426| 1307960.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000727.426| 1307960.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000729.615| 1307972.0968kb|     12.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000739.042| 1316628.0968kb|   8656.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000739.042| 1316628.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000739.043| 1316628.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000739.761| 1316628.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000767.340| 1317108.0968kb|    480.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000777.323| 1317612.0032kb|    504.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000777.855| 1317612.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000784.139| 1317640.0936kb|     28.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000787.172| 1317648.0000kb|      8.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000803.005| 1317636.0968kb|    -12.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000803.006| 1317636.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000803.007| 1317636.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000805.107| 1318316.0032kb|    680.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000805.264| 1318316.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000808.485| 1321444.0968kb|   3128.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000810.822| 1318372.0968kb|  -3072.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+000820.138| 1318428.0032kb|     56.0000kb added| ALWAYS| Performing WSAStartup
+000820.563| 1320476.0032kb|   2048.0000kb added| ALWAYS| Performing WSACleanup
+000824.397| 1277336.0064kb| -43140.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000826.149| 1277340.0032kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000829.201| 1322452.0968kb|  45112.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000847.321| 1318564.0968kb|  -3888.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000847.322| 1318564.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000847.393| 1318564.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000849.172| 1318564.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000852.139| 1318620.0032kb|     56.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000858.487| 1318680.0064kb|     60.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000860.887| 1318680.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+000869.222| 1322848.0000kb|   4168.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000871.931| 1322848.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+000877.936| 1319796.0968kb|  -3052.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000878.185| 1319796.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+000884.720| 1320940.0032kb|   1144.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000884.720| 1320940.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000884.788| 1320940.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000887.359| 1321288.0936kb|    348.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000887.954| 1321388.0032kb|    100.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000896.556| 1286864.0000kb| -34524.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000896.556| 1286864.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000896.569| 1286864.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000897.752| 1306384.0000kb|  19520.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000899.430| 1311700.0968kb|   5316.0000kb added|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0f718282
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS| The Killer was: XisraeliXXXForce
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS| HEALS
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS|   LucianStoleMyTv applied amount 38.1697 with abilities [ViR|amount:0|priority:190][_Passive|amount:38.1697|priority:36][ViQ|amount:0|priority:31][SummonerFlash|amount:0|priority:8][game_item_displayname_3207|amount:0|priority:0][ViE|amount:0|priority:0][ViEAnimation2|amount:0|priority:0][ViPassiveReady|amount:0|priority:0]
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS| DAMAGE
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS|   XisraeliXXXForce applied amount 1082.82 with abilities [ForcePulse|amount:392.213|priority:494][NullLance|amount:233.945|priority:302][RiftWalk|amount:183.069|priority:183][_BasicAttack|amount:167.458|priority:167][NetherBlade|amount:94.7873|priority:94][_Passive|amount:11.3483|priority:11]
+000899.430| 1311700.0968kb|      0.0000kb added| ALWAYS|   Felciu applied amount 494.685 with abilities [InfectedCleaverMissileCast|amount:205.008|priority:237][_BasicAttack|amount:150.293|priority:150][BurningAgony|amount:139.384|priority:139][ViW|amount:0|priority:0]
+000925.697| 1326696.0936kb|  14996.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000925.766| 1326696.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000926.099| 1326952.0936kb|    256.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000926.170| 1326952.0936kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+000928.222| 1299316.0968kb| -27636.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000928.555| 1299316.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+000940.135| 1315944.0936kb|  16628.0000kb added| ALWAYS| Performing WSAStartup
+000940.572| 1315944.0936kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+000952.400| 1324072.0936kb|   8128.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000952.400| 1324072.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000952.479| 1324072.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000954.324| 1307656.0936kb| -16416.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000955.234| 1307660.0032kb|      4.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000978.864| 1316196.0968kb|   8536.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+000988.232| 1340932.0968kb|  24736.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+000988.899| 1340932.0968kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+000988.899| 1340932.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+000988.900| 1340932.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+000988.900| 1340932.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+000990.469| 1340932.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+000999.371| 1324604.0032kb| -16328.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001018.714| 1330564.0968kb|   5960.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001023.143| 1314176.0000kb| -16388.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001023.144| 1314176.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001023.144| 1314176.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001023.144| 1314176.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001023.144| 1314176.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001024.847| 1322384.0000kb|   8208.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001024.947| 1322384.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001025.797| 1322384.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001026.296| 1322384.0000kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+001034.444| 1314216.0936kb|  -8168.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001038.263| 1322392.0064kb|   8176.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001038.264| 1322392.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001038.264| 1322392.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001039.942| 1322392.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001040.777| 1333664.0000kb|  11272.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001050.014| 1330628.0968kb|  -3036.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001051.281| 1330628.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001054.481| 1322420.0968kb|  -8208.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001054.481| 1322420.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001054.491| 1322420.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001054.909| 1326524.0032kb|   4104.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001056.347| 1323456.0000kb|  -3068.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001060.130| 1347112.0936kb|  23656.0000kb added| ALWAYS| Performing WSAStartup
+001060.559| 1347116.0032kb|      4.0000kb added| ALWAYS| Performing WSACleanup
+001064.730| 1347060.0968kb|    -56.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001064.730| 1347060.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001064.747| 1347060.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001066.596| 1347064.0064kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001066.664| 1347064.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001072.976| 1333892.0968kb| -13172.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001080.463| 1332784.0000kb|  -1108.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001080.463| 1332784.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001080.464| 1332784.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001082.380| 1332788.0968kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001115.449| 1324216.0064kb|  -8572.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001126.928| 1332432.0000kb|   8216.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001129.551| 1333456.0000kb|   1024.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001129.551| 1333456.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001129.596| 1333456.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001131.145| 1333456.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001144.126| 1333456.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001146.035| 1291388.0032kb| -42068.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001150.316| 1291388.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001168.194| 1327552.0000kb|  36164.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001169.915| 1311136.0000kb| -16416.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001174.460| 1334732.0032kb|  23596.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001180.126| 1334808.0064kb|     76.0000kb added| ALWAYS| Performing WSAStartup
+001180.565| 1316348.0032kb| -18460.0000kb added| ALWAYS| Performing WSACleanup
+001181.228| 1308088.0064kb|  -8260.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001181.228| 1308088.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001181.228| 1308088.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001184.147| 1316296.0936kb|   8208.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001185.975| 1332708.0968kb|  16412.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001192.108| 1324476.0032kb|  -8232.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001201.259| 1325508.0968kb|   1032.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001207.688| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.689| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.700| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.701| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.712| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.713| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.725| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.726| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.736| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.737| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.748| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.749| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.759| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.760| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.775| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.776| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.792| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.793| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.809| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.810| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.828| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.829| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.842| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.843| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.859| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.860| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.876| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.877| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.893| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.893| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.909| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.910| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.925| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.926| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.942| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.943| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001207.959| 1325508.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001218.540| 1332752.0000kb|   7244.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001219.507| 1332752.0000kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001219.507| 1332752.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001219.508| 1332752.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001221.252| 1332752.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001224.125| 1332752.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001230.923| 1332752.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001231.754| 1332752.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001237.256| 1332752.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001243.607| 1333004.0032kb|    252.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001243.607| 1333004.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001243.608| 1333004.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001244.791| 1333020.0032kb|     16.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001251.853| 1334856.0936kb|   1836.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001251.854| 1334856.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001251.855| 1334856.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001253.289| 1335160.0064kb|    304.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001285.919| 1334868.0968kb|   -292.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001285.919| 1334868.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001285.932| 1334868.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001287.915| 1334868.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001291.390| 1334868.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001291.445| 1334868.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001296.973| 1334884.0968kb|     16.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001300.120| 1335820.0032kb|    936.0000kb added| ALWAYS| Performing WSAStartup
+001300.544| 1335820.0032kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001307.161| 1335736.0064kb|    -84.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001309.476| 1294696.0936kb| -41040.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001311.372| 1338808.0064kb|  44112.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001311.372| 1338808.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001311.438| 1338808.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001313.429| 1338808.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001315.078| 1338808.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001321.345| 1335736.0064kb|  -3072.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001322.188| 1335736.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001333.571| 1336892.0032kb|   1156.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001333.571| 1336892.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001333.572| 1336892.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001335.121| 1336892.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001340.052| 1337044.0968kb|    152.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001342.118| 1337652.0968kb|    608.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001370.801| 1353456.0000kb|  15804.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001371.986| 1353456.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001372.986| 1353456.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001377.133| 1305424.0000kb| -48032.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001386.901| 1338264.0064kb|  32840.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001386.966| 1338264.0064kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001398.885| 1331756.0032kb|  -6508.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001401.574| 1331780.0968kb|     24.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001401.863| 1331780.0968kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001401.863| 1331780.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001401.863| 1331780.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001403.740| 1331796.0968kb|     16.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001420.117| 1340100.0968kb|   8304.0000kb added| ALWAYS| Performing WSAStartup
+001420.543| 1340100.0968kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001425.817| 1340100.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001445.016| 1359680.0000kb|  19580.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001445.016| 1359680.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001445.017| 1359680.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001446.931| 1331976.0936kb| -27704.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001446.967| 1331976.0936kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001447.509| 1331976.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001451.571| 1343348.0968kb|  11372.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001453.220| 1343348.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001456.183| 1340268.0032kb|  -3080.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001459.132| 1343352.0064kb|   3084.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001459.132| 1343352.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001459.133| 1343352.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001459.746| 1351588.0968kb|   8236.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001489.996| 1356788.0968kb|   5200.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001509.980| 1323964.0032kb| -32824.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001516.299| 1341200.0000kb|  17236.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001518.081| 1332976.0000kb|  -8224.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001518.173| 1326564.0968kb|  -6412.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001518.250| 1326564.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001521.828| 1351692.0032kb|  25128.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001521.895| 1348604.0032kb|  -3088.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001521.992| 1348756.0968kb|    152.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001522.029| 1348756.0968kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001522.626| 1314908.0032kb| -33848.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001522.723| 1314908.0032kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001531.380| 1318984.0936kb|   4076.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001534.346| 1323924.0968kb|   4940.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001537.595| 1340176.0000kb|  16252.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001540.153| 1341380.0968kb|   1204.0000kb added| ALWAYS| Performing WSAStartup
+001540.592| 1341380.0968kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+001544.574| 1187228.0032kb| -154152.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+001546.946| 1183988.0968kb|  -3240.0000kb added| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+001548.252| 1313916.0032kb| 129928.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001548.252| 1313916.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001548.299| 1301084.0032kb| -12832.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001548.559| 1277492.0968kb| -23592.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001549.865| 1321748.0968kb|  44256.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001555.764| 1310692.0968kb| -11056.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001556.046| 1310692.0968kb|      0.0000kb added|   WARN| [Doctor Marios] warning: PKT_CastSpell received for dead Unit. Spell: AsheBasicAttack
+001562.012| 1341132.0032kb|  30440.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001569.144| 1332388.0968kb|  -8744.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001576.341| 1308384.0000kb| -24004.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001576.342| 1308384.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001576.342| 1308384.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001580.241| 1323868.0032kb|  15484.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001589.277| 1346076.0032kb|  22208.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001590.841| 1348360.0936kb|   2284.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001593.948| 1314540.0032kb| -33820.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001626.539| 1309872.0000kb|  -4668.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001626.539| 1309872.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001626.540| 1309872.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001626.993| 1309880.0064kb|      8.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001629.510| 1347928.0064kb|  38048.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001636.128| 1349468.0032kb|   1540.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001643.506| 1332056.0064kb| -17412.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001653.156| 1338304.0000kb|   6248.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001653.773| 1338304.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001658.315| 1347528.0936kb|   9224.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001658.330| 1347528.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001659.340| 1342740.0968kb|  -4788.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001660.119| 1316468.0968kb| -26272.0000kb added| ALWAYS| Performing WSAStartup
+001660.473| 1341088.0000kb|  24620.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001660.473| 1341088.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001660.474| 1341088.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001660.560| 1342200.0064kb|   1112.0000kb added| ALWAYS| Performing WSACleanup
+001661.773| 1342636.0032kb|    436.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001662.129| 1342636.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001662.481| 1342636.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001662.898| 1342892.0032kb|    256.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001662.899| 1342892.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001664.039| 1342892.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001665.960| 1345500.0032kb|   2608.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001668.173| 1348584.0936kb|   3084.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001668.173| 1348584.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001668.248| 1348584.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001669.054| 1318912.0000kb| -29672.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001670.232| 1352712.0936kb|  33800.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001674.479| 1347732.0968kb|  -4980.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001676.526| 1339240.0936kb|  -8492.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001677.509| 1351540.0968kb|  12300.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001694.088| 1355728.0000kb|   4188.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001694.088| 1355728.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001694.170| 1355728.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001694.382| 1355732.0968kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001704.038| 1359648.0000kb|   3916.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001704.038| 1359648.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001704.039| 1359648.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001705.790| 1353512.0936kb|  -6136.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001707.191| 1363800.0064kb|  10288.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001713.319| 1373064.0936kb|   9264.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001716.952| 1383332.0968kb|  10268.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001719.603| 1383356.0032kb|     24.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001719.603| 1383356.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001719.603| 1383356.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001721.134| 1343368.0936kb| -39988.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001723.178| 1359808.0000kb|  16440.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001726.375| 1345468.0032kb| -14340.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001732.669| 1361888.0000kb|  16420.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001739.174| 1354792.0936kb|  -7096.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001742.285| 1354808.0064kb|     16.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001748.601| 1374360.0064kb|  19552.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001749.725| 1352848.0000kb| -21512.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001750.536| 1354912.0000kb|   2064.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001762.170| 1343636.0968kb| -11276.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001762.303| 1343636.0968kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001762.303| 1343636.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001762.304| 1343636.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001764.103| 1343652.0968kb|     16.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001769.702| 1359040.0000kb|  15388.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001769.703| 1359040.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001769.703| 1359040.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001771.407| 1355988.0968kb|  -3052.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001776.818| 1358044.0032kb|   2056.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001776.818| 1358044.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001776.819| 1358044.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001778.955| 1364472.0064kb|   6428.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001780.115| 1363272.0936kb|  -1200.0000kb added| ALWAYS| Performing WSAStartup
+001780.555| 1366348.0032kb|   3076.0000kb added| ALWAYS| Performing WSACleanup
+001795.869| 1350300.0032kb| -16048.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.869| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.870| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.870| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.886| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.886| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.888| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.888| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.901| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.902| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.903| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.903| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.922| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.923| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.924| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.924| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.935| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.935| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.936| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.937| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.955| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.956| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.956| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.968| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.970| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.989| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001795.990| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.002| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.003| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.022| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.023| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.035| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.037| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.054| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.055| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.068| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.069| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.088| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.089| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.102| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.103| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.122| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.123| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.152| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.153| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.165| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.167| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.179| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.182| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.194| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.194| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.207| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.208| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.219| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.221| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.239| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.240| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.253| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.253| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.269| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.270| 1350300.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.289| 1350580.0968kb|    280.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.290| 1350580.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.305| 1350864.0000kb|    284.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.307| 1350864.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.323| 1353948.0032kb|   3084.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.324| 1353948.0032kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001796.341| 1357024.0000kb|   3076.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001804.021| 1338008.0064kb| -19016.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001804.021| 1338008.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001804.108| 1338008.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001804.109| 1338008.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001804.263| 1338012.0032kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001804.994| 1338220.0032kb|    208.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+001809.589| 1350436.0968kb|  12216.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001809.818| 1350436.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001810.952| 1358668.0032kb|   8232.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+001812.905| 1358708.0968kb|     40.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001814.698| 1358708.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001816.505| 1366932.0968kb|   8224.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001816.505| 1366932.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001816.506| 1366932.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001818.454| 1356696.0064kb| -10236.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001819.104| 1356696.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001821.984| 1348496.0000kb|  -8200.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+001822.597| 1348496.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001823.484| 1349520.0000kb|   1024.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001827.603| 1330516.0968kb| -19004.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001838.700| 1354180.0968kb|  23664.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001838.700| 1354180.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001838.701| 1354180.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001839.212| 1354192.0000kb|     12.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001843.141| 1354224.0000kb|     32.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 37).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+001843.304| 1354228.0968kb|      4.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+001845.467| 1355280.0000kb|   1052.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001845.467| 1355280.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001845.545| 1355280.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001846.754| 1355292.0032kb|     12.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 42).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+001848.552| 1355312.0000kb|     20.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001857.883| 1354416.0000kb|   -896.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+001886.201| 1365164.0032kb|  10748.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001886.202| 1365164.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001886.202| 1365164.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001888.384| 1345672.0936kb| -19492.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001900.119| 1357012.0968kb|  11340.0000kb added| ALWAYS| Performing WSAStartup
+001900.557| 1353940.0968kb|  -3072.0000kb added| ALWAYS| Performing WSACleanup
+001903.259| 1344884.0968kb|  -9056.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_click
+001903.322| 1325392.0000kb| -19492.0000kb added|   WARN| A HUD event is being identified in a deprecated way: Generic/button_release
+001904.488| 1351296.0000kb|  25904.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001925.362| 1357608.0936kb|   6312.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001925.362| 1357608.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001925.432| 1357608.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001926.315| 1357608.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 055b95c9
+001927.113| 1351452.0032kb|  -6156.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001936.233| 1357708.0032kb|   6256.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001942.398| 1353612.0032kb|  -4096.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001946.028| 1329900.0032kb| -23712.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+001946.856| 1361820.0032kb|  31920.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001946.856| 1361820.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001946.857| 1361820.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001947.597| 1362844.0032kb|   1024.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+001949.037| 1358744.0064kb|  -4100.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001965.678| 1352340.0968kb|  -6404.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001965.678| 1352340.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001965.748| 1352340.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001967.344| 1352148.0968kb|   -192.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001968.013| 1348756.0968kb|  -3392.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+001969.383| 1354904.0064kb|   6148.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.383| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.384| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.384| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.384| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.384| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.398| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.398| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.399| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.400| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.401| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.401| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.411| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.411| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.412| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.415| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.415| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.415| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.428| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.428| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.429| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.429| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.430| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.430| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.445| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.445| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.446| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.446| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.447| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.447| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.461| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.461| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.462| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.463| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.463| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.463| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.478| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.478| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.479| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.479| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.480| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.480| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.497| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.497| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.498| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.499| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.499| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.499| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.516| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.516| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.517| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.518| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.518| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.518| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.528| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.528| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.530| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.530| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.530| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.548| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.548| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.549| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.550| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.561| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.561| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.563| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.563| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.578| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.578| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.580| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.580| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.595| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.595| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.596| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.597| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.611| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.611| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.612| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.613| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.632| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.632| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.634| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.634| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.649| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.649| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.650| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.651| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.661| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.661| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.664| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.665| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.678| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.679| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.680| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.698| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.700| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.712| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.713| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.728| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.729| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.749| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.750| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001969.763| 1354904.0064kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+001972.649| 1351824.0000kb|  -3080.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001972.649| 1351824.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001972.717| 1351824.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001974.045| 1351824.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001977.292| 1351832.0064kb|      8.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+001979.227| 1308036.0968kb| -43796.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001979.227| 1308036.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001979.247| 1308036.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001981.217| 1344208.0000kb|  36172.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+001987.418| 1357352.0936kb|  13144.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 06ec3f52
+001991.361| 1354532.0968kb|  -2820.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+001991.361| 1354532.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+001991.361| 1354532.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+001992.915| 1354532.0968kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002017.702| 1310432.0000kb| -44100.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+002020.111| 1352548.0968kb|  42116.0000kb added| ALWAYS| Performing WSAStartup
+002020.564| 1352548.0968kb|      0.0000kb added| ALWAYS| Performing WSACleanup
+002021.395| 1352504.0064kb|    -44.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002022.148| 1352504.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+002027.513| 1351468.0032kb|  -1036.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002031.874| 1343352.0064kb|  -8116.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+002032.365| 1343352.0064kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002032.365| 1343352.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002032.365| 1343352.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002032.710| 1343352.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002033.081| 1343352.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002038.763| 1343368.0936kb|     16.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+002038.946| 1343368.0936kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002039.282| 1343368.0936kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002039.282| 1343368.0936kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002039.311| 1343368.0936kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002039.619| 1310540.0032kb| -32828.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002042.302| 1310544.0000kb|      4.0000kb added|   WARN| Attempting to begin unprepared MusicCue (cueID: 36).  For better performance call PrepareMusicCue() before calling Begin() on this cue.
+002047.403| 1346448.0000kb|  35904.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002048.829| 1359792.0000kb|  13344.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002048.829| 1359792.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002048.830| 1359792.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002050.695| 1351640.0064kb|  -8152.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002053.764| 1351640.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002057.662| 1351648.0000kb|      8.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002057.997| 1351648.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+002059.159| 1351648.0000kb|      0.0000kb added|   WARN| A HUD event is being identified in a deprecated way: scn1_btn_3
+002063.913| 1325996.0032kb| -25652.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002065.607| 1358828.0032kb|  32832.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002065.608| 1358828.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002065.678| 1358828.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002067.316| 1358828.0032kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002068.708| 1358836.0968kb|      8.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002074.874| 1355772.0032kb|  -3064.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002078.693| 1356000.0000kb|    228.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+002088.041| 1359468.0032kb|   3468.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002088.041| 1359468.0032kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002088.121| 1359468.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002089.707| 1359536.0000kb|     68.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002130.325| 1360116.0968kb|    580.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002130.326| 1360116.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002130.326| 1360116.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002132.744| 1360120.0064kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002140.103| 1316104.0936kb| -44016.0000kb added| ALWAYS| Performing WSAStartup
+002140.532| 1360208.0000kb|  44104.0000kb added| ALWAYS| Performing WSACleanup
+002141.625| 1360152.0064kb|    -56.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+002145.302| 1360152.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+002145.302| 1360152.0064kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002145.302| 1360152.0064kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002145.341| 1360152.0064kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002145.728| 1360152.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002146.440| 1360152.0064kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002147.139| 1368332.0032kb|   8180.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+002147.349| 1368332.0032kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+002147.934| 1368332.0032kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+002147.935| 1368332.0032kb|      0.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+002148.727| 1368608.0000kb|    276.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+002148.727| 1368608.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00d76ce2
+002151.989| 1353840.0000kb| -14768.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002152.657| 1316912.0000kb| -36928.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002152.657| 1316912.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002152.690| 1316912.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002153.235| 1316912.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 00000000
+002153.989| 1316916.0968kb|      4.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002156.161| 1345168.0000kb|  28252.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+002156.422| 1345196.0032kb|     28.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_open, for character: Leona
+002159.014| 1354084.0968kb|   8888.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell2_close, for character: Leona
+002160.278| 1354496.0000kb|    412.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002160.278| 1354496.0000kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002160.279| 1354496.0000kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002162.144| 1354496.0000kb|      0.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002182.004| 1365908.0968kb|  11412.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002182.004| 1365908.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002182.078| 1365908.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002183.387| 1365920.0000kb|     12.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002183.548| 1366092.0032kb|    172.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+002187.975| 1367184.0000kb|   1092.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.976| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.977| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.977| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.992| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.992| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.993| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002187.993| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.009| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.009| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.011| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.011| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.025| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.025| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.026| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.026| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.042| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.042| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.044| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.044| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.054| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.058| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.058| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.071| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.072| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.088| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.089| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.104| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.106| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.121| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.122| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.138| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.140| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.155| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.156| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.171| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.172| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.188| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.189| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.205| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.206| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.223| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.225| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.242| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.243| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.255| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.258| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.275| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.276| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.288| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.289| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.305| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.306| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.322| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.323| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.342| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.344| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.354| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.357| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.371| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.373| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.392| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.393| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.410| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.411| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.425| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.426| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.442| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.443| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.458| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.460| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.475| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.477| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.491| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.494| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.508| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.511| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.526| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.527| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.541| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.543| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.555| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.557| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.571| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.573| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.588| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.589| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.609| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.611| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.621| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.622| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.638| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.639| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.656| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.657| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.675| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.677| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.687| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.690| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.708| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.710| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.721| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.724| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.737| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.739| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.758| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.760| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.775| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.776| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.788| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.789| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.804| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.806| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.826| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.827| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.838| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.839| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.854| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.856| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.871| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.872| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.888| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.889| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.904| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.905| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.922| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.923| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.938| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.940| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.954| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.956| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.972| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.973| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002188.990| 1367184.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.426| 1366724.0968kb|   -460.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.426| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.427| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.428| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.428| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.429| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.438| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.439| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.440| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.440| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.440| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.448| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.449| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.450| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.450| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.463| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.464| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.465| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.465| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.476| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.477| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.478| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.478| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.488| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.488| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.490| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.490| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.505| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.505| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.506| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.507| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.524| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.525| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.526| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.526| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.538| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.538| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.540| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.540| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.554| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.555| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.556| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.556| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.571| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.572| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.573| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.573| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.588| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.589| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.590| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.590| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.606| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.606| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.607| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.608| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.621| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.622| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.623| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.623| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.638| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.639| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.642| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.642| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.655| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.656| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.657| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.657| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.671| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.672| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.673| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.674| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.688| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.689| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.690| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.690| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.705| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.705| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.706| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.707| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.722| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.722| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.724| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.724| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.738| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.740| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.741| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.741| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.762| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.762| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.764| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.764| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.779| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.780| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.781| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.782| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.796| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.797| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.798| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.798| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.814| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.815| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.816| 1366724.0968kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.834| 1366736.0000kb|     12.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.835| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.852| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.853| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.873| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.874| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.894| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.895| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.915| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.916| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.936| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.937| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.957| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.959| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.974| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.975| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.995| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002202.996| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.016| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.017| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.037| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.038| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.058| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.059| 1366736.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.079| 1366784.0000kb|     48.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.080| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.100| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.101| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.121| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.122| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.142| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.143| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.164| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.165| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.181| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.182| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.202| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.203| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.223| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.224| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.244| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.245| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.265| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.267| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002203.285| 1366784.0000kb|      0.0000kb added|   WARN| Attachment asked for a velocity on an object that no longer exists!
+002205.922| 1368900.0968kb|   2116.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0000003b
+002210.870| 1360452.0968kb|  -8448.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 0f600db9
+002210.921| 1360452.0968kb|      0.0000kb added|  ERROR| character Vi does not have animation '' (spell 'ViQ')
+002210.921| 1360452.0968kb|      0.0000kb added|   WARN| character Vi does not have animation '' (spell 'ViQ')
+002210.922| 1360452.0968kb|      0.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 011b9610
+002212.174| 1363600.0000kb|   3148.0000kb added|  ERROR| Playing Animation Error, Cant Find Animation: Spell1_end, for character: Vi
+002212.560| 1363732.0968kb|    132.0000kb added|  ERROR| Error GameTargettingType wrong for (Name:ZyraThornPlantMissileOnSpawn02) (Display: ) (-1) [..\..\..\..\..\..\..\Game\LoL\Spell\SpellDataInst.cpp(201)] 
+002213.388| 1361500.0032kb|  -2232.0000kb added|  ERROR| >>> EffectHashMap::HashToName - Match not found for hash 055b95c9
+002221.083| 1212216.0064kb| -149284.0000kb added| ALWAYS| End game message processing!
+002221.083| 1212216.0064kb|      0.0000kb added| ALWAYS| End game message processed!
+002221.084| 1212224.0000kb|      8.0000kb added| ALWAYS| Performing WSAStartup
+002221.755| 1212232.0936kb|      8.0000kb added| ALWAYS| Performing WSACleanup
+002221.776| 1212232.0936kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002224.596|  971364.0968kb| -240868.0000kb added| ALWAYS| Finished Main Loop
+002224.598|  971424.0000kb|     60.0000kb added| ALWAYS| Performing WSAStartup
+002224.598|  971452.0032kb|     28.0000kb added| ALWAYS| Performing WSAStartup
+002224.992|  971480.0000kb|     28.0000kb added| ALWAYS| Performing WSACleanup
+002225.418|  971424.0000kb|    -56.0000kb added| ALWAYS| Performing WSACleanup
+002228.242|  744692.0968kb| -226732.0000kb added| ALWAYS| Finished Play game
+002228.242|  744692.0968kb|      0.0000kb added| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_WIN"}
+002228.242|  744724.0968kb|     32.0000kb added| ALWAYS| Performing WSAStartup
+002228.264|  744004.0968kb|   -720.0000kb added| ALWAYS| r3dRenderLayer::Close() enter
+002228.350|  619220.0968kb| -124784.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "WardOverwrite.tga" ref count 45.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "caution_small.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "attack_small.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "directionIndicator.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_Bullseye.dds" ref count 2.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3352_GreaterBlueTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3351_GreaterRedTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinketUpgrade_Square.dds" ref count 2.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3350_GreaterYellowTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3342_BlueTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3341_RedTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YellowTrinket_Square.dds" ref count 2.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3340_YellowTrinket.dds" ref count 1.
+002228.350|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3301_BabyPhilo.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness_E.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers_A.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves_A.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3207_SoulEaterGolem.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3190_Crest_of_the_Iron_Solari.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3174_AthenesUnholyGrail.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3158_Ionian_Boots_of_Lucidity.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3153_Blade_of_the_Ruined_King.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3151_Liandrys_Lament.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3144_Bilgewater_Cutlass.dds" ref count 1.
+002228.351|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3143_Randuins_Omen.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1008_Sash_of_Valor.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3136_Haunting_Guise.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "073_Zettas_Mana-Stick.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "037_Big_Stick.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3116_Rylais_Sceptre.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3008_Boots_Of_Swiftness.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "113_Tome_of_Minor_Necro_Compulsion.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3211_SpectresCowl.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3062_Soul_Pendant.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3093_Avarice_Blade.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3157_Zhonyas_Hourglass.dds" ref count 1.
+002228.352|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3089_Banksys_wizard_Hat.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3087_Statikk_Shiv.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3083_Warmog_the_Living_Armor.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3082_Wardens_Mail.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3078_Trinity_Force.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3077_Tiamat.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3074_Ravenous_Hydra.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3072_The_Bloodthirster.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3071_The_Black_Cleaver.dds" ref count 2.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3070_Tear_of_the_Goddess.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3069_Shurelyas_Firecrest.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3068_SunfireCape.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3067_Kindlegem.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3065_Spirit_Visage.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3057_Sheen.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3047_Phase_Striders.dds" ref count 1.
+002228.353|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3044_Phage.dds" ref count 1.
+002228.354|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3040_Seraphs_Embrace.dds" ref count 1.
+002228.354|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3035_Last_Whisper.dds" ref count 1.
+002228.354|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3028_Harmony_Ring.dds" ref count 1.
+002228.354|  619220.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3020_Flamewalkers.dds" ref count 1.
+002228.354|  619084.0032kb|   -136.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3006_Berserkers_Greaves.dds" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "3003_ArchangelStaff.dds" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2049_Ruby_Ward.DDS" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SightWard_Square.dds" ref count 3.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "VisionWard_Square.dds" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2009_Mini_Pot.dds" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2004_Flask_of_Crystal_Water.dds" ref count 1.
+002228.354|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "2003_Regeneration_Potion.dds" ref count 1.
+002228.355|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1080_SoulEater.dds" ref count 1.
+002228.355|  619084.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1058_Needlessly_Large_Wand.dds" ref count 1.
+002228.355|  619048.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "161_Elementium_Woven_Mantle.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "165_Harmony_Ring.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PetAttack.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "033_Buckler.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1053_Vampiric_Scepter.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1052_Amplifying_Scepter.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1042_Dagger.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1039_Butchers_Machete.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1038_BF_Sword.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1037_Broadsword.dds" ref count 1.
+002228.355|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1036_Long_Sword.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1033_Elementium_Threaded_Cloak.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1029_Cloth_Armour.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1028_RubyCrystal.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1026_Blasting_Band.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1011_Mighty_Waistband_of_the_Reaver.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1006_Rejuvenation_Bead.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1004_Faerie_Charm.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1001_Boots_of_Speed.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_Square.dds" ref count 2.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_Circle.dds" ref count 14.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Xerath_AscendedForm.dds" ref count 1.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Reticle_Gradient_Base_Q_02.dds" ref count 2.
+002228.356|  619048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Reticle_Gradient_Base_Q_01.dds" ref count 2.
+002228.356|  618528.0000kb|   -520.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lucian_Square.dds" ref count 2.
+002228.356|  618528.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lucian_Circle.dds" ref count 26.
+002228.357|  618256.0000kb|   -272.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lucian_Passive.dds" ref count 1.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViR.dds" ref count 1.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViW.dds" ref count 1.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViW2.dds" ref count 2.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViQ.dds" ref count 1.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vi_Square.dds" ref count 2.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Vi_Circle.dds" ref count 12.
+002228.357|  618256.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ViPassive.dds" ref count 1.
+002228.357|  617408.0000kb|   -848.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Riven_Square.dds" ref count 2.
+002228.357|  617408.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Riven_Circle.dds" ref count 19.
+002228.357|  617408.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RivenRunicBlades.dds" ref count 1.
+002228.357|  617408.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_leona_outer.dds" ref count 1.
+002228.358|  617408.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeonaSolarFlare.dds" ref count 1.
+002228.358|  617396.0968kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Leona_Square.dds" ref count 2.
+002228.358|  617132.0032kb|   -264.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Leona_Circle.dds" ref count 10.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeonaSunlight.dds" ref count 1.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_Sadism.dds" ref count 1.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_BurningAgony.dds" ref count 1.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_InfectedCleaver.dds" ref count 1.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_Square_0.dds" ref count 2.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_Circle_0.dds" ref count 19.
+002228.358|  617132.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "DrMundo_AdrenalineRush2.dds" ref count 1.
+002228.358|  617048.0000kb|    -84.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ZyraGraspingPlant_Square.dds" ref count 2.
+002228.358|  617048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "JarvanIV_MartialCadence.dds" ref count 2.
+002228.359|  617048.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LocalLineMissileBase_Dark.dds" ref count 2.
+002228.359|  616916.0968kb|   -132.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ZyraW_Square.dds" ref count 2.
+002228.359|  616916.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Cryophoenix_Rebirth.dds" ref count 2.
+002228.359|  616268.0032kb|   -648.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE_brand.dds" ref count 2.
+002228.359|  616268.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SkeletonMelee_Square.dds" ref count 1.
+002228.359|  616268.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ZyraThornPlant_Square.dds" ref count 2.
+002228.359|  616268.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_Bullseye.dds" ref count 2.
+002228.359|  616200.0000kb|    -68.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Zyra_Square_0.dds" ref count 2.
+002228.359|  616200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Zyra_Circle_0.dds" ref count 9.
+002228.359|  616200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ZyraP.dds" ref count 1.
+002228.359|  616188.0032kb|    -12.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_Square.dds" ref count 2.
+002228.359|  615460.0968kb|   -728.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_Circle.dds" ref count 16.
+002228.359|  615460.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bowmaster_Bullseye.dds" ref count 1.
+002228.359|  615460.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1020_Glowing_Orb.dds" ref count 1.
+002228.359|  615428.0968kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSin_Square.dds" ref count 2.
+002228.359|  615428.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSin_Circle.dds" ref count 12.
+002228.359|  615428.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LeeSinPassive.dds" ref count 1.
+002228.360|  615392.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Voidwalker_Riftwalk.dds" ref count 1.
+002228.360|  615392.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Kassadin_ForcePulse.dds" ref count 1.
+002228.360|  615392.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Kassadin_Square_0.dds" ref count 2.
+002228.360|  615392.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Kassadin_Circle_0.dds" ref count 19.
+002228.360|  615360.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Voidwalker_Netherburn.dds" ref count 1.
+002228.360|  615236.0968kb|   -124.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_iced.dds" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_streak.dds" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "killIcon_normal.dds" ref count 1.
+002228.360|  615236.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon7.dds" ref count 1.
+002228.360|  615208.0000kb|    -28.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "come_here_small.dds" ref count 1.
+002228.360|  615208.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "on_my_way_small.dds" ref count 1.
+002228.360|  615208.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "mia_small.dds" ref count 1.
+002228.360|  615208.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "get_back_small.dds" ref count 1.
+002228.361|  614888.0000kb|   -320.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Ring.tga" ref count 156.
+002228.361|  614888.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "EmptyIcon.dds" ref count 1.
+002228.361|  614888.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Basic_Attack.dds" ref count 1.
+002228.361|  614852.0968kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.361|  614852.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingCancel.dds" ref count 1.
+002228.361|  614852.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingMIA.dds" ref count 1.
+002228.361|  614852.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingComeHere.dds" ref count 1.
+002228.361|  614852.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "pingOMW.dds" ref count 1.
+002228.361|  614852.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "PingGetBack.dds" ref count 1.
+002228.361|  614828.0032kb|    -24.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "GSB_stun.dds" ref count 1.
+002228.361|  614828.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+002228.361|  614788.0968kb|    -40.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 1.
+002228.361|  614788.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lamp.dds" ref count 374.
+002228.361|  614220.0032kb|   -568.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon24.dds" ref count 1.
+002228.361|  614220.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+002228.361|  614200.0000kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "1031_Chain_Vest.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Averdrian_AstralBeam.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosTurretWorm_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wraith_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "YoungLizard_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Chronokeeper_Timestop.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon583.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "LizardElder_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Giantwolf_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lesserwraith_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AncientGolem_Square.dds" ref count 1.
+002228.362|  614200.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "wolf_Square.dds" ref count 1.
+002228.362|  614184.0000kb|    -16.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Golem_Square.dds" ref count 1.
+002228.362|  614184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Burning.dds" ref count 1.
+002228.362|  614184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Dragon_Square.dds" ref count 2.
+002228.363|  614184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Lizard_Square.dds" ref count 1.
+002228.363|  614184.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosHqTower_Icon.dds" ref count 1.
+002228.363|  614164.0968kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosGateTower_Icon.dds" ref count 1.
+002228.363|  614164.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon507.dds" ref count 1.
+002228.363|  613696.0000kb|   -468.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon_C.dds" ref count 2.
+002228.363|  613664.0000kb|    -32.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "ChaosLaneTower_Icon.dds" ref count 2.
+002228.363|  613664.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon.dds" ref count 2.
+002228.363|  613644.0032kb|    -20.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderLaneTower_Icon_C.dds" ref count 2.
+002228.363|  613644.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderGateTower_Icon.dds" ref count 2.
+002228.363|  613644.0032kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "OrderHqTower_Icon.dds" ref count 2.
+002228.363|  613636.0968kb|     -8.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechmelee_Square.dds" ref count 1.
+002228.363|  613636.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedMelee_Square.dds" ref count 1.
+002228.363|  613636.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "RedRange_Square.dds" ref count 1.
+002228.363|  613636.0968kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Redmechcannon_Square.dds" ref count 1.
+002228.364|  613600.0000kb|    -36.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechmelee_Square.dds" ref count 1.
+002228.364|  613472.0000kb|   -128.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueMelee_Square.dds" ref count 1.
+002228.364|  613472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon28.dds" ref count 1.
+002228.364|  613472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "BlueRange_Square.dds" ref count 1.
+002228.364|  613472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Bluemechcannon_Square.dds" ref count 1.
+002228.364|  613472.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "AOE.tga" ref count 14.
+002228.364|  613212.0032kb|   -260.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "UNNAMED" ref count 1.
+002228.364|  613128.0000kb|    -84.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon545.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerIgnite.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon588.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "SummonerBarrier.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon27.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_smite.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_flash.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "profileIcon592.dds" ref count 1.
+002228.364|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_haste.dds" ref count 1.
+002228.365|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Summoner_exhaust.dds" ref count 1.
+002228.365|  613128.0000kb|      0.0000kb added|   WARN| r3dRenderLayer::FlushTextures: The following texture was not released: "Blank.dds" ref count 4.
+002228.366|  609904.0000kb|  -3224.0000kb added| ALWAYS| r3dRenderLayer::Close() exit
+002228.366|  609896.0000kb|     -8.0000kb added| ALWAYS| Destroying the Renderer (1)
+002228.366|  609888.0000kb|     -8.0000kb added| ALWAYS| game::Shutdown
+002228.366|  609888.0000kb|      0.0000kb added| ALWAYS| ClientFacade::Stop
+002228.366|  609876.0968kb|    -12.0000kb added| ALWAYS| Exiting WinMain

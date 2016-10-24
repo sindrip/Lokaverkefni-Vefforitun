@@ -1,0 +1,2463 @@
+000000.000| ALWAYS| Logging started at 2016-10-16T16:07:50.837
+000000.004|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.150\deploy".
+000000.004|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.004|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/solutionmanifest")
+000000.005|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/configurationmanifest")
+000000.005|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.1.63/releasemanifest")
+000000.039|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.1.91/releasemanifest")
+000000.495|   OKAY| Unable to process data overlay file ./ToolsConfig.xml, defaulting to overlay now
+000000.495| ALWAYS| Data overlay start folder initialized to DATA, Content/Src
+000000.496| ALWAYS| Global logging level set to   WARN
+000000.496| ALWAYS| GameClock LockToSystemClock time: 0.000000 diff: 0.496213
+000000.498| ALWAYS| Build Version: Version 6.20.160.7699 (Oct 03 2016/17:57:47) [PUBLIC] <Releases/6.20> ChangeList: 1607699
+000008.952| ALWAYS| Started System Init
+000008.956| ALWAYS| Maestro Init
+000008.982| ALWAYS| Maestro completed init
+000008.982| ALWAYS| zip manifest, 'ClientZips.txt', not found (expected).
+000008.983| ALWAYS| WadFile mount: DATA/FINAL/Global.wad 
+000008.984| ALWAYS| WadFile mount: DATA/FINAL/Shaders.wad 
+000008.985| ALWAYS| WadFile mount: DATA/FINAL/UI/ui.wad 
+000008.986| ALWAYS| WadFile mount: DATA/FINAL/Localized/Global.en_gb.wad 
+000008.986|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Champions/champions.bin" because it's not in the manifest.
+000008.992| ALWAYS| StartSession called
+000008.992| ALWAYS| Started Init event arguments
+000008.992| ALWAYS| Waiting until connection...
+000009.094| ALWAYS| InitRenderer() enter
+000009.095| ALWAYS| r3dRenderLayer::Init(0x00180F74) enter
+000009.107| ALWAYS| r3dRenderLayer::Init() exit successfully
+000009.291| ALWAYS| Loaded locale en_gb via fontconfig
+000009.294| ALWAYS| IME file, 'C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/deploy/Data/Menu/IMEConfig.xml', is optional. The following error is expected.
+000009.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000009.295|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/deploy/Data/Menu/IMEConfig.xml
+000009.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000009.295|  ERROR| Missing file on r3dGFile open :\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.150/deploy/Data/Menu/IMEConfig.xml
+000009.300| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.222/deploy/preferences/
+000009.301| ALWAYS| r3dRenderer::SetMode: Trying resolution 1920x1080, bpp 32, windowMode 0, vsync off...
+000009.301| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000009.301| ALWAYS| In Riot::Win::Resize: Initial VideoMode(c29f2f0) and resolution (1920 x 1080) 
+000009.301| ALWAYS| In Riot::Win::Resize: VideoMode(c29f2f0) and resolution (960 x 540) 
+000009.305| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000009.306| ALWAYS| rr3dRenderLayer::InitDevice(XRes = 1920, YRes = 1080, BPP = 32,  Flags=1024) enter
+000009.306| ALWAYS| rr3dRenderLayer::InitDevice: Creating d3d device
+000009.306| ALWAYS| CreateDevice: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000009.306| ALWAYS| CreateDevice: Disabling present depth discard in favor of an INTZ depth buffer.
+000009.653| ALWAYS| Success
+000009.653| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000009.695| ALWAYS| r3dRenderLayer::InitResources exit successfully
+000009.695|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/Fonts.bin" because it's not in the manifest.
+000009.707|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Perks/perks.bin" because it's not in the manifest.
+000009.711| ALWAYS| Waiting for client ID
+000009.912| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000009.912| ALWAYS| Received client ID
+000009.913| ALWAYS| Set focus to app
+000009.913| ALWAYS| Input started
+000009.932| ALWAYS| Query Status Req started
+000010.075| ALWAYS| OS Version String: 10  Professional, x64
+000010.075| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz, Intel64 Family 6 Model 60 Stepping 3, 3400 (0 core)
+000010.075| ALWAYS| Measured processor speed: 3524
+000010.075| ALWAYS| Display info: NVIDIA GeForce GTX 1070 4293918720 10.18.13.6881
+000010.075| ALWAYS| Physical memory: 17179869184
+000010.075| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"10  Professional, x64","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 1070","video_memory":"4293918720","driver_version":"10.18.13.6881","physical_memory":17179869184,"wine":false}
+000010.075| ALWAYS| -----HARDWARE INFORMATION START-----
+000010.076| ALWAYS| Operating System: 10  Professional, x64
+000010.076| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 1070
+000010.076| ALWAYS| GPU Memory: 4293918720
+000010.076| ALWAYS| GPU Driver Version: 10.18.13.6881
+000010.076| ALWAYS| CPU Brand: GenuineIntel
+000010.076| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+000010.076| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000010.076| ALWAYS| CPU Speed: 3400
+000010.076| ALWAYS| CPU Topology: 4 Core
+000010.076| ALWAYS| Physical memory: 17179869184
+000010.076| ALWAYS| -----HARDWARE INFORMATION END-----
+000010.142| ALWAYS| Query Status Req ended
+000010.142| ALWAYS| Waiting for server response...
+000010.444| ALWAYS| WadFile mount: DATA/FINAL/Maps/Shipping/Map10.wad 
+000010.445| ALWAYS| WadFile mount: DATA/FINAL/Maps/Shipping/Map10.en_us.wad 
+000010.445|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Globals/Globals.bin" because it's not in the manifest.
+000010.446| ALWAYS| UnifiedClock: Enabled
+000010.446| ALWAYS| Initializing GameModeComponents for mode=CLASSIC.
+000010.446| ALWAYS| ... Processing GameMode Mutator = default.
+000010.446| ALWAYS| ... Processing GameMode Mutator = LoadingScreenBackground(Data).
+000010.446| ALWAYS| ... Processing GameMode Mutator = FOWTexture(FogOfWarOverlay.dds).
+000010.446| ALWAYS| ... Processing GameMode Mutator = HudSkin(Default).
+000010.446| ALWAYS| ... Processing GameMode Mutator = NavigationMesh(AIPath).
+000010.446| ALWAYS| ... Processing GameMode Mutator = MiniMapTexture(2DLevelMinimap.dds).
+000010.446| ALWAYS| ... Processing GameMode Mutator = MapMusic(None).
+000010.446| ALWAYS| ... Processing GameMode Mutator = BotSummonerIcon(0).
+000010.446| ALWAYS| ... Processing GameMode Mutator = EndOfGameScreenText(Default).
+000010.446| ALWAYS| ... Processing GameMode Mutator = HealthTextModifier(default).
+000010.446| ALWAYS| ... Processing GameMode Mutator = DamageTextModifier(default).
+000010.446| ALWAYS| ... Processing GameMode Mutator = MapObjectESportTeamCustomization(0).
+000010.446| ALWAYS| ... Processing GameMode Mutator = LocalizationEncryptKey(none).
+000010.446| ALWAYS| ... Processing GameMode Mutator = SuppressMinionSpawn(0).
+000010.446| ALWAYS| ... Processing GameMode Mutator = RestrictedItemShopCategories(none).
+000010.446| ALWAYS| ... Processing GameMode Mutator = UsePropertyUI(1).
+000010.446| ALWAYS| ... Processing GameMode Mutator = LevelPropsScript(CreateLevelProps.lua).
+000010.446| ALWAYS| ... Processing GameMode Mutator = NeutralMinionSpawnScript(NeutralMinionSpawn.lua).
+000010.446| ALWAYS| ... Processing GameMode Mutator = MapObjects(MapObjects.mob).
+000010.446| ALWAYS| ... Processing GameMode Mutator = SpectatorHudSkin(SpectatorUpdate).
+000010.446| ALWAYS| ... Processing GameMode Mutator = SpectatorMiniMapTexture(2DLevelMinimap.dds).
+000010.446| ALWAYS| ... Processing GameMode Mutator = WorldGeometry(room).
+000010.446| ALWAYS| ... Processing GameMode Mutator = LevelScriptFile(LevelScript.lua).
+000010.446| ALWAYS| ... Processing GameMode Mutator = NewSummonerBadgeSystem(0).
+000010.446| ALWAYS| ... Processing GameMode Mutator = WorldParticles(Particles.dat).
+000010.446| ALWAYS| ... Processing GameMode Mutator = ObjectCFG(ObjectCFG.cfg).
+000010.446| ALWAYS| ... Processing GameMode Mutator = TerrainINI(terrain.ini).
+000010.446| ALWAYS| ... Processing GameMode Mutator = NewKillXPRules(1).
+000010.446| ALWAYS| ... Processing GameMode Mutator = EsportsRecallDecals(1).
+000010.446| ALWAYS| ... Processing GameMode Mutator = IconBasedEmotes(1).
+000010.446| ALWAYS| ... Processing GameMode Mutator = CLASSIC.
+000010.446| ALWAYS| ... Processing GameMode Mutator = Banana.
+000010.446| ALWAYS| ... Processing GameMode Mutator = VeryBanana(1).
+000010.446| ALWAYS| ... Processing GameMode Mutator = 6v6.
+000010.446| ALWAYS| ... Processing GameMode Mutator = ChampionIndicator.
+000010.446| ALWAYS| ... Processing GameMode Mutator = AssistStreakDisabled.
+000010.446| ALWAYS| ... Processing GameMode Mutator = HexakillCatchup.
+000010.446| ALWAYS| ... Processing GameMode Mutator = AmbientGold(24).
+000010.446| ALWAYS| ... Processing GameMode Mutator = HexakillMinionTuning.
+000010.447| ALWAYS| ... Processing GameMode Mutator = ScoreboardCustomization(Hexakill).
+000010.447| ALWAYS| ... Processing GameMode Mutator = KindredUICustomization(Hexakill).
+000010.447| ALWAYS| ... Processing GameMode Mutator = HideDefaultKindredUIBackground(1).
+000010.447| ALWAYS| ... Processing GameMode Mutator = SetBonusAmbientXP(5).
+000010.447| ALWAYS| ... Processing GameMode Mutator = SetBonusAmbientXPDelay(75).
+000010.447| ALWAYS| ... Processing GameMode Mutator = EsportsRecallDecals(1).
+000010.447| ALWAYS| ... Processing GameMode Mutator = IconBasedEmotes.
+000010.447|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Loadouts/RecallDecals.bin" because it's not in the manifest.
+000010.447| ALWAYS| netUID: a defaultname
+000010.455| ALWAYS| PlayGame Started
+000010.455| ALWAYS| r3dRenderLayer::InitDefaultShaders: Initialize shaders for current rendering path
+000010.614|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/FloatingText.bin" because it's not in the manifest.
+000010.631| ALWAYS| Deterministic Random Enabled
+000010.631|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Shared/Shared.bin" because it's not in the manifest.
+000010.686|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/FloatingHealthBars.bin" because it's not in the manifest.
+000011.786|   WARN| General performance warning: more than 11 texture samplers are being used simultanously.
+Please bump this number if this is intentional up to 16 (inclusive)
+000011.787| ALWAYS| PlayGame Entered
+000011.787| ALWAYS| gRenderPipeline
+000011.787|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/Globals.bin" because it's not in the manifest.
+000011.795| ALWAYS| CreateParticleSystemManager
+000017.837| ALWAYS| CreateAudioManager: Create audio manager Wwise.
+000017.856| ALWAYS| AudioManager: Wwise Version v2013.2.2 initialized.
+000017.861|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeTripleKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000017.862|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeUnrealKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000017.863|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Maps/Shipping/Map10/Map10.bin" because it's not in the manifest.
+000018.671|  ERROR| Can not open file <tt_gank_grass1.dds> *********
+000018.671|  ERROR| Failed to load tt_gank_grass1.dds
+000018.671|   WARN| r3dTexture EX: tt_gank_grass1.dds - not found. Dummy texture created.
+000018.679|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_OrderMinionSiege/HA_OrderMinionSiege.bin" because it's not in the manifest.
+000018.679|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_OrderMinionRanged/SRU_OrderMinionRanged.bin" because it's not in the manifest.
+000018.693|  ERROR| Cant load particle system SRU_Order_CanM_death.troy
+000018.693|  ERROR| Failed to preload particle system "SRU_Order_CanM_death.troy"
+000018.698|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_OrderMinionSuper/HA_OrderMinionSuper.bin" because it's not in the manifest.
+000018.701|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.702|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.702|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.702|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.711|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_OrderMinionMelee/HA_OrderMinionMelee.bin" because it's not in the manifest.
+000018.721|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_OrderMinionRanged/HA_OrderMinionRanged.bin" because it's not in the manifest.
+000018.728|  ERROR| Cant load particle system SRU_order_cm_death_melee.troy
+000018.728|  ERROR| Failed to preload particle system "SRU_order_cm_death_melee.troy"
+000018.729|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_ChaosMinionSiege/HA_ChaosMinionSiege.bin" because it's not in the manifest.
+000018.730|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_ChaosMinionRanged/SRU_ChaosMinionRanged.bin" because it's not in the manifest.
+000018.741|  ERROR| Cant load particle system SRU_Chaos_CanM_death.troy
+000018.741|  ERROR| Failed to preload particle system "SRU_Chaos_CanM_death.troy"
+000018.744|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_ChaosMinionSuper/HA_ChaosMinionSuper.bin" because it's not in the manifest.
+000018.745|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_OrderMinionSuper/SRU_OrderMinionSuper.bin" because it's not in the manifest.
+000018.746|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.746|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.746|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.746|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.756|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_ChaosMinionMelee/HA_ChaosMinionMelee.bin" because it's not in the manifest.
+000018.756|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_OrderMinionMelee/SRU_OrderMinionMelee.bin" because it's not in the manifest.
+000018.757|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.757|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.757|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.757|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.759|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.759|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.766|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_ChaosMinionRanged/HA_ChaosMinionRanged.bin" because it's not in the manifest.
+000018.775|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosTurret1/TT_ChaosTurret1.bin" because it's not in the manifest.
+000018.796|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Chaos_ShapeRay.dds>
+
+000018.831|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosTurret2/TT_ChaosTurret2.bin" because it's not in the manifest.
+000018.835|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Chaos_ShapeRay.dds>
+
+000018.846|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosTurret3/TT_ChaosTurret3.bin" because it's not in the manifest.
+000018.850|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Chaos_ShapeRay.dds>
+
+000018.860|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosTurret4/TT_ChaosTurret4.bin" because it's not in the manifest.
+000018.873|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.873|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.889|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosTurret5/TT_ChaosTurret5.bin" because it's not in the manifest.
+000018.893|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Chaos_ShapeRay.dds>
+
+000018.903|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderTurret1/TT_OrderTurret1.bin" because it's not in the manifest.
+000018.947|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderTurret2/TT_OrderTurret2.bin" because it's not in the manifest.
+000018.962|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderTurret3/TT_OrderTurret3.bin" because it's not in the manifest.
+000018.975|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderTurret4/TT_OrderTurret4.bin" because it's not in the manifest.
+000018.976|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.976|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000018.981|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderTurret5/TT_OrderTurret5.bin" because it's not in the manifest.
+000018.996|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NGolem/TT_NGolem.bin" because it's not in the manifest.
+000018.996|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000018.996|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.029|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberender/testcuberender.bin" because it's not in the manifest.
+000019.045|  ERROR| Cant load particle system global_lifesteal.troy
+000019.045|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000019.048|  ERROR| Cant load particle system global_lifesteal.troy
+000019.048|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000019.056|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.056|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.056|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.056|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.056|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.066|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NGolem2/TT_NGolem2.bin" because it's not in the manifest.
+000019.067|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.067|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.096|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NWolf/TT_NWolf.bin" because it's not in the manifest.
+000019.097|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.097|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.100|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.100|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.101|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.101|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.158|  ERROR| Cant load particle system global_lifesteal.troy
+000019.158|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000019.159|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.159|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.159|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.159|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.159|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.165|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <MushroomBuff.dds>
+
+000019.166|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find skinned mesh file <> or <>.
+
+000019.166|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NWolf2/TT_NWolf2.bin" because it's not in the manifest.
+000019.167|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.167|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.167|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.167|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.167|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.167|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.219|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NWraith/TT_NWraith.bin" because it's not in the manifest.
+000019.283|  ERROR| Cant load particle system global_lifesteal.troy
+000019.283|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000019.287|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_NWraith2/TT_NWraith2.bin" because it's not in the manifest.
+000019.288|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.288|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.288|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.288|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.357|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Spiderboss/TT_Spiderboss.bin" because it's not in the manifest.
+000019.382|  ERROR| Cant load particle system rampage.troy
+000019.382|  ERROR| Failed to preload particle system "rampage.troy"
+000019.382|  ERROR| Cant load particle system rampage.troy
+000019.382|  ERROR| Failed to preload particle system "rampage.troy"
+000019.419|  ERROR| Failed to load spell ini or script: "poisontrailtarget"
+000019.419|  ERROR| Failed to load spell ini or script: "poisontrailtarget"
+000019.419|  ERROR| Failed to load spell ini or script: "poisontrailtarget"
+000019.419|  ERROR| Failed to load spell ini or script: "poisontrailtarget"
+000019.432|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcube/testcube.bin" because it's not in the manifest.
+000019.456|  ERROR| Cant load particle system rampage.troy
+000019.456|  ERROR| Failed to preload particle system "rampage.troy"
+000019.456|  ERROR| Cant load particle system rampage.troy
+000019.456|  ERROR| Failed to preload particle system "rampage.troy"
+000019.456|  ERROR| Failed to load spell ini or script: "TT_SpiderbossSmashLine"
+000019.461|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Relic/TT_Relic.bin" because it's not in the manifest.
+000019.482|  ERROR| Can not open file <LuxCrashingBlitz2.dds> *********
+000019.482|  ERROR| Failed to load LuxCrashingBlitz2.dds
+000019.482|   WARN| r3dTexture EX: LuxCrashingBlitz2.dds - not found. Dummy texture created.
+000019.483|  ERROR| Can not open file <JarvanIV_GoldenAegis.dds> *********
+000019.483|  ERROR| Failed to load JarvanIV_GoldenAegis.dds
+000019.483|   WARN| r3dTexture EX: JarvanIV_GoldenAegis.dds - not found. Dummy texture created.
+000019.485|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Buffplat_L/TT_Buffplat_L.bin" because it's not in the manifest.
+000019.675|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.675|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.677|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.677|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.682|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.682|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.684|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.684|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.711|  ERROR| Cant load particle system tt_lockcomplete_neutral_l.troy
+000019.711|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_l.troy"
+000019.713|  ERROR| Cant load particle system tt_lockcomplete_neutral_r.troy
+000019.713|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_r.troy"
+000019.723|  ERROR| Cant load particle system tt_lockcomplete_neutral_l.troy
+000019.723|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_l.troy"
+000019.723|  ERROR| Cant load particle system tt_lockcomplete_neutral_r.troy
+000019.723|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_r.troy"
+000019.733|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.733|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.733|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.733|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.733|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.735|  ERROR| Can not open file <TwistedAura.dds> *********
+000019.735|  ERROR| Failed to load TwistedAura.dds
+000019.735|   WARN| r3dTexture EX: TwistedAura.dds - not found. Dummy texture created.
+000019.736|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Buffplat_R/TT_Buffplat_R.bin" because it's not in the manifest.
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.744|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.745|  ERROR| Cant load particle system tt_lockcomplete_neutral_l.troy
+000019.745|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_l.troy"
+000019.745|  ERROR| Cant load particle system tt_lockcomplete_neutral_r.troy
+000019.745|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_r.troy"
+000019.746|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.747|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.747|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.747|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.747|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.747|  ERROR| Failed to load spell ini or script: "TreelineLanternChargeBuffChaos"
+000019.747|  ERROR| Failed to load spell ini or script: "TreelineLanternChargeBuffOrder"
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Varus_Asc_Wings.tga>
+
+000019.748|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Varus_Wings.sco>.
+
+000019.748|  ERROR| Cant load particle system tt_lockcomplete_neutral_l.troy
+000019.748|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_l.troy"
+000019.749|  ERROR| Cant load particle system tt_lockcomplete_neutral_r.troy
+000019.749|  ERROR| Failed to preload particle system "tt_lockcomplete_neutral_r.troy"
+000019.749|  ERROR| Failed to load spell ini or script: "TreelineLanternOwnerChaos"
+000019.749|  ERROR| Failed to load spell ini or script: "TreelineLanternOwnerOrder"
+000019.749|  ERROR| Failed to load spell ini or script: "TreelineLanternOwnerBuff"
+000019.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000019.750|  ERROR| Cant load particle system InnervatingLocket_cas.troy
+000019.750|  ERROR| Failed to preload particle system "InnervatingLocket_cas.troy"
+000019.750|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000019.750|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000019.752|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/HA_AP_HealthRelic/HA_AP_HealthRelic.bin" because it's not in the manifest.
+000019.753|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/OdinShieldRelic/OdinShieldRelic.bin" because it's not in the manifest.
+000019.783|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderInhibitor/TT_OrderInhibitor.bin" because it's not in the manifest.
+000019.830|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_OrderInhibitor_D/TT_OrderInhibitor_D.bin" because it's not in the manifest.
+000019.842|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/OrderNexus/OrderNexus.bin" because it's not in the manifest.
+000019.904|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/DestroyedNexus/DestroyedNexus.bin" because it's not in the manifest.
+000019.913|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosInhibitor/TT_ChaosInhibitor.bin" because it's not in the manifest.
+000019.940|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_ChaosInhibitor_D/TT_ChaosInhibitor_D.bin" because it's not in the manifest.
+000019.955|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ChaosNexus/ChaosNexus.bin" because it's not in the manifest.
+000020.351|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Loadouts/FinisherParticles.bin" because it's not in the manifest.
+000020.353| ALWAYS| WadFile mount: DATA/FINAL/Champions/Bard.wad 
+000020.354| ALWAYS| WadFile mount: DATA/FINAL/Champions/Bard.en_us.wad 
+000020.357|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Bard/Bard.bin" because it's not in the manifest.
+000020.407| ALWAYS| Begin Game Object Update
+000020.408|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_U/brush_TT_U.bin" because it's not in the manifest.
+000020.408|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_A/brush_TT_A.bin" because it's not in the manifest.
+000020.414|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_B/brush_TT_B.bin" because it's not in the manifest.
+000020.419|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_F/brush_TT_F.bin" because it's not in the manifest.
+000020.423|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_L/brush_TT_L.bin" because it's not in the manifest.
+000020.427|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_R/brush_TT_R.bin" because it's not in the manifest.
+000020.430|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_I/brush_TT_I.bin" because it's not in the manifest.
+000020.435|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_N/brush_TT_N.bin" because it's not in the manifest.
+000020.439|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_S/brush_TT_S.bin" because it's not in the manifest.
+000020.443|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_C/brush_TT_C.bin" because it's not in the manifest.
+000020.448|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ChaosBarracks_Wizard/ChaosBarracks_Wizard.bin" because it's not in the manifest.
+000020.448|  ERROR| Cant load particle system TT_Order_nexus_idle_on.troy
+000020.448|  ERROR| Failed to preload particle system "TT_Order_nexus_idle_on.troy"
+000020.449|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_T/brush_TT_T.bin" because it's not in the manifest.
+000020.456|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_P/brush_TT_P.bin" because it's not in the manifest.
+000020.463|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_Q/brush_TT_Q.bin" because it's not in the manifest.
+000020.468|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_K/brush_TT_K.bin" because it's not in the manifest.
+000020.471|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_O/brush_TT_O.bin" because it's not in the manifest.
+000020.477|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_J/brush_TT_J.bin" because it's not in the manifest.
+000020.480|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_D/brush_TT_D.bin" because it's not in the manifest.
+000020.484|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_Turret_Chaos1_Rubble/SRUAP_Turret_Chaos1_Rubble.bin" because it's not in the manifest.
+000020.487|  ERROR| Can not open file <TemplateFighterPassive.dds> *********
+000020.487|  ERROR| Failed to load TemplateFighterPassive.dds
+000020.487|   WARN| r3dTexture EX: TemplateFighterPassive.dds - not found. Dummy texture created.
+000020.487|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000020.487|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000020.488|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000020.488|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000020.508|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_M/brush_TT_M.bin" because it's not in the manifest.
+000020.512|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_E/brush_TT_E.bin" because it's not in the manifest.
+000020.519|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_G/brush_TT_G.bin" because it's not in the manifest.
+000020.525|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/OrderBarracks_Wizard/OrderBarracks_Wizard.bin" because it's not in the manifest.
+000020.525|  ERROR| Cant load particle system TT_Chaos_nexus_idle_on.troy
+000020.525|  ERROR| Failed to preload particle system "TT_Chaos_nexus_idle_on.troy"
+000020.527|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_TT_H/brush_TT_H.bin" because it's not in the manifest.
+000020.534|  ERROR| Can not open file <TemplateFighterPassive.dds> *********
+000020.534|  ERROR| Failed to load TemplateFighterPassive.dds
+000020.534|   WARN| r3dTexture EX: TemplateFighterPassive.dds - not found. Dummy texture created.
+000020.534|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000020.534|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000020.534|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000020.534|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000020.555|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/DestroyedTower/DestroyedTower.bin" because it's not in the manifest.
+000020.562| ALWAYS| End Game Object Update
+000020.612|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Items/Items.bin" because it's not in the manifest.
+000020.648|  ERROR| Cant load particle system PowerBall_tar.troy
+000020.648|  ERROR| Failed to preload particle system "PowerBall_tar.troy"
+000020.648|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.648|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.657|  ERROR| Cant load particle system hextech_dmg_shield_birth.troy
+000020.658|  ERROR| Failed to preload particle system "hextech_dmg_shield_birth.troy"
+000020.658|  ERROR| Cant load particle system hextech_dmg_shield_onhit_01.troy
+000020.658|  ERROR| Failed to preload particle system "hextech_dmg_shield_onhit_01.troy"
+000020.662|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Item_Hexdrinker_Shield_Cubemap.dds>
+
+000020.666|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.666|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.666|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.666|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.670|  ERROR| Can not open file <3718_Icon_of_the_Oaken_Heart.dds> *********
+000020.670|  ERROR| Failed to load 3718_Icon_of_the_Oaken_Heart.dds
+000020.670|   WARN| r3dTexture EX: 3718_Icon_of_the_Oaken_Heart.dds - not found. Dummy texture created.
+000020.678|  ERROR| Can not open file <FallenAngel_BlackShield.dds> *********
+000020.678|  ERROR| Failed to load FallenAngel_BlackShield.dds
+000020.678|   WARN| r3dTexture EX: FallenAngel_BlackShield.dds - not found. Dummy texture created.
+000020.713|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.713|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.713|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.713|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sightward/sightward.bin" because it's not in the manifest.
+000020.720|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/SightWard/Skins/Base/SightWard.dds" because it's not in the manifest.
+000020.720|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/SightWard/Skins/Base/Animations/Sightward_Base_Idle.anm" because it's not in the manifest.
+000020.720|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/SightWard/Skins/Base/Animations/Sightward_Base_Idle_Death.anm" because it's not in the manifest.
+000020.720|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/SightWard/Skins/Base/Animations/Sightward_Base_IdleIn.anm" because it's not in the manifest.
+000020.725|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/s5test_wardcorpse/s5test_wardcorpse.bin" because it's not in the manifest.
+000020.725|  ERROR| Can not open file <Thresh_Square.dds> *********
+000020.725|  ERROR| Failed to load Thresh_Square.dds
+000020.725|   WARN| r3dTexture EX: Thresh_Square.dds - not found. Dummy texture created.
+000020.744|  ERROR| Can not open file <Summoner_fortify.dds> *********
+000020.744|  ERROR| Failed to load Summoner_fortify.dds
+000020.745|   WARN| r3dTexture EX: Summoner_fortify.dds - not found. Dummy texture created.
+000020.745|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.745|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.745|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.745|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.753|  ERROR| Cant load particle system TrailMagic1.troy
+000020.753|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.758| ALWAYS| WadFile mount: DATA/FINAL/Champions/Taliyah.wad 
+000020.759| ALWAYS| WadFile mount: DATA/FINAL/Champions/Taliyah.en_us.wad 
+000020.761|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Taliyah/Taliyah.bin" because it's not in the manifest.
+000020.817|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.817|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.817|  ERROR| Cant load particle system TrailMagic1.troy
+000020.817|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.852|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.852|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.852|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.852|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.853|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.853|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.853|  ERROR| Cant load particle system TrailMagic1.troy
+000020.853|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.860|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.860|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.860|  ERROR| Cant load particle system TrailMagic1.troy
+000020.860|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.879|  ERROR| Cant load particle system FerosciousHowl_cas3.troy
+000020.879|  ERROR| Failed to preload particle system "FerosciousHowl_cas3.troy"
+000020.879|  ERROR| Cant load particle system Capture_cas.troy
+000020.879|  ERROR| Failed to preload particle system "Capture_cas.troy"
+000020.882|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.882|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.882|  ERROR| Cant load particle system TrailMagic1.troy
+000020.882|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.884|  ERROR| Cant load particle system TrailMagic1.troy
+000020.884|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.885|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/item_twinshadow/item_twinshadow.bin" because it's not in the manifest.
+000020.886|  ERROR| Can not open file <wraith_Square.dds> *********
+000020.886|  ERROR| Failed to load wraith_Square.dds
+000020.886|   WARN| r3dTexture EX: wraith_Square.dds - not found. Dummy texture created.
+000020.886|  ERROR| Can not open file <wraith_Circle.dds> *********
+000020.886|  ERROR| Failed to load wraith_Circle.dds
+000020.886|   WARN| r3dTexture EX: wraith_Circle.dds - not found. Dummy texture created.
+000020.892|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <color-wraith_flicker.tga>
+
+000020.893|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <color-wraith_flicker.tga>
+
+000020.895|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <wraith_twirl.tga>
+
+000020.895|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <wraith_hit.sco>.
+
+000020.897|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000020.897|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000020.898|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/visionward/visionward.bin" because it's not in the manifest.
+000020.901|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/VisionWard/Skins/Base/VisionWard.dds" because it's not in the manifest.
+000020.904|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.904|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.905|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.905|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.906|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.906|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.906|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.906|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.910|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/yellowtrinketupgrade/yellowtrinketupgrade.bin" because it's not in the manifest.
+000020.914|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinketUpgrade/Skins/Base/Trinket_Yellow_Upgrade_TX_CM.dds" because it's not in the manifest.
+000020.914|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinketUpgrade/Skins/Base/Animations/TempChar_Idle1.anm" because it's not in the manifest.
+000020.914|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinketUpgrade/Skins/Base/Animations/GreaterYellow_Trinket_Intro.anm" because it's not in the manifest.
+000020.915|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinketUpgrade/Skins/Base/Animations/GreaterYellow_Trinket_Idle.anm" because it's not in the manifest.
+000020.929|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinketUpgrade/Skins/Base/Animations/GreaterYellow_Trinket_Death.anm" because it's not in the manifest.
+000020.940|  ERROR| Can not open file <3154_WriggleLantern.dds> *********
+000020.940|  ERROR| Failed to load 3154_WriggleLantern.dds
+000020.940|   WARN| r3dTexture EX: 3154_WriggleLantern.dds - not found. Dummy texture created.
+000020.940|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.940|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.940|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000020.940|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000020.947|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ha_ap_poro/ha_ap_poro.bin" because it's not in the manifest.
+000020.956|  ERROR| Can not open file <Minotaur_TriumphantRoar.dds> *********
+000020.956|  ERROR| Failed to load Minotaur_TriumphantRoar.dds
+000020.956|   WARN| r3dTexture EX: Minotaur_TriumphantRoar.dds - not found. Dummy texture created.
+000020.956|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000020.956|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000020.956|  ERROR| Cant load particle system TrailMagic1.troy
+000020.956|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000020.957|  ERROR| Can not open file <2051_Guardians_Horn_Counter.dds> *********
+000020.957|  ERROR| Failed to load 2051_Guardians_Horn_Counter.dds
+000020.957|   WARN| r3dTexture EX: 2051_Guardians_Horn_Counter.dds - not found. Dummy texture created.
+000021.004|  ERROR| Cant load particle system Boots_HomeguardHeal.troy
+000021.004|  ERROR| Failed to preload particle system "Boots_HomeguardHeal.troy"
+000021.068|  ERROR| Failed to load spell ini or script: "ItemAbyssal"
+000021.081|  ERROR| Can not open file <3734_The_Black_Cleaver.dds> *********
+000021.081|  ERROR| Failed to load 3734_The_Black_Cleaver.dds
+000021.081|   WARN| r3dTexture EX: 3734_The_Black_Cleaver.dds - not found. Dummy texture created.
+000021.100|  ERROR| Cant load particle system item_btoverheal_decay.troy
+000021.100|  ERROR| Failed to preload particle system "item_btoverheal_decay.troy"
+000021.100|  ERROR| Can not open file <2222_Transmutation_Crystal.dds> *********
+000021.100|  ERROR| Failed to load 2222_Transmutation_Crystal.dds
+000021.100|   WARN| r3dTexture EX: 2222_Transmutation_Crystal.dds - not found. Dummy texture created.
+000021.101|  ERROR| Cant load particle system item_btoverheal_decay.troy
+000021.101|  ERROR| Failed to preload particle system "item_btoverheal_decay.troy"
+000021.110|  ERROR| Cant load particle system Starcall_tar.troy
+000021.110|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000021.140|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000021.140|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000021.157| ALWAYS| WadFile mount: DATA/FINAL/Champions/Jhin.wad 
+000021.158| ALWAYS| WadFile mount: DATA/FINAL/Champions/Jhin.en_us.wad 
+000021.160|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Jhin/Jhin.bin" because it's not in the manifest.
+000021.221|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Item_PrimalTalon_explosion_sphere.scb>.
+
+000021.224|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_king_blood_nova.tga>
+
+000021.226|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Vlad_BloodKing_Joke_Ray.tga>
+
+000021.243|  ERROR| Can not open file <1040_Spellblade.dds> *********
+000021.243|  ERROR| Failed to load 1040_Spellblade.dds
+000021.244|   WARN| r3dTexture EX: 1040_Spellblade.dds - not found. Dummy texture created.
+000021.288|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.288|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.327|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000021.327|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000021.341|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000021.341|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000021.341|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000021.341|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000021.381|  ERROR| Cant load particle system global_armor_pos_buf.troy
+000021.381|  ERROR| Failed to preload particle system "global_armor_pos_buf.troy"
+000021.381|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.381|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.381|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.381|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.388|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000021.388|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000021.396|  ERROR| Cant load particle system hextech_dmg_shield_birth.troy
+000021.396|  ERROR| Failed to preload particle system "hextech_dmg_shield_birth.troy"
+000021.396|  ERROR| Cant load particle system hextech_dmg_shield_onhit_01.troy
+000021.397|  ERROR| Failed to preload particle system "hextech_dmg_shield_onhit_01.troy"
+000021.397|  ERROR| Cant load particle system hextech_dmg_shield_birth.troy
+000021.397|  ERROR| Failed to preload particle system "hextech_dmg_shield_birth.troy"
+000021.397|  ERROR| Cant load particle system hextech_dmg_shield_onhit_01.troy
+000021.397|  ERROR| Failed to preload particle system "hextech_dmg_shield_onhit_01.troy"
+000021.398|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.398|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.398|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.398|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.398|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.398|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.398|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.398|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.411|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_blood_scroll_01.dds>
+
+000021.413|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_blood_scroll_a01.dds>
+
+000021.413|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_blood_transfusion_spin.dds>
+
+000021.413|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_flame_test_01.dds>
+
+000021.413|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_blood_scroll_a01.dds>
+
+000021.434|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.434|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.434|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.434|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.445|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Color_Red.dds>
+
+000021.445|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Linger_Red.dds>
+
+000021.445|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Swirl_Red.dds>
+
+000021.447|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.447|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.447|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.447|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.448|  ERROR| Cant load particle system Starcall_tar.troy
+000021.448|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000021.448|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.448|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.448|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/siegegeneratorunbuilt/siegegeneratorunbuilt.bin" because it's not in the manifest.
+000021.448|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/siegegeneratorunbuilt/siegegeneratorunbuilt.bin" because it's not in the manifest.
+000021.448|  ERROR| Non-GDS characters are no longer supported - [siegegeneratorunbuilt] and skinID [0]
+000021.463|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/siegegenerator/siegegenerator.bin" because it's not in the manifest.
+000021.463|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/siegegenerator/siegegenerator.bin" because it's not in the manifest.
+000021.463|  ERROR| Non-GDS characters are no longer supported - [siegegenerator] and skinID [0]
+000021.472|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/siegegenerator/siegegenerator.bin" because it's not in the manifest.
+000021.472|  ERROR| Non-GDS characters are no longer supported - [siegegenerator] and skinID [0]
+000021.516|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberender10vision/testcuberender10vision.bin" because it's not in the manifest.
+000021.553|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000021.553|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000021.553|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000021.553|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000021.560| ALWAYS| WadFile mount: DATA/FINAL/Champions/MissFortune.wad 
+000021.561| ALWAYS| WadFile mount: DATA/FINAL/Champions/MissFortune.en_us.wad 
+000021.563|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/MissFortune/MissFortune.bin" because it's not in the manifest.
+000021.639|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000021.639|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000021.639|  ERROR| Cant load particle system Starcall_tar.troy
+000021.639|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000021.641|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.641|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.641|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.641|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.644|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.644|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.644|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.644|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.649|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/yellowtrinket/yellowtrinket.bin" because it's not in the manifest.
+000021.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinket/Skins/Base/YellowTrinket_TX_CM.dds" because it's not in the manifest.
+000021.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinket/Skins/Base/Animations/TempChar_Idle1.anm" because it's not in the manifest.
+000021.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinket/Skins/Base/Animations/YellowTrinket_In.anm" because it's not in the manifest.
+000021.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinket/Skins/Base/Animations/YellowTrinket_Idle.anm" because it's not in the manifest.
+000021.657|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/YellowTrinket/Skins/Base/Animations/YellowTrinket_Death.anm" because it's not in the manifest.
+000021.657|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.657|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.657|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000021.657|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000021.677|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000021.677|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000021.677|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.677|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.693|  ERROR| Cant load particle system gangplank_base_q_gold.troy
+000021.693|  ERROR| Failed to preload particle system "gangplank_base_q_gold.troy"
+000021.693|  ERROR| Cant load particle system gangplank_base_q_token.troy
+000021.693|  ERROR| Failed to preload particle system "gangplank_base_q_token.troy"
+000021.693|  ERROR| Cant load particle system gangplank_base_q_gold.troy
+000021.693|  ERROR| Failed to preload particle system "gangplank_base_q_gold.troy"
+000021.693|  ERROR| Cant load particle system gangplank_base_q_token.troy
+000021.693|  ERROR| Failed to preload particle system "gangplank_base_q_token.troy"
+000021.700|  ERROR| Can not open file <3748_Eternity_Scepter.dds> *********
+000021.700|  ERROR| Failed to load 3748_Eternity_Scepter.dds
+000021.700|   WARN| r3dTexture EX: 3748_Eternity_Scepter.dds - not found. Dummy texture created.
+000021.700|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.700|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.700|  ERROR| Can not open file <GangplankCannonBarrageUpgrade1.dds> *********
+000021.700|  ERROR| Failed to load GangplankCannonBarrageUpgrade1.dds
+000021.700|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade1.dds - not found. Dummy texture created.
+000021.700|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.700|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.705|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.705|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.705|  ERROR| Can not open file <GangplankCannonBarrageUpgrade2.dds> *********
+000021.705|  ERROR| Failed to load GangplankCannonBarrageUpgrade2.dds
+000021.705|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade2.dds - not found. Dummy texture created.
+000021.705|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.705|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.705|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.705|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.705|  ERROR| Can not open file <GangplankCannonBarrageUpgrade3.dds> *********
+000021.705|  ERROR| Failed to load GangplankCannonBarrageUpgrade3.dds
+000021.705|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade3.dds - not found. Dummy texture created.
+000021.706|  ERROR| Cant load particle system gangplank_passive_token.troy
+000021.706|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000021.712|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.712|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.718|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.718|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.718|  ERROR| Cant load particle system teleport.prt
+000021.718|  ERROR| Failed to preload particle system "teleport.prt"
+000021.727|  ERROR| Can not open file <Buff_Devourer_Sated.dds> *********
+000021.728|  ERROR| Failed to load Buff_Devourer_Sated.dds
+000021.728|   WARN| r3dTexture EX: Buff_Devourer_Sated.dds - not found. Dummy texture created.
+000021.729|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sru_murkwolfmini/sru_murkwolfmini.bin" because it's not in the manifest.
+000021.730|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Murkwolf/SRU_Murkwolf.bin" because it's not in the manifest.
+000021.730|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.730|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.730|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.730|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.747|  ERROR| Cant load particle system SRU_MurkwolfMini_idle_a2n_sound.troy
+000021.747|  ERROR| Failed to preload particle system "SRU_MurkwolfMini_idle_a2n_sound.troy"
+000021.751|  ERROR| Failed to load spell ini or script: "lulue"
+000021.754|  ERROR| Failed to load spell ini or script: "lulue"
+000021.767|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000021.767|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000021.767|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000021.767|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000021.767|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000021.776|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.776|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.783|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.783|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.784|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000021.784|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000021.784|  ERROR| Cant load particle system Starcall_tar.troy
+000021.784|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000021.816|  ERROR| Failed to load spell ini or script: "summonerrevivespeedboost"
+000021.816|  ERROR| Failed to load spell ini or script: "summonerrevivespeedboost"
+000021.816|  ERROR| Cant load particle system InnervatingLocket_cas.troy
+000021.816|  ERROR| Failed to preload particle system "InnervatingLocket_cas.troy"
+000021.827|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.828|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.839|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidgate/voidgate.bin" because it's not in the manifest.
+000021.886|  ERROR| Cant load particle system VoidGate_idle_loop_sound.troy
+000021.886|  ERROR| Failed to preload particle system "VoidGate_idle_loop_sound.troy"
+000021.887|  ERROR| Cant load particle system VoidGate_death_sound.troy
+000021.887|  ERROR| Failed to preload particle system "VoidGate_death_sound.troy"
+000021.893|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidspawn/voidspawn.bin" because it's not in the manifest.
+000021.895|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.895|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.895|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.895|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.899|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.899|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.923|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidspawntracer/voidspawntracer.bin" because it's not in the manifest.
+000021.944|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.944|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.944|  ERROR| Cant load particle system TrailMagic1.troy
+000021.944|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000021.955|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000021.955|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000021.955|  ERROR| Cant load particle system TrailMagic1.troy
+000021.955|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000021.962| ALWAYS| WadFile mount: DATA/FINAL/Champions/Twitch.wad 
+000021.963| ALWAYS| WadFile mount: DATA/FINAL/Champions/Twitch.en_us.wad 
+000021.965|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Twitch/Twitch.bin" because it's not in the manifest.
+000022.019|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000022.020|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000022.020|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000022.020|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000022.034|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/bluetrinket/bluetrinket.bin" because it's not in the manifest.
+000022.038|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "ASSETS/Characters/BlueTrinket/Skins/Base/BlueTrinket_TX_CM.dds" because it's not in the manifest.
+000022.044|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000022.044|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000022.044|  ERROR| Cant load particle system Starcall_tar.troy
+000022.044|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000022.046|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000022.046|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000022.046|  ERROR| Cant load particle system Starcall_tar.troy
+000022.046|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000022.047|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000022.047|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000022.047|  ERROR| Cant load particle system Starcall_tar.troy
+000022.047|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000022.058|  ERROR| Cant load particle system global_armor_pos_buf.troy
+000022.058|  ERROR| Failed to preload particle system "global_armor_pos_buf.troy"
+000022.091|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000022.092|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000022.123|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar_unit.troy
+000022.123|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar_unit.troy"
+000022.123|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar.troy
+000022.123|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar.troy"
+000022.123|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar_unit.troy
+000022.123|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar_unit.troy"
+000022.123|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar.troy
+000022.123|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar.troy"
+000022.123|  ERROR| Cant load particle system Jinx_Base_Q_Rocket_Hurricane_mis.troy
+000022.123|  ERROR| Failed to preload particle system "Jinx_Base_Q_Rocket_Hurricane_mis.troy"
+000022.123|  ERROR| Cant load particle system Ashe_Base_Q_tar.troy
+000022.123|  ERROR| Failed to preload particle system "Ashe_Base_Q_tar.troy"
+000022.123|  ERROR| Cant load particle system Ashe_Base_Q_Hurricane_mis.troy
+000022.123|  ERROR| Failed to preload particle system "Ashe_Base_Q_Hurricane_mis.troy"
+000022.135|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000022.135|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000022.135|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000022.135|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000022.150|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000022.150|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000022.156|  ERROR| Cant load particle system Hextech_Mis.troy
+000022.156|  ERROR| Failed to preload particle system "Hextech_Mis.troy"
+000022.163|  ERROR| Cant load particle system DeathsCaress_shafts.troy
+000022.163|  ERROR| Failed to preload particle system "DeathsCaress_shafts.troy"
+000022.193|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000022.193|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000022.195|  ERROR| Can not open file <3712_Kindled_Spirit.dds> *********
+000022.195|  ERROR| Failed to load 3712_Kindled_Spirit.dds
+000022.195|   WARN| r3dTexture EX: 3712_Kindled_Spirit.dds - not found. Dummy texture created.
+000022.196|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Soraka_heal_color.tga>
+
+000022.212|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000022.212|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000022.212|  ERROR| Cant load particle system Talon_Base_Q_Bleed.troy
+000022.212|  ERROR| Failed to preload particle system "Talon_Base_Q_Bleed.troy"
+000022.233|  ERROR| Can not open file <3400_Karache.dds> *********
+000022.233|  ERROR| Failed to load 3400_Karache.dds
+000022.233|   WARN| r3dTexture EX: 3400_Karache.dds - not found. Dummy texture created.
+000022.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000022.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000022.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000022.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000022.268|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000022.269|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000022.379| ALWAYS| WadFile mount: DATA/FINAL/Champions/Veigar.wad 
+000022.380| ALWAYS| WadFile mount: DATA/FINAL/Champions/Veigar.en_us.wad 
+000022.382|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Veigar/Veigar.bin" because it's not in the manifest.
+000022.456|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000022.456|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/-nolink.dds
+000022.456|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/TurretTipImage.png-nolink.dds" because it's not in the manifest.
+000022.456|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/TurretTipImage.png-nolink.dds
+000022.456|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/recapSplash.png-nolink.dds" because it's not in the manifest.
+000022.456|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/recapSplash.png-nolink.dds
+000022.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Items/items.json" because it's not in the manifest.
+000023.512| ALWAYS| WadFile mount: DATA/FINAL/Champions/XinZhao.wad 
+000023.513| ALWAYS| WadFile mount: DATA/FINAL/Champions/XinZhao.en_us.wad 
+000023.515|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/XinZhao/XinZhao.bin" because it's not in the manifest.
+000023.623| ALWAYS| PreloadGlobalEffects
+000023.815| ALWAYS| PreloadGlobalEffects Finished
+000023.817|  ERROR| Cant load particle system galio_base_r_taunt_tar.troy
+000023.817|  ERROR| Failed to preload particle system "galio_base_r_taunt_tar.troy"
+000023.821|  ERROR| Can not open file <48thSlave_Pacify.dds> *********
+000023.821|  ERROR| Failed to load 48thSlave_Pacify.dds
+000023.821|   WARN| r3dTexture EX: 48thSlave_Pacify.dds - not found. Dummy texture created.
+000023.821|  ERROR| Cant load particle system Charm_tar.troy
+000023.821|  ERROR| Failed to preload particle system "Charm_tar.troy"
+000023.821|  ERROR| Cant load particle system Charm_tar.troy
+000023.821|  ERROR| Failed to preload particle system "Charm_tar.troy"
+000023.826|  ERROR| Can not open file <Teemo_TranquilizingShot.dds> *********
+000023.826|  ERROR| Failed to load Teemo_TranquilizingShot.dds
+000023.826|   WARN| r3dTexture EX: Teemo_TranquilizingShot.dds - not found. Dummy texture created.
+000023.826|  ERROR| Cant load particle system Sleep2_Glb.troy
+000023.826|  ERROR| Failed to preload particle system "Sleep2_Glb.troy"
+000023.826|  ERROR| Cant load particle system Sleep2_Glb.troy
+000023.826|  ERROR| Failed to preload particle system "Sleep2_Glb.troy"
+000023.915|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Mist_circle.tga>
+
+000023.915|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <fogcircle.sco>.
+
+000023.915|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <TT_Mist_circle.tga>
+
+000023.915|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <fogcircle.sco>.
+
+000023.926| ALWAYS| WadFile mount: DATA/FINAL/Champions/Ezreal.wad 
+000023.927| ALWAYS| WadFile mount: DATA/FINAL/Champions/Ezreal.en_us.wad 
+000023.930|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Ezreal/Ezreal.bin" because it's not in the manifest.
+000023.989| ALWAYS| WadFile mount: DATA/FINAL/Champions/AurelionSol.wad 
+000023.990| ALWAYS| WadFile mount: DATA/FINAL/Champions/AurelionSol.en_us.wad 
+000023.993|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/AurelionSol/AurelionSol.bin" because it's not in the manifest.
+000024.011|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Skarner_Base_E_flare-sun_02.dds>
+
+000024.115|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000024.115|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000024.134|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000024.134|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000024.429|  ERROR| Cant load particle system missfortune_base_w_max_avatar.troy
+000024.429|  ERROR| Failed to preload particle system "missfortune_base_w_max_avatar.troy"
+000024.435|  ERROR| Cant load particle system missfortune_base_p_max.troy
+000024.435|  ERROR| Failed to preload particle system "missfortune_base_p_max.troy"
+000024.435|  ERROR| Cant load particle system missfortune_skin07_w_max_trail.troy
+000024.435|  ERROR| Failed to preload particle system "missfortune_skin07_w_max_trail.troy"
+000024.436|  ERROR| Cant load particle system missfortune_skin07_w_max_trail.troy
+000024.436|  ERROR| Failed to preload particle system "missfortune_skin07_w_max_trail.troy"
+000024.436|  ERROR| Cant load particle system missfortune_base_w_max_avatar.troy
+000024.436|  ERROR| Failed to preload particle system "missfortune_base_w_max_avatar.troy"
+000024.441|  ERROR| Cant load particle system missfortune_base_p_max.troy
+000024.441|  ERROR| Failed to preload particle system "missfortune_base_p_max.troy"
+000024.472|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/spellbook1/spellbook1.bin" because it's not in the manifest.
+000024.532|  ERROR| Cant load particle system missfortune_base_w_mis_augment.troy
+000024.532|  ERROR| Failed to preload particle system "missfortune_base_w_mis_augment.troy"
+000024.533|  ERROR| Cant load particle system missfortune_base_w_mis_augment.troy
+000024.533|  ERROR| Failed to preload particle system "missfortune_base_w_mis_augment.troy"
+000024.533|  ERROR| Failed to load spell ini or script: "MissFortuneBulletsClone"
+000024.625|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_Nunu_Base_E_hit_flash.dds>
+
+000024.626|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_Ekko_Base_R_LightSpikes.dds>
+
+000024.634|  ERROR| Failed to load spell ini or script: "katarinaq"
+000024.641|  ERROR| Failed to load spell ini or script: "katarinaq"
+000024.641|  ERROR| Cant load particle system Sivir_Base_W_Tar.troy
+000024.641|  ERROR| Failed to preload particle system "Sivir_Base_W_Tar.troy"
+000024.644|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_Nidalee_Glowspecks.dds>
+
+000024.644|  ERROR| Can not open file <Vayne_Condemn.dds> *********
+000024.644|  ERROR| Failed to load Vayne_Condemn.dds
+000024.644|   WARN| r3dTexture EX: Vayne_Condemn.dds - not found. Dummy texture created.
+000024.647|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_color-rampdown.dds>
+
+000024.647|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Temp_ahridash.sco>.
+
+000024.647|  ERROR| Failed to load spell ini or script: "luxmalicecannon"
+000024.675|  ERROR| Failed to load spell ini or script: "luxmalicecannon"
+000024.694|  ERROR| Can not open file <MissFortune_ImpureShots.dds> *********
+000024.694|  ERROR| Failed to load MissFortune_ImpureShots.dds
+000024.694|   WARN| r3dTexture EX: MissFortune_ImpureShots.dds - not found. Dummy texture created.
+000024.695|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/jhintrap/jhintrap.bin" because it's not in the manifest.
+000024.731|  ERROR| Cant load particle system teemo_base_r_groundimpact_dust.troy
+000024.731|  ERROR| Failed to preload particle system "teemo_base_r_groundimpact_dust.troy"
+000024.731|  ERROR| Cant load particle system teemo_base_r_groundimpact_dust.troy
+000024.731|  ERROR| Failed to preload particle system "teemo_base_r_groundimpact_dust.troy"
+000024.731|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000024.731|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000024.746|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Velkoz_Base_Z_Flare_Omnimax.dds>
+
+000024.746|  ERROR| Can not open file <Bowmaster_ArchersMark.dds> *********
+000024.746|  ERROR| Failed to load Bowmaster_ArchersMark.dds
+000024.746|   WARN| r3dTexture EX: Bowmaster_ArchersMark.dds - not found. Dummy texture created.
+000024.746|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000024.746|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000024.746|  ERROR| Cant load particle system Teemo_Base_R_Mis.troy
+000024.746|  ERROR| Failed to preload particle system "Teemo_Base_R_Mis.troy"
+000024.761|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_Nidalee_Glowspecks.dds>
+
+000024.762|  ERROR| Can not open file <FallenAngel_DarkBinding.dds> *********
+000024.762|  ERROR| Failed to load FallenAngel_DarkBinding.dds
+000024.762|   WARN| r3dTexture EX: FallenAngel_DarkBinding.dds - not found. Dummy texture created.
+000024.782|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Temp_Velkoz_Base_Z_GlowSoft.dds>
+
+000024.782|  ERROR| Cant load particle system SpiralBlade_tar.troy
+000024.782|  ERROR| Failed to preload particle system "SpiralBlade_tar.troy"
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Ray_Mis.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Wisps_Mis.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Orb_Mis.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Black_Mis.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Shape_Mis.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Wisps_Mis_Mult.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Morgana_Skin06_Q_Mis_Geo.tga>
+
+000024.792|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Morgana_Skin06_Q_Mis_Geo.sco>.
+
+000024.792|  ERROR| Cant load particle system Nunu_Base_R_Cas.troy
+000024.792|  ERROR| Failed to preload particle system "Nunu_Base_R_Cas.troy"
+000024.793|  ERROR| Cant load particle system FerosciousHowl_cas3.troy
+000024.793|  ERROR| Failed to preload particle system "FerosciousHowl_cas3.troy"
+000024.841| ALWAYS| WadFile mount: DATA/FINAL/Champions/Garen.wad 
+000024.842| ALWAYS| WadFile mount: DATA/FINAL/Champions/Garen.en_us.wad 
+000024.845|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Garen/Garen.bin" because it's not in the manifest.
+000024.854|  ERROR| Cant load particle system rampage.troy
+000024.855|  ERROR| Failed to preload particle system "rampage.troy"
+000024.856|  ERROR| Cant load particle system rampage.troy
+000024.856|  ERROR| Failed to preload particle system "rampage.troy"
+000024.856|  ERROR| Cant load particle system rampage.troy
+000024.856|  ERROR| Failed to preload particle system "rampage.troy"
+000024.867|  ERROR| Cant load particle system rampage.troy
+000024.867|  ERROR| Failed to preload particle system "rampage.troy"
+000024.972|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000024.972|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000024.972|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000024.972|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000024.993|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Udyr_Spirit_Recall_Helix_Mult_Tiger.dds>
+
+000025.027|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Garen_SteelLegion_Ult_Branches.dds>
+
+000025.106|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <alpha_12.tgar>
+
+000025.113| ALWAYS| WadFile mount: DATA/FINAL/Champions/Teemo.wad 
+000025.114| ALWAYS| WadFile mount: DATA/FINAL/Champions/Teemo.en_us.wad 
+000025.115|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Teemo/Teemo.bin" because it's not in the manifest.
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_Smoke2x2.dds>
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_XZ_add.dds>
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_muzzleflash_xz.scb>.
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_XZ_Blend.dds>
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_Mult.dds>
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_muzzleflash_xz.scb>.
+
+000025.126|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Mote.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_cas_Arc.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_q_cas_arc.scb>.
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_cas_ArcAdd.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_q_cas_arc.scb>.
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Mote.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Mote.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_Spikes.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_Spikes_Mult.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_Spikes.dds>
+
+000025.137|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Q_Spikes_Mult.dds>
+
+000025.138|   WARN| r3dTexture EX:  - not found. Dummy texture created.
+000025.139|  ERROR| Cant load particle system teemo_skin08_w_buf2_canister.troy
+000025.139|  ERROR| Failed to preload particle system "teemo_skin08_w_buf2_canister.troy"
+000025.139|  ERROR| Cant load particle system teemo_skin08_w_buf2_canister.troy
+000025.139|  ERROR| Failed to preload particle system "teemo_skin08_w_buf2_canister.troy"
+000025.140|  ERROR| Cant load particle system TeemoBasicAttack_cas.prt
+000025.140|  ERROR| Failed to preload particle system "TeemoBasicAttack_cas.prt"
+000025.140|  ERROR| Cant load particle system TristannaSmokeRing2_cas.prt
+000025.140|  ERROR| Failed to preload particle system "TristannaSmokeRing2_cas.prt"
+000025.141|  ERROR| Can not open file <Teemo_PoisonedDart.dds> *********
+000025.141|  ERROR| Failed to load Teemo_PoisonedDart.dds
+000025.141|   WARN| r3dTexture EX: Teemo_PoisonedDart.dds - not found. Dummy texture created.
+000025.142|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000025.142|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000025.151|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_Smoke2x2.dds>
+
+000025.151|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_Ring_Blend.dds>
+
+000025.151|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_Ring_Mult.dds>
+
+000025.151|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_ring.scb>.
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_Ring_add.dds>
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_ring.scb>.
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_XZ_Blend.dds>
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_Mult.dds>
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_muzzleflash_xz.scb>.
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_BA_Cas_MuzzleFlash_XZ_add.dds>
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <teemo_skin08_ba_cas_muzzleflash_xz.scb>.
+
+000025.152|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Teemo_Skin08_Mote.dds>
+
+000025.153|  ERROR| Cant load particle system teemo_skin04_r_mis_bounce.troy
+000025.153|  ERROR| Failed to preload particle system "teemo_skin04_r_mis_bounce.troy"
+000025.153|  ERROR| Cant load particle system teemo_skin07_r_mis_bounce.troy
+000025.153|  ERROR| Failed to preload particle system "teemo_skin07_r_mis_bounce.troy"
+000025.153|  ERROR| Cant load particle system teemo_skin08_r_mis_bounce.troy
+000025.153|  ERROR| Failed to preload particle system "teemo_skin08_r_mis_bounce.troy"
+000025.155|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/teemomushroom/teemomushroom.bin" because it's not in the manifest.
+000025.161|  ERROR| Cant load particle system teemo_skin07_r_tar.troy
+000025.161|  ERROR| Failed to preload particle system "teemo_skin07_r_tar.troy"
+000025.165|  ERROR| Cant load particle system teemo_skin07_r_tar.troy
+000025.165|  ERROR| Failed to preload particle system "teemo_skin07_r_tar.troy"
+000025.165|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000025.165|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000025.165|  ERROR| Cant load particle system teemo_skin04_r_mis_bounce.troy
+000025.165|  ERROR| Failed to preload particle system "teemo_skin04_r_mis_bounce.troy"
+000025.165|  ERROR| Cant load particle system teemo_skin07_r_mis_bounce.troy
+000025.165|  ERROR| Failed to preload particle system "teemo_skin07_r_mis_bounce.troy"
+000025.165|  ERROR| Cant load particle system teemo_skin08_r_mis_bounce.troy
+000025.165|  ERROR| Failed to preload particle system "teemo_skin08_r_mis_bounce.troy"
+000025.165|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000025.165|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000025.165|  ERROR| Cant load particle system Heimerdinger_Base_E_Explosion.troy
+000025.165|  ERROR| Failed to preload particle system "Heimerdinger_Base_E_Explosion.troy"
+000025.196|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000025.196|  ERROR| Failed to preload particle system "Veigar_Skin08_Z_CapeIdle.troy"
+000025.196|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000025.196|  ERROR| Failed to preload particle system "Veigar_Skin08_Z_CapeIdleTrail.troy"
+000025.196|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000025.196|  ERROR| Failed to preload particle system "Veigar_Skin08_Z_CapeIdleTrail.troy"
+000025.197|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000025.197|  ERROR| Failed to preload particle system "Veigar_Skin08_Z_CapeIdleTrail.troy"
+000025.197|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000025.197|  ERROR| Failed to preload particle system "Veigar_Skin08_Z_StaffIdle.troy"
+000025.217|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.217|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.239|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.239|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.303|  ERROR| Cant load particle system veigar_skin08_e_customstun_buf.troy
+000025.303|  ERROR| Failed to preload particle system "veigar_skin08_e_customstun_buf.troy"
+000025.303|  ERROR| Cant load particle system veigar_skin08_e_glitch_buf.troy
+000025.303|  ERROR| Failed to preload particle system "veigar_skin08_e_glitch_buf.troy"
+000025.303|  ERROR| Cant load particle system veigar_skin08_e_customstun_buf.troy
+000025.303|  ERROR| Failed to preload particle system "veigar_skin08_e_customstun_buf.troy"
+000025.303|  ERROR| Cant load particle system veigar_skin08_e_glitch_buf.troy
+000025.303|  ERROR| Failed to preload particle system "veigar_skin08_e_glitch_buf.troy"
+000025.304|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters//.bin" because it's not in the manifest.
+000025.304|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.304|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.331|  ERROR| Cant load particle system veigar_skin08_q_minionkill.troy
+000025.331|  ERROR| Failed to preload particle system "veigar_skin08_q_minionkill.troy"
+000025.334|  ERROR| Cant load particle system veigar_skin08_q_minionkill.troy
+000025.334|  ERROR| Failed to preload particle system "veigar_skin08_q_minionkill.troy"
+000025.351|  ERROR| Failed to load spell ini or script: "VeigarPassiveMeteor"
+000025.351|  ERROR| Failed to load spell ini or script: "ExtraSpells"
+000025.396|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.396|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.397|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.397|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.409|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.409|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.447|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.447|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.450|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.450|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.454|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.454|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.461|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.461|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.461|  ERROR| Cant load particle system TristanaBasicAttack_mis.troy
+000025.461|  ERROR| Failed to preload particle system "TristanaBasicAttack_mis.troy"
+000025.479|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.479|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.495|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.495|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.495|  ERROR| Cant load particle system TristanaBasicAttack_mis.troy
+000025.495|  ERROR| Failed to preload particle system "TristanaBasicAttack_mis.troy"
+000025.644|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.644|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.644|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.644|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.657|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Bard_Base_W_pack_stomp_GlobalTargetHit01.dds>
+
+000025.658|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Bard_Base_W_pack_stomp_GlobalTargetHit01.dds>
+
+000025.658|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Bard_Base_W_pack_stomp_GlobalTargetHit01.dds>
+
+000025.658|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.658|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.658|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.658|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.658|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/bardhealthshrine/bardhealthshrine.bin" because it's not in the manifest.
+000025.662|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.662|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.662|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000025.662|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000025.662|  ERROR| Cant load particle system bard_hackskin1_e_door_click_confirm.troy
+000025.662|  ERROR| Failed to preload particle system "bard_hackskin1_e_door_click_confirm.troy"
+000025.662|  ERROR| Cant load particle system bard_hackskin5_e_door_click_confirm.troy
+000025.662|  ERROR| Failed to preload particle system "bard_hackskin5_e_door_click_confirm.troy"
+000025.664|  ERROR| Cant load particle system bard_hackskin5_e_pathing_to_door_indicator_line_beam.troy
+000025.664|  ERROR| Failed to preload particle system "bard_hackskin5_e_pathing_to_door_indicator_line_beam.troy"
+000025.664|  ERROR| Cant load particle system bard_hackskin1_e_pathing_to_door_indicator_line_beam.troy
+000025.664|  ERROR| Failed to preload particle system "bard_hackskin1_e_pathing_to_door_indicator_line_beam.troy"
+000025.668|  ERROR| Cant load particle system bard_hackskin1_e_door_click_confirm.troy
+000025.668|  ERROR| Failed to preload particle system "bard_hackskin1_e_door_click_confirm.troy"
+000025.668|  ERROR| Cant load particle system bard_hackskin5_e_door_click_confirm.troy
+000025.668|  ERROR| Failed to preload particle system "bard_hackskin5_e_door_click_confirm.troy"
+000025.668|  ERROR| Cant load particle system bard_hackskin5_e_pathing_to_door_indicator_line_beam.troy
+000025.668|  ERROR| Failed to preload particle system "bard_hackskin5_e_pathing_to_door_indicator_line_beam.troy"
+000025.668|  ERROR| Cant load particle system bard_hackskin1_e_pathing_to_door_indicator_line_beam.troy
+000025.668|  ERROR| Failed to preload particle system "bard_hackskin1_e_pathing_to_door_indicator_line_beam.troy"
+000025.706|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/BardPickup/BardPickup.bin" because it's not in the manifest.
+000025.709|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/BardPickupNoIcon/BardPickupNoIcon.bin" because it's not in the manifest.
+000025.713|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/BardFollower/BardFollower.bin" because it's not in the manifest.
+000025.802|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+000025.802|  ERROR| Failed to preload particle system "Taliyah_idle_stones.troy"
+000025.802|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000025.802|  ERROR| Failed to preload particle system "Taliyah_idle_arms.troy"
+000025.802|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000025.802|  ERROR| Failed to preload particle system "Taliyah_idle_arms.troy"
+000025.836|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/taliyahwallchunk/taliyahwallchunk.bin" because it's not in the manifest.
+000025.859|  ERROR| Cant load particle system stoneweaver_q2_mis.troy
+000025.859|  ERROR| Failed to preload particle system "stoneweaver_q2_mis.troy"
+000026.023| ALWAYS| WadFile mount: DATA/FINAL/Champions/Orianna.wad 
+000026.024| ALWAYS| WadFile mount: DATA/FINAL/Champions/Orianna.en_us.wad 
+000026.026|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Orianna/Orianna.bin" because it's not in the manifest.
+000026.044|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/oriannaball/oriannaball.bin" because it's not in the manifest.
+000026.138|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/oriannanoball/oriannanoball.bin" because it's not in the manifest.
+000026.159|  ERROR| Can not open file <KogMaw_VoidOoze.dds> *********
+000026.159|  ERROR| Failed to load KogMaw_VoidOoze.dds
+000026.159|   WARN| r3dTexture EX: KogMaw_VoidOoze.dds - not found. Dummy texture created.
+000026.166|  ERROR| Can not open file <AkaliCrescentSlash.dds> *********
+000026.166|  ERROR| Failed to load AkaliCrescentSlash.dds
+000026.166|   WARN| r3dTexture EX: AkaliCrescentSlash.dds - not found. Dummy texture created.
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_orianna_goth_512_TX_CM.dds>
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_oriana_gothic_ball.sco>.
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_oriana_sewnchaos_TX_CM.dds>
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_orianna_ball_ragdoll.sco>.
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_orianna_assassin_TX_CM.dds>
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_orinna_Assassin_ball.sco>.
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_Orianna_skn4_ball.dds>
+
+000026.191|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_Orianna_skn4_ball.sco>.
+
+000026.333|  ERROR| Can not open file <Blitzcrank_StaticField.dds> *********
+000026.334|  ERROR| Failed to load Blitzcrank_StaticField.dds
+000026.334|   WARN| r3dTexture EX: Blitzcrank_StaticField.dds - not found. Dummy texture created.
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_orianna_goth_512_TX_CM.dds>
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_oriana_gothic_ball.sco>.
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_oriana_sewnchaos_TX_CM.dds>
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_orianna_ball_ragdoll.sco>.
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_orianna_assassin_TX_CM.dds>
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_orinna_Assassin_ball.sco>.
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Orianna_Base_Z_Orianna_skn4_ball.dds>
+
+000026.352|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Orianna_Base_Z_Orianna_skn4_ball.sco>.
+
+000026.508|  ERROR| Cant load particle system twitch_base_q_invisible_outro.troy
+000026.508|  ERROR| Failed to preload particle system "twitch_base_q_invisible_outro.troy"
+000026.510|  ERROR| Cant load particle system twitch_base_q_invisible_outro.troy
+000026.510|  ERROR| Failed to preload particle system "twitch_base_q_invisible_outro.troy"
+000026.533|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.533|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000026.533|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.533|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000026.533|  ERROR| Cant load particle system global_invis_cas.troy
+000026.533|  ERROR| Failed to preload particle system "global_invis_cas.troy"
+000026.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters//.bin" because it's not in the manifest.
+000026.543|  ERROR| Can not open file <Twitch_Expunge.dds> *********
+000026.543|  ERROR| Failed to load Twitch_Expunge.dds
+000026.544|   WARN| r3dTexture EX: Twitch_Expunge.dds - not found. Dummy texture created.
+000026.544|  ERROR| Cant load particle system twitch_ambush_buf.troy
+000026.544|  ERROR| Failed to preload particle system "twitch_ambush_buf.troy"
+000026.544|  ERROR| Cant load particle system twitch_ambush_buf.troy
+000026.544|  ERROR| Failed to preload particle system "twitch_ambush_buf.troy"
+000026.586|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.587|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000026.587|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.587|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000026.637|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000026.637|  ERROR| Failed to preload particle system "twitch_base_basicattack_reload_sound.troy"
+000026.684|  ERROR| Can not open file <Voidwalker_Riftwalk.dds> *********
+000026.684|  ERROR| Failed to load Voidwalker_Riftwalk.dds
+000026.684|   WARN| r3dTexture EX: Voidwalker_Riftwalk.dds - not found. Dummy texture created.
+000026.684|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.684|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000026.684|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000026.684|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000028.164| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000028.164| ALWAYS| GAMESTATE_GAMELOOP Render
+000028.175| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000028.178|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Data/loadtimings_Map10_default.txt" because it's not in the manifest.
+000028.195| ALWAYS| Start Main Loop
+000028.195| ALWAYS| Waiting for all players to connect
+000028.195| ALWAYS| Waiting for all players to connect end
+000062.149| ALWAYS| Creating Hero AurelionSol...
+000062.159| ALWAYS| Spawning champion (AurelionSol) with skinID 0 on team 100 for clientID 8 and summonername (MaidénTR) (is HUMAN PLAYER)
+000062.160| ALWAYS| Hero AurelionSol(0) created for MaidénTR
+000062.164|  ERROR| Cant load particle system InnervatingLocket_cas.troy
+000062.164|  ERROR| Failed to preload particle system "InnervatingLocket_cas.troy"
+000062.165|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.165|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.172|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.172|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.172|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.172|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.188| ALWAYS| Creating Hero MissFortune...
+000062.233|  ERROR| Failed to load spell ini or script: "MissFortuneBulletsClone"
+000062.233| ALWAYS| Spawning champion (MissFortune) with skinID 0 on team 100 for clientID 6 and summonername (Slapeyy) (is HUMAN PLAYER)
+000062.233| ALWAYS| Hero MissFortune(0) created for Slapeyy
+000062.233| ALWAYS| Spawning heroes/minions
+000062.234|  ERROR| Cant load particle system global_ss_heal_speedboost.troy
+000062.234|  ERROR| Failed to preload particle system "global_ss_heal_speedboost.troy"
+000062.241|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000062.245|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000062.246|  ERROR| Cant load particle system global_ss_heal_speedboost.troy
+000062.246|  ERROR| Failed to preload particle system "global_ss_heal_speedboost.troy"
+000062.246|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.246|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.246| ALWAYS| Creating Hero Jhin...
+000062.248|  ERROR| Cant load particle system FerosciousHowl_cas3.troy
+000062.248|  ERROR| Failed to preload particle system "FerosciousHowl_cas3.troy"
+000062.268|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Jhin_Base_E_smoke_mult.dd>
+
+000062.300| ALWAYS| Spawning champion (Jhin) with skinID 0 on team 100 for clientID 2 and summonername (MisterMojoRising) (is HUMAN PLAYER)
+000062.300| ALWAYS| Hero Jhin(0) created for MisterMojoRising
+000062.300| ALWAYS| Finished spawning heroes/minions
+000062.300| ALWAYS| Creating Hero Garen...
+000062.318| ALWAYS| Spawning champion (Garen) with skinID 0 on team 100 for clientID 11 and summonername (Thousand Storms) (is HUMAN PLAYER)
+000062.318| ALWAYS| Hero Garen(0) created for Thousand Storms
+000062.319| ALWAYS| Creating Hero Teemo...
+000062.321| ALWAYS| Spawning champion (Teemo) with skinID 0 on team 100 for clientID 3 and summonername (aventador92) (is HUMAN PLAYER)
+000062.321| ALWAYS| Hero Teemo(0) created for aventador92
+000062.323|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.323|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.323|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.323|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.324| ALWAYS| Creating Hero Veigar...
+000062.331|  ERROR| Cant load particle system veigar_skin08_z_recall.troy
+000062.331|  ERROR| Failed to preload particle system "veigar_skin08_z_recall.troy"
+000062.331|  ERROR| Cant load particle system veigar_skin08_z_recall.troy
+000062.331|  ERROR| Failed to preload particle system "veigar_skin08_z_recall.troy"
+000062.331|  ERROR| Failed to load spell ini or script: "VeigarPassiveMeteor"
+000062.331|  ERROR| Failed to load spell ini or script: "ExtraSpells"
+000062.332| ALWAYS| Spawning champion (Veigar) with skinID 5 on team 100 for clientID 1 and summonername (Clumsy0ne) (is HUMAN PLAYER)
+000062.332| ALWAYS| Hero Veigar(5) created for Clumsy0ne
+000062.333| ALWAYS| Creating Hero XinZhao...
+000062.336| ALWAYS| Spawning champion (XinZhao) with skinID 0 on team 200 for clientID 9 and summonername (LegueofKappa) (is HUMAN PLAYER)
+000062.336| ALWAYS| Hero XinZhao(0) created for LegueofKappa
+000062.337|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.337|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.337|  ERROR| Cant load particle system teleport.prt
+000062.337|  ERROR| Failed to preload particle system "teleport.prt"
+000062.337| ALWAYS| Creating Hero Bard...
+000062.351|  ERROR| Cant load particle system bard_skin01_p_meep_upgrade_ribbon.troy
+000062.351|  ERROR| Failed to preload particle system "bard_skin01_p_meep_upgrade_ribbon.troy"
+000062.360|  ERROR| Cant load particle system bard_skin01_p_meep_upgrade_ribbon.troy
+000062.360|  ERROR| Failed to preload particle system "bard_skin01_p_meep_upgrade_ribbon.troy"
+000062.363| ALWAYS| Spawning champion (Bard) with skinID 0 on team 200 for clientID 4 and summonername (TheF00ker96) (is HUMAN PLAYER)
+000062.363| ALWAYS| Hero Bard(0) created for TheF00ker96
+000062.390|  ERROR| Cant load particle system Starcall_tar.troy
+000062.390|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000062.390|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000062.390|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000062.392| ALWAYS| Creating Hero Taliyah...
+000062.393|  ERROR| Cant load particle system taliyah_audio_moveneare.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_moveneare.troy"
+000062.393|  ERROR| Cant load particle system taliyah_audio_movetoworkedground.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_movetoworkedground.troy"
+000062.393|  ERROR| Cant load particle system taliyah_audio_movefromworkedground.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_movefromworkedground.troy"
+000062.393|  ERROR| Cant load particle system taliyah_audio_moveneare.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_moveneare.troy"
+000062.393|  ERROR| Cant load particle system taliyah_audio_movetoworkedground.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_movetoworkedground.troy"
+000062.393|  ERROR| Cant load particle system taliyah_audio_movefromworkedground.troy
+000062.393|  ERROR| Failed to preload particle system "taliyah_audio_movefromworkedground.troy"
+000062.396|  ERROR| Cant load particle system taliyah_audio_moveooc.troy
+000062.396|  ERROR| Failed to preload particle system "taliyah_audio_moveooc.troy"
+000062.396|  ERROR| Cant load particle system taliyah_audio_moveooc.troy
+000062.396|  ERROR| Failed to preload particle system "taliyah_audio_moveooc.troy"
+000062.398|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Taliyah_Base_BA_stone_whip.dds>
+
+000062.402| ALWAYS| Spawning champion (Taliyah) with skinID 0 on team 200 for clientID 10 and summonername (Ban Gragas) (is HUMAN PLAYER)
+000062.419| ALWAYS| Hero Taliyah(0) created for Ban Gragas
+000062.429|  ERROR| Cant load particle system FerosciousHowl_cas3.troy
+000062.429|  ERROR| Failed to preload particle system "FerosciousHowl_cas3.troy"
+000062.996| ALWAYS| Creating Hero Orianna...
+000063.001|  ERROR| Cant load particle system EvelynnCriticalAttack_tar.troy
+000063.001|  ERROR| Failed to preload particle system "EvelynnCriticalAttack_tar.troy"
+000063.001|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.001|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.001|  ERROR| Cant load particle system CriticallyEffective_cas.prt
+000063.001|  ERROR| Failed to preload particle system "CriticallyEffective_cas.prt"
+000063.001|  ERROR| Cant load particle system CriticallyEffective_cas.prt
+000063.001|  ERROR| Failed to preload particle system "CriticallyEffective_cas.prt"
+000063.002| ALWAYS| Spawning champion (Orianna) with skinID 0 on team 200 for clientID 7 and summonername (Cacapua) (is HUMAN PLAYER)
+000063.002| ALWAYS| Hero Orianna(0) created for Cacapua
+000063.016|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.017|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.017| ALWAYS| Creating Hero Twitch...
+000063.017|  ERROR| Failed to load spell ini or script: "kennenbringthelight"
+000063.018|  ERROR| Cant load particle system udyr_spiritguard_audio_ward.troy
+000063.018|  ERROR| Failed to preload particle system "udyr_spiritguard_audio_ward.troy"
+000063.020| ALWAYS| Spawning champion (Twitch) with skinID 6 on team 200 for clientID 5 and summonername (S M H) (is HUMAN PLAYER)
+000063.020| ALWAYS| Hero Twitch(6) created for S M H
+000063.024| ALWAYS| Creating Hero Ezreal...
+000063.033|  ERROR| Cant load particle system Ezreal_Skin05_Spawn_gamestart_01.troy
+000063.033|  ERROR| Failed to preload particle system "Ezreal_Skin05_Spawn_gamestart_01.troy"
+000063.033|  ERROR| Cant load particle system Ezreal_Skin05_Spawn_gamestart_01.troy
+000063.033|  ERROR| Failed to preload particle system "Ezreal_Skin05_Spawn_gamestart_01.troy"
+000063.035|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ezreal_cyber_1/ezreal_cyber_1.bin" because it's not in the manifest.
+000063.043|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.043|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.043|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.043|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.064|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ezreal_cyber_2/ezreal_cyber_2.bin" because it's not in the manifest.
+000063.072|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.072|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.072|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.072|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.091|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ezreal_cyber_3/ezreal_cyber_3.bin" because it's not in the manifest.
+000063.099|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.099|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.099|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000063.099|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000063.118| ALWAYS| Spawning champion (Ezreal) with skinID 9 on team 200 for clientID 0 and summonername (Nanü) (is HUMAN PLAYER)
+000063.118| ALWAYS| Hero Ezreal(9) created for Nanü
+000063.121|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier2/LevelProp_TT_Brazier2.bin" because it's not in the manifest.
+000063.122|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Brazier/TT_Brazier.bin" because it's not in the manifest.
+000063.122|  ERROR| Can not open file <Ahri_Square.dds> *********
+000063.122|  ERROR| Failed to load Ahri_Square.dds
+000063.122|   WARN| r3dTexture EX: Ahri_Square.dds - not found. Dummy texture created.
+000063.122|  ERROR| Can not open file <Ahri_Circle.dds> *********
+000063.122|  ERROR| Failed to load Ahri_Circle.dds
+000063.123|   WARN| r3dTexture EX: Ahri_Circle.dds - not found. Dummy texture created.
+000063.129|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Chains_Order_Periph/LevelProp_TT_Chains_Order_Periph.bin" because it's not in the manifest.
+000063.129|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Chains_Order_Periph/TT_Chains_Order_Periph.bin" because it's not in the manifest.
+000063.137|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Speedshrine_Gears/LevelProp_TT_Speedshrine_Gears.bin" because it's not in the manifest.
+000063.138|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Speedshrine_Gears/TT_Speedshrine_Gears.bin" because it's not in the manifest.
+000063.144|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Shopkeeper/LevelProp_TT_Shopkeeper.bin" because it's not in the manifest.
+000063.144|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Shopkeeper/TT_Shopkeeper.bin" because it's not in the manifest.
+000063.156|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier1/LevelProp_TT_Brazier1.bin" because it's not in the manifest.
+000063.156|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier4/LevelProp_TT_Brazier4.bin" because it's not in the manifest.
+000063.157|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier6/LevelProp_TT_Brazier6.bin" because it's not in the manifest.
+000063.158|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Chains_Xaos_Base/LevelProp_TT_Chains_Xaos_Base.bin" because it's not in the manifest.
+000063.158|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Chains_Xaos_Base/TT_Chains_Xaos_Base.bin" because it's not in the manifest.
+000063.166|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Chains_Order_Base/LevelProp_TT_Chains_Order_Base.bin" because it's not in the manifest.
+000063.167|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Chains_Order_Base/TT_Chains_Order_Base.bin" because it's not in the manifest.
+000063.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier8/LevelProp_TT_Brazier8.bin" because it's not in the manifest.
+000063.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier5/LevelProp_TT_Brazier5.bin" because it's not in the manifest.
+000063.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Chains_Bot_Lane/LevelProp_TT_Chains_Bot_Lane.bin" because it's not in the manifest.
+000063.178|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_Chains_Bot_Lane/TT_Chains_Bot_Lane.bin" because it's not in the manifest.
+000063.188|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier7/LevelProp_TT_Brazier7.bin" because it's not in the manifest.
+000063.188|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Shopkeeper1/LevelProp_TT_Shopkeeper1.bin" because it's not in the manifest.
+000063.189|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/LevelProp_TT_Brazier3/LevelProp_TT_Brazier3.bin" because it's not in the manifest.
+000065.930| ALWAYS| GAMESTATE_GAMELOOP Begin
+000065.930| ALWAYS| GAMESTATE_GAMELOOP Update World
+000065.933|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000065.933|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000065.933|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000065.933|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000065.933|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000065.933|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+000065.933|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000065.933|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000065.940| ALWAYS| GAMESTATE_GAMELOOP GUIMenuProcess
+000065.940| ALWAYS| GAMESTATE_GAMELOOP HUDProcess
+000065.940| ALWAYS| GAMESTATE_GAMELOOP Particle Simulation
+000065.940| ALWAYS| GAMESTATE_GAMELOOP FOWUpdate
+000065.947| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000065.948| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000065.948| ALWAYS| GAMESTATE_GAMELOOP Render
+000065.950| ALWAYS| GAMESTATE_GAMELOOP PostProcess
+000065.950| ALWAYS| GAMESTATE_GAMELOOP ApplyGamma
+000065.950| ALWAYS| GAMESTATE_GAMELOOP HUDDraw
+000065.954| ALWAYS| GAMESTATE_GAMELOOP GUIMenuDraw
+000065.954| ALWAYS| GAMESTATE_GAMELOOP DrawSysInfo
+000065.954| ALWAYS| GAMESTATE_GAMELOOP MCommandDraw
+000065.954| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000065.955| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000065.955| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000065.957| ALWAYS| GAMESTATE_GAMELOOP End
+000066.009|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TT_DummyPusher/TT_DummyPusher.bin" because it's not in the manifest.
+000066.026|  ERROR| Cant load particle system masterylordsdecree_aoe_explosion.troy
+000066.026|  ERROR| Failed to preload particle system "masterylordsdecree_aoe_explosion.troy"
+000066.033|  ERROR| Cant load particle system masterylordsdecree_aoe_explosion.troy
+000066.033|  ERROR| Failed to preload particle system "masterylordsdecree_aoe_explosion.troy"
+000067.035|   WARN| Attachment asked for a velocity on an object that no longer exists!
+000112.661| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000112.661| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+000113.016| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000113.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000113.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000113.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000113.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000113.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000113.021|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000113.021|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000113.021|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000123.274|  ERROR| Cant load particle system 
+000158.392|  ERROR| Cant load particle system 
+000164.568|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000165.893|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000167.072|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000167.686|  ERROR| Cant load particle system 
+000168.310|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000169.576|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000170.517|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000170.517|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000170.517|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000170.517|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000170.517|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vladhealtrail.tga>
+
+000170.810|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000172.105|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000172.295|  ERROR| Cant load particle system global_lifesteal.troy
+000172.295|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000173.466|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000176.077|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000178.534|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000180.552|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000182.090|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000182.734|  ERROR| Can not open file <6122_Grey.dds> *********
+000182.734|  ERROR| Failed to load 6122_Grey.dds
+000182.734|   WARN| r3dTexture EX: 6122_Grey.dds - not found. Dummy texture created.
+000184.604|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000186.025|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000186.431|  ERROR| Cant load particle system 
+000187.636|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000191.565|  ERROR| Cant load particle system 
+000191.565|  ERROR| Cant load particle system 
+000191.565|  ERROR| Cant load particle system 
+000191.893|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000191.893|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000194.322|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000195.763|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000197.014|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000199.742|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000199.964|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000200.682|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000205.154|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000208.146|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000209.369|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000209.599|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000211.316|  ERROR| Cant load particle system 
+000212.411|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000213.771|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000213.902|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000215.321|  ERROR| Cant load particle system 
+000223.392|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000224.871|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000225.193|  ERROR| Can not open file <6221.dds> *********
+000225.193|  ERROR| Failed to load 6221.dds
+000225.194|   WARN| r3dTexture EX: 6221.dds - not found. Dummy texture created.
+000225.713|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000228.376|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000229.862|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000230.513|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000230.513|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000231.130|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000232.300|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000232.939|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000235.447|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000235.447|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <global_ss_exhaust_Spiral.scb>.
+
+000236.422|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000237.724|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000245.043|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000245.975|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000246.903|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000247.996|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000248.844|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000264.507|  ERROR| Cant load particle system 
+000265.089|  ERROR| Cant load particle system 
+000265.197|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000265.614|  ERROR| Cant load particle system 
+000267.611|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000276.625|  ERROR| Cant load particle system 
+000286.476|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000287.660|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000288.861|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000289.967|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000291.164|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000293.875|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000294.802|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000295.963|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000297.224|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000298.539|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000303.865|  ERROR| Cant load particle system 
+000307.029|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000308.358|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000310.812|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000318.084|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000318.922|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000321.517|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000322.750|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000323.663|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000324.727|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000325.857|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000326.020|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000327.587|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000328.719|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000328.843|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000328.843|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000328.843|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000328.843|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000328.843|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000330.698|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000333.252|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000343.494|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000344.425|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000344.833|  ERROR| Cant load particle system 
+000345.306|  ERROR| Cant load particle system 
+000346.018|  ERROR| Cant load particle system 
+000346.193|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000347.146|  ERROR| Cant load particle system 
+000352.876|  ERROR| Cant load particle system 
+000353.986|  ERROR| Cant load particle system 
+000357.247|  ERROR| Cant load particle system 
+000357.379|  ERROR| Cant load particle system 
+000357.429|  ERROR| Cant load particle system 
+000357.626|  ERROR| Cant load particle system 
+000358.975|  ERROR| Cant load particle system 
+000361.437|  ERROR| Cant load particle system 
+000370.787|  ERROR| Cant load particle system 
+000381.931|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000382.823|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000383.391|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000383.391|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000383.391|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000383.391|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000383.391|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000383.745|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000385.271|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.271|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.271|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.271|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.271|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.271|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.271|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.271|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.272|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.272|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.272|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.272|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.275|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.275|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.275|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.275|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.275|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.275|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.275|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.275|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.276|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.276|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.276|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.276|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.277|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.277|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.277|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.277|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.278|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.278|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.278|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.278|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.278|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.278|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.278|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000385.278|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000385.340|  ERROR| Cant load particle system 
+000385.460|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000386.433|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000387.288|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000388.934|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000388.944| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000388.944| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+000389.384| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000389.390|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000389.390|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000389.390|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000389.390|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000389.391|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000389.392|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000389.392|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000389.392|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000390.011|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000391.025| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000391.025| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+000391.350| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000391.353|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000391.353|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000391.353|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000391.353|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000391.353|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000391.355|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000391.355|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000391.355|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000391.379|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000392.275|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000393.320|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000393.327| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000393.327| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+000393.732| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000393.736|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000393.736|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000393.736|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000393.737|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000393.737|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000393.738|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000393.738|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000393.738|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000394.312|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000395.838| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000395.838| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+000396.249| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000396.253|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+000396.253|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000396.253|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000396.253|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000396.254|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000396.255|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+000396.255|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+000396.255|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+000396.408|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000397.858|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000402.541|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000403.672|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000404.835|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000406.038|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000407.469|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000408.453|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000408.638|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000409.747|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000411.466|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000412.541|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000415.457|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000422.719|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000424.421|  ERROR| Cant load particle system 
+000424.610|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000425.286|  ERROR| Cant load particle system 
+000425.508|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000426.288|  ERROR| Cant load particle system 
+000430.576|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000430.871|  ERROR| Cant load particle system 
+000430.946|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000431.874|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000434.850|  ERROR| Cant load particle system 
+000443.976|  ERROR| Cant load particle system 
+000445.054|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000446.082|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000447.288|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000448.255|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000449.206|  ERROR| Cant load particle system 
+000449.331|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000450.408|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000453.194|  ERROR| Cant load particle system 
+000460.332|  ERROR| Cant load particle system 
+000464.759|  ERROR| Cant load particle system 
+000465.268|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000466.178|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000466.587|  ERROR| Cant load particle system 
+000468.820|  ERROR| Cant load particle system 
+000472.761|  ERROR| Cant load particle system 
+000505.985|  ERROR| Cant load particle system 
+000506.987|  ERROR| Cant load particle system 
+000507.427|  ERROR| Cant load particle system 
+000519.509|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000520.562|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000521.632|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000522.670|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000527.896|  ERROR| Cant load particle system 
+000529.340|  ERROR| Cant load particle system 
+000529.347|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000530.392|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000531.839|  ERROR| Cant load particle system 
+000540.135|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+000541.363|  ERROR| Cant load particle system 
+000542.707|  ERROR| Cant load particle system 
+000544.058|  ERROR| Cant load particle system 
+000544.058|  ERROR| Cant load particle system 
+000544.064|  ERROR| Cant load particle system 
+000544.286|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000544.991|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000545.976|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000546.759|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000548.444|  ERROR| Cant load particle system 
+000549.426|  ERROR| Cant load particle system 
+000549.426|  ERROR| Cant load particle system 
+000549.426|  ERROR| Cant load particle system 
+000549.540|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000554.694|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000554.694|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000554.694|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000554.694|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000554.694|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000561.433|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000562.552|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000563.465|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000573.358|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000574.510|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000575.863|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000579.349|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000580.165|  ERROR| Cant load particle system 
+000580.252|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000581.270|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000581.337|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000584.176|  ERROR| Cant load particle system 
+000584.183|  ERROR| Cant load particle system 
+000586.529|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000590.199|  ERROR| Cant load particle system 
+000591.414|  ERROR| Cant load particle system 
+000591.640|  ERROR| Cant load particle system 
+000596.038|  ERROR| Failed to load spell ini or script: "mastery6243"
+000596.042|  ERROR| Can not open file <Kalista_Passive_Item.dds> *********
+000596.042|  ERROR| Failed to load Kalista_Passive_Item.dds
+000596.042|   WARN| r3dTexture EX: Kalista_Passive_Item.dds - not found. Dummy texture created.
+000596.045|  ERROR| Cant load particle system masterylordsdecree_aoe_explosion.troy
+000596.045|  ERROR| Failed to preload particle system "masterylordsdecree_aoe_explosion.troy"
+000596.059|  ERROR| Cant load particle system masterylordsdecree_aoe_explosion.troy
+000596.059|  ERROR| Failed to preload particle system "masterylordsdecree_aoe_explosion.troy"
+000596.060|  ERROR| Failed to load spell ini or script: "malphiteshield"
+000596.061|  ERROR| Cant load particle system temp_eyeofthestorm_buf.troy
+000596.061|  ERROR| Failed to preload particle system "temp_eyeofthestorm_buf.troy"
+000596.062|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+000596.062|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec75f46
+000596.062|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ce94526
+000596.062|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aa483e4
+000596.062| ALWAYS| The Killer was: Slapeyy
+000596.062| ALWAYS| DAMAGE
+000596.062| ALWAYS|   Slapeyy applied damage 662.166 heal 91.8272 with abilities [missfortunericochetshot|damage:186.005(186.005|0|0)|heal:0|priority:194][_BasicAttack|damage:244.376(244.376|0|0)|heal:0|priority:132][missfortunepassive|damage:98.7182(98.7182|0|0)|heal:0|priority:107][missfortunescattershot|damage:91.8272(0|91.8272|0)|heal:0|priority:100][mastery6164deathrecapdummy|damage:41.2392(0|41.2392|0)|heal:0|priority:50]
+000596.062| ALWAYS|   MisterMojoRising applied damage 378.489 heal 0 with abilities [jhinr|damage:325.396(325.396|0|0)|heal:0|priority:325][mastery6164deathrecapdummy|damage:53.0931(0|53.0931|0)|heal:0|priority:53]
+000596.063| ALWAYS|   Thousand Storms applied damage 220.488 heal 127.884 with abilities [garenq|damage:127.884(127.884|0|0)|heal:0|priority:158][garene|damage:55.53(55.53|0|0)|heal:0|priority:55][mastery6261deathrecapdummy|damage:37.0746(0|37.0746|0)|heal:0|priority:37]
+000596.063| ALWAYS|   MaidénTR applied damage 52.6253 heal 52.6253 with abilities [_BasicAttack|damage:52.6253(52.6253|0|0)|heal:0|priority:52]
+000596.063| ALWAYS| HEAL
+000596.063| ALWAYS|   S M H applied damage 225 heal 225 with abilities [summonerheal|damage:225(0|0|0)|heal:225|priority:223]
+000596.063| ALWAYS|   Ban Gragas applied damage 30 heal 30 with abilities [3010|damage:30(0|0|0)|heal:30|priority:14]
+000600.426|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000601.188|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000601.967|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000608.438|  ERROR| Cant load particle system 
+000613.160|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000613.315|  ERROR| Cant load particle system 
+000622.004|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+000622.004|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000622.004|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+000623.567|  ERROR| Cant load particle system 
+000624.938|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000626.118|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000626.666|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000626.666|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000626.666|  ERROR| Cant load particle system teleport.prt
+000626.666|  ERROR| Failed to preload particle system "teleport.prt"
+000627.039|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000627.552|  ERROR| Cant load particle system 
+000628.236|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000629.012|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000630.025|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000632.119|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000633.270|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000635.510|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000642.229|  ERROR| Cant load particle system 
+000646.238|  ERROR| Cant load particle system 
+000647.243|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000649.069|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000649.980|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000656.780|  ERROR| Cant load particle system 
+000658.019|  ERROR| Cant load particle system 
+000659.225|  ERROR| Cant load particle system 
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - @CooldownRemaining@s</font>
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - @CooldownRemaining@s</font>
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - @CooldownRemaining@s</font>
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - @CooldownRemaining@s</font>
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - 2s</font>
+000659.423|  ERROR| Tooltip failed to replace @ string: @SrcName@: @SlotName@<font color='#C1FFAF'> - 2s</font>
+000664.151|  ERROR| Cant load particle system 
+000668.150|  ERROR| Cant load particle system 
+000682.108|  ERROR| Cant load particle system 
+000690.286|  ERROR| Cant load particle system 
+000694.271|  ERROR| Cant load particle system 
+000698.630|  ERROR| Cant load particle system 
+000698.630|  ERROR| Cant load particle system 
+000698.636|  ERROR| Cant load particle system 
+000701.237|  ERROR| Cant load particle system 
+000703.550|  ERROR| Cant load particle system 
+000703.550|  ERROR| Cant load particle system 
+000703.584|  ERROR| Cant load particle system 
+000703.831|  ERROR| Cant load particle system 
+000708.890|  ERROR| Cant load particle system 
+000715.208|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Linger_Red.dds>
+
+000715.208|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Swirl_Red.dds>
+
+000715.209|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Color_Red.dds>
+
+000725.534|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000726.225|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000726.871|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000727.491|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000729.213|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000730.452|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000733.059|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000734.789|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000737.062|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000737.849|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000738.628|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000740.167|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000741.874|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000742.655|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000744.217|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000745.785|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000746.537|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000749.266|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000757.356|  ERROR| Cant load particle system 
+000757.837|  ERROR| Cant load particle system 
+000759.050|  ERROR| Cant load particle system 
+000765.729|  ERROR| Cant load particle system 
+000766.228|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000767.003|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000767.595|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000768.186|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000769.665|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000770.442|  ERROR| Cant load particle system 
+000774.420|  ERROR| Cant load particle system 
+000775.277|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000776.494|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000777.999|  ERROR| Cant load particle system 
+000784.418|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000788.293|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000795.915|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000796.601|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000797.197|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000802.946|  ERROR| Cant load particle system 
+000806.372|  ERROR| Cant load particle system 
+000810.417|  ERROR| Cant load particle system 
+000810.668|  ERROR| Cant load particle system 
+000810.833|  ERROR| Cant load particle system 
+000811.035|  ERROR| Cant load particle system 
+000812.055|  ERROR| Cant load particle system 
+000815.234|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000815.913|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000816.581|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000817.552|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000818.069|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000821.465|  ERROR| Cant load particle system 
+000821.465|  ERROR| Cant load particle system 
+000821.465|  ERROR| Cant load particle system 
+000824.178|  ERROR| Cant load particle system 
+000824.178|  ERROR| Cant load particle system 
+000824.178|  ERROR| Cant load particle system 
+000825.088|  ERROR| Cant load particle system 
+000829.098|  ERROR| Cant load particle system 
+000830.138|  ERROR| Cant load particle system 
+000847.726|  ERROR| Cant load particle system 
+000848.177|  ERROR| Cant load particle system 
+000848.651|  ERROR| Cant load particle system 
+000856.907|  ERROR| Cant load particle system 
+000874.180|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000874.268|  ERROR| Cant load particle system 
+000874.305|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000874.305|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000874.305|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000874.305|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000877.166|  ERROR| Cant load particle system 
+000878.344|  ERROR| Cant load particle system 
+000885.328|  ERROR| Cant load particle system 
+000885.328|  ERROR| Cant load particle system 
+000885.425|  ERROR| Cant load particle system 
+000892.176|  ERROR| Cant load particle system 
+000895.136|  ERROR| Cant load particle system 
+000899.131|  ERROR| Cant load particle system 
+000915.226|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.226|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.226|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.226|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.227|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.227|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.227|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.227|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.228|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.228|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.228|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.228|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.228|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.228|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.228|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.228|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.229|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.229|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.229|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.229|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.229|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.229|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.229|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000915.229|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000915.775|  ERROR| Cant load particle system 
+000920.110|  ERROR| Cant load particle system 
+000921.540|  ERROR| Cant load particle system 
+000922.900|  ERROR| Cant load particle system 
+000924.214|  ERROR| Cant load particle system 
+000930.183|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000930.630|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000931.771|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000934.504|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000946.149|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000952.256|  ERROR| Cant load particle system 
+000956.249|  ERROR| Cant load particle system 
+000963.639|  ERROR| Cant load particle system 
+000964.196|  ERROR| Cant load particle system 
+000965.342|  ERROR| Cant load particle system 
+000971.753|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000972.492|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000973.178|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000973.881|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000976.656|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000986.443|  ERROR| Cant load particle system 
+000987.187|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+000987.187|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000987.187|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000987.187|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+000987.187|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+000991.576|  ERROR| Cant load particle system 
+000992.895|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000993.632|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000994.316|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000994.482|  ERROR| Cant load particle system 
+000994.985|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000996.384|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000997.318|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000997.995|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+000998.297|  ERROR| Cant load particle system 
+000998.463|  ERROR| Cant load particle system 
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec75f46
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aa483e4
+000998.670|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07ab3c04
+000998.670| ALWAYS| The Killer was: aventador92
+000998.670| ALWAYS| DAMAGE
+000998.670| ALWAYS|   aventador92 applied damage 1227.75 heal 176.217 with abilities [blindingdart|damage:497.172(0|497.172|0)|heal:0|priority:611][toxicshot|damage:440.316(123.784|316.532|0)|heal:0|priority:260][mastery6362deathrecapdummy|damage:170.085(0|170.085|0)|heal:0|priority:170][3115|damage:120.179(0|120.179|0)|heal:0|priority:121]
+000998.670| ALWAYS|   Thousand Storms applied damage 872.023 heal 247.336 with abilities [garene|damage:500.262(500.262|0|0)|heal:0|priority:500][garenq|damage:166.105(166.105|0|0)|heal:0|priority:203][3751|damage:81.2312(0|81.2312|0)|heal:0|priority:82][_BasicAttack|damage:69.3379(69.3379|0|0)|heal:0|priority:69][mastery6261deathrecapdummy|damage:55.0872(0|55.0872|0)|heal:0|priority:55]
+000998.670| ALWAYS| HEAL
+000998.670| ALWAYS|   Ban Gragas applied damage 74 heal 74 with abilities [3010|damage:74(0|0|0)|heal:74|priority:20]
+000998.676|  ERROR| Assertion failed!
+
+Expression: ALE-86B20EDB
+000998.848|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001004.909|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001008.032|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001015.158|  ERROR| Cant load particle system 
+001018.050|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001024.402|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001025.191|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001033.155|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+001033.155|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001033.155|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001033.741|  ERROR| Cant load particle system 
+001035.117|  ERROR| Cant load particle system 
+001035.252|  ERROR| Cant load particle system 
+001046.625|  ERROR| Cant load particle system 
+001050.728|  ERROR| Cant load particle system 
+001050.728|  ERROR| Cant load particle system 
+001071.862|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001072.486|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001073.272|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001084.795|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+001084.795|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001084.795|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001084.795|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001084.795|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+001091.481|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001092.083|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001093.896|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001094.517|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001095.163|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001095.877|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001102.101|  ERROR| Cant load particle system 
+001102.917|  ERROR| Cant load particle system 
+001103.140|  ERROR| Cant load particle system 
+001104.992|  ERROR| Cant load particle system 
+001104.992|  ERROR| Cant load particle system 
+001104.992|  ERROR| Cant load particle system 
+001105.018|  ERROR| Cant load particle system 
+001106.611|  ERROR| Cant load particle system 
+001108.474|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001109.034|  ERROR| Cant load particle system 
+001112.223|  ERROR| Cant load particle system 
+001112.478|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001120.569|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Item_Hexdrinker_Shield_Cubemap.dds>
+
+001129.795|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001137.541|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001148.919|  ERROR| Cant load particle system 
+001151.746|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+001151.746|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001151.746|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001151.746|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001151.746|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+001152.931|  ERROR| Cant load particle system 
+001156.105|  ERROR| Cant load particle system 
+001157.151|  ERROR| Cant load particle system 
+001157.625|  ERROR| Cant load particle system 
+001160.692|  ERROR| Cant load particle system 
+001163.075|  ERROR| Cant load particle system 
+001164.746|  ERROR| Cant load particle system 
+001178.525|  ERROR| Cant load particle system 
+001179.559|  ERROR| Cant load particle system 
+001182.520|  ERROR| Cant load particle system 
+001190.434|  ERROR| Cant load particle system 
+001194.428|  ERROR| Cant load particle system 
+001204.058|  ERROR| Cant load particle system 
+001222.113|  ERROR| Cant load particle system 
+001226.093|  ERROR| Cant load particle system 
+001233.280|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001235.809|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001236.382|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001242.593|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+001242.593|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001242.593|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001242.593|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001242.593|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+001243.577|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001244.223|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001245.643|  ERROR| Cant load particle system 
+001246.099|  ERROR| Cant load particle system 
+001246.539|  ERROR| Cant load particle system 
+001248.860|  ERROR| Cant load particle system 
+001254.791|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001257.178|  ERROR| Cant load particle system 
+001257.187|  ERROR| Cant load particle system 
+001257.285|  ERROR| Cant load particle system 
+001257.727|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001258.413|  ERROR| Cant load particle system 
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec75f46
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ce94526
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 059ef2f4
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aa483e4
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07ab3c04
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 03ca1ac4
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0534a456
+001260.811|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cdcc324
+001260.812| ALWAYS| The Killer was: MisterMojoRising
+001260.812| ALWAYS| DAMAGE
+001260.812| ALWAYS|   Slapeyy applied damage 1596.3 heal 72.8118 with abilities [missfortunebullettime|damage:1396.6(1396.6|0|0)|heal:0|priority:1407][mastery6164deathrecapdummy|damage:126.887(0|126.887|0)|heal:0|priority:124][missfortunescattershot|damage:72.8118(0|72.8118|0)|heal:0|priority:84]
+001260.812| ALWAYS|   MisterMojoRising applied damage 1026.7 heal 0 with abilities [jhinr|damage:1026.7(1026.7|0|0)|heal:0|priority:1026]
+001260.812| ALWAYS| HEAL
+001260.812| ALWAYS|   Cacapua applied damage 88.7742 heal 88.7742 with abilities [orianaizunacommand|damage:88.7742(0|0|0)|heal:88.7742|priority:86]
+001260.812| ALWAYS|   Ban Gragas applied damage 56 heal 56 with abilities [3010|damage:56(0|0|0)|heal:56|priority:20]
+001262.435|  ERROR| Cant load particle system 
+001289.576|  ERROR| Cant load particle system 
+001294.844|  ERROR| Cant load particle system 
+001294.844|  ERROR| Cant load particle system 
+001294.844|  ERROR| Cant load particle system 
+001296.423|  ERROR| Cant load particle system 
+001302.049|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+001302.049|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001302.049|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001302.805|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Linger_Red.dds>
+
+001302.805|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Swirl_Red.dds>
+
+001302.805|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Global_SS_Ghost_Color_Red.dds>
+
+001307.848|  ERROR| Cant load particle system 
+001310.338|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001310.633|  ERROR| Cant load particle system 
+001315.879|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001317.163|  ERROR| Cant load particle system twitch_base_basicattack_reload_sound.troy
+001318.403|  ERROR| Cant load particle system 
+001326.377|  ERROR| Cant load particle system 
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ce94526
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0a614392
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 07ab3c04
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0cdcc324
+001330.851|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aa483e4
+001330.851|   WARN| Death Recap damage from unknown source
+001330.851| ALWAYS| The Killer was: Thousand Storms
+001330.851| ALWAYS| DAMAGE
+001330.851| ALWAYS|   Thousand Storms applied damage 1807.43 heal 1473.53 with abilities [garenr|damage:1167.08(0|1167.08|0)|heal:0|priority:1178][garenq|damage:239.872(239.872|0|0)|heal:0|priority:282][garene|damage:257.507(257.507|0|0)|heal:0|priority:257][mastery6261deathrecapdummy|damage:76.3881(0|76.3881|0)|heal:0|priority:76][3068|damage:66.584(0|66.584|0)|heal:0|priority:68]
+001330.851| ALWAYS|   MaidénTR applied damage 958.393 heal 329.01 with abilities [aurelionsolw|damage:568.482(0|568.482|0)|heal:0|priority:568][aurelionsolq|damage:329.01(0|329.01|0)|heal:0|priority:329][mastery6164deathrecapdummy|damage:60.9005(0|60.9005|0)|heal:0|priority:31]
+001330.851| ALWAYS|   aventador92 applied damage 511.614 heal 0 with abilities [bantamtrap|damage:511.614(0|511.614|0)|heal:0|priority:596]
+001330.851| ALWAYS| HEAL
+001330.851| ALWAYS|   Ban Gragas applied damage 28 heal 28 with abilities [3010|damage:28(0|0|0)|heal:28|priority:26]
+001337.576|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdle.troy
+001337.576|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001337.576|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001337.576|  ERROR| Cant load particle system Veigar_Skin08_Z_CapeIdleTrail.troy
+001337.576|  ERROR| Cant load particle system Veigar_Skin08_Z_StaffIdle.troy
+001360.962|  ERROR| Assertion failed!
+
+Expression: ALE-AB314C75
+001362.530|  ERROR| Cant load particle system 
+001362.845|  ERROR| Cant load particle system 
+001364.111|  ERROR| Cant load particle system 
+001364.142|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001369.771|  ERROR| Cant load particle system 
+001373.102|  ERROR| Cant load particle system 
+001374.249|  ERROR| Cant load particle system Taliyah_idle_stones.troy
+001374.249|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001374.249|  ERROR| Cant load particle system Taliyah_idle_arms.troy
+001384.967|  ERROR| Cant load particle system 
+001389.103|  ERROR| Cant load particle system 
+001393.013|  ERROR| Cant load particle system 
+001396.011|  ERROR| Cant load particle system 
+001397.594|  ERROR| Cant load particle system 
+001397.714|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0ec75f46
+001397.714|   WARN|  >>> TalentHashMap::HashToName - Match not found for hash 0aa483e4
+001397.714| ALWAYS| The Killer was: Slapeyy
+001397.715| ALWAYS| DAMAGE
+001397.715| ALWAYS|   Slapeyy applied damage 1222.76 heal 161.339 with abilities [missfortunericochetshot|damage:259.629(259.629|0|0)|heal:0|priority:271][_BasicAttack|damage:485.692(485.692|0|0)|heal:0|priority:251][missfortunepassive|damage:227.605(227.605|0|0)|heal:0|priority:227][missfortunescattershot|damage:161.339(0|161.339|0)|heal:0|priority:173][mastery6164deathrecapdummy|damage:88.4921(0|88.4921|0)|heal:0|priority:83]
+001397.715| ALWAYS|   MaidénTR applied damage 800.3 heal 371.939 with abilities [aurelionsolw|damage:377.771(0|377.771|0)|heal:0|priority:377][aurelionsolq|damage:371.939(0|371.939|0)|heal:0|priority:371][mastery6164deathrecapdummy|damage:50.5894(0|50.5894|0)|heal:0|priority:40]
+001397.715| ALWAYS|   MisterMojoRising applied damage 604.764 heal 0 with abilities [jhinw|damage:413.077(413.077|0|0)|heal:0|priority:413][mastery6164deathrecapdummy|damage:191.687(0|191.687|0)|heal:0|priority:191]
+001397.715| ALWAYS|   Clumsy0ne applied damage 0 heal 0 with abilities [veigareventhorizon|damage:0(0|0|0)|heal:0|priority:174]
+001397.715| ALWAYS| HEAL
+001397.715| ALWAYS|   Ban Gragas applied damage 85 heal 85 with abilities [3010|damage:85(0|0|0)|heal:85|priority:40]
+001401.563|  ERROR| Cant load particle system 
+001403.187|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <vlad_king_blood_nova.tga>
+
+001403.187|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Vlad_BloodKing_Joke_Ray.tga>
+
+001414.608|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001417.464|  ERROR| Cant load particle system Teemo_Base_R_GroundImpact_Dust.troy
+001422.322| ALWAYS| Device:Reset: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+001422.322| ALWAYS| Device:Reset: Disabling present depth discard in favor of an INTZ depth buffer.
+001422.699| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+001422.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/BaseData.bin" because it's not in the manifest.
+001422.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+001422.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+001422.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Scenes/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+001422.704|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+001422.705|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_BaseData.bin" because it's not in the manifest.
+001422.705|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_Hexakill_LtoR_NoNames.bin" because it's not in the manifest.
+001422.705|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Overrides/Default/SB_LtoR_NoNames.bin" because it's not in the manifest.
+001425.209| ALWAYS| End game message processing!
+001425.216| ALWAYS| ClientFacade::Stop
+001425.221| ALWAYS| Menu_GUI::SetEndOfGameVideoActive
+001426.645| ALWAYS| Finished Main Loop
+001426.645| ALWAYS| FPS Average = 175.270584
+001426.645| ALWAYS| FPS Average Minimum = 94.946472
+001426.645| ALWAYS| FPS Average Maximum = 203.726654
+001426.645| ALWAYS| FPS Variance = 12.542772
+001426.645| ALWAYS| FPS Slow Count = 53
+001426.645| ALWAYS| Total Frame Count = 538717
+001429.307| ALWAYS| Finished Play game
+001429.307| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Game exited","exit_code":"EXITCODE_LOSE"}
+001429.355| ALWAYS| r3dRenderLayer::Close() enter
+001429.402| ALWAYS| r3dRenderLayer::Close() exit
+001429.402| ALWAYS| Destroying the Renderer (1)
+001429.402| ALWAYS| game::Shutdown
+001429.402| ALWAYS| ClientFacade::Stop
+001429.404| ALWAYS| Bugsplat disabled (end of game?)
+001429.414| ALWAYS| Exiting WinMain
