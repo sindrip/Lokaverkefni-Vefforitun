@@ -11,7 +11,7 @@ var openFile = function(event) {
           var textArray = text.split('\n');
           //tekur useless info
           var reducedArray = textArray.filter(function (input) {
-            return !(input.includes('WARN')||input.includes('ERROR')||input.includes('Expression: ALE'));}
+            return !(input.includes('WARN')||input.includes('ERROR')||input.includes('Expression: ALE')||input.includes('Data Error message'));}
           ).filter(function (input2){
             if(input2.length > 2){
               return input2;
