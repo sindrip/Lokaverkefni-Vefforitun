@@ -103,8 +103,9 @@
         var reducedArray = textArray.filter(function (input) {
           return (input.includes('GAMESTATE_GAMELOOP Begin') ||
                   input.includes('EXITCODE') ||
-                  input.includes('Spawning champion')||
-                  input.includes('The Killer was'));
+                  input.includes('Spawning champion') ||
+                  input.includes('The Killer was')) ||
+                  input.includes('Build Version:');
         });
 
         // sækjum dagsetningu, og þvingum hana fremst í array
