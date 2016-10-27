@@ -1,5 +1,8 @@
 (function(){
 
+  /****
+  Hérna skerum við niður file-ana
+  ****/
   let testDB = [];
 
   // Bæta evenlistener á formið
@@ -55,10 +58,6 @@
     dataMinify(files);
   }
 
-  function procTest() {
-    console.log(testDB);
-  }
-
   function dataMinify(files) {
     // files is a FileList of File objects. List some properties.
     let numOfFiles = 0;
@@ -104,4 +103,10 @@
         return new Date(stringDate);
   }
 
+  /****
+  Hérna hefst keyrsla á úrvinnslufallinu
+  ****/
+  function procTest() {
+    console.log(testDB);
+  }
 }());
