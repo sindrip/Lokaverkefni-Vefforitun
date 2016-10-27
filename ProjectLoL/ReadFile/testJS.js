@@ -53,23 +53,23 @@
     let files = evt.target.files; // FileList object
 
     dataMinify(files);
+  }
 
-    // nota promise til ad sja til thess ad allt er komid i db
-    // adur en ad vid forum lengra og byrjum ad skjota stokum i parser?
-
+  function procTest() {
     console.log(testDB);
   }
 
   function dataMinify(files) {
     // files is a FileList of File objects. List some properties.
     let numOfFiles = 0;
+    let counter = 0;
 
     // loopum i gegnum alla filea sem ad vid fengum
     for (let f; f = files[numOfFiles]; numOfFiles++) {
       let reader = new FileReader();
 
       // thegar ad skjal er loadad keyrum adgerd
-      reader.onloadend = function() {
+      reader.onload = function() {
         let text = reader.result;
 
         // splittum a new line
@@ -79,7 +79,8 @@
         var reducedArray = textArray.filter(function (input) {
           return (input.includes('GAMESTATE_GAMELOOP Begin') ||
                   input.includes('EXITCODE') ||
-                  input.includes('created for'));
+                  input.includes('Spawning champion')||
+                  input.includes('The Killer was'));
         });
 
         // sækjum dagsetningu, og þvingum hana fremst í array
@@ -88,6 +89,10 @@
         reducedArray.unshift(date);
 
         testDB.push(reducedArray);
+        counter++;
+        if (counter === numOfFiles) {
+          procTest();
+        }
       }
       reader.readAsText(f);
     }
