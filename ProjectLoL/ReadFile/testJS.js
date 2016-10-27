@@ -8,7 +8,7 @@
   [
     0: date
     1: patch
-    2: player
+    2: players
       [
         0: champion
         1: skin
@@ -16,15 +16,17 @@
         3: summonername
         4: playertype
       ]
-    3: loading_time(game start)
-    4: deaths
+    3: bot_count;
+    4: loading_time(game start)
+    5: game_time(gameEnd - gameStart)
+    6: deaths
       [
-        0: time_of_death0
+        0: time_of_death0 - gameStart
         .
         .
-        N: time_of_deathN
+        N: time_of_deathN - gameStart
       ]
-
+    6: game_result
   ]
   */
   let filteredDB = [];
@@ -103,9 +105,8 @@
         var reducedArray = textArray.filter(function (input) {
           return (input.includes('GAMESTATE_GAMELOOP Begin') ||
                   input.includes('EXITCODE') ||
-                  input.includes('Spawning champion') ||
-                  input.includes('The Killer was')) ||
-                  input.includes('Build Version:');
+                  input.includes('Spawning champion')||
+                  input.includes('The Killer was'));
         });
 
         // sækjum dagsetningu, og þvingum hana fremst í array
