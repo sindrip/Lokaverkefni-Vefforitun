@@ -3,6 +3,31 @@
   /****
   Hérna skerum við niður file-ana
   ****/
+  /*
+  Viljum hafa eftirfarandi uppsetningu á filteredDb arrayinu:
+  [
+    0: date
+    1: patch
+    2: player
+      [
+        0: champion
+        1: skin
+        2: team
+        3: summonername
+        4: playertype
+      ]
+    3: loading_time(game start)
+    4: deaths
+      [
+        0: time_of_death0
+        .
+        .
+        N: time_of_deathN
+      ]
+
+  ]
+  */
+  let filteredDB = [];
   let testDB = [];
 
   // Bæta evenlistener á formið
@@ -108,5 +133,6 @@
   ****/
   function procTest() {
     console.log(testDB);
+
   }
 }());
