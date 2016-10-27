@@ -106,6 +106,7 @@
           return (input.includes('GAMESTATE_GAMELOOP Begin') ||
                   input.includes('EXITCODE') ||
                   input.includes('Spawning champion')||
+                  input.includes('Build Version: Version')||
                   input.includes('The Killer was'));
         });
 
@@ -133,8 +134,83 @@
   /****
   Hérna hefst keyrsla á úrvinnslufallinu
   ****/
+  /*
+  Viljum hafa eftirfarandi uppsetningu á filteredDb arrayinu:
+  [
+    0: date
+    1: patch
+    2: players
+      [
+        0: champion
+        1: skin
+        2: team
+        3: summonername
+        4: playertype
+      ]
+    3: bot_count;
+    4: loading_time(game start)
+    5: game_time(gameEnd - gameStart)
+    6: deaths
+      [
+        0: time_of_death0 - gameStart
+        .
+        .
+        N: time_of_deathN - gameStart
+      ]
+    6: game_result
+  ]
+  */
   function procTest() {
     console.log(testDB);
+    //býr til infofylkið
+    let infoArray = {
+      date: testDB[0].shift(),
+      patch: null,
+      players: {
+        champion: null,
+        skin: null,
+        team: null,
+        summonername: null,
+        playertype: null,
+      },
+      bot_count: 0,
+      loading_time: null,
+      game_time: null,
+      deaths: [],
+      game_result: null,
+    }
+    //infoArray.patch
+    let patchLine = testDB[0].shift();
+    let patchStart = patchLine.substring(patchLine.indexOf('Build Version: Version')+23);
+    infoArray.patch = patchStart.substring(0, patchStart.indexOf('.', 3));
+    //infoArray.players
+    let summonerArray = testDB[0].filter(function (input) {
+      return (input.includes('Spawning champion'));
+    });
+    summonerArray.forEach(function(item){
+      var tempChamp = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+      item = item.substring(item.indexOf(')')+1);
+      var tempSkin = item.substring(item.indexOf('skinID') + 7, item.indexOf('skinID') + 8);
+      var tempTeam = item.substring(item.indexOf('team') + 5, item.indexOf('team') + 6);
+      var tempName = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+      item = item.substring(item.indexOf(')')+1);
+      var tempType = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+      if(tempType == 'is BOT AI'){
+        infoArray.bot_count++;
+      } else {
+        infoArray.players.champion = tempChamp;
+        infoArray.players.skin = tempSkin;
+        infoArray.players.team = tempTeam;
+        infoArray.players.summonername = tempName;
+        infoArray.players.playertype = tempType;
+      }
+      console.log(infoArray.players);
+    });
+
+
+
+  }
+  function getPlayerID(){
 
   }
 }());
