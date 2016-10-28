@@ -69,7 +69,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('babel', () => {
-  return gulp.src('src/main.js')
+  return gulp.src('src/testJS.js')
   .pipe(babel({
     presets: ['es2015']
    }))
