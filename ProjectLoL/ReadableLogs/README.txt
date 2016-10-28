@@ -1,1 +1,0 @@
-Hleður inn skrá, hún er lesinn og allt drasl er filterað í burtu og svo er skráinn displayuð á síðunni.
