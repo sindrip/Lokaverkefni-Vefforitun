@@ -37,48 +37,6 @@
   // Bæta evenlistener á formið
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
 
-  function testProcessor(testData) {
-    // object til ad geyma gogn um leik
-    var oneTestDbInstance = {
-      date: "",
-      loadingTime: "",
-      endTime: "",
-      winLoss: "",
-      summonersChamps: []
-    };
-
-    // test fall a medhondlun gagna
-    var dateIndex = reducedArray[0].indexOf("started at") + 11;
-    oneTestDbInstance.date = reducedArray[0].substring(dateIndex, dateIndex + 10);
-    for (var j = 0; j < reducedArray.length; j++) {
-      if (reducedArray[j].includes("GAMESTATE_GAMELOOP Begin")) {
-        var data = reducedArray[j].substring(0, 10);
-        oneTestDbInstance.loadingTime = data;
-      }
-
-      if (reducedArray[j].includes("EXITCODE")) {
-        var _data = reducedArray[j].substring(0, 10);
-        oneTestDbInstance.endTime = _data;
-
-        var indexResult = reducedArray[j].indexOf("EXITCODE") + 9;
-        _data = reducedArray[j].substring(indexResult, indexResult + 4);
-        oneTestDbInstance.winLoss = _data;
-      }
-
-      if (reducedArray[j].includes("created for")) {
-        console.log("created for");
-        var _data2 = reducedArray[j];
-        oneTestDbInstance.summonersChamps.push(_data2);
-      }
-
-      if (reducedArray.length - 1 === j) {
-        testDB.push(oneTestDbInstance);
-        console.log(testDB);
-        console.log("test");
-      }
-    }
-  }
-
   // Handler fyrir files
   function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
