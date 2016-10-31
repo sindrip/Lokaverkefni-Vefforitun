@@ -50,6 +50,7 @@
     var counter = 0;
 
     // loopum i gegnum alla filea sem ad vid fengum
+    console.time('readerinn');
 
     var _loop = function _loop(f) {
       var reader = new FileReader();
@@ -73,7 +74,11 @@
 
         testDB.push(reducedArray);
         counter++;
+        if (counter % 200 === 0) {
+          console.log(counter);
+        }
         if (counter === numOfFiles) {
+          console.timeEnd('readerinn');
           procTest();
         }
       };
@@ -96,6 +101,8 @@
   ****/
 
   function procTest() {
+    console.time('timer');
+    console.log('timer started');
     testDB.forEach(function (textFile) {
 
       //býr til infofylkið
@@ -171,5 +178,6 @@
       filteredDB.push(infoArray);
     });
     console.log(filteredDB);
+    console.timeEnd('timer');
   }
 })();
