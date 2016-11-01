@@ -197,7 +197,7 @@
   // öll föll sem sjá um vinnslu verður kallað úr hér
   function urvinnsla() {
     vinnaFylki();
-    console.log(deathAtMinute);
+    /* console.log(deathAtMinute);
     console.log(death_and_gameLength_and_result);
     console.log(loadingTime);
     console.log(playTime);
@@ -207,7 +207,8 @@
     console.log(gameByMonthDay);
     console.log(gameByMonth);
     console.log(gameByYear);
-    console.log(gameByAll);
+    console.log(gameByAll);*/
+    fillChart();
   }
   // array með deaths flokkað eftir sekúndu
   const deathAtMinute = {};
@@ -223,7 +224,9 @@
     L: 0,
   };
   //hvaða dag, viku ár etc... spilaru á
-  const gameByHour = {};
+  const gameByHour = {
+    listOfProperties: [],
+  };
   const gameByDay = {};
   const gameByMonthDay = {};
   const gameByMonth = {};
@@ -255,8 +258,10 @@
 
   // hleður inn í gameByX
   function gameBy(date) {
-    if(!gameByHour[date.getHours()])
+    if(!gameByHour[date.getHours()]) {
       gameByHour[date.getHours()] = 0;
+      gameByHour.listOfProperties.push(date.getHours());
+    }
     ++gameByHour[date.getHours()];
 
     if(!gameByDay[date.getDay()])
@@ -288,4 +293,57 @@
     const second = seconds % 60;
     return [hour, minute, second];
   }
+
+  // GRAPH FUNCTION
+  function fillChart() {
+    let XXY = [
+      ['Year', 'Sales', 'Expenses'],
+      ['2004',  1000,      400],
+      ['2005',  1170,      460],
+      ['2006',  660,       1120],
+      ['2007',  1030,      540]
+    ];
+    var array1 = [['Hour', 'Amount']];
+    var array2 = formatDataForChart(gameByHour);
+    var array3 = array1.concat(array2);
+    XXX = array3;
+    drawChart1();
+  }
+  var XXX = [];
+  //function fillChart() {
+    formatDataForChart(gameByHour);
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawChart1);
+    function drawChart1() {
+      //var data = google.visualization.arrayToDataTable(['Hour', 'Amount'].unshift(formatDataForChart(gameByHour)));
+      var data = google.visualization.arrayToDataTable(XXX);
+
+
+
+      var options = {
+        title: 'Hvenar loadar in-game',
+        hAxis: {title: 'Klukkutími', titleTextStyle: {color: 'red'}}
+      };
+
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+      chart.draw(data, options);
+    }
+
+    function formatDataForChart(data){
+      const dataItemSetArray = [];
+      data.listOfProperties.forEach(function (dateItem) {
+        const dataItemSetArrayItem = [dateItem, data[dateItem]];
+        dataItemSetArray.push(dataItemSetArrayItem);
+      });
+      return dataItemSetArray;
+    }
+
+    
+
+    $(window).resize(function(){
+      drawChart1();
+    });
+
+    // Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
+//  }
 }());
