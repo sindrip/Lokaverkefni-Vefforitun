@@ -237,8 +237,10 @@
 
   // öll föll sem sjá um vinnslu verður kallað úr hér
   function urvinnsla() {
+    findPlayerID();
     vinnaFylki();
-
+    console.log(yourSummonerName);
+    document.getElementById('summonername').innerHTML = yourSummonerName;
     fillChart('Hour', gameByHour);
 
   }
@@ -275,7 +277,74 @@
   const gameByAll = {
     listOfProperties: [],
   };
+  // listi yfir alla players
+  let playerIDArray = {};
+  // listi yfir þín summonername
+  let yourSummonerName = [];
 
+
+  // listar alla summoners of hversu oft their komu, setur í playerIDArray
+  function findPlayerID() {
+    filteredDB.forEach(function (arrayStak) {
+      arrayStak.players.forEach(function (playerID) {
+          playerIDArray[playerID.summonername] = (playerIDArray[playerID.summonername] || 0) + 1;
+      });
+    });
+
+    findSummonerNames(playerIDArray);
+  }
+
+  // fall sem finnur öll nöfn sem eru líklega þú
+  function findSummonerNames(summonersArray) {
+    if(Object.keys(summonersArray).length < 1) { return;}
+    // console.log(summonersArray);
+    //console.log(summonersArray);
+    let topSummoner = findTopSummonerInArray(summonersArray);
+    // console.log(topSummoner);
+    // debugger;
+    //hættir loopu að leita að other summoner names ef hæðsta nafn er með minna en 20 leiki
+    if(summonersArray[topSummoner] < 15) { return;} else {
+      yourSummonerName.push(topSummoner)
+      // console.log(yourSummonerName);
+      var tempfiltArray = filterplayerIDArray(summonersArray);
+
+      // console.log(tempfiltArray);
+      // debugger;
+      findSummonerNames(tempfiltArray);
+    }
+  }
+  // filterar 'ut players sem voru 'i leik med topSummoner
+  function filterplayerIDArray(summonersArray) {
+    let newplayerIDArray = {};
+    filteredDB.forEach(function (arrayStak) {
+      //debugger;
+      let containsTopSummoner = false;
+      arrayStak.players.forEach(function (playerID) {
+        if(yourSummonerName.indexOf(playerID.summonername) !== -1) {
+          containsTopSummoner = true;
+        }
+      });
+      //debugger;
+      if(!containsTopSummoner) {
+        arrayStak.players.forEach(function (playerID) {
+          newplayerIDArray[playerID.summonername] = (newplayerIDArray[playerID.summonername] || 0) + 1;
+        });
+      }
+      //debugger;
+    });
+    return newplayerIDArray;
+  }
+  // finnur top summonernamið, þá það sem kom oftast fyrir
+  function findTopSummonerInArray(arrayObject) {
+    const currentTopSummoner = [0,0];
+    for(var key in playerIDArray ) {
+      if(arrayObject[key] > currentTopSummoner[1]) {
+        currentTopSummoner[0] = key;
+        currentTopSummoner[1] = arrayObject[key]
+      }
+    }
+    return currentTopSummoner[0];
+  }
   // fall sem keyrir í gegnum filteredDB fylkið
   function vinnaFylki() {
     // fyrir hvert stak, arrayStak, í fylkinu filteredDB
@@ -350,13 +419,13 @@
   // GRAPH FUNCTION
   function fillChart(value, whatArray, axisChanger) {
 
-    console.log(value);
+    // console.log(value);
     var array1 = [[value, value]];
     // console.log(array1);
     var array2 = formatDataForChart(whatArray, axisChanger);
     var array3 = array1.concat(array2);
     XXX = array3;
-    console.log(XXX);
+    // console.log(XXX);
     document.getElementById('graph').style.visibility = "visible";
     drawChart1(value);
   }
@@ -382,7 +451,7 @@
     const dataItemSetArray = [];
     whatArray.listOfProperties.forEach(function (dateItem) {
       let dataItemSetArrayItem;
-      console.log(dateItem);
+      //console.log(dateItem);
       if(axisChanger === 'year') {
         var stringTime = dateItem[0] + '.' + month[dateItem[1]] + '.' + dateItem[2];
         dataItemSetArrayItem = [stringTime, whatArray[dateItem]];
