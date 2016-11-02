@@ -1,5 +1,46 @@
-/* eslint linebreak-style: ["error", "windows"]*/
 (function(){
+  document.getElementById('graph').style.visibility = "hidden";
+  document.getElementById("hourButton").addEventListener("click", function() {
+    fillChart('Hour', gameByHour, null);
+  });
+  document.getElementById("dayButton").addEventListener("click", function() {
+    fillChart('Day', gameByDay, weekday);
+  });
+  document.getElementById("monthDayButton").addEventListener("click", function() {
+    fillChart('MonthDay', gameByMonthDay, null);
+  });
+  document.getElementById("monthButton").addEventListener("click", function() {
+    fillChart('Month', gameByMonth, month);
+  });
+  document.getElementById("yearButton").addEventListener("click", function() {
+    fillChart('Year', gameByYear, null);
+  });
+  document.getElementById("allButton").addEventListener("click", function() {
+    fillChart('All', gameByAll, 'year');
+  });
+
+  let weekday = new Array(7);
+  weekday[0]=  "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
+
+  let month = new Array();
+  month[0] = "January";
+  month[1] = "February";
+  month[2] = "March";
+  month[3] = "April";
+  month[4] = "May";
+  month[5] = "June";
+  month[6] = "July";
+  month[7] = "August";
+  month[8] = "September";
+  month[9] = "October";
+  month[10] = "November";
+  month[11] = "December";
 
   /****
   Hérna skerum við niður file-ana
@@ -197,18 +238,9 @@
   // öll föll sem sjá um vinnslu verður kallað úr hér
   function urvinnsla() {
     vinnaFylki();
-    /* console.log(deathAtMinute);
-    console.log(death_and_gameLength_and_result);
-    console.log(loadingTime);
-    console.log(playTime);
-    console.log(winsLosses);
-    console.log(gameByHour);
-    console.log(gameByDay);
-    console.log(gameByMonthDay);
-    console.log(gameByMonth);
-    console.log(gameByYear);
-    console.log(gameByAll);*/
-    fillChart();
+
+    fillChart('Hour', gameByHour);
+
   }
   // array með deaths flokkað eftir sekúndu
   const deathAtMinute = {};
@@ -224,14 +256,25 @@
     L: 0,
   };
   //hvaða dag, viku ár etc... spilaru á
+  // listOfProperties heldur utan um hvað er búið að pusha inn í.
   const gameByHour = {
     listOfProperties: [],
   };
-  const gameByDay = {};
-  const gameByMonthDay = {};
-  const gameByMonth = {};
-  const gameByYear = {};
-  const gameByAll = {};
+  const gameByDay = {
+    listOfProperties: [],
+  };
+  const gameByMonthDay = {
+    listOfProperties: [],
+  };
+  const gameByMonth = {
+    listOfProperties: [],
+  };
+  const gameByYear = {
+    listOfProperties: [],
+  };
+  const gameByAll = {
+    listOfProperties: [],
+  };
 
   // fall sem keyrir í gegnum filteredDB fylkið
   function vinnaFylki() {
@@ -257,6 +300,7 @@
   }
 
   // hleður inn í gameByX
+  // feel free að endurskrifa ef finnið betri leið, forljótt
   function gameBy(date) {
     if(!gameByHour[date.getHours()]) {
       gameByHour[date.getHours()] = 0;
@@ -264,25 +308,34 @@
     }
     ++gameByHour[date.getHours()];
 
-    if(!gameByDay[date.getDay()])
+    if(!gameByDay[date.getDay()]){
       gameByDay[date.getDay()] = 0;
+      gameByDay.listOfProperties.push(date.getDay());
+    }
     ++gameByDay[date.getDay()];
 
-    if(!gameByMonthDay[date.getDate()])
-      gameByMonthDay[date.getDate()] = 0;
+    if(!gameByMonthDay[date.getDate()]){
+      gameByMonthDay[date.getDate()] = 0;}
+      gameByMonthDay.listOfProperties.push(date.getDate());
     ++gameByMonthDay[date.getDate()];
 
-    if(!gameByMonth[date.getMonth()])
+    if(!gameByMonth[date.getMonth()]){
       gameByMonth[date.getMonth()] = 0;
+      gameByMonth.listOfProperties.push(date.getMonth());
+    }
     ++gameByMonth[date.getMonth()];
 
-    if(!gameByYear[date.getFullYear()])
+    if(!gameByYear[date.getFullYear()]){
       gameByYear[date.getFullYear()] = 0;
+      gameByYear.listOfProperties.push(date.getFullYear());
+    }
     ++gameByYear[date.getFullYear()];
 
     const tempFullDate = [date.getDate(), date.getMonth(), date.getFullYear()];
-    if(!gameByAll[tempFullDate])
+    if(!gameByAll[tempFullDate]){
       gameByAll[tempFullDate] = 0;
+      gameByAll.listOfProperties.push(tempFullDate);
+    }
     ++gameByAll[tempFullDate];
   }
 
@@ -295,55 +348,58 @@
   }
 
   // GRAPH FUNCTION
-  function fillChart() {
-    let XXY = [
-      ['Year', 'Sales', 'Expenses'],
-      ['2004',  1000,      400],
-      ['2005',  1170,      460],
-      ['2006',  660,       1120],
-      ['2007',  1030,      540]
-    ];
-    var array1 = [['Hour', 'Amount']];
-    var array2 = formatDataForChart(gameByHour);
+  function fillChart(value, whatArray, axisChanger) {
+
+    console.log(value);
+    var array1 = [[value, value]];
+    // console.log(array1);
+    var array2 = formatDataForChart(whatArray, axisChanger);
     var array3 = array1.concat(array2);
     XXX = array3;
-    drawChart1();
+    console.log(XXX);
+    document.getElementById('graph').style.visibility = "visible";
+    drawChart1(value);
   }
   var XXX = [];
   //function fillChart() {
-    formatDataForChart(gameByHour);
-    google.load("visualization", "1", {packages:["corechart"]});
-    google.setOnLoadCallback(drawChart1);
-    function drawChart1() {
-      //var data = google.visualization.arrayToDataTable(['Hour', 'Amount'].unshift(formatDataForChart(gameByHour)));
-      var data = google.visualization.arrayToDataTable(XXX);
+  //formatDataForChart(gameByHour,);
+  //google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart1);
+  function drawChart1(value) {
+    //var data = google.visualization.arrayToDataTable(['Hour', 'Amount'].unshift(formatDataForChart(gameByHour)));
+    var data = google.visualization.arrayToDataTable(XXX);
 
+    var options = {
+      title: 'Hvenar loadar in-game by:',
+      hAxis: {title: value, titleTextStyle: {color: 'red'}}
+      //vAxis: {title: 'Fjöldi', titleTextStyle: {color: 'red'}}
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+    chart.draw(data, options);
+  }
+  //formatar fylki með 2 stökum þannig hægt er að nota google charts með því
+  function formatDataForChart(whatArray, axisChanger){
+    const dataItemSetArray = [];
+    whatArray.listOfProperties.forEach(function (dateItem) {
+      let dataItemSetArrayItem;
+      console.log(dateItem);
+      if(axisChanger === 'year') {
+        var stringTime = dateItem[0] + '.' + month[dateItem[1]] + '.' + dateItem[2];
+        dataItemSetArrayItem = [stringTime, whatArray[dateItem]];
+      } else if(axisChanger) {
+        dataItemSetArrayItem = [axisChanger[dateItem], whatArray[dateItem]];
+      } else {
+        dataItemSetArrayItem = [dateItem, whatArray[dateItem]];
+      }
 
-
-      var options = {
-        title: 'Hvenar loadar in-game',
-        hAxis: {title: 'Klukkutími', titleTextStyle: {color: 'red'}}
-      };
-
-      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
-      chart.draw(data, options);
-    }
-
-    function formatDataForChart(data){
-      const dataItemSetArray = [];
-      data.listOfProperties.forEach(function (dateItem) {
-        const dataItemSetArrayItem = [dateItem, data[dateItem]];
-        dataItemSetArray.push(dataItemSetArrayItem);
-      });
-      return dataItemSetArray;
-    }
-
-    
-
-    $(window).resize(function(){
-      drawChart1();
+      dataItemSetArray.push(dataItemSetArrayItem);
     });
+    return dataItemSetArray;
+  }
 
-    // Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
-//  }
+  $(window).resize(function(){
+    drawChart1();
+  });
+  // Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
+
 }());

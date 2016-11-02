@@ -79,4 +79,4 @@ gulp.task('babel', () => {
 
 gulp.task('lint', ['lint-scss', 'lint-javascript']);
 
-gulp.task('default', ['lint', 'sass', 'babel', 'serve']);
+gulp.task('default', ['sass', 'babel', 'serve']);
