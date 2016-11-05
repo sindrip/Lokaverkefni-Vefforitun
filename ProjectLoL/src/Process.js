@@ -7,23 +7,26 @@ const API_KEY = 'RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829';
 let filteredDB = [];
 
 //filteruðu föllinn, alltaf vinna með þessi
-
+let champions = {};
 
 function urvinnsla() {
-  Api_Call();
+  // finnur your summonernames
   findPlayerID();
+  // filters game sem eru ekki þínir
   filteredDB = filterOutSummoner();
   // hér er filteredDB orðið hreint, þá búið að remova allt sem á ekki við
   //callar á RIOT API inn
   Api_Call();
-  // ekki vinna
+  // putInfoIntoChampions
+
+
+  // ekki calla á display strax
   // vinnaFylki();
   fillChart('Hour', gameByHour);
   document.getElementById('summonername').innerHTML = yourSummonerName;
 }
 
-
-
+//kallar á riot apiinn
 function Api_Call() {
   $.ajax({
     url: 'https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=' + API_KEY,
@@ -33,13 +36,64 @@ function Api_Call() {
     data: {
     },
     success: function (json) {
-      console.log(json);
+      // console.log(json);
+      createChampionArray(json);
     },
     error: function (XMLHttpRequest, textStatus, errorThrown) {
       alert("error getting connecting to API");
     }
   });
 }
+
+// gerir objectið champions sem inniheldur alla champions
+function createChampionArray(championsJSON) {
+  console.log(championsJSON.data.Aatrox.name);
+
+  for (var key in championsJSON.data) {
+
+    champions[key] = {numgames:0,};
+    // champions[key][numgames] = 1;
+  }
+  putInfoIntoChampions();
+}
+// keyrir í gegnum filteredDB og raðar info niður á champions fylkið
+function putInfoIntoChampions() {
+  filteredDB.forEach(function (arrayStak) {
+    var yourChampInfo = whatChampYouPlaying(arrayStak.players);
+    if(yourChampInfo) {
+      let yourChamp = yourChampInfo.champion;
+      const numgames = champions[yourChamp]['numgames'];
+      //console.log(yourChamp);
+      champions[yourChamp][numgames] = {
+        date: arrayStak.date,
+        patch: arrayStak.patch,
+        skin: yourChampInfo.skin,
+        team: yourChampInfo.team,
+        gameTime: arrayStak.game_time,
+        deaths: arrayStak.deaths.length,
+        gameResult: arrayStak.game_result,
+      };
+      champions[yourChamp]['numgames'] = numgames + 1;
+
+    }
+  });
+}
+//skilar því players array úr filteredDB sem hefur þitt nafn
+function whatChampYouPlaying(playerArray) {
+  let foundName = null;
+  playerArray.forEach( function(arrayStak) {
+    // console.log(arrayStak);
+    yourSummonerName.forEach( function(innerArrayStak) {
+      if(arrayStak.summonername === innerArrayStak) {
+        // console.log(arrayStak.champion);
+        foundName = arrayStak;
+      }
+    });
+  });
+  return foundName;
+}
+
+
 const deathAtMinute = {};
 // array sem geymir death og gamelength saman
 const death_and_gameLength_and_result = [];
@@ -52,31 +106,15 @@ const winsLosses = {
   W: 0,
   L: 0,
 };
-//hvaða dag, viku ár etc... spilaru á
-// listOfProperties heldur utan um hvað er búið að pusha inn í.
-const gameByHour = {
-  listOfProperties: [],
-};
-const gameByDay = {
-  listOfProperties: [],
-};
-const gameByMonthDay = {
-  listOfProperties: [],
-};
-const gameByMonth = {
-  listOfProperties: [],
-};
-const gameByYear = {
-  listOfProperties: [],
-};
-const gameByAll = {
-  listOfProperties: [],
-};
+
+
 // listi yfir alla players
 let playerIDArray = {};
 // listi yfir þín summonername
 let yourSummonerName = [];
 
+
+// listar up alla players í leiknum í playerIDArray
 function findPlayerID() {
   filteredDB.forEach(function (arrayStak) {
     arrayStak.players.forEach(function (playerID) {
@@ -87,45 +125,55 @@ function findPlayerID() {
   findSummonerNames(playerIDArray);
 }
 
+// endurkvæmt fall sem finnur þín usernames
 function findSummonerNames(summonersArray) {
   if(Object.keys(summonersArray).length < 1) { return;}
-  // console.log(summonersArray);
-  //console.log(summonersArray);
   let topSummoner = findTopSummonerInArray(summonersArray);
-  // console.log(topSummoner);
-  // debugger;
   //hættir loopu að leita að other summoner names ef hæðsta nafn er með minna en 20 leiki
   if(summonersArray[topSummoner] < 15) { return;} else {
     yourSummonerName.push(topSummoner)
-    // console.log(yourSummonerName);
     var tempfiltArray = filterplayerIDArray(summonersArray);
-
-    // console.log(tempfiltArray);
-    // debugger;
     findSummonerNames(tempfiltArray);
   }
 }
 
+// skilar fylki sem inniheldur alla leiki sem eru án þinna nafna(sem hafa fundist)
 function filterplayerIDArray(summonersArray) {
+  /*
+  ATH EKKI EYÐA KOMMENTUNUM Í ÞESSU FALLI, KOMMENTAÐI PARTURINN
+  ER LAUSN Á EDGE CASE VANDAMÁLINU EN KEMUR ÞVÍ MIÐUR MEÐ AUKA
+  KEYRSLUTÍMA UPPÁ 10 SEKÚNDUR. ÞARF AÐ SKOÐA BETUR.
+  */
+  console.time('finnaNafn');
+  console.log('Hef leit að þínum nöfnum');
   let newplayerIDArray = {};
+  // let filteredPLayers = {};
   filteredDB.forEach(function (arrayStak) {
-    //debugger;
     let containsTopSummoner = false;
     arrayStak.players.forEach(function (playerID) {
       if(yourSummonerName.indexOf(playerID.summonername) !== -1) {
         containsTopSummoner = true;
       }
+      /*for(var key in filteredPLayers) {
+        if(key === playerID.summonername) {
+          containsTopSummoner = true;
+        }
+      }*/
     });
-    //debugger;
     if(!containsTopSummoner) {
       arrayStak.players.forEach(function (playerID) {
         newplayerIDArray[playerID.summonername] = (newplayerIDArray[playerID.summonername] || 0) + 1;
       });
+    } /*else {
+      arrayStak.players.forEach(function (playerID) {
+        filteredPLayers[playerID.summonername] = 0;
+      });*/
     }
-    //debugger;
   });
+  console.timeEnd('finnaNafn');
   return newplayerIDArray;
 }
+
 // finnur top summonernamið, þá það sem kom oftast fyrir
 function findTopSummonerInArray(arrayObject) {
   const currentTopSummoner = [0,0];
@@ -137,6 +185,9 @@ function findTopSummonerInArray(arrayObject) {
   }
   return currentTopSummoner[0];
 }
+
+
+
 
 //Fylki sem heldur utan um niðurstöðu leikja eftir ðatch.
 let Process_patchwinrateArray = [];

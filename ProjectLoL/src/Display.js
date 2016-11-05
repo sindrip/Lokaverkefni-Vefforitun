@@ -41,6 +41,27 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
+//hvaða dag, viku ár etc... spilaru á
+// listOfProperties heldur utan um hvað er búið að pusha inn í.
+const gameByHour = {
+  listOfProperties: [],
+};
+const gameByDay = {
+  listOfProperties: [],
+};
+const gameByMonthDay = {
+  listOfProperties: [],
+};
+const gameByMonth = {
+  listOfProperties: [],
+};
+const gameByYear = {
+  listOfProperties: [],
+};
+const gameByAll = {
+  listOfProperties: [],
+};
+
 function vinnaFylki() {
   console.log('poop');
   // fyrir hvert stak, arrayStak, í fylkinu filteredDB
