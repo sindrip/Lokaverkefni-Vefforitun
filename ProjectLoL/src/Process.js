@@ -1,41 +1,45 @@
+
 // API lykillinn
 const API_KEY = 'RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829';
 
-function urvinnsla() {
+//gen info fylkið
 
-}
-
-function Api_Call() {
-  $.ajax({
-      url: 'https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=' + API_KEY,
-      //    https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829
-      type: 'GET',
-      dataType: 'json',
-      data: {
-      },
-      success: function (json) {
-        console.log(json);
-      },
-      error: function (XMLHttpRequest, textStatus, errorThrown) {
-          alert("error getting connecting to API");
-      }
-  });
-}
-
-
-
-console.log('ja');
 let filteredDB = [];
+
+//filteruðu föllinn, alltaf vinna með þessi
+
+
 function urvinnsla() {
   Api_Call();
   findPlayerID();
-  vinnaFylki();
-  let player = findTopSummonerInArray(filteredDB);
-  console.log(filterOutSummoner(filteredDB, player));
+  filteredDB = filterOutSummoner();
+  // hér er filteredDB orðið hreint, þá búið að remova allt sem á ekki við
+  //callar á RIOT API inn
+  Api_Call();
+  // ekki vinna
+  // vinnaFylki();
   fillChart('Hour', gameByHour);
   document.getElementById('summonername').innerHTML = yourSummonerName;
 }
 
+
+
+function Api_Call() {
+  $.ajax({
+    url: 'https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=' + API_KEY,
+    //    https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829
+    type: 'GET',
+    dataType: 'json',
+    data: {
+    },
+    success: function (json) {
+      console.log(json);
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      alert("error getting connecting to API");
+    }
+  });
+}
 const deathAtMinute = {};
 // array sem geymir death og gamelength saman
 const death_and_gameLength_and_result = [];
@@ -161,26 +165,26 @@ function Process_WinRateDuringPatch(GamesOnPatchArray,patch){
   return thisPatchWinrate;
 }
 
-//NOtkun: findElement(arrayElements, element)
+//NOtkun: findIfContains(arrayElements, element)
 //FYrir: arrayElements er fylki af stökum af sama tagi og element
 //Gidli true eða false eftir því hvort það var þar eða ekki.
-function findElement(arrayElements, element){
-  let i = 0;
-  while(i <= arrayElements.length){
-    if(arrayElements[i] === element) return true;
-    i += 1;
-  }
+function findIfContains(arrayElements){
+  arrayElements.forEach( function(arrayStak) {
+    yourSummonerName.forEach( function(innerArrayStak) {
+      if(arrayStak === innerArrayStak) return true;
+    })
+  })
   return false;
 }
 
 //Notkun: filterOutSummoner(arraygames, summoner);
 //Fyrir: arraygames er stak af leikjum og summoner er nafn a summoner
 //Gidli listi af leikjum an summoners
-function filterOutSummoner(arraygames, summoner){
+function filterOutSummoner(){
   let i = 0;
   let filteredOut = [];
-  while(i < arraygames.length){
-    let players = arraygames[i].players;
+  while(i < filteredDB.length){
+    let players = filteredDB[i].players;
     let playersPivot = 0;
 
     let summoners = [];
@@ -188,8 +192,8 @@ function filterOutSummoner(arraygames, summoner){
       summoners.push(players[playersPivot].summonername);
       playersPivot += 1;
     }
-    if(findElement(summoners, summoner)){
-      filteredOut.push(arraygames[i]);
+    if(!findIfContains(summoners)){
+      filteredOut.push(filteredDB[i]);
     }
     i += 1;
   }
