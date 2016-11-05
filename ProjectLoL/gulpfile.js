@@ -57,7 +57,7 @@ gulp.task('js', ['babel'], function (done) {
     return gulp.src('./src/*js')
         .pipe(browserify())
 
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('./dist'));
 });
 
 
@@ -69,7 +69,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('babel', () => {
-  return gulp.src('src/testJS.js')
+  return gulp.src('src/*.js')
   .pipe(babel({
     presets: ['es2015']
    }))
