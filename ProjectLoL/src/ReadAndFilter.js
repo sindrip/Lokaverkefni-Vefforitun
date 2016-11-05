@@ -1,4 +1,3 @@
-let filteredDB = [];
 let testDB = [];
 
 //  Bæta evenlistener á formið
@@ -157,7 +156,6 @@ function procTest() {
       console.log('error');
     }
   });
-  console.log(filteredDB);
   console.timeEnd('vinnslutimer');
   urvinnsla();
 }
