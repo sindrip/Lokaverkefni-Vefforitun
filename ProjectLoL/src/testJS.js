@@ -239,7 +239,7 @@
   function urvinnsla() {
     findPlayerID();
     vinnaFylki();
-    console.log(yourSummonerName);
+    console.log(playerIDArray);
     document.getElementById('summonername').innerHTML = yourSummonerName;
     fillChart('Hour', gameByHour);
 
