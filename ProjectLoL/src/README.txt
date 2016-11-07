@@ -1,1 +1,51 @@
-Hleğur inn skrá, hún er lesinn og allt drasl er filterağ í burtu og svo er skráinn displayuğ á síğunni.
+filteredDB =
+[
+  // fyrir hvern leik, frÃ¡ 0 uppÃ­ filteredDB.length
+  0 = {
+    date: dateObject,
+    patch: String, ('6.20')
+    players: = [
+      // fyrir hvern player, frÃ¡ 0 uppÃ­ players.length
+      0 = {
+        champion: String, ('Aatrox')
+        skin: integer, (0)
+        team: integer, (0)
+        summonername: String, ('Ban Gragas')
+        playertype: String, ('is HUMAN PLAYER')
+      }
+    ]
+    bot_count: integer, (0)
+    loading_time: float, (56.2131234)
+    game_time: float, (1543.3115115)
+    deaths = [
+      // timestamp fyrir hvern death, frÃ¡ 0 uppÃ­ n
+      0: float (1251.3632115)
+    ]
+    game_result: String, ('W')
+  }
+]
+DÃ¦mi:
+// Eftirfarandi velur fyrsta champion hjÃ¡ fyrsta player Ã­ fyrsta lesna leik
+filteredDB[0]['players'][0]['champion']
+
+// ==============
+
+champions = {
+  // fyrir hvern champion
+  'Aatrox' = {
+    numgames: int,
+    // fyrir hvern leik frÃ¡ 0 og upp Ã­ numgames
+    0 = {
+      date: dateObject,
+      patch: String, ('6.20')
+      skin: integer, (0)
+      team: integer, (0)
+      deaths: integer, (5)
+      gameTime: float, (1341.231551)
+      gameResult: String, ('W')
+    }
+  }
+}
+DÃ¦mi:
+// Eftirfarandi velur skinniÃ° sem var notaÃ° Ã¡ Aatrox Ã­ fyrsta Aatrox leik sem var lesin
+champions['Aatrox'][0]['skin']

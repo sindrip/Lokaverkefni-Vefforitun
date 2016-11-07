@@ -1,14 +1,12 @@
-
 // API lykillinn
 const API_KEY = 'RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829';
-
-//gen info fylkið
-
+// Inniheldur heildarupplýsingar um alla leiki með þér
 let filteredDB = [];
-
-//filteruðu föllinn, alltaf vinna með þessi
+// Búið að flokka leikina eftir champions
 let champions = {};
-
+// listi yfir þín summonername
+let yourSummonerName = [];
+// Aðalfallið, býr til millistigsfylkin
 function urvinnsla() {
   // finnur your summonernames
   findPlayerID();
@@ -19,14 +17,50 @@ function urvinnsla() {
   Api_Call();
   // putInfoIntoChampions
 
-
   // ekki calla á display strax
   // vinnaFylki();
   fillChart('Hour', gameByHour);
   document.getElementById('summonername').innerHTML = yourSummonerName;
 }
 
-//kallar á riot apiinn
+// ===========================
+// Notkun: findIfContains(arrayElements, element)
+// Fyrir: arrayElements er fylki af stökum af sama tagi og element
+// Gidli true eða false eftir því hvort það var þar eða ekki.
+function findIfContains(arrayElements){
+  arrayElements.forEach( function(arrayStak) {
+    yourSummonerName.forEach( function(innerArrayStak) {
+      if(arrayStak === innerArrayStak) return true;
+    })
+  })
+  return false;
+}
+// Notkun: filterOutSummoner(arraygames, summoner);
+// Fyrir: arraygames er stak af leikjum og summoner er nafn a summoner
+// Gidli listi af leikjum an summoners
+function filterOutSummoner(){
+  let i = 0;
+  let filteredOut = [];
+  while(i < filteredDB.length){
+    let players = filteredDB[i].players;
+    let playersPivot = 0;
+
+    let summoners = [];
+    while(playersPivot < players.length){
+      summoners.push(players[playersPivot].summonername);
+      playersPivot += 1;
+    }
+    if(!findIfContains(summoners)){
+      filteredOut.push(filteredDB[i]);
+    }
+    i += 1;
+  }
+  return filteredOut;
+}
+// ===========================
+
+// ===========================
+// kallar á riot apiinn
 function Api_Call() {
   $.ajax({
     url: 'https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=info&api_key=' + API_KEY,
@@ -44,7 +78,6 @@ function Api_Call() {
     }
   });
 }
-
 // gerir objectið champions sem inniheldur alla champions
 function createChampionArray(championsJSON) {
   console.log(championsJSON.data.Aatrox.name);
@@ -93,7 +126,7 @@ function whatChampYouPlaying(playerArray) {
   });
   return foundName;
 }
-
+// ===========================
 
 const deathAtMinute = {};
 // array sem geymir death og gamelength saman
@@ -108,15 +141,11 @@ const winsLosses = {
   L: 0,
 };
 
-
+// ===========================
 // listi yfir alla players
 let playerIDArray = {};
-// listi yfir þín summonername
-let yourSummonerName = [];
 // listi yfir þá sem eru ekki þú
 let notYourSummonerName = {};
-
-
 // listar up alla players í leiknum í playerIDArray
 function findPlayerID() {
   filteredDB.forEach(function (arrayStak) {
@@ -127,7 +156,6 @@ function findPlayerID() {
 
   findSummonerNames(playerIDArray);
 }
-
 // endurkvæmt fall sem finnur þín usernames
 function findSummonerNames(summonersArray) {
   if(Object.keys(summonersArray).length < 1) { return;}
@@ -141,7 +169,6 @@ function findSummonerNames(summonersArray) {
     findSummonerNames(tempfiltArray);
   }
 }
-
 // skilar fylki sem inniheldur alla leiki sem eru án þinna nafna(sem hafa fundist)
 function filterplayerIDArray(summonersArray) {
   /*
@@ -177,7 +204,6 @@ function filterplayerIDArray(summonersArray) {
   console.timeEnd('finnaNafn');
   return newplayerIDArray;
 }
-
 // finnur top summonernamið, þá það sem kom oftast fyrir
 function findTopSummonerInArray(arrayObject) {
   const currentTopSummoner = [0,0];
@@ -201,7 +227,7 @@ function findTopSummonerInArray(arrayObject) {
   // debugger;
   return currentTopSummoner[0];
 }
-
+// ===========================
 
 
 
@@ -230,39 +256,4 @@ function Process_WinRateDuringPatch(GamesOnPatchArray,patch){
     i += 1;
   }
   return thisPatchWinrate;
-}
-
-//NOtkun: findIfContains(arrayElements, element)
-//FYrir: arrayElements er fylki af stökum af sama tagi og element
-//Gidli true eða false eftir því hvort það var þar eða ekki.
-function findIfContains(arrayElements){
-  arrayElements.forEach( function(arrayStak) {
-    yourSummonerName.forEach( function(innerArrayStak) {
-      if(arrayStak === innerArrayStak) return true;
-    })
-  })
-  return false;
-}
-
-//Notkun: filterOutSummoner(arraygames, summoner);
-//Fyrir: arraygames er stak af leikjum og summoner er nafn a summoner
-//Gidli listi af leikjum an summoners
-function filterOutSummoner(){
-  let i = 0;
-  let filteredOut = [];
-  while(i < filteredDB.length){
-    let players = filteredDB[i].players;
-    let playersPivot = 0;
-
-    let summoners = [];
-    while(playersPivot < players.length){
-      summoners.push(players[playersPivot].summonername);
-      playersPivot += 1;
-    }
-    if(!findIfContains(summoners)){
-      filteredOut.push(filteredDB[i]);
-    }
-    i += 1;
-  }
-  return filteredOut;
 }
