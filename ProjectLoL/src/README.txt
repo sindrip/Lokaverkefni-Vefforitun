@@ -33,7 +33,7 @@ filteredDB[0]['players'][0]['champion']
 champions = {
   // fyrir hvern champion
   'Aatrox' = {
-    numgames: int,
+    numgames: int, (56)
     // fyrir hvern leik frá 0 og upp í numgames
     0 = {
       date: dateObject,
