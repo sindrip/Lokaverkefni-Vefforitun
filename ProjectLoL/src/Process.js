@@ -77,6 +77,7 @@ function putInfoIntoChampions() {
 
     }
   });
+  console.log(champions);
 }
 //skilar því players array úr filteredDB sem hefur þitt nafn
 function whatChampYouPlaying(playerArray) {
@@ -112,6 +113,8 @@ const winsLosses = {
 let playerIDArray = {};
 // listi yfir þín summonername
 let yourSummonerName = [];
+// listi yfir þá sem eru ekki þú
+let notYourSummonerName = {};
 
 
 // listar up alla players í leiknum í playerIDArray
@@ -130,7 +133,9 @@ function findSummonerNames(summonersArray) {
   if(Object.keys(summonersArray).length < 1) { return;}
   let topSummoner = findTopSummonerInArray(summonersArray);
   //hættir loopu að leita að other summoner names ef hæðsta nafn er með minna en 20 leiki
-  if(summonersArray[topSummoner] < 15) { return;} else {
+  if(summonersArray[topSummoner] < 15) {
+    console.log(yourSummonerName);
+    return;} else {
     yourSummonerName.push(topSummoner)
     var tempfiltArray = filterplayerIDArray(summonersArray);
     findSummonerNames(tempfiltArray);
@@ -147,7 +152,6 @@ function filterplayerIDArray(summonersArray) {
   console.time('finnaNafn');
   console.log('Hef leit að þínum nöfnum');
   let newplayerIDArray = {};
-  // let filteredPLayers = {};
   filteredDB.forEach(function (arrayStak) {
     let containsTopSummoner = false;
     arrayStak.players.forEach(function (playerID) {
@@ -164,10 +168,10 @@ function filterplayerIDArray(summonersArray) {
       arrayStak.players.forEach(function (playerID) {
         newplayerIDArray[playerID.summonername] = (newplayerIDArray[playerID.summonername] || 0) + 1;
       });
-    } /*else {
+    } else {
       arrayStak.players.forEach(function (playerID) {
-        filteredPLayers[playerID.summonername] = 0;
-      });*/
+        notYourSummonerName[playerID.summonername] = 0;
+      });
     }
   });
   console.timeEnd('finnaNafn');
@@ -183,6 +187,18 @@ function findTopSummonerInArray(arrayObject) {
       currentTopSummoner[1] = arrayObject[key]
     }
   }
+  // debugger;
+  if(currentTopSummoner[0] in notYourSummonerName)
+  {
+    arrayObject[currentTopSummoner[0]] = 0;
+    // debugger;
+    let tempName = findTopSummonerInArray(arrayObject);
+    // debugger;
+    arrayObject[currentTopSummoner[0]] = currentTopSummoner[1];
+    currentTopSummoner[0] = tempName;
+    // debugger;
+  }
+  // debugger;
   return currentTopSummoner[0];
 }
 
