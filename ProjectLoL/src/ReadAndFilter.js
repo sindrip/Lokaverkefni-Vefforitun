@@ -6,7 +6,9 @@ console.time('fileScanner');
 console.log('fileScanner started');
 //  Handler fyrir files
 function handleFileSelect(evt) {
+  console.log('a');
   let files = evt.target.files; //  FileList object
+  console.log('b');
   console.timeEnd('fileScanner');
   dataMinify(files);
 }
@@ -19,6 +21,7 @@ function dataMinify(files) {
   console.log('lestur hefst');
   //  loopum i gegnum alla filea sem ad vid fengum
   for (let f; f = files[numOfFiles]; numOfFiles += 1) {
+
     const reader = new FileReader();
 
     //  thegar ad skjal er loadad keyrum adgerd
@@ -87,7 +90,7 @@ function procTest() {
       const patchStart = patchLine.substring(patchLine.indexOf('Build Version: Version') + 23);
       const patchString = patchStart.substring(0, patchStart.indexOf('.', 3));
       const patchSplit = patchString.split('.');
-      infoArray.patch = patchString - 0;
+      infoArray.patch = patchString;
       // if patch less then 3.10 throw away
       if (patchSplit[0] > 3 || (patchSplit[0] === 3 || patchSplit[1] > 9)) {
         // infoArray.game_time && infoArray.game_result

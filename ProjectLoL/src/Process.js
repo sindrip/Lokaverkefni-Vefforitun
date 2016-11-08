@@ -80,7 +80,7 @@ function Api_Call() {
 }
 // gerir objectið champions sem inniheldur alla champions
 function createChampionArray(championsJSON) {
-  console.log(championsJSON.data.Aatrox.name);
+  // console.log(championsJSON.data.Aatrox.name);
 
   for (var key in championsJSON.data) {
 
@@ -89,7 +89,7 @@ function createChampionArray(championsJSON) {
   }
   putInfoIntoChampions();
 }
-// keyrir í gegnum filteredDB og raðar info niður á champions fylkið
+// keyrir í gegnum filteredDB og raðar info niður á champions objectið
 function putInfoIntoChampions() {
   filteredDB.forEach(function (arrayStak) {
     var yourChampInfo = whatChampYouPlaying(arrayStak.players);
@@ -110,7 +110,7 @@ function putInfoIntoChampions() {
 
     }
   });
-  console.log(champions);
+  // console.log(champions);
 }
 //skilar því players array úr filteredDB sem hefur þitt nafn
 function whatChampYouPlaying(playerArray) {
@@ -142,6 +142,8 @@ const winsLosses = {
 };
 
 // ===========================
+// listi yfir alla players með wins
+let playerIDArrayWithWins = {};
 // listi yfir alla players
 let playerIDArray = {};
 // listi yfir þá sem eru ekki þú
@@ -150,11 +152,46 @@ let notYourSummonerName = {};
 function findPlayerID() {
   filteredDB.forEach(function (arrayStak) {
     arrayStak.players.forEach(function (playerID) {
-        playerIDArray[playerID.summonername] = (playerIDArray[playerID.summonername] || 0) + 1;
+      playerIDArray[playerID.summonername] = (playerIDArray[playerID.summonername] || 0) + 1;
+      if(!playerIDArrayWithWins[playerID.summonername]){playerIDArrayWithWins[playerID.summonername] = {W:0,L:0};}
+      // console.log(playerIDArrayWithWins[playerID.summonername]);
+      // playerIDArrayWithWins[playerID.summonername][playerID.game_result] += 1;
     });
   });
-
+  // console.log(playerIDArrayWithWins);
+  // finnur þín nöfn
   findSummonerNames(playerIDArray);
+  // setur wins losses á playerIDArray fyrir gæja í þínu liði
+  filteredDB.forEach(function (arrayStak) {
+    let whatTeamIsPlayer = findPlayerTeam(arrayStak)
+    arrayStak.players.forEach(function (playerID) {
+      // console.log(whatTeamIsPlayer);
+      // console.log(arrayStak);
+      // console.log(playerIDArrayWithWins[playerID.summonername]);
+      if(playerID.team === whatTeamIsPlayer) {
+        playerIDArrayWithWins[playerID.summonername][arrayStak.game_result] += 1;
+      } /*else {
+        let reversedResult;
+        if(arrayStak.game_result === 'W') {
+          reversedResult = 'L';
+        } else {
+          reversedResult = 'W'
+        }
+        playerIDArrayWithWins[playerID.summonername][reversedResult] += 1;
+      }*/ // Er okkur ekki saman um w/l hjá hinu liðinu, friends eru alltaf með þér í liði
+    });
+  });
+  // console.log(playerIDArrayWithWins);
+}
+// finnur í hvaða side þú ert
+function findPlayerTeam(arrayStak) {
+  let tempTeam = 3
+  arrayStak.players.forEach(function (playerID) {
+    if(yourSummonerName.indexOf(playerID.summonername) !== -1) {
+      tempTeam = playerID.team;
+    }
+  });
+  return tempTeam;
 }
 // endurkvæmt fall sem finnur þín usernames
 function findSummonerNames(summonersArray) {
@@ -162,7 +199,7 @@ function findSummonerNames(summonersArray) {
   let topSummoner = findTopSummonerInArray(summonersArray);
   //hættir loopu að leita að other summoner names ef hæðsta nafn er með minna en 20 leiki
   if(summonersArray[topSummoner] < 15) {
-    console.log(yourSummonerName);
+    // console.log(yourSummonerName);
     return;} else {
     yourSummonerName.push(topSummoner)
     var tempfiltArray = filterplayerIDArray(summonersArray);
@@ -190,6 +227,7 @@ function filterplayerIDArray(summonersArray) {
           containsTopSummoner = true;
         }
       }*/
+
     });
     if(!containsTopSummoner) {
       arrayStak.players.forEach(function (playerID) {
