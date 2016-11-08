@@ -154,8 +154,6 @@ function findPlayerID() {
     arrayStak.players.forEach(function (playerID) {
       playerIDArray[playerID.summonername] = (playerIDArray[playerID.summonername] || 0) + 1;
       if(!playerIDArrayWithWins[playerID.summonername]){playerIDArrayWithWins[playerID.summonername] = {W:0,L:0};}
-      // console.log(playerIDArrayWithWins[playerID.summonername]);
-      // playerIDArrayWithWins[playerID.summonername][playerID.game_result] += 1;
     });
   });
   // console.log(playerIDArrayWithWins);
@@ -165,20 +163,9 @@ function findPlayerID() {
   filteredDB.forEach(function (arrayStak) {
     let whatTeamIsPlayer = findPlayerTeam(arrayStak)
     arrayStak.players.forEach(function (playerID) {
-      // console.log(whatTeamIsPlayer);
-      // console.log(arrayStak);
-      // console.log(playerIDArrayWithWins[playerID.summonername]);
       if(playerID.team === whatTeamIsPlayer) {
         playerIDArrayWithWins[playerID.summonername][arrayStak.game_result] += 1;
-      } /*else {
-        let reversedResult;
-        if(arrayStak.game_result === 'W') {
-          reversedResult = 'L';
-        } else {
-          reversedResult = 'W'
-        }
-        playerIDArrayWithWins[playerID.summonername][reversedResult] += 1;
-      }*/ // Er okkur ekki saman um w/l hjá hinu liðinu, friends eru alltaf með þér í liði
+      }
     });
   });
   // console.log(playerIDArrayWithWins);
@@ -208,11 +195,6 @@ function findSummonerNames(summonersArray) {
 }
 // skilar fylki sem inniheldur alla leiki sem eru án þinna nafna(sem hafa fundist)
 function filterplayerIDArray(summonersArray) {
-  /*
-  ATH EKKI EYÐA KOMMENTUNUM Í ÞESSU FALLI, KOMMENTAÐI PARTURINN
-  ER LAUSN Á EDGE CASE VANDAMÁLINU EN KEMUR ÞVÍ MIÐUR MEÐ AUKA
-  KEYRSLUTÍMA UPPÁ 10 SEKÚNDUR. ÞARF AÐ SKOÐA BETUR.
-  */
   console.time('finnaNafn');
   console.log('Hef leit að þínum nöfnum');
   let newplayerIDArray = {};
@@ -222,12 +204,6 @@ function filterplayerIDArray(summonersArray) {
       if(yourSummonerName.indexOf(playerID.summonername) !== -1) {
         containsTopSummoner = true;
       }
-      /*for(var key in filteredPLayers) {
-        if(key === playerID.summonername) {
-          containsTopSummoner = true;
-        }
-      }*/
-
     });
     if(!containsTopSummoner) {
       arrayStak.players.forEach(function (playerID) {
