@@ -1,7 +1,31 @@
 let testDB = [];
 
+let change = 0;
+function move() {
+  /*console.log('homo');
+  if(change === 0) {
+    document.getElementById('loadingdots1').className = 'loadingdots hide';
+    document.getElementById('loadingdots2').className = 'loadingdots hide';
+    document.getElementById('loadingdots3').className = 'loadingdots hide';
+    change = 1;
+  } else if(change === 1){
+    document.getElementById('loadingdots1').className = 'loadingdots';
+    change = 2;
+  }
+  else if(change === 2){
+    document.getElementById('loadingdots2').className = 'loadingdots';
+    change = 3;
+  } else {
+    document.getElementById('loadingdots3').className = 'loadingdots';
+    change = 0;
+  }
+  setTimeout(move, 100);
+*/
+}
+
 //  Bæta evenlistener á formið
 document.getElementById('files').addEventListener('change', handleFileSelect, false);
+//
 console.time('fileScanner');
 console.log('fileScanner started');
 //  Handler fyrir files
@@ -19,6 +43,7 @@ function dataMinify(files) {
   let counter = 0;
   document.getElementById('input').className = 'input hide';
   document.getElementById('process').className = 'process';
+  move();
   console.time('lestur');
   console.log('lestur hefst');
   //  loopum i gegnum alla filea sem ad vid fengum
@@ -34,7 +59,7 @@ function dataMinify(files) {
       //  splittum a new line
       const textArray = text.split('\n');
 
-      
+
       //  Saekjum thau gogn sem vid hofum ahuga a
       const reducedArray = textArray.filter(function (input) {
         return (input.includes('GAMESTATE_GAMELOOP Begin') ||

@@ -10,20 +10,30 @@
     <script type="text/javascript" src="https://www.google.com/jsapi?autoload=
   {'modules':[{'name':'visualization','version':'1.1','packages':
   ['corechart']}]}"></script>
-
     <title></title>
   </head>
   <body>
     <div class="input" id="input">
-      <input id="files" type='file' accept='text/plain' multiple><br>
+      <div class="inputItem">
+        <label for="files" class="custom-file-upload">
+          Select files
+        </label>
+        <input id="files" type='file' accept='text/plain' multiple><br>
+        <div id="tooltip">
+          <span class="tooltiptext">Select your R3D files. They can be found under '\Riot Games\League of Legends\Logs\Game - R3d Logs'.</span>
+        </div>
+      </div>
     </div>
-    <div class="process" id="process">
+    <div class="process hide" id="process">
       <div id="container"></div>
+      <p>
+      </p>
+
     </div>
     <div class="display hide" id="display">
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
-          <hr />
+
         </div>
         <div class="clearfix"></div>
         <div id="graph" class="col-md-6">
