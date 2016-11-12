@@ -1,7 +1,11 @@
 let testDB = [];
 
 let change = 0;
+let stopdot = false;
 function move() {
+  if(stopdot) {
+    return;
+  }
   console.log('homo');
   if(change === 0) {
     document.getElementById('loadingdots1').className = 'loadingdots hide';
@@ -186,5 +190,6 @@ function procTest() {
     }
   });
   console.timeEnd('vinnslutimer');
+  stopdot = true;
   urvinnsla();
 }
