@@ -21,6 +21,8 @@ function urvinnsla() {
   // vinnaFylki();
   fillChart('Hour', gameByHour);
   document.getElementById('summonername').innerHTML = yourSummonerName;
+  document.getElementById('process').className = 'process hide';
+  document.getElementById('display').className = 'display';
 }
 
 // ===========================
