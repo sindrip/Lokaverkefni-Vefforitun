@@ -2,7 +2,7 @@ let testDB = [];
 
 let change = 0;
 function move() {
-  /*console.log('homo');
+  console.log('homo');
   if(change === 0) {
     document.getElementById('loadingdots1').className = 'loadingdots hide';
     document.getElementById('loadingdots2').className = 'loadingdots hide';
@@ -19,8 +19,8 @@ function move() {
     document.getElementById('loadingdots3').className = 'loadingdots';
     change = 0;
   }
-  setTimeout(move, 100);
-*/
+  setTimeout(move, 50);
+
 }
 
 //  Bæta evenlistener á formið
