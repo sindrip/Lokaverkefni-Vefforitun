@@ -17,10 +17,14 @@ function dataMinify(files) {
   //  files is a FileList of File objects. List some properties.
   let numOfFiles = 0;
   let counter = 0;
+  document.getElementById('input').className = 'input hide';
+  document.getElementById('process').className = 'process';
   console.time('lestur');
   console.log('lestur hefst');
   //  loopum i gegnum alla filea sem ad vid fengum
   for (let f; f = files[numOfFiles]; numOfFiles += 1) {
+
+
 
     const reader = new FileReader();
 
@@ -30,6 +34,7 @@ function dataMinify(files) {
       //  splittum a new line
       const textArray = text.split('\n');
 
+      
       //  Saekjum thau gogn sem vid hofum ahuga a
       const reducedArray = textArray.filter(function (input) {
         return (input.includes('GAMESTATE_GAMELOOP Begin') ||
@@ -46,10 +51,6 @@ function dataMinify(files) {
 
       testDB.push(reducedArray);
       counter += 1;
-      /*if (counter % 20 === 0) {
-
-        console.log('yo, we at file nr: ' + counter);
-      }*/
       if (counter === numOfFiles) {
         console.timeEnd('lestur');
         procTest();
