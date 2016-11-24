@@ -1,0 +1,96 @@
+doctype html
+html
+  head(lang='en')
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(href='/images')
+    link(rel='stylesheet', href='/stylesheets/styles.css')
+    link(rel='stylesheet', href='/stylesheets/styles2.css')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    link(href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='https://www.gstatic.com/charts/loader.js')
+    title R3D Reader
+  body
+    //#input.input
+    #input.input(ondrop='drop(event)', ondragover='allowDrop(event)', ondragleave='noDrop(event)')
+      div#inputText.inputText
+        p Drag your files here!
+        p.miniText (If you have a lot of files, wait till background turns green!)
+      #tooltip(onclick='showTheTip()')
+        span#tooltiptext.tooltiptext
+          | Drag your R3D files on this page! Navigate to your League of legends installation folder and go to &apos;\Riot Games\League of Legends\Logs\Game - R3d Logs&apos;.
+      //.inputItem
+      //  label.custom-file-upload(for='files') Select files
+      //  input#files(type='file', accept='text/plain', multiple='')
+      //  br
+      //  #tooltip
+      //    span.tooltiptext
+      //      | Select your R3D files. They can be found under &apos;\Riot Games\League of Legends\Logs\Game - R3d Logs&apos;.
+    #process.process.hide
+      #myModal.modal
+        #modal-content.modal-content
+          //.dropdown
+          //  button.dropbtn.col-xs-12(onclick='myFunction()') Add summoner name
+          //  #myDropdown.dropdown-content
+          //    input#myInput(type='text', placeholder='Search..', onkeyup='filterFunction()')
+      #container
+      p
+        | Processing files
+        span#loadingdots1.loadingdots .
+        span#loadingdots2.loadingdots .
+        span#loadingdots3.loadingdots .
+    #display.display.hide
+      #scrollUpButton.scrollUpButton(onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');")
+      #upperContainer.container-fluid
+        .row.headerText
+          .col-md-7.e4r5t
+            p  Your Top Champion
+          .col-md-5.e4r5t
+            p  General stats
+        .row.overviewElement
+          #mainChampion.mainChampion.col-md-7
+          .col-md-5.genInfoElement
+            p#sumonernames.sumonernames
+            ul.genInfoList.thisChampUl
+              li#GI1.GI1
+              li#GI2.GI2
+              li#GI3.GI3
+              li#GI4.GI4
+              li#GI5.GI5
+              li#GI6.GI6
+              li#GI7.GI7
+              li#GI8.GI8
+              li#GI9.GI9
+              li#GI10.GI10
+      ul#selectTab.tab
+        li
+          a.tablinks.active(href='javascript:void(0)', onclick="setActiveTab(event, 'Champions', 'tablinks', 'tabcontent')") Champions
+        li
+          a.tablinks(href='javascript:void(0)', onclick="setActiveTab(event, 'Friends', 'tablinks', 'tabcontent')") Friends
+        li
+          a.tablinks(href='javascript:void(0)', onclick="setActiveTab(event, 'Graphs', 'tablinks', 'tabcontent')") Graphs
+      #Champions.tabcontent.champs
+        #buttonDiv.buttonDiv.btn-group.btn-group-justified
+          #CAtoZ.button.champButton.selectorButton.btn.btn-primary.sharp.active(type='button', name='button', onclick="resortChamp('CAtoZ')") Name
+          #CWin.button.champButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resortChamp('CWin')") Total Games
+          #CRate.button.champButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resortChamp('CRate')") Winrate
+          #CDeaths.button.champButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resortChamp('CDeaths')") Average deaths
+          #CTime.button.champButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resortChamp('CTime')") Average game time
+
+      #Friends.tabcontent.friends
+        h3 Your Top Friends
+        #buttonDiv.buttonDiv.btn-group.btn-group-justified
+          #AtoZ.button.friendButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resort('AtoZ')") Name
+          #Win.button.friendButton.selectorButton.btn.btn-primary.sharp.active(type='button', name='button', onclick="resort('Win')") Total Games
+          #Rate.button.friendButton.selectorButton.btn.btn-primary.sharp(type='button', name='button', onclick="resort('Rate')") Winrate
+      #Graphs.tabcontent.graphs
+      div#chart1.chart
+      div#chart2.chart
+      div#chart3.chart
+      div#chart4.chart
+    script(src='/javascripts/Display.js')
+    script(src='/javascripts/Process.js')
+    script(src='/javascripts/ReadAndFilter.js')
+    script(src='/javascripts/Charts.js')

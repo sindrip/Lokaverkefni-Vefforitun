@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="dist/styles2.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Lol</title>
+  </head>
+  <body>
+    <div class="input" id="input">
+      <div class="inputItem">
+        <label for="files" class="custom-file-upload">
+          Select files
+        </label>
+        <input id="files" type='file' accept='text/plain' multiple><br>
+        <div id="tooltip">
+          <span class="tooltiptext">Select your R3D files. They can be found under '\Riot Games\League of Legends\Logs\Game - R3d Logs'.</span>
+        </div>
+      </div>
+    </div>
+    <div class="process hide" id="process">
+      <div id="myModal" class="modal">
+        <div id="modal-content" class="modal-content">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn col-xs-12">Add summoner name</button>
+            <div id="myDropdown" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="container"></div>
+      <p>
+        Processing files
+        <span class="loadingdots" id="loadingdots1">.</span>
+        <span class="loadingdots" id="loadingdots2">.</span>
+        <span class="loadingdots" id="loadingdots3">.</span>
+      </p>
+    </div>
+    <div class="display hide" id="display">
+      <div class="container-fluid">
+        <div class="row headerText">
+          <div class="col-md-7 e4r5t">
+            <p>
+              Your Top Champion
+            </p>
+          </div>
+          <div class="col-md-5 e4r5t">
+            <p>
+              General stats
+            </p>
+          </div>
+        </div>
+        <div class="row overviewElement">
+          <div class="mainChampion col-md-7" id="mainChampion"></div>
+          <div class="col-md-5 genInfoElement">
+            <p class="sumonernames" id="sumonernames"></p>
+            <ul class="genInfoList thisChampUl">
+              <li id="GI1" class="GI1"></li>
+              <li id="GI2" class="GI2"></li>
+              <li id="GI3" class="GI3"></li>
+              <li id="GI4" class="GI4"></li>
+              <li id="GI5" class="GI5"></li>
+              <li id="GI6" class="GI6"></li>
+              <li id="GI7" class="GI7"></li>
+              <li id="GI8" class="GI8"></li>
+              <li id="GI9" class="GI9"></li>
+              <li id="GI10" class="GI10"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="tab">
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Champions', 'tablinks', 'tabcontent')">Champions</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris', 'tablinks', 'tabcontent')">Homos</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo', 'tablinks', 'tabcontent')">Graphs</a></li>
+      </ul>
+      <div id="Champions" class="tabcontent">
+      </div>
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </div>
+    <script src="dist/Display.js"></script>
+    <script src="dist/Process.js"></script>
+    <script src="dist/ReadAndFilter.js"></script>
+  </body>
+</html>
