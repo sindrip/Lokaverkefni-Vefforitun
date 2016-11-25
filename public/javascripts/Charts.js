@@ -105,6 +105,7 @@ function drawChart(array, id, id2){
       curveType: 'function',
       legend: { position: 'bottom' },
       width: oneVW,
+      height: 0.35*oneVW,
     }
       const chart = new google.visualization.LineChart(document.getElementById(id));
       chart.draw(data, options);
@@ -149,6 +150,7 @@ function drawBars(array, id){
       subtitle: 'Wins and losses on both sides for most played champs',
       bars: 'vertical',
       width: oneVW,
+      height: 0.35*oneVW,
     }; // Required for chart3 Bar Charts.
     const chart = new google.charts.Bar(document.getElementById(id));
     chart.draw(data, options);
@@ -167,6 +169,7 @@ function drawScatter(array, id, championSpecific){
         subtitle: 'Wins and losses on both sides for most played champs',
         bars: 'vertical',
         width: oneVW,
+        height: 0.35*oneVW,
     };    // Required for chart3 Bar Charts.
     console.log(options['width']);
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
@@ -204,6 +207,7 @@ function drawPie(array, id, hierarchy){
           //Til að fá 3D shapeið í þetta.
           is3D: true,
           width: oneVW,
+          height: 0.35*oneVW,
         }; // Required for chart3 Bar Charts.
         const chart = new google.visualization.PieChart(document.getElementById(id));
         if(hierarchy === 'champions'){
