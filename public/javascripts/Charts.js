@@ -1,7 +1,6 @@
 
 window.onresize = function(event) {
-  console.log(oneVW);
-    oneVW = 0.8*window.innerWidth;
+  oneVW = 0.8*window.innerWidth;
     if(piechampion){
       drawPie(piechampion, 'chart3', pieWhich);
     }
