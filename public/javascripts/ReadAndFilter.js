@@ -34,6 +34,10 @@ function showTheTip() {
     elementVis.style.visibility =  'visible';
   }
 }
+screen.width.addEventListener("change", jajaa);
+function jajaa() {
+  console.log(screen.width);
+}
 // on file hover make green
 function allowDrop(event) {
     event.preventDefault();
