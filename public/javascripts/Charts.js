@@ -1,4 +1,54 @@
+
+window.onresize = function(event) {
+  console.log(oneVW);
+    oneVW = 0.8*window.innerWidth;
+    if(piechampion){
+      drawPie(piechampion, 'chart3', pieWhich);
+    }
+    if(scatter){
+      drawScatter(scatter, 'chart1' );
+    }
+    if(barsgraphs){
+      drawBars(barsgraphs, 'chart2');
+    }
+    if(linechart){
+      drawChart(linechart, 'chart4', 'chart5');
+    }
+    if(which){
+      if(scatterChampion){
+        oneVW = 0.5*window.innerWidth;
+        drawScatter(scatterChampion, schatterChampionId);
+      }
+    }
+    else{
+      if(scatterChampion){
+        oneVW = 0.5*window.innerWidth;
+        drawBars(scatterChampion, schatterChampionId)
+      }
+    }
+}
+let scatter;
+
+let barsgraphs;
+
+let linechart;
+
+let idPie;
+
+let piechampion;
+
+let pieWhich;
+
+let scatterChampion;
+
+let schatterChampionId;
+
+let championgraph;
+//Breyta sem segir til um hvort þetta sé bars eða scatter fyrir champion;
+let which;
+let oneVW;
 function teikniTest(){
+  oneVW = 0.8*window.innerWidth;
   const x = topXmostPlayedChamps(10);
   const bars = championsToBarArray(x);
   drawBars(bars, 'chart2');
@@ -49,10 +99,12 @@ function drawChart(array, id, id2){
   //skitamix
   function draw(){
     let data = google.visualization.arrayToDataTable(array);
+    linechart = array;
     const options = {
       title: 'Company Performance',
       curveType: 'function',
       legend: { position: 'bottom' },
+      width: oneVW,
     }
       const chart = new google.visualization.LineChart(document.getElementById(id));
       chart.draw(data, options);
@@ -90,11 +142,13 @@ function drawBars(array, id){
 
   //smá skítamix með onloadCallBack.
   function draw(){
+    barsgraphs= array;
     let data = google.visualization.arrayToDataTable(array);
     const options = {
       title: 'champion game stats',
       subtitle: 'Wins and losses on both sides for most played champs',
       bars: 'vertical',
+      width: oneVW,
     }; // Required for chart3 Bar Charts.
     const chart = new google.charts.Bar(document.getElementById(id));
     chart.draw(data, options);
@@ -107,25 +161,31 @@ function drawScatter(array, id, championSpecific){
   function draw(){
     //Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
     let data = google.visualization.arrayToDataTable(array);
+    scatter = array;
     const options = {
         title: 'champion game stats',
         subtitle: 'Wins and losses on both sides for most played champs',
-        bars: 'vertical'
-    }    // Required for chart3 Bar Charts.
-        const chart = new google.visualization.ScatterChart(document.getElementById(id));
-        chart.draw(data, options);
-        if(championSpecific){
-          //Ef sett er inn championSpecific breytu þá verður skilgreindur
-          //eventhandler á formið.
-          google.visualization.events.addListener(chart, 'select', selectHandler);
-        }
-        function selectHandler(){
-          //Eventhandler sem fer í gang þegar ýtt er á scatter chartið
-          //Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
-          //sama sniði og filteredDB og birtir winrates úr því
-          const winrate = winratePerTime(championSpecific);
-          drawBars(winrate, id);
-        }
+        bars: 'vertical',
+        width: oneVW,
+    };    // Required for chart3 Bar Charts.
+    console.log(options['width']);
+    const chart = new google.visualization.ScatterChart(document.getElementById(id));
+    chart.draw(data, options);
+    if(championSpecific){
+      //Ef sett er inn championSpecific breytu þá verður skilgreindur
+      //eventhandler á formið.
+      google.visualization.events.addListener(chart, 'select', selectHandler);
+    }
+    function selectHandler(){
+      //Eventhandler sem fer í gang þegar ýtt er á scatter chartið
+      //Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
+      //sama sniði og filteredDB og birtir winrates úr því
+      const winrate = winratePerTime(championSpecific);
+      scatterChampion = winrate;
+      which = true;
+      schatterChampionId = id;
+      drawBars(winrate, id);
+    }
   }
 }
 
@@ -135,11 +195,15 @@ function drawPie(array, id, hierarchy){
 
   function draw(){
     let data = google.visualization.arrayToDataTable(array);
+    idPie = id;
+    pieWhich = hierarchy;
+    piechampion = array;
     const options = {
           title: 'champion game stats',
           bars: 'vertical',
           //Til að fá 3D shapeið í þetta.
           is3D: true,
+          width: oneVW,
         }; // Required for chart3 Bar Charts.
         const chart = new google.visualization.PieChart(document.getElementById(id));
         if(hierarchy === 'champions'){
@@ -219,9 +283,6 @@ function deathByGamelength(array){
     dataArray.unshift(['gamelength', "deaths"])
   return dataArray;
 }
-
-
-
 
 //process
 function infoAboutChampions(champion){

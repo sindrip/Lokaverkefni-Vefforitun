@@ -26,10 +26,6 @@ function vinnaFylki(){
   fillFriendsTab();
   document.getElementById('Champions').style.display = 'block';
   teikniTest();
-  setTimeout(function (){
-
-    moveCharts();
-  }, 1500);
 }
 // returns H:M:S format from seconds
 function secondsToHMS(d) {
@@ -509,13 +505,6 @@ function resortChamp(input) {
   putCardsIntoChampions();
   toggleColors('champButton', input);
 }
-function moveCharts() {
-  let graphDiv = document.getElementById('Graphs');
-  for (var i = 1; i < 5; i++) {
-    let chart = document.getElementById('chart' + i);
-    graphDiv.appendChild(chart);
-  }
-}
 // event listener for scrolling
 // expands friends list and shows go to top button
 const screenHeight = screen.height;
@@ -547,7 +536,3 @@ function yHandler(){
   }
 }
 window.onscroll = yHandler;
-let oneVW = window.innerWidth;
-window.onresize = function(event) {
-    oneVW = window.innerWidth;
-};
