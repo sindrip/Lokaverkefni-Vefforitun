@@ -4,7 +4,11 @@
 
 .headerText {
   text-align: center;
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-width: 0px 0px 2px;
+}
+
 
 .headerText p {
   padding-top: 0.5vw;
@@ -68,7 +72,9 @@ ul.tab {
 ul.tab li {
   float: left;
   width: calc(100%  /3); }
-
+.tab {
+  margin-left: 15px !important;
+}
 /* Style the links inside the list items */
 ul.tab li a {
   display: inline-block;
@@ -159,6 +165,7 @@ ul.tabChamp li a:focus, .active {
 }
 .friends {
   background-color: #f1f1f1;
+  margin-left: 15px;
 }
 .friends h3 {
   text-align: center;
@@ -167,28 +174,27 @@ ul.tabChamp li a:focus, .active {
 .graphs {
 
   background-color: #f1f1f1;
-  //height: 3500px;
-  //display: -ms-flexbox !important;
-  // display: -webkit-flex !important;
-  // display: flex !important;
-   -webkit-flex-direction: column;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   -webkit-flex-wrap: nowrap;
-   -ms-flex-wrap: nowrap;
-   flex-wrap: nowrap;
-   -webkit-justify-content: space-between;
-   -ms-flex-pack: justify;
-   justify-content: space-between;
-   -webkit-align-content: flex-start;
-   -ms-flex-line-pack: start;
-   align-content: flex-start;
-   -webkit-align-items: center;
-   -ms-flex-align: center;
-   align-items: center;
+  margin-left: 15px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .champs {
   background-color: #f1f1f1;
+  margin-left: 15px;
+  padding-top: 20px;
 }
 .chart {
   /*width: 1000px;*/
@@ -230,4 +236,8 @@ ul.tab li a:hover {
     color: black;
     background-color: #ccc !important;
     border-color: #204d74;
+}
+.nullGames {
+
+  background: linear-gradient( 0deg, #f1f1f1, #f99898 );
 }

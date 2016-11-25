@@ -362,6 +362,9 @@ function initializeChampionCards() {
     activeA.setAttribute('onclick', onclickString);
     const activeIMG = document.createElement('img');
     const championIconLink = 'http://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + key + '.png';
+    if(champions[key]['numgames'] === 0) {
+      activeA.classList.add('nullGames');
+    }
     activeIMG.src = championIconLink;
     activeIMG.setAttribute('width', '100');
     activeIMG.setAttribute('height', '100');
