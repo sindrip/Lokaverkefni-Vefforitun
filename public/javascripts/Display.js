@@ -252,6 +252,17 @@ function fillChampionElement(championObject, elementID) {
   liDE.innerHTML = 'Average death per game: ' + (championObject.deaths / championObject.totalGames ).toFixed(2);
   ulListElement.appendChild(liDE);
   elementIDFound.appendChild(ulListElement);
+
+  if(elementID.id !== 'mainChampion'){
+    const cdeath = championDeathArray(championObject['championName']);
+    if(cdeath.length != 0){
+      const stuss = deathsAtMinute(cdeath);
+      const chart =  document.createElement('div');
+      chart.setAttribute('id', championObject['championName'] + 'chart');
+      drawScatter(deathScatterchart(stuss), championObject['championName'] + 'chart', cdeath);
+      elementIDFound.appendChild(chart);
+    }
+  }
 }
 // gathers info about set champion
 function champInfoFiller(champion) {
