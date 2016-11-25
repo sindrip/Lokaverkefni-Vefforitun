@@ -1,20 +1,20 @@
 'use strict';
 
-// Inniheldur heildarupplýsingar um alla leiki með þér
+// Contains raw info pulled from games
 let filteredDB = [];
-// Búið að flokka leikina eftir champions
+// Raw data sorted by champion
 const champions = {};
-// listi yfir þín summonername
+// Your summoner name
 let yourSummonerName = [];
-// total games played
+// Total games played
 let totalGamesPlayed = 0;
-// listi yfir alla players
+// List of all players
 let playerIDArray = {};
-//svar fra riot apiCall
+// Data from riotAPI
 let jsonRiot;
-// sorted array af champ names
+// Sorted array af champ names
 let aToZChamps = [];
-// list of people with wins losses
+// List of people with wins losses
 const playerIDArrayWithWins = {};
 // initializes the display page
 function vinnaFylki(){
@@ -126,6 +126,23 @@ function putInfoIntoFriends() {
     });
   } else if (whatSort === 'Rate') {
     friendsUlArray.sort(function(a, b) {
+
+      const A = a.childNodes[1].innerHTML.substring(13);
+      const B = b.childNodes[1].innerHTML.substring(13);
+      if (A < 1 && B < 1){
+        return 0;
+      }else if (A < 1){
+        return  1;
+      }else if (B < 1){
+        return -1;
+      } else if (A < 5 && B < 5){
+      }else if (A < 5){
+        return  1;
+      }else if (B < 5){
+        return -1;
+      } else {
+      }
+
       const fronta = a.childNodes[3].innerHTML.substring(9);
       const resta = a.childNodes[3].innerHTML.substring(9).substring(0, fronta.length - 1)
       const frontb = b.childNodes[3].innerHTML.substring(9);
@@ -454,7 +471,7 @@ function putCardsIntoChampions() {
     papaElement.appendChild(championLiList[i][1]);
   }
 }
-
+// when sorting, champs with less then 5 games have low prio
 function filterLess5(a,b) {
   const A = a[1].childNodes[2].childNodes[0].innerHTML.substring(13);
   const B = b[1].childNodes[2].childNodes[0].innerHTML.substring(13);
@@ -517,7 +534,5 @@ function yHandler(){
       disableTimer  = true;
     }, 100);
   }
-	/*var status = document.getElementById('status');
-	status.innerHTML = contentHeight+" | "+y;*/
 }
 window.onscroll = yHandler;
