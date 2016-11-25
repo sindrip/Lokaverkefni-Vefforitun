@@ -547,3 +547,7 @@ function yHandler(){
   }
 }
 window.onscroll = yHandler;
+let oneVW = window.innerWidth;
+window.onresize = function(event) {
+    oneVW = window.innerWidth;
+};
