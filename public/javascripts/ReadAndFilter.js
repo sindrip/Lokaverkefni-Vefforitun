@@ -26,24 +26,24 @@ function move() {
 }
 // give user the 'tip'
 function showTheTip() {
-  let elementVis = document.getElementById("tooltiptext");
+  let elementVis = document.getElementById('tooltiptext');
   console.log(elementVis.style.visibility);
-  if(elementVis.style.visibility === 'visible') {
-    elementVis.style.visibility =  'hidden';
+  if (elementVis.style.visibility === 'visible') {
+    elementVis.style.visibility = 'hidden';
   } else {
-    elementVis.style.visibility =  'visible';
+    elementVis.style.visibility = 'visible';
   }
 }
 // on file hover make green
 function allowDrop(event) {
-    event.preventDefault();
-    document.getElementById("input").style.transitionDuration = "0.4s";
-    document.getElementById('input').style.backgroundColor = "#5DFC0A";
+  event.preventDefault();
+  document.getElementById('input').style.transitionDuration = '0.4s';
+  document.getElementById('input').style.backgroundColor = '#5DFC0A';
 }
 // on file !hover make default
 function noDrop(event) {
   event.preventDefault();
-  document.getElementById('input').style.backgroundColor = "#f1f1f1";
+  document.getElementById('input').style.backgroundColor = '#f1f1f1';
 }
 // on file drop start the party
 function drop(event) {
@@ -58,11 +58,11 @@ function dataMinifyParser(fileEvent) {
   document.getElementById('input').className = 'input hide';
   document.getElementById('process').className = 'process';
   move();
-  if(fileEvent.length < 15){
+  if (fileEvent.length < 15) {
     document.getElementById('input').className = 'input';
     document.getElementById('process').className = 'process hide';
-    document.getElementById('input').style.backgroundColor = "#f1f1f1";
-    if(document.getElementById('inputText').childNodes.length > 2) {
+    document.getElementById('input').style.backgroundColor = '#f1f1f1';
+    if (document.getElementById('inputText').childNodes.length > 2) {
       return;
     }
     const itp = document.createElement('p');
@@ -70,14 +70,14 @@ function dataMinifyParser(fileEvent) {
     document.getElementById('inputText').appendChild(itp);
     return;
   }
-  for (let i = 0; i < fileEvent.length; i++) {
+  for (let i = 0; i < fileEvent.length; i += 1) {
     fileEvent[i].webkitGetAsEntry().file(
-      function(file) {
+      function (file) {
         if(file.size < 10000000) {
           numOfFiles += 1;
           dataMinify(file);
         }
-      }, function(e) {});
+      }, function (e) {});
   }
 }
 // gets info from files part 2
@@ -104,7 +104,7 @@ function dataMinify(file) {
     counter += 1;
     if (counter === numOfFiles) {
       // why is timeout here?
-      setTimeout(function (){
+      setTimeout(function () {
         stopdot = true;
         urvinnsla();
       }, 2000);
@@ -121,7 +121,7 @@ function stringToDate(stringDate) {
 function procTest(textFile) {
   try {
     (function () {
-      let infoArray = {
+      const infoArray = {
         date: textFile.shift(),
         patch: null,
         players: [],
@@ -131,41 +131,41 @@ function procTest(textFile) {
         deaths: [],
         game_result: null
       };
-      let patchLine = textFile.shift();
-      let patchStart = patchLine.substring(patchLine.indexOf('Build Version: Version') + 23);
-      let patchString = patchStart.substring(0, patchStart.indexOf('.', 3));
-      let patchSplit = patchString.split('.');
+      const patchLine = textFile.shift();
+      const patchStart = patchLine.substring(patchLine.indexOf('Build Version: Version') + 23);
+      const patchString = patchStart.substring(0, patchStart.indexOf('.', 3));
+      const patchSplit = patchString.split('.');
       infoArray.patch = patchString;
       if (patchSplit[0] > 3 || (patchSplit[0] * 1 === 3 && patchSplit[1] * 1 > 9)) {
-        let gameEndLine = textFile.filter(function (input) {
+        const gameEndLine = textFile.filter((input) =>{
           return input.includes('"exit_code":"EXITCODE');
         })[0];
-        let gameResultCarNr = gameEndLine.indexOf('"Game exited","exit_code":"');
+        const gameResultCarNr = gameEndLine.indexOf('"Game exited","exit_code":"');
         infoArray.game_result = gameEndLine.substring(gameResultCarNr + 36, gameResultCarNr + 37);
         // if abandoned game, throw away
         if (infoArray.game_result !== 'A') {
-          let summonerArray = textFile.filter(function (input) {
+          const summonerArray = textFile.filter((input) => {
             return input.includes('Spawning champion');
           });
-          summonerArray.forEach(function (itemIn) {
+          summonerArray.forEach((itemIn) => {
             let item = itemIn;
-            let tempChamp = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+            const tempChamp = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
             item = item.substring(item.indexOf(')') + 1);
-            let tempSkin = item.substring(item.indexOf('skinID') + 7, item.indexOf('skinID') + 8);
-            let tempTeam = item.substring(item.indexOf('team') + 5, item.indexOf('team') + 6);
-            let tempName = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+            const tempSkin = item.substring(item.indexOf('skinID') + 7, item.indexOf('skinID') + 8);
+            const tempTeam = item.substring(item.indexOf('team') + 5, item.indexOf('team') + 6);
+            const tempName = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
             item = item.substring(item.indexOf(')') + 1);
-            let tempType = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
+            const tempType = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
             if (tempType === 'is BOT AI') {
               infoArray.bot_count += 1;
             } else {
-              let playerArray = {
+              const playerArray = {
                 // k
                 champion: null,
                 skin: null,
                 team: null,
                 summonername: null,
-                playertype: null
+                playertype: null,
               };
               playerArray.champion = tempChamp;
               playerArray.skin = tempSkin;
@@ -181,15 +181,15 @@ function procTest(textFile) {
             return input.includes('GAMESTATE_GAMELOOP Begin');
           })[0].substring(0, 10) - 0;
           infoArray.game_time = gameEndLine.substring(0, 10) - infoArray.loading_time;
-          let deathArray = textFile.filter(function (input) {
+          const deathArray = textFile.filter(function (input) {
             return input.includes('The Killer was');
           });
           deathArray.forEach(function (item) {
-            let deathTime = item.substring(0, 10) - infoArray.loading_time;
+            const deathTime = item.substring(0, 10) - infoArray.loading_time;
             infoArray.deaths.push(deathTime);
           });
           filteredDB.push(infoArray);
-        } else {
+        }else {
         }
       } else {
       }

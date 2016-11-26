@@ -1,24 +1,24 @@
 'use strict';
 
 // Contains raw info pulled from games
-let filteredDB = [];
+const filteredDB = [];
 // Raw data sorted by champion
 const champions = {};
 // Your summoner name
-let yourSummonerName = [];
+const yourSummonerName = [];
 // Total games played
-let totalGamesPlayed = 0;
+const totalGamesPlayed = 0;
 // List of all players
-let playerIDArray = {};
+const playerIDArray = {};
 // Data from riotAPI
 let jsonRiot;
 // Sorted array af champ names
-let aToZChamps = [];
+const aToZChamps = [];
 // List of people with wins losses
 const playerIDArrayWithWins = {};
 // initializes the display page
-function vinnaFylki(){
-  google.charts.load('current', {'packages':['corechart', 'bar']});
+function vinnaFylki() {
+  google.charts.load('current', { 'packages':[ 'corechart', 'bar'] });
   removeYourNamesFromPlayerId();
   fillMainChampDiv();
   fillGenInfoDiv();
@@ -28,8 +28,8 @@ function vinnaFylki(){
   teikniTest();
 }
 // returns H:M:S format from seconds
-function secondsToHMS(d) {
-  d = Number(d);
+function secondsToHMS(a) {
+  d = Number(a);
   const h = Math.floor(d / 3600);
   const m = Math.floor((d % 3600) / 60);
   const s = Math.floor(d % 3600 % 60);
@@ -41,33 +41,33 @@ function secondsToHMS(d) {
 // puts info into friendsTab
 const friendsUlArray = [];
 function fillFriendsTab() {
-  //test fyrir top 20
-  for (var i = 0; i < 25; i++) {
+  // test fyrir top 20
+  for (let i = 0; i < 25; i += 1) {
     const friendsUl = document.createElement('ul');
     friendsUl.classList.add('friendsList');
     const currTopFriend = findTopSummonerInPlayerId(playerIDArray);
 
     const friendNameLi = document.createElement('li');
-    //friendNameLi.classList.add('list-group-item');
+    // friendNameLi.classList.add('list-group-item');
     friendNameLi.innerHTML = currTopFriend;
     friendsUl.appendChild(friendNameLi);
 
-    const gamesPlayed = playerIDArrayWithWins[currTopFriend]['W'] + playerIDArrayWithWins[currTopFriend]['L'];
-    if(gamesPlayed > 0) {
+    const gamesPlayed = playerIDArrayWithWins[currTopFriend].W + playerIDArrayWithWins[currTopFriend].L;
+    if (gamesPlayed > 0) {
       friendsUlArray.push(friendsUl);
     }
     const friendCountLi = document.createElement('li');
-    //friendCountLi.classList.add('list-group-item');
+    // friendCountLi.classList.add('list-group-item');
     friendCountLi.innerHTML = 'Total games: ' + gamesPlayed;
     friendsUl.appendChild(friendCountLi);
 
-    const winsLossString = 'Wins: ' + playerIDArrayWithWins[currTopFriend]['W'] + ' : ' + 'Losses: ' + playerIDArrayWithWins[currTopFriend]['L'];
+    const winsLossString = 'Wins: ' + playerIDArrayWithWins[currTopFriend].W + ' : ' + 'Losses: ' + playerIDArrayWithWins[currTopFriend].L;
     const friendWinsLi = document.createElement('li');
     friendWinsLi.innerHTML = winsLossString;
     friendsUl.appendChild(friendWinsLi);
 
     const friendPercentLi = document.createElement('li');
-    friendPercentLi.innerHTML = 'Winrate: ' + (100 * playerIDArrayWithWins[currTopFriend]['W'] / (playerIDArrayWithWins[currTopFriend]['L'] + playerIDArrayWithWins[currTopFriend]['W'])).toFixed(2) + '%';
+    friendPercentLi.innerHTML = 'Winrate: ' + (100 * playerIDArrayWithWins[currTopFriend].W / (playerIDArrayWithWins[currTopFriend].L + playerIDArrayWithWins[currTopFriend]['W'])).toFixed(2) + '%';
     friendsUl.appendChild(friendPercentLi);
 
     const tempFriendArray = [currTopFriend];
@@ -78,7 +78,7 @@ function fillFriendsTab() {
     friendsUl.appendChild(friendChampLi);
 
     delete playerIDArray[currTopFriend];
-    //document.getElementById('Friends').appendChild(friendsUl);
+    // document.getElementById('Friends').appendChild(friendsUl);
   }
   putInfoIntoFriends();
 }
@@ -92,7 +92,7 @@ function resort(input) {
 // toggles button colors
 function toggleColors(whatClass, whoActive) {
   const selectedElements = document.getElementsByClassName(whatClass);
-  for (var i = 0; i < selectedElements.length; i++) {
+  for (let i = 0; i < selectedElements.length; i += 1) {
     if ($(selectedElements[i]).hasClass('active')) {
       $(selectedElements[i]).toggleClass('active');
     }
@@ -102,16 +102,16 @@ function toggleColors(whatClass, whoActive) {
 }
 // fills friends with sorted info
 function putInfoIntoFriends() {
-  if(whatSort === 'AtoZ') {
+  if (whatSort === 'AtoZ') {
     // by alpabetical
     friendsUlArray.sort(function(a, b) {
     const A = a.childNodes[0].innerHTML.toLowerCase();
     const B = b.childNodes[0].innerHTML.toLowerCase();
-      if (A < B){
+      if (A < B) {
         return -1;
-      }else if (A > B){
+      }else if (A > B) {
         return  1;
-      }else{
+      }else {
         return 0;
       }
     });
@@ -125,16 +125,16 @@ function putInfoIntoFriends() {
 
       const A = a.childNodes[1].innerHTML.substring(13);
       const B = b.childNodes[1].innerHTML.substring(13);
-      if (A < 1 && B < 1){
+      if (A < 1 && B < 1) {
         return 0;
-      }else if (A < 1){
+      }else if (A < 1) {
         return  1;
-      }else if (B < 1){
+      }else if (B < 1) {
         return -1;
-      } else if (A < 5 && B < 5){
-      }else if (A < 5){
+      } else if (A < 5 && B < 5) {
+      }else if (A < 5) {
         return  1;
-      }else if (B < 5){
+      }else if (B < 5) {
         return -1;
       } else {
       }
@@ -147,7 +147,7 @@ function putInfoIntoFriends() {
     });
   }
   const friendElement = document.getElementById('Friends');
-  for (var i = 0; i < friendsUlArray.length; i++) {
+  for (let i = 0; i < friendsUlArray.length; i += 1) {
     friendElement.appendChild(friendsUlArray[i])
   }
 }
@@ -174,7 +174,7 @@ function findTopSummonerInPlayerId(arrayObject) {
 }
 // removes your name from the playerid object
 function removeYourNamesFromPlayerId() {
-  for (var i = 0; i < yourSummonerName.length; i++) {
+  for (let i = 0; i < yourSummonerName.length; i += 1) {
     delete playerIDArray[yourSummonerName[i]];
   }
 }
@@ -249,9 +249,9 @@ function fillChampionElement(championObject, elementID) {
   ulListElement.appendChild(liDE);
   elementIDFound.appendChild(ulListElement);
 
-  if(elementID.id !== 'mainChampion'){
+  if (elementID.id !== 'mainChampion') {
     const cdeath = championDeathArray(championObject['championName']);
-    if(cdeath.length != 0){
+    if (cdeath.length != 0) {
       const stuss = deathsAtMinute(cdeath);
       const chart =  document.createElement('div');
       chart.setAttribute('id', championObject['championName'] + 'chart');
@@ -386,7 +386,7 @@ function initializeChampionCards() {
     activeA.setAttribute('onclick', onclickString);
     const activeIMG = document.createElement('img');
     const championIconLink = 'http://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + key + '.png';
-    if(champions[key]['numgames'] === 0) {
+    if (champions[key].numgames === 0) {
       activeA.classList.add('nullGames');
     }
     activeIMG.src = championIconLink;
@@ -418,22 +418,22 @@ function initializeChampionCards() {
 // sorts and puts info into champions
 function putCardsIntoChampions() {
   // sorting methods
-  if(whatSortChamp === 'CAtoZ') {
+  if (whatSortChamp === 'CAtoZ') {
     // by alpabetical
     championLiList.sort(function(a, b) {
     const A = a[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
     const B = b[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
       if (A < B){
         return -1;
-      }else if (A > B){
+      }else if (A > B) {
         return  1;
-      }else{
+      }else {
         return 0;
       }
     });
   } else if (whatSortChamp === 'CWin') {
   // by wins
-    championLiList.sort(function(a, b) {
+    championLiList.sort((a, b) =>{
       return b[1].childNodes[2].childNodes[0].innerHTML.substring(13) - a[1].childNodes[2].childNodes[0].innerHTML.substring(13);
     });
   } else if (whatSortChamp === 'CRate') {
@@ -451,14 +451,14 @@ function putCardsIntoChampions() {
   // by deaths
     championLiList.sort(function(a, b) {
       const less5 = filterLess5(a,b);
-      if(!(less5 === false)){ return less5;}
+      if (!(less5 === false)) { return less5; }
       return b[1].childNodes[2].childNodes[7].innerHTML.replace(/[^0-9.]/g, '') - a[1].childNodes[2].childNodes[7].innerHTML.replace(/[^0-9.]/g, '');
     });
   } else if (whatSortChamp === 'CTime') {
   // by gametime
     championLiList.sort(function(a, b) {
       const less5 = filterLess5(a,b);
-      if(!(less5 === false)){ return less5;}
+      if (!(less5 === false)) { return less5; }
       const A = a[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '')
       const realA = A.substring(0,2) * 60 + A.substring(2);
       const B = b[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '')
@@ -468,7 +468,7 @@ function putCardsIntoChampions() {
   }
   const papaElement = document.getElementById('Champions');
   let currUl = -1;
-  for (var i = 0; i < championLiList.length; i++) {
+  for (let i = 0; i < championLiList.length; i++) {
     //friendElement.appendChild(championLiList[i])
     if(i % 8 === 0) {
       currUl += 1;
@@ -483,17 +483,17 @@ function filterLess5(a,b) {
   const A = a[1].childNodes[2].childNodes[0].innerHTML.substring(13);
   const B = b[1].childNodes[2].childNodes[0].innerHTML.substring(13);
 
-  if (A < 1 && B < 1){
+  if (A < 1 && B < 1) {
     return 0;
-  }else if (A < 1){
+  }else if (A < 1) {
     return  1;
-  }else if (B < 1){
+  }else if (B < 1) {
     return -1;
-  } else if (A < 5 && B < 5){
+  } else if (A < 5 && B < 5) {
     return false;
-  }else if (A < 5){
+  }else if (A < 5) {
     return  1;
-  }else if (B < 5){
+  }else if (B < 5) {
     return -1;
   } else {
     return false;
@@ -509,8 +509,8 @@ function resortChamp(input) {
 // expands friends list and shows go to top button
 const screenHeight = screen.height;
 let disableTimer = true;
-function yHandler(){
-  if(document.getElementById('Friends').style.display !== 'block') {
+function yHandler() {
+  if (document.getElementById('Friends').style.display !== 'block') {
     return;
   }
   const currentW1 = document.getElementById('Friends').offsetHeight;
@@ -519,18 +519,18 @@ function yHandler(){
   const totalLength = currentW1 + currentW2 + currentW3;
   const yOffset = window.pageYOffset;
   const scrollUpButton = document.getElementById('scrollUpButton')
-  if(yOffset > 1200) {
-    scrollUpButton.style.opacity = "1";
+  if (yOffset > 1200) {
+    scrollUpButton.style.opacity = '1';
     scrollUpButton.style.display = 'block';
   } else {
-    scrollUpButton.style.opacity = "0";
+    scrollUpButton.style.opacity = '0';
     setTimeout(function () {
       scrollUpButton.style.display = 'none';
     }, 100);  }
-	if(disableTimer && (yOffset >= totalLength - screenHeight - 100)){
+	if (disableTimer && (yOffset >= totalLength - screenHeight - 100)) {
     disableTimer  = false;
     fillFriendsTab();
-    setTimeout(function (){
+    setTimeout(function () {
       disableTimer  = true;
     }, 100);
   }
