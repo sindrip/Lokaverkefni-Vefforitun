@@ -1,21 +1,21 @@
 'use strict';
 
 // Contains raw info pulled from games
-const filteredDB = [];
+let filteredDB = [];
 // Raw data sorted by champion
 const champions = {};
 // Your summoner name
-const yourSummonerName = [];
+let yourSummonerName = [];
 // Total games played
-const totalGamesPlayed = 0;
+let totalGamesPlayed = 0;
 // List of all players
-const playerIDArray = {};
+let playerIDArray = {};
 // Data from riotAPI
 let jsonRiot;
 // Sorted array af champ names
-const aToZChamps = [];
+let aToZChamps = [];
 // List of people with wins losses
-const playerIDArrayWithWins = {};
+let playerIDArrayWithWins = {};
 // initializes the display page
 function vinnaFylki() {
   google.charts.load('current', { 'packages':[ 'corechart', 'bar'] });
@@ -29,7 +29,7 @@ function vinnaFylki() {
 }
 // returns H:M:S format from seconds
 function secondsToHMS(a) {
-  d = Number(a);
+  const d = Number(a);
   const h = Math.floor(d / 3600);
   const m = Math.floor((d % 3600) / 60);
   const s = Math.floor(d % 3600 % 60);

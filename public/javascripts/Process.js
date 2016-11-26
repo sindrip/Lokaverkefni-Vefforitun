@@ -185,7 +185,7 @@ function whatChampYouPlaying(playerArray, yourNameInfo) {
 }
 // ===========================
 // list of people that are not you
-const notYourSummonerName = {};
+let notYourSummonerName = {};
 // initializes algorithm that determines your summoner name
 function findPlayerID() {
   filteredDB.forEach((arrayStak) => {
