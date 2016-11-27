@@ -1,5 +1,3 @@
-'use strict';
-
 // Contains raw info pulled from games
 let filteredDB = [];
 // Raw data sorted by champion
@@ -18,7 +16,7 @@ let aToZChamps = [];
 let playerIDArrayWithWins = {};
 // initializes the display page
 function vinnaFylki() {
-  google.charts.load('current', { 'packages':[ 'corechart', 'bar'] });
+  google.charts.load('current', { packages: ['corechart', 'bar'] });
   removeYourNamesFromPlayerId();
   fillMainChampDiv();
   fillGenInfoDiv();
@@ -67,7 +65,7 @@ function fillFriendsTab() {
     friendsUl.appendChild(friendWinsLi);
 
     const friendPercentLi = document.createElement('li');
-    friendPercentLi.innerHTML = 'Winrate: ' + (100 * playerIDArrayWithWins[currTopFriend].W / (playerIDArrayWithWins[currTopFriend].L + playerIDArrayWithWins[currTopFriend]['W'])).toFixed(2) + '%';
+    friendPercentLi.innerHTML = 'Winrate: ' + ((100 * playerIDArrayWithWins[currTopFriend].W) / (playerIDArrayWithWins[currTopFriend].L + playerIDArrayWithWins[currTopFriend].W)).toFixed(2) + '%';
     friendsUl.appendChild(friendPercentLi);
 
     const tempFriendArray = [currTopFriend];
@@ -98,57 +96,51 @@ function toggleColors(whatClass, whoActive) {
     }
   }
   $(document.getElementById(whoActive)).toggleClass('active');
-
 }
 // fills friends with sorted info
 function putInfoIntoFriends() {
   if (whatSort === 'AtoZ') {
     // by alpabetical
-    friendsUlArray.sort(function(a, b) {
-    const A = a.childNodes[0].innerHTML.toLowerCase();
-    const B = b.childNodes[0].innerHTML.toLowerCase();
+    friendsUlArray.sort((a, b) => {
+      const A = a.childNodes[0].innerHTML.toLowerCase();
+      const B = b.childNodes[0].innerHTML.toLowerCase();
       if (A < B) {
         return -1;
-      }else if (A > B) {
-        return  1;
-      }else {
-        return 0;
+      } else if (A > B) {
+        return 1;
       }
+      return 0;
     });
   } else if (whatSort === 'Win') {
   // by wins
-    friendsUlArray.sort(function(a, b) {
-      return b.childNodes[1].innerHTML.substring(13) - a.childNodes[1].innerHTML.substring(13);
-    });
+    friendsUlArray.sort((a, b) => b.childNodes[1].innerHTML.substring(13) - a.childNodes[1].innerHTML.substring(13));
   } else if (whatSort === 'Rate') {
-    friendsUlArray.sort(function(a, b) {
-
+    friendsUlArray.sort((a, b) => {
       const A = a.childNodes[1].innerHTML.substring(13);
       const B = b.childNodes[1].innerHTML.substring(13);
       if (A < 1 && B < 1) {
         return 0;
-      }else if (A < 1) {
-        return  1;
-      }else if (B < 1) {
+      } else if (A < 1) {
+        return 1;
+      } else if (B < 1) {
         return -1;
       } else if (A < 5 && B < 5) {
-      }else if (A < 5) {
-        return  1;
-      }else if (B < 5) {
+        return 0;
+      } else if (A < 5) {
+        return 1;
+      } else if (B < 5) {
         return -1;
-      } else {
       }
-
       const fronta = a.childNodes[3].innerHTML.substring(9);
-      const resta = a.childNodes[3].innerHTML.substring(9).substring(0, fronta.length - 1)
+      const resta = a.childNodes[3].innerHTML.substring(9).substring(0, fronta.length - 1);
       const frontb = b.childNodes[3].innerHTML.substring(9);
-      const restb = b.childNodes[3].innerHTML.substring(9).substring(0, frontb.length - 1)
+      const restb = b.childNodes[3].innerHTML.substring(9).substring(0, frontb.length - 1);
       return restb - resta;
     });
   }
   const friendElement = document.getElementById('Friends');
   for (let i = 0; i < friendsUlArray.length; i += 1) {
-    friendElement.appendChild(friendsUlArray[i])
+    friendElement.appendChild(friendsUlArray[i]);
   }
 }
 // find top champ of friend
@@ -245,17 +237,17 @@ function fillChampionElement(championObject, elementID) {
   liPC.innerHTML = '% of champs played: ' + ((championObject.totalGames / totalGamesPlayed) * 100).toFixed(2) + '%';
   ulListElement.appendChild(liPC);
   const liDE = document.createElement('li');
-  liDE.innerHTML = 'Average death per game: ' + (championObject.deaths / championObject.totalGames ).toFixed(2);
+  liDE.innerHTML = 'Average death per game: ' + (championObject.deaths / championObject.totalGames).toFixed(2);
   ulListElement.appendChild(liDE);
   elementIDFound.appendChild(ulListElement);
 
   if (elementID.id !== 'mainChampion') {
-    const cdeath = championDeathArray(championObject['championName']);
-    if (cdeath.length != 0) {
+    const cdeath = championDeathArray(championObject.championName);
+    if (cdeath.length !== 0) {
       const stuss = deathsAtMinute(cdeath);
-      const chart =  document.createElement('div');
-      chart.setAttribute('id', championObject['championName'] + 'chart');
-      drawScatter(deathScatterchart(stuss), championObject['championName'] + 'chart', cdeath);
+      const chart = document.createElement('div');
+      chart.setAttribute('id', championObject.championName + 'chart');
+      drawScatter(deathScatterchart(stuss), championObject.championName + 'chart', cdeath);
       elementIDFound.appendChild(chart);
     }
   }
@@ -353,7 +345,7 @@ function setActiveTab(evt, classNameHTML, classNameID, classNameID2) {
     tablinks[i].className = tablinks[i].className.replace(' active', '');
   }
   // Show the current tab, and add an 'active' class to the link that opened the tab
-  if(classNameHTML === 'Graphs') {
+  if (classNameHTML === 'Graphs') {
     document.getElementById(classNameHTML).style.display = 'flex';
   } else if (classNameHTML in champions) {
     document.getElementById(classNameHTML).style.display = 'flex';
@@ -375,7 +367,7 @@ function initializeChampionCards() {
     if (lineCounter === 0) {
       activeUL = document.createElement('ul');
       championUlList.push(activeUL);
-      //papaElement.appendChild(activeUL);
+      // papaElement.appendChild(activeUL);
       activeUL.classList.add('tabChamp');
     }
     const activeLI = document.createElement('li');
@@ -397,14 +389,13 @@ function initializeChampionCards() {
     activeP.innerHTML = jsonRiot[key].name;
     activeA.appendChild(activeP);
     activeLI.appendChild(activeA);
-    //activeUL.appendChild(activeLI);
-
+    // activeUL.appendChild(activeLI);
     const activeDiv = document.createElement('div');
     const temparray = [activeLI, activeDiv];
     championLiList.push(temparray);
     activeDiv.classList.add('tabcontentChamps', 'overviewElement');
     activeDiv.setAttribute('id', key);
-    //papaElement.appendChild(activeDiv);
+    // papaElement.appendChild(activeDiv);
     if (champions[key].numgames < 0) {
       activeDiv.innerHTML = key;
     } else {
@@ -420,16 +411,15 @@ function putCardsIntoChampions() {
   // sorting methods
   if (whatSortChamp === 'CAtoZ') {
     // by alpabetical
-    championLiList.sort(function(a, b) {
-    const A = a[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
-    const B = b[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
-      if (A < B){
+    championLiList.sort((a, b) => {
+      const A = a[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
+      const B = b[0].childNodes[0].childNodes[1].innerHTML.toLowerCase();
+      if (A < B) {
         return -1;
-      }else if (A > B) {
-        return  1;
-      }else {
-        return 0;
+      } else if (A > B) {
+        return 1;
       }
+      return 0;
     });
   } else if (whatSortChamp === 'CWin') {
   // by wins
