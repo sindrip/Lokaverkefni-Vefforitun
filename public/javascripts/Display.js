@@ -433,44 +433,42 @@ function putCardsIntoChampions() {
     });
   } else if (whatSortChamp === 'CWin') {
   // by wins
-    championLiList.sort((a, b) =>{
-      return b[1].childNodes[2].childNodes[0].innerHTML.substring(13) - a[1].childNodes[2].childNodes[0].innerHTML.substring(13);
-    });
+    championLiList.sort((a, b) => b[1].childNodes[2].childNodes[0].innerHTML.substring(13) - a[1].childNodes[2].childNodes[0].innerHTML.substring(13));
   } else if (whatSortChamp === 'CRate') {
     // by winrate for games over 5
-    championLiList.sort(function(a, b) {
-      const less5 = filterLess5(a,b);
-      if(!(less5 === false)){ return less5;}
+    championLiList.sort((a, b) => {
+      const less5 = filterLess5(a, b);
+      if (!(less5 === false)) { return less5; }
       const fronta = a[1].childNodes[2].childNodes[3].innerHTML.substring(9);
       const frontb = b[1].childNodes[2].childNodes[3].innerHTML.substring(9);
-      const resta = a[1].childNodes[2].childNodes[3].innerHTML.substring(9).substring(0, fronta.length - 1)
-      const restb = b[1].childNodes[2].childNodes[3].innerHTML.substring(9).substring(0, frontb.length - 1)
+      const resta = a[1].childNodes[2].childNodes[3].innerHTML.substring(9).substring(0, fronta.length - 1);
+      const restb = b[1].childNodes[2].childNodes[3].innerHTML.substring(9).substring(0, frontb.length - 1);
       return restb - resta;
     });
   } else if (whatSortChamp === 'CDeaths') {
   // by deaths
-    championLiList.sort(function(a, b) {
-      const less5 = filterLess5(a,b);
+    championLiList.sort((a, b) => {
+      const less5 = filterLess5(a, b);
       if (!(less5 === false)) { return less5; }
       return b[1].childNodes[2].childNodes[7].innerHTML.replace(/[^0-9.]/g, '') - a[1].childNodes[2].childNodes[7].innerHTML.replace(/[^0-9.]/g, '');
     });
   } else if (whatSortChamp === 'CTime') {
   // by gametime
-    championLiList.sort(function(a, b) {
-      const less5 = filterLess5(a,b);
+    championLiList.sort((a, b) => {
+      const less5 = filterLess5(a, b);
       if (!(less5 === false)) { return less5; }
-      const A = a[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '')
-      const realA = A.substring(0,2) * 60 + A.substring(2);
-      const B = b[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '')
-      const realB = B.substring(0,2) * 60 + B.substring(2);
+      const A = a[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '');
+      const realA = (A.substring(0, 2) * 60) + A.substring(2);
+      const B = b[1].childNodes[2].childNodes[5].innerHTML.replace(/[^0-9.]/g, '');
+      const realB = (B.substring(0, 2) * 60) + B.substring(2);
       return realB - realA;
     });
   }
   const papaElement = document.getElementById('Champions');
   let currUl = -1;
-  for (let i = 0; i < championLiList.length; i++) {
-    //friendElement.appendChild(championLiList[i])
-    if(i % 8 === 0) {
+  for (let i = 0; i < championLiList.length; i += 1) {
+    // friendElement.appendChild(championLiList[i])
+    if (i % 8 === 0) {
       currUl += 1;
       papaElement.appendChild(championUlList[i / 8]);
     }
@@ -479,25 +477,24 @@ function putCardsIntoChampions() {
   }
 }
 // when sorting, champs with less then 5 games have low prio
-function filterLess5(a,b) {
+function filterLess5(a, b) {
   const A = a[1].childNodes[2].childNodes[0].innerHTML.substring(13);
   const B = b[1].childNodes[2].childNodes[0].innerHTML.substring(13);
 
   if (A < 1 && B < 1) {
     return 0;
-  }else if (A < 1) {
-    return  1;
-  }else if (B < 1) {
+  } else if (A < 1) {
+    return 1;
+  } else if (B < 1) {
     return -1;
   } else if (A < 5 && B < 5) {
     return false;
-  }else if (A < 5) {
-    return  1;
-  }else if (B < 5) {
+  } else if (A < 5) {
+    return 1;
+  } else if (B < 5) {
     return -1;
-  } else {
-    return false;
   }
+  return false;
 }
 // connects with buttons to resort champs
 function resortChamp(input) {
@@ -518,20 +515,21 @@ function yHandler() {
   const currentW3 = document.getElementById('selectTab').offsetHeight;
   const totalLength = currentW1 + currentW2 + currentW3;
   const yOffset = window.pageYOffset;
-  const scrollUpButton = document.getElementById('scrollUpButton')
+  const scrollUpButton = document.getElementById('scrollUpButton');
   if (yOffset > 1200) {
     scrollUpButton.style.opacity = '1';
     scrollUpButton.style.display = 'block';
   } else {
     scrollUpButton.style.opacity = '0';
-    setTimeout(function () {
+    setTimeout(() => {
       scrollUpButton.style.display = 'none';
-    }, 100);  }
-	if (disableTimer && (yOffset >= totalLength - screenHeight - 100)) {
-    disableTimer  = false;
+    }, 100);
+  }
+  if (disableTimer && (yOffset >= totalLength - screenHeight - 100)) {
+    disableTimer = false;
     fillFriendsTab();
-    setTimeout(function () {
-      disableTimer  = true;
+    setTimeout(() => {
+      disableTimer = true;
     }, 100);
   }
 }

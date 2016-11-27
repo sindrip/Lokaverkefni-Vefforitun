@@ -1,5 +1,3 @@
-'use strict';
-
 // Starts process
 function urvinnsla() {
   findPlayerID();
@@ -8,14 +6,12 @@ function urvinnsla() {
 // process after your summonere name has been found
 function urvinnslaWithSummonerName() {
   apiCall();
-  setTimeout(function (){
+  setTimeout(() => {
     document.getElementById('process').className = 'process hide';
     document.getElementById('display').className = 'display';
     document.getElementById('scrollUpButton').style.display = 'none';
-
   }, 1500);
 }
-
 
 // ===========================
 // creates pop up to select your names
@@ -71,8 +67,7 @@ function fillModal() {
   summNameButton.className = 'btn btn-success col-xs-12 lockButtonLook';
   summNameButton.appendChild(document.createTextNode('Lock in'));
   summNameButton.addEventListener('click', () => {
-    if (selectedSummonerName.every(elem => !elem)) {
-    } else {
+    if (!selectedSummonerName.every(elem => !elem)) {
       yourSummonerName = [];
       for (let j = 0; j < selectedSummonerName.length; j += 1) {
         if (selectedSummonerName[j] === true) {
@@ -119,13 +114,12 @@ function apiCall() {
       jsonRiot = json.data;
       createChampionArray(json);
     },
-    error: function(data, status, error2) {
+    error: (data, status, error2) => {
     },
   });
 }
 // makes champion object from api result
 function createChampionArray(championsJSON) {
-
   for (const key in championsJSON.data) {
     champions[key] = { numgames: 0 };
     aToZChamps.push(key);
@@ -157,13 +151,12 @@ function putInfoIntoChampions(yourNameInfo) {
   filteredDB = tempe;
   remakeUniquePlayer();
   // why did I do this again
-  setTimeout(function (){
+  setTimeout(() => {
     vinnaFylki();
-
   }, 2000);
 }
 // remakes unique players after you selected summoner names
-function remakeUniquePlayer(){
+function remakeUniquePlayer() {
   playerIDArray = {};
   filteredDB.forEach((arrayStak) => {
     arrayStak.players.forEach((playerID) => {

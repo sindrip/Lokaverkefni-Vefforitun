@@ -1,5 +1,3 @@
-'use strict';
-
 let change = 0;
 let stopdot = false;
 // animates dot, replace with better later
@@ -72,12 +70,12 @@ function dataMinifyParser(fileEvent) {
   }
   for (let i = 0; i < fileEvent.length; i += 1) {
     fileEvent[i].webkitGetAsEntry().file(
-      function (file) {
-        if(file.size < 10000000) {
+      (file) => {
+        if (file.size < 10000000) {
           numOfFiles += 1;
           dataMinify(file);
         }
-      }, function (e) {});
+      });
   }
 }
 // gets info from files part 2
@@ -104,7 +102,7 @@ function dataMinify(file) {
     counter += 1;
     if (counter === numOfFiles) {
       // why is timeout here?
-      setTimeout(function () {
+      setTimeout(() => {
         stopdot = true;
         urvinnsla();
       }, 2000);
@@ -120,7 +118,7 @@ function stringToDate(stringDate) {
 // parses info from files
 function procTest(textFile) {
   try {
-    (function () {
+    (() => {
       const infoArray = {
         date: textFile.shift(),
         patch: null,
@@ -129,7 +127,7 @@ function procTest(textFile) {
         loading_time: null,
         game_time: null,
         deaths: [],
-        game_result: null
+        game_result: null,
       };
       const patchLine = textFile.shift();
       const patchStart = patchLine.substring(patchLine.indexOf('Build Version: Version') + 23);
@@ -137,16 +135,12 @@ function procTest(textFile) {
       const patchSplit = patchString.split('.');
       infoArray.patch = patchString;
       if (patchSplit[0] > 3 || (patchSplit[0] * 1 === 3 && patchSplit[1] * 1 > 9)) {
-        const gameEndLine = textFile.filter((input) =>{
-          return input.includes('"exit_code":"EXITCODE');
-        })[0];
+        const gameEndLine = textFile.filter(input => input.includes('"exit_code":"EXITCODE'))[0];
         const gameResultCarNr = gameEndLine.indexOf('"Game exited","exit_code":"');
         infoArray.game_result = gameEndLine.substring(gameResultCarNr + 36, gameResultCarNr + 37);
         // if abandoned game, throw away
         if (infoArray.game_result !== 'A') {
-          const summonerArray = textFile.filter((input) => {
-            return input.includes('Spawning champion');
-          });
+          const summonerArray = textFile.filter(input => input.includes('Spawning champion'));
           summonerArray.forEach((itemIn) => {
             let item = itemIn;
             const tempChamp = item.substring(item.indexOf('(') + 1, item.indexOf(')'));
@@ -177,21 +171,15 @@ function procTest(textFile) {
               }
             }
           });
-          infoArray.loading_time = textFile.filter(function (input) {
-            return input.includes('GAMESTATE_GAMELOOP Begin');
-          })[0].substring(0, 10) - 0;
+          infoArray.loading_time = textFile.filter(input => input.includes('GAMESTATE_GAMELOOP Begin'))[0].substring(0, 10) - 0;
           infoArray.game_time = gameEndLine.substring(0, 10) - infoArray.loading_time;
-          const deathArray = textFile.filter(function (input) {
-            return input.includes('The Killer was');
-          });
-          deathArray.forEach(function (item) {
+          const deathArray = textFile.filter(input => input.includes('The Killer was'));
+          deathArray.forEach((item) => {
             const deathTime = item.substring(0, 10) - infoArray.loading_time;
             infoArray.deaths.push(deathTime);
           });
           filteredDB.push(infoArray);
-        }else {
         }
-      } else {
       }
     })();
   } catch (err) {
