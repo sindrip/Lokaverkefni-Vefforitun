@@ -8,19 +8,19 @@ window.onresize = function (event) {
     drawScatter(scatter, 'chart1');
   }
   if (barsgraphs) {
-    drawBars(barsgraphs, 'chart2');
+    drawBars(barsgraphs, 'chart2', ' top 10 most played champs', 'champs');
   }
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
   }
   if (which) {
     if (scatterChampion) {
-      oneVW = window.innerWidth;
+      oneVW = 0.5 * window.innerWidth;
       drawScatter(scatterChampion, schatterChampionId);
     }
   } else {
     if (scatterChampion) {
-      oneVW = window.innerWidth;
+      oneVW = 0.5 * window.innerWidth;
       drawBars(scatterChampion, schatterChampionId);
     }
   }
@@ -47,7 +47,7 @@ function teikniTest() {
   oneVW = window.innerWidth;
   const x = topXmostPlayedChamps(10);
   const bars = championsToBarArray(x);
-  drawBars(bars, 'chart2');
+  drawBars(bars, 'chart2', 'Top 10 most played champs', 'champs');
   drawChart(datesToChart(gamesByLoad()), 'chart4', 'chart5');
   const stuss = deathsAtMinute(filteredDB);
   drawScatter(deathScatterchart(stuss), 'chart1');
@@ -79,9 +79,7 @@ function dateCharts(time) {
         team = player.team;
       }
     });
-    console.log(team === '1');
     if (team === '1') {
-      console.log('poop');
       if(game.game_result === 'W'){
         games.B.W += 1;
       }
@@ -112,7 +110,7 @@ function drawChart(array, id, id2) {
     const data = google.visualization.arrayToDataTable(array);
     linechart = array;
     const options = {
-      title: 'Company Performance',
+      title: 'Loading time as a function of date',
       curveType: 'function',
       legend: { position: 'bottom' },
       width: oneVW,
@@ -146,7 +144,7 @@ function drawChart(array, id, id2) {
   }
 }
 
-function drawBars(array, id) {
+function drawBars(array, id, titles, subtitles) {
   google.charts.setOnLoadCallback(draw);
 
   // smá skítamix með onloadCallBack.
@@ -154,8 +152,8 @@ function drawBars(array, id) {
     barsgraphs = array;
     const data = google.visualization.arrayToDataTable(array);
     const options = {
-      title: 'champion game stats',
-      subtitle: 'Wins and losses on both sides for most played champs',
+      title: titles,
+      subtitle: subtitles,
       bars: 'vertical',
       width: oneVW,
     }; // Required for chart3 Bar Charts.
@@ -172,8 +170,8 @@ function drawScatter(array, id, championSpecific) {
     const data = google.visualization.arrayToDataTable(array);
     scatter = array;
     const options = {
-      title: 'champion game stats',
-      subtitle: 'Wins and losses on both sides for most played champs',
+      title: 'scatterchart of every death per min',
+      subtitle: 'this is trash',
       bars: 'vertical',
       width: oneVW,
     };    // Required for chart3 Bar Charts.
@@ -189,10 +187,11 @@ function drawScatter(array, id, championSpecific) {
       // Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
       // sama sniði og filteredDB og birtir winrates úr því
       const winrate = winratePerTime(championSpecific);
+      console.log(winrate);
       scatterChampion = winrate;
       which = true;
       schatterChampionId = id;
-      drawBars(winrate, id);
+      drawBars(winrate, id, 'winrate as a  function of time', 'wins');
     }
   }
 }
@@ -505,10 +504,11 @@ function winratePerTime(array) {
     // breytir game time í margfeldi af 5.
     let length = parseInt(secondsTominute(game.game_time), 10);
     length -= (length % 5);
+    console.log(length);
     if (!minutes[length]) {
       minutes[length] = [];
     }
-    if (game.gameResult === 'W') minutes[length].push(1);
+    if (game.game_result === 'W') minutes[length].push(1);
     else { minutes[length].push(0); }
   });
   const data = [];
