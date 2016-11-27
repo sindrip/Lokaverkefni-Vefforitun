@@ -72,9 +72,26 @@ function dateCharts(time) {
     },
   };
   array.forEach((game) => {
-    const team = game.team;
-    if (team === 1) games.B.game_result += 1;
-    else games.R.game_result += 1;
+    const players = game.players;
+    let team;
+    players.forEach((player) => {
+      if(isInArray(yourSummonerName, player.summonername)){
+        team = player.team;
+      }
+    });
+    console.log(team === '1');
+    if (team === '1') {
+      console.log('poop');
+      if(game.game_result === 'W'){
+        games.B.W += 1;
+      }
+      else games.B.L +=1;
+    } else {
+        if(game.game_result === 'W'){
+          games.R.W += 1;
+        }
+        else games.R.L += 1;
+      }
   });
   const data = [['games this day', 'sup']];
   data.push(['Blue side wins', games.B.W]);
@@ -114,12 +131,13 @@ function drawChart(array, id, id2) {
         // Gerir þetta til að forðast að þetta crashi
         if (chart.getSelection()[0]) {
           const select = chart.getSelection()[0].row;
-          const time = data.tf[select].c[0].v;
+          const time = data.Tf[select].c[0].v;
           // Bý til nýtt div til að teikna pie chartið í
           const pie = document.createElement('div');
           pie.setAttribute('id', id2);
           pie.setAttribute('class', 'chart');
           grandparent.appendChild(pie);
+          console.log(dateCharts(time));
           drawPie(dateCharts(time), id2);
           parent.appendChild(pie);
         }
