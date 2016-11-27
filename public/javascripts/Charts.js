@@ -18,11 +18,9 @@ window.onresize = function (event) {
       oneVW = 0.5 * window.innerWidth;
       drawScatter(scatterChampion, schatterChampionId);
     }
-  } else {
-    if (scatterChampion) {
-      oneVW = 0.5 * window.innerWidth;
-      drawBars(scatterChampion, schatterChampionId);
-    }
+  } else if (scatterChampion) {
+    oneVW = 0.5 * window.innerWidth;
+    drawBars(scatterChampion, schatterChampionId);
   }
 };
 let scatter;
@@ -75,26 +73,21 @@ function dateCharts(time) {
     const players = game.players;
     let team;
     players.forEach((player) => {
-      if(isInArray(yourSummonerName, player.summonername)){
+      if (isInArray(yourSummonerName, player.summonername)) {
         team = player.team;
       }
     });
     if (team === '1') {
-      if(game.game_result === 'W'){
+      if (game.game_result === 'W') {
         games.B.W += 1;
-      }
-      else games.B.L +=1;
-    } else {
-        if(game.game_result === 'W'){
-          games.R.W += 1;
-        }
-        else games.R.L += 1;
-      }
+      } else games.B.L += 1;
+    } else if (game.game_result === 'W') {
+      games.R.W += 1;
+    } else games.R.L += 1;
   });
   const data = [['games this day', 'sup']];
   data.push(['Blue side wins', games.B.W]);
   data.push(['Blue side losses', games.B.L]);
-
   data.push(['Red side wins', games.R.W]);
   data.push(['Red side losses', games.R.L]);
   return data;
@@ -187,7 +180,6 @@ function drawScatter(array, id, championSpecific) {
       // Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
       // sama sniði og filteredDB og birtir winrates úr því
       const winrate = winratePerTime(championSpecific);
-      console.log(winrate);
       scatterChampion = winrate;
       which = true;
       schatterChampionId = id;
@@ -504,7 +496,6 @@ function winratePerTime(array) {
     // breytir game time í margfeldi af 5.
     let length = parseInt(secondsTominute(game.game_time), 10);
     length -= (length % 5);
-    console.log(length);
     if (!minutes[length]) {
       minutes[length] = [];
     }
