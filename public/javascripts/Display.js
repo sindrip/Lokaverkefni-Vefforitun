@@ -199,10 +199,10 @@ function fillChampionElement(championObject, elementID) {
   }
   const ChampSkinImage = document.createElement('img');
   ChampSkinImage.classList.add('skinImage');
-  ChampSkinImage.src = 'http://ddragon.leagueoflegends.com/cdn/img/champion/loading/' + championObject.championName + '_' + currTopSkin + '.jpg';
+  ChampSkinImage.src = 'https://ddragon.leagueoflegends.com/cdn/img/champion/loading/' + championObject.championName + '_' + currTopSkin + '.jpg';
   elementIDFound.appendChild(ChampSkinImage);
   const ChampSmallImage = document.createElement('img');
-  ChampSmallImage.src = 'http://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + championObject.championName + '.png';
+  ChampSmallImage.src = 'https://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + championObject.championName + '.png';
   divdivdiv.appendChild(ChampSmallImage);
   // name
   const champName = document.createElement('p');
@@ -378,7 +378,7 @@ function initializeChampionCards() {
     const onclickString = 'setActiveTab(event, \'' + key + '\', \'tablinksChamp\', \'tabcontentChamps\')';
     activeA.setAttribute('onclick', onclickString);
     const activeIMG = document.createElement('img');
-    const championIconLink = 'http://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + key + '.png';
+    const championIconLink = 'https://ddragon.leagueoflegends.com/cdn/6.22.1/img/champion/' + key + '.png';
     if (champions[key].numgames === 0) {
       activeA.classList.add('nullGames');
     }

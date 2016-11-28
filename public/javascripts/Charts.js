@@ -134,7 +134,6 @@ function drawChart(array, id, id2) {
           pie.setAttribute('id', id2);
           pie.setAttribute('class', 'chart');
           grandparent.appendChild(pie);
-          console.log(dateCharts(time));
           drawPie(dateCharts(time), id2);
           parent.appendChild(pie);
         }

@@ -25,7 +25,6 @@ function move() {
 // give user the 'tip'
 function showTheTip() {
   let elementVis = document.getElementById('tooltiptext');
-  console.log(elementVis.style.visibility);
   if (elementVis.style.visibility === 'visible') {
     elementVis.style.visibility = 'hidden';
   } else {
@@ -183,6 +182,7 @@ function procTest(textFile) {
       }
     })();
   } catch (err) {
-    console.log('error');
+    errorCount += 1;
   }
 }
+let errorCount;
