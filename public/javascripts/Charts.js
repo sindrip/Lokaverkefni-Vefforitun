@@ -1,12 +1,17 @@
 
-window.onresize = (event) => {
+window.onresize =  lagagraphs;
+
+function lagagraphs(){
   oneVW = 0.8 * window.innerWidth;
+  console.log(oneVW);
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
-  if (scatter) {
+  /*if (scatter) {
     drawScatter(scatter, 'chart1');
-  }
+  }*/
+  const stuss = deathsAtMinute(filteredDB);
+  drawScatter(deathScatterchart(stuss), 'chart1', false);
   if (barsgraphs) {
     drawBars(barsgraphs, 'chart2', ' top 10 most played champs', 'champs');
   }
@@ -16,7 +21,7 @@ window.onresize = (event) => {
   if (which) {
     if (scatterChampion) {
       oneVW = 0.5 * window.innerWidth;
-      drawScatter(scatterChampion, schatterChampionId);
+      drawScatter(scatterChampion, schatterChampionId, oneVW);
     }
   } else if (scatterChampion) {
     oneVW = 0.5 * window.innerWidth;
@@ -40,16 +45,16 @@ let schatterChampionId;
 let championgraph;
 // Breyta sem segir til um hvort þetta sé bars eða scatter fyrir champion;
 let which;
-let oneVW;
+let oneVW = window.innerWidth * 0.8;
 function teikniTest() {
-  oneVW = window.innerWidth;
+  const breidd = 1920;
+  console.log(oneVW);
   const x = topXmostPlayedChamps(10);
   const bars = championsToBarArray(x);
   drawBars(bars, 'chart2', 'Top 10 most played champs', 'champs');
   drawChart(datesToChart(gamesByLoad()), 'chart4', 'chart5');
-  const stuss = deathsAtMinute(filteredDB);
-  drawScatter(deathScatterchart(stuss), 'chart1');
   drawPie(championPieChart(), 'chart3', 'champions');
+  lagagraphs();
 }
 
 function dateCharts(time) {
@@ -107,6 +112,7 @@ function drawChart(array, id, id2) {
       curveType: 'function',
       legend: { position: 'bottom' },
       width: oneVW,
+      height: 450,
     };
     const chart = new google.visualization.LineChart(document.getElementById(id));
     chart.draw(data, options);
@@ -149,25 +155,25 @@ function drawBars(array, id, titles, subtitles) {
       subtitle: subtitles,
       bars: 'vertical',
       width: oneVW,
+      height:450,
     }; // Required for chart3 Bar Charts.
     const chart = new google.charts.Bar(document.getElementById(id));
     chart.draw(data, options);
   }
 }
 
-function drawScatter(array, id, championSpecific) {
+function drawScatter(array, id, championSpecific, breidd) {
   google.charts.setOnLoadCallback(draw);
-
   function draw() {
     // Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
     const data = google.visualization.arrayToDataTable(array);
     scatter = array;
     const options = {
       title: 'scatterchart of every death per min',
-      subtitle: 'this is trash',
-      bars: 'vertical',
       width: oneVW,
+      legend: 'none',
     };    // Required for chart3 Bar Charts.
+    console.log(options);
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
     if (championSpecific) {
@@ -202,6 +208,7 @@ function drawPie(array, id, hierarchy) {
       // Til að fá 3D shapeið í þetta.
       is3D: true,
       width: oneVW,
+      height: 450,
     }; // Required for chart3 Bar Charts.
     const chart = new google.visualization.PieChart(document.getElementById(id));
     if (hierarchy === 'champions') {

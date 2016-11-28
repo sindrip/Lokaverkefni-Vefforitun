@@ -353,6 +353,7 @@ function setActiveTab(evt, classNameHTML, classNameID, classNameID2) {
     document.getElementById(classNameHTML).style.display = 'block';
   }
   evt.currentTarget.className += ' active';
+  teikniTest();
 }
 
 // creates champion cards in champion tab
