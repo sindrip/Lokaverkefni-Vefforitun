@@ -6,10 +6,12 @@ function blablabla(whatChamp) {
     const cdeath = championDeathArray(whatChamp);
     if (cdeath.length !== 0) {
       const stuss = deathsAtMinute(cdeath);
+      console.log(stuss);
       const chart = document.createElement('div');
+      console.log(chart);
       chart.setAttribute('id', whatChamp + 'chart');
-      drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
       document.getElementById(whatChamp).appendChild(chart);
+      drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
     }
 }
 function lagagraphs(){
@@ -206,10 +208,10 @@ function drawScatter(array, id, championSpecific, breidd) {
        // scatterChampion = array;
        // Ef sett er inn championSpecific breytu þá verður skilgreindur
        // eventhandler á formið.
-       test = array;
+       ///test = array;
 
-       scatterChampion = array;
-       scatterChampionId = id;
+       //scatterChampion = array;
+       //scatterChampionId = id;
        google.visualization.events.addListener(chart, 'select', selectHandler);
 
     }
