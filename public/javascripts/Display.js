@@ -14,6 +14,8 @@ let jsonRiot;
 let aToZChamps = [];
 // List of people with wins losses
 let playerIDArrayWithWins = {};
+// screen width
+let oneVW = window.innerWidth * 0.8;
 // initializes the display page
 function vinnaFylki() {
   google.charts.load('current', { packages: ['corechart', 'bar'] });
@@ -247,7 +249,7 @@ function fillChampionElement(championObject, elementID) {
       const stuss = deathsAtMinute(cdeath);
       const chart = document.createElement('div');
       chart.setAttribute('id', championObject.championName + 'chart');
-      drawScatter(deathScatterchart(stuss), championObject.championName + 'chart', cdeath);
+      drawScatter(deathScatterchart(stuss), championObject.championName + 'chart', true, 0.45 * window.innerWidth);
       elementIDFound.appendChild(chart);
     }
   }

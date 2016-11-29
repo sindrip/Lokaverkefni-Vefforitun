@@ -3,7 +3,7 @@ window.onresize =  lagagraphs;
 
 function lagagraphs(){
   oneVW = 0.8 * window.innerWidth;
-  console.log(oneVW);
+  console.log('outer ' + oneVW);
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -16,10 +16,12 @@ function lagagraphs(){
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
   }
+  console.log(which);
   if (which) {
+    console.log('scatterChampion ' + scatterChampion);
     if (scatterChampion) {
       oneVW = 0.5 * window.innerWidth;
-      console.log(oneVW);
+      console.log('inner ' + oneVW);
       drawScatter(scatterChampion, schatterChampionId,true, oneVW);
     }
   } else if (scatterChampion) {
@@ -43,8 +45,7 @@ let schatterChampionId;
 
 let championgraph;
 // Breyta sem segir til um hvort þetta sé bars eða scatter fyrir champion;
-let which;
-let oneVW = window.innerWidth * 0.8;
+let which = false;
 function teikniTest() {
   const breidd = 1920;
   console.log(oneVW);
@@ -175,6 +176,7 @@ function drawScatter(array, id, championSpecific, breidd) {
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
     if (championSpecific) {
+      // scatterChampion = array;
       // Ef sett er inn championSpecific breytu þá verður skilgreindur
       // eventhandler á formið.
       google.visualization.events.addListener(chart, 'select', selectHandler);
