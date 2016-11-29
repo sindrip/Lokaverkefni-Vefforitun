@@ -2,13 +2,12 @@
 window.onresize = lagagraphs;
 
 function blablabla(whatChamp) {
-  console.log(whatChamp);
     const cdeath = championDeathArray(whatChamp);
     if (cdeath.length !== 0) {
       const stuss = deathsAtMinute(cdeath);
-      console.log(stuss);
+
       const chart = document.createElement('div');
-      console.log(chart);
+
       chart.setAttribute('id', whatChamp + 'chart');
       document.getElementById(whatChamp).appendChild(chart);
       drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
