@@ -7,11 +7,9 @@ function lagagraphs(){
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
-  /*if (scatter) {
+  if (scatter) {
     drawScatter(scatter, 'chart1');
-  }*/
-  const stuss = deathsAtMinute(filteredDB);
-  drawScatter(deathScatterchart(stuss), 'chart1', false);
+  }
   if (barsgraphs) {
     drawBars(barsgraphs, 'chart2', ' top 10 most played champs', 'champs');
   }
@@ -49,12 +47,13 @@ let oneVW = window.innerWidth * 0.8;
 function teikniTest() {
   const breidd = 1920;
   console.log(oneVW);
+  const stuss = deathsAtMinute(filteredDB);
+  drawScatter(deathScatterchart(stuss), 'chart1', false);
   const x = topXmostPlayedChamps(10);
   const bars = championsToBarArray(x);
   drawBars(bars, 'chart2', 'Top 10 most played champs', 'champs');
   drawChart(datesToChart(gamesByLoad()), 'chart4', 'chart5');
   drawPie(championPieChart(), 'chart3', 'champions');
-  lagagraphs();
 }
 
 function dateCharts(time) {
