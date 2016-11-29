@@ -173,7 +173,7 @@ function drawScatter(array, id, championSpecific, breidd) {
   if(championSpecific) {
     //const leng  = ;
     let maxmin = array[array.length - 1][0].replace(/[^0-9.]/g, '');
-    for (var i = 1; i < maxmin; i++) {
+    for (let i = 1; i < maxmin; i++) {
       if(parseInt(array[i][0].replace(/[^0-9.]/g, '')) === i - 1){
       } else {
         const tempArray = [];
@@ -198,13 +198,17 @@ function drawScatter(array, id, championSpecific, breidd) {
     };    // Required for chart3 Bar Charts.
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
-    if (championSpecific) {
-      // scatterChampion = array;
-      // Ef sett er inn championSpecific breytu þá verður skilgreindur
-      // eventhandler á formið.
-      //scatterChampion = array;
-      test = array;
-      google.visualization.events.addListener(chart, 'select', selectHandler);
+
+     if (championSpecific) {
+       // scatterChampion = array;
+       // Ef sett er inn championSpecific breytu þá verður skilgreindur
+       // eventhandler á formið.
+       test = array;
+
+       scatterChampion = array;
+       schatterChampionId = id;
+       google.visualization.events.addListener(chart, 'select', selectHandler);
+
     }
     function selectHandler() {
       // Eventhandler sem fer í gang þegar ýtt er á scatter chartið
