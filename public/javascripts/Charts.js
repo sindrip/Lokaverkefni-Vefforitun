@@ -8,7 +8,7 @@ function lagagraphs(){
   if(thisActiveElement[2].className === "tablinksChamp active") {
     let whatChamp = thisActiveElement[2].innerText;
     console.log(whatChamp);
-    drawScatter(test,whatChamp + 'chart',true, 0.45 * window.innerWidth);
+    drawScatter(scatterChampion,whatChamp+'chart',true, 0.45 * window.innerWidth);
 
   }
   // console.log('outer ' + oneVW);
