@@ -201,6 +201,7 @@ function drawScatter(array, id, championSpecific, breidd) {
       // scatterChampion = array;
       // Ef sett er inn championSpecific breytu þá verður skilgreindur
       // eventhandler á formið.
+      scatterChampion = array;
       google.visualization.events.addListener(chart, 'select', selectHandler);
     }
     function selectHandler() {
