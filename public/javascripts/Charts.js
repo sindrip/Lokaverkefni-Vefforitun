@@ -8,6 +8,8 @@ function lagagraphs(){
   if(thisActiveElement[2].className === "tablinksChamp active") {
     let whatChamp = thisActiveElement[2].innerText;
     console.log(whatChamp);
+    drawScatter(test,whatChamp + 'chart',true, 0.45 * window.innerWidth);
+
   }
   // console.log('outer ' + oneVW);
   if (piechampion) {
@@ -22,18 +24,17 @@ function lagagraphs(){
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
   }
-  // console.log(which);
-  if (which) {
+  /*
+  if (false) {
     console.log('scatterChampion ' + scatterChampion);
     if (scatterChampion) {
       oneVW = 0.5 * window.innerWidth;
       console.log('inner ' + oneVW);
-      drawScatter(scatterChampion, schatterChampionId,true, oneVW);
     }
   } else if (scatterChampion) {
     oneVW = 0.5 * window.innerWidth;
     drawBars(scatterChampion, schatterChampionId);
-  }
+  }*/
 };
 let scatter;
 
@@ -201,7 +202,8 @@ function drawScatter(array, id, championSpecific, breidd) {
       // scatterChampion = array;
       // Ef sett er inn championSpecific breytu þá verður skilgreindur
       // eventhandler á formið.
-      scatterChampion = array;
+      //scatterChampion = array;
+      test = array;
       google.visualization.events.addListener(chart, 'select', selectHandler);
     }
     function selectHandler() {
@@ -216,7 +218,7 @@ function drawScatter(array, id, championSpecific, breidd) {
     }
   }
 }
-
+let test;
 
 function drawPie(array, id, hierarchy) {
   google.charts.setOnLoadCallback(draw);
