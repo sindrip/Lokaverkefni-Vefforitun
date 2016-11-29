@@ -243,17 +243,9 @@ function fillChampionElement(championObject, elementID) {
   ulListElement.appendChild(liDE);
   elementIDFound.appendChild(ulListElement);
 
-  if (elementID.id !== 'mainChampion') {
-    const cdeath = championDeathArray(championObject.championName);
-    if (cdeath.length !== 0) {
-      const stuss = deathsAtMinute(cdeath);
-      const chart = document.createElement('div');
-      chart.setAttribute('id', championObject.championName + 'chart');
-      drawScatter(deathScatterchart(stuss), championObject.championName + 'chart', true, 0.45 * window.innerWidth);
-      elementIDFound.appendChild(chart);
-    }
-  }
+
 }
+
 // gathers info about set champion
 function champInfoFiller(champion) {
   const collectedinfo = {
@@ -349,13 +341,16 @@ function setActiveTab(evt, classNameHTML, classNameID, classNameID2) {
   // Show the current tab, and add an 'active' class to the link that opened the tab
   if (classNameHTML === 'Graphs') {
     document.getElementById(classNameHTML).style.display = 'flex';
+    teikniTest();
   } else if (classNameHTML in champions) {
     document.getElementById(classNameHTML).style.display = 'flex';
+    console.log(classNameHTML);
+    blablabla(classNameHTML);
   } else {
     document.getElementById(classNameHTML).style.display = 'block';
   }
   evt.currentTarget.className += ' active';
-  teikniTest();
+
 }
 
 // creates champion cards in champion tab

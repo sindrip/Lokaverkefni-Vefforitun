@@ -1,17 +1,20 @@
 
-window.onresize =  lagagraphs;
+window.onresize = lagagraphs;
 
+function blablabla(whatChamp) {
+  console.log(whatChamp);
+    const cdeath = championDeathArray(whatChamp);
+    if (cdeath.length !== 0) {
+      const stuss = deathsAtMinute(cdeath);
+      const chart = document.createElement('div');
+      chart.setAttribute('id', whatChamp + 'chart');
+      drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
+      document.getElementById(whatChamp).appendChild(chart);
+    }
+}
 function lagagraphs(){
-  console.log(document.getElementsByClassName('active'));
-  oneVW = 0.8 * window.innerWidth;
-  let thisActiveElement = document.getElementsByClassName('active');
-  if(thisActiveElement[2].className === "tablinksChamp active") {
-    let whatChamp = thisActiveElement[2].innerText;
-    console.log(whatChamp);
-    drawScatter(scatterChampion,whatChamp+'chart',true, 0.45 * window.innerWidth);
-
-  }
   // console.log('outer ' + oneVW);
+  console.log('ehrere');
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -42,7 +45,7 @@ let barsgraphs;
 
 let linechart;
 
-let piechampion;
+let piechampion = false;
 
 let pieWhich;
 
