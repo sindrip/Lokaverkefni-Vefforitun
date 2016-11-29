@@ -7,6 +7,7 @@ function lagagraphs(){
   let thisActiveElement = document.getElementsByClassName('active');
   if(thisActiveElement[2].className === "tablinksChamp active") {
     let whatChamp = thisActiveElement[2].innerText;
+    console.log(whatChamp);
   }
   // console.log('outer ' + oneVW);
   if (piechampion) {
@@ -192,7 +193,6 @@ function drawScatter(array, id, championSpecific, breidd) {
     const options = {
       title: 'scatterchart of every death per min',
       width: breidd,
-      height: 0.3 * breidd,
       legend: 'none',
     };    // Required for chart3 Bar Charts.
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
