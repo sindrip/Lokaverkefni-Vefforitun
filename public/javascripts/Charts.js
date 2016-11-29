@@ -2,18 +2,17 @@
 window.onresize = lagagraphs;
 
 function blablabla(whatChamp) {
-  console.log(whatChamp);
-    const cdeath = championDeathArray(whatChamp);
-    if (cdeath.length !== 0) {
-      const stuss = deathsAtMinute(cdeath);
-      console.log(stuss);
-      const chart = document.createElement('div');
-      console.log(chart);
-      chart.setAttribute('id', whatChamp + 'chart');
-      document.getElementById(whatChamp).appendChild(chart);
-      drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
-    }
+  currentActiveChamp = whatChamp;
+  const cdeath = championDeathArray(whatChamp);
+  if (cdeath.length !== 0) {
+    const stuss = deathsAtMinute(cdeath);
+    const chart = document.createElement('div');
+    chart.setAttribute('id', whatChamp + 'chart');
+    document.getElementById(whatChamp).appendChild(chart);
+    drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
+  }
 }
+let currentActiveChamp = false;
 function lagagraphs(){
   // console.log('outer ' + oneVW);
   console.log('ehrere');
@@ -28,6 +27,9 @@ function lagagraphs(){
   }
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
+  }
+  if(currentActiveChamp) {
+    blablabla(currentActiveChamp)
   }
   /*
   if (false) {
