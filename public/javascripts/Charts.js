@@ -1,9 +1,8 @@
 
-window.onresize =  lagagraphs;
+window.onresize = lagagraphs;
 
-function lagagraphs(){
+function lagagraphs() {
   oneVW = 0.8 * window.innerWidth;
-  console.log(oneVW);
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -25,7 +24,7 @@ function lagagraphs(){
     oneVW = 0.5 * window.innerWidth;
     drawBars(scatterChampion, schatterChampionId);
   }
-};
+}
 let scatter;
 
 let barsgraphs;
@@ -45,8 +44,6 @@ let championgraph;
 let which;
 let oneVW = window.innerWidth * 0.8;
 function teikniTest() {
-  const breidd = 1920;
-  console.log(oneVW);
   const stuss = deathsAtMinute(filteredDB);
   drawScatter(deathScatterchart(stuss), 'chart1', false);
   const x = topXmostPlayedChamps(10);
@@ -153,7 +150,7 @@ function drawBars(array, id, titles, subtitles) {
       subtitle: subtitles,
       bars: 'vertical',
       width: oneVW,
-      height:450,
+      height: 450,
     }; // Required for chart3 Bar Charts.
     const chart = new google.charts.Bar(document.getElementById(id));
     chart.draw(data, options);
@@ -171,7 +168,6 @@ function drawScatter(array, id, championSpecific, breidd) {
       width: oneVW,
       legend: 'none',
     };    // Required for chart3 Bar Charts.
-    console.log(options);
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
     if (championSpecific) {
