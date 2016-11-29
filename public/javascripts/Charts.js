@@ -2,8 +2,13 @@
 window.onresize =  lagagraphs;
 
 function lagagraphs(){
+  console.log(document.getElementsByClassName('active'));
   oneVW = 0.8 * window.innerWidth;
-  console.log('outer ' + oneVW);
+  let thisActiveElement = document.getElementsByClassName('active');
+  if(thisActiveElement[2].className === "tablinksChamp active") {
+    let whatChamp = thisActiveElement[2].innerText;
+  }
+  // console.log('outer ' + oneVW);
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -16,7 +21,7 @@ function lagagraphs(){
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
   }
-  console.log(which);
+  // console.log(which);
   if (which) {
     console.log('scatterChampion ' + scatterChampion);
     if (scatterChampion) {
@@ -163,12 +168,22 @@ function drawBars(array, id, titles, subtitles) {
 }
 
 function drawScatter(array, id, championSpecific, breidd) {
-  console.log(array + " " + championSpecific);
-  console.log(array.length);
   if(championSpecific) {
-    const maxmin = array[array.length - 1].replace(/[^0-9.]/g, '');
-    console.log(maxmin);
+    //const leng  = ;
+    let maxmin = array[array.length - 1][0].replace(/[^0-9.]/g, '');
+    for (var i = 1; i < maxmin; i++) {
+      if(parseInt(array[i][0].replace(/[^0-9.]/g, '')) === i - 1){
+      } else {
+        const tempArray = [];
+        const bla = i - 1;
+        const tempString = bla + "minute";
+        tempArray.push(tempString);
+        tempArray.push(0);
+        array.splice(i,0,tempArray);
+      }
+    }
   }
+  //console.log(array);
   google.charts.setOnLoadCallback(draw);
   function draw() {
     // Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
