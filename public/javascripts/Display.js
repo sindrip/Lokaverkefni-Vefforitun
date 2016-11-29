@@ -344,7 +344,6 @@ function setActiveTab(evt, classNameHTML, classNameID, classNameID2) {
     teikniTest();
   } else if (classNameHTML in champions) {
     document.getElementById(classNameHTML).style.display = 'flex';
-    console.log(classNameHTML);
     blablabla(classNameHTML);
   } else {
     document.getElementById(classNameHTML).style.display = 'block';
