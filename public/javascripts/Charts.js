@@ -2,20 +2,19 @@
 window.onresize = lagagraphs;
 
 function blablabla(whatChamp) {
-  currentActiveChamp = whatChamp;
-  const cdeath = championDeathArray(whatChamp);
-  if (cdeath.length !== 0) {
-    const stuss = deathsAtMinute(cdeath);
-    const chart = document.createElement('div');
-    chart.setAttribute('id', whatChamp + 'chart');
-    document.getElementById(whatChamp).appendChild(chart);
-    drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
-  }
+    currentActiveChamp = whatChamp;
+    const cdeath = championDeathArray(whatChamp);
+    if (cdeath.length !== 0) {
+      const stuss = deathsAtMinute(cdeath);
+      const chart = document.createElement('div');
+      chart.setAttribute('id', whatChamp + 'chart');
+      document.getElementById(whatChamp).appendChild(chart);
+      drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
+    }
 }
 let currentActiveChamp = false;
 function lagagraphs(){
   // console.log('outer ' + oneVW);
-  console.log('ehrere');
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -146,11 +145,14 @@ function drawChart(array, id, id2) {
           const time = data.Tf[select].c[0].v;
           // Bý til nýtt div til að teikna pie chartið í
           const pie = document.createElement('div');
-          pie.setAttribute('id', id2);
-          pie.setAttribute('class', 'chart');
-          grandparent.appendChild(pie);
-          drawPie(dateCharts(time), id2);
-          parent.appendChild(pie);
+          if(!document.getElementById(id2)){
+            pie.setAttribute('id', id2);
+            pie.setAttribute('class', 'chart');
+            grandparent.appendChild(pie);
+            drawPie(dateCharts(time), id2);
+            parent.appendChild(pie);
+          }
+          else{ drawPie(dateCharts(time), id2);}
         }
       }
     }
@@ -205,19 +207,7 @@ function drawScatter(array, id, championSpecific, breidd) {
     };    // Required for chart3 Bar Charts.
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
-
-     if (championSpecific) {
-       // scatterChampion = array;
-       // Ef sett er inn championSpecific breytu þá verður skilgreindur
-       // eventhandler á formið.
-       ///test = array;
-
-       //scatterChampion = array;
-       //scatterChampionId = id;
-       google.visualization.events.addListener(chart, 'select', selectHandler);
-
-    }
-    function selectHandler() {
+    /*function selectHandler() {
       // Eventhandler sem fer í gang þegar ýtt er á scatter chartið
       // Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
       // sama sniði og filteredDB og birtir winrates úr því
@@ -226,7 +216,7 @@ function drawScatter(array, id, championSpecific, breidd) {
       which = true;
       schatterChampionId = id;
       drawBars(winrate, id, 'winrate as a  function of time', 'wins');
-    }
+    }*/
   }
 }
 let test;
