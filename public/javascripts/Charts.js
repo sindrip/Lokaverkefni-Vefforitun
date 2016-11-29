@@ -163,6 +163,12 @@ function drawBars(array, id, titles, subtitles) {
 }
 
 function drawScatter(array, id, championSpecific, breidd) {
+  console.log(array + " " + championSpecific);
+  console.log(array.length);
+  if(championSpecific) {
+    const maxmin = array[array.length - 1].replace(/[^0-9.]/g, '');
+    console.log(maxmin);
+  }
   google.charts.setOnLoadCallback(draw);
   function draw() {
     // Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
@@ -171,6 +177,7 @@ function drawScatter(array, id, championSpecific, breidd) {
     const options = {
       title: 'scatterchart of every death per min',
       width: breidd,
+      height: 0.3 * breidd,
       legend: 'none',
     };    // Required for chart3 Bar Charts.
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
