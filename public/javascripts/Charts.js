@@ -15,6 +15,7 @@ function blablabla(whatChamp) {
 let currentActiveChamp = false;
 function lagagraphs(){
   // console.log('outer ' + oneVW);
+  oneVW = window.innerWidth * 0.8;
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
@@ -61,7 +62,6 @@ let championgraph;
 let which = false;
 function teikniTest() {
   const breidd = 1920;
-  console.log(oneVW);
   const stuss = deathsAtMinute(filteredDB);
   drawScatter(deathScatterchart(stuss), 'chart1', false, oneVW);
   const x = topXmostPlayedChamps(10);
@@ -122,7 +122,7 @@ function drawChart(array, id, id2) {
     const data = google.visualization.arrayToDataTable(array);
     linechart = array;
     const options = {
-      title: 'Loading time as a function of date',
+      title: 'Loading time over time',
       curveType: 'function',
       legend: { position: 'bottom' },
       width: oneVW,
@@ -201,7 +201,7 @@ function drawScatter(array, id, championSpecific, breidd) {
     const data = google.visualization.arrayToDataTable(array);
     scatter = array;
     const options = {
-      title: 'scatterchart of every death per min',
+      title: 'Death by minute',
       width: breidd,
       legend: 'none',
     };    // Required for chart3 Bar Charts.
@@ -229,7 +229,7 @@ function drawPie(array, id, hierarchy) {
     pieWhich = hierarchy;
     piechampion = array;
     const options = {
-      title: 'champion game stats',
+      title: 'Distribution of champions picked',
       bars: 'vertical',
       // Til að fá 3D shapeið í þetta.
       is3D: true,
