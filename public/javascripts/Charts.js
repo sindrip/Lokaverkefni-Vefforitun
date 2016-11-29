@@ -206,7 +206,7 @@ function drawScatter(array, id, championSpecific, breidd) {
        test = array;
 
        scatterChampion = array;
-       schatterChampionId = id;
+       scatterChampionId = id;
        google.visualization.events.addListener(chart, 'select', selectHandler);
 
     }
