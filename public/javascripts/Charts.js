@@ -5,8 +5,13 @@ function blablabla(whatChamp) {
   currentActiveChamp = whatChamp;
   const cdeath = championDeathArray(whatChamp);
   if (cdeath.length !== 0) {
+    var ifDivExists =  document.getElementById(whatChamp + 'chart')
+    if(ifDivExists) {
+      document.getElementById(whatChamp).removeChild(ifDivExists);
+    }
     const stuss = deathsAtMinute(cdeath);
     const chart = document.createElement('div');
+    chart.classList.add('champChart');
     chart.setAttribute('id', whatChamp + 'chart');
     document.getElementById(whatChamp).appendChild(chart);
     drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
@@ -187,9 +192,10 @@ function drawScatter(array, id, championSpecific, breidd) {
       } else {
         const tempArray = [];
         const bla = i - 1;
-        const tempString = bla + "minute";
+        const tempString = bla;
         tempArray.push(tempString);
-        tempArray.push(0);
+        const negaNumber = -1;
+        tempArray.push(negaNumber);
         array.splice(i,0,tempArray);
       }
     }
@@ -204,7 +210,28 @@ function drawScatter(array, id, championSpecific, breidd) {
       title: 'Death by minute',
       width: breidd,
       legend: 'none',
+      vAxis: {
+        //title: "Percentage Uptime",
+        //viewWindowMode:'explicit',
+        title: "Deaths",
+        minValue: 4,
+        viewWindow:{
+          min:0,
+        }
+      },
+      hAxis: {
+        //title: "Percentage Uptime",
+        //viewWindowMode:'explicit',
+        format: '0',
+        title: "Minute",
+        viewWindow:{
+          min:0,
+        }
+      },
     };    // Required for chart3 Bar Charts.
+    if(championSpecific) {
+      options['height'] = 0.5 * breidd;
+    }
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
     /*function selectHandler() {
@@ -408,7 +435,7 @@ function deathsAtMinute(array) {
   array.forEach((game) => {
     const deaths = game.deaths;
     deaths.forEach((death) => {
-      const hhmmss = secondsTominute(death);
+      const hhmmss = secondsTominute(death).replace(/[^0-9.]/g, '');
       data[hhmmss] =
       (data[hhmmss] || 0) + 1;
     });
@@ -502,7 +529,7 @@ function topXmostPlayedChamps(x) {
 
 function championsToBarArray(arraychampion) {
   const barArray = [];
-  const headers = ['champions', 'Bwins', 'Bloses', 'Rwins', 'Rloses'];
+  const headers = ['champions', 'Blue wins', 'Blue losses', 'Red wins', 'Red losses'];
   barArray.push(headers);
 
   for (let i = 0; i < arraychampion.length; i += 1) {
