@@ -37,11 +37,13 @@ html
           //  #myDropdown.dropdown-content
           //    input#myInput(type='text', placeholder='Search..', onkeyup='filterFunction()')
       #container
-      p
-        | Processing files
-        span#loadingdots1.loadingdots .
-        span#loadingdots2.loadingdots .
-        span#loadingdots3.loadingdots .
+      div.paraDiv
+        p
+          | Processing files
+          span#loadingdots1.loadingdots .
+          span#loadingdots2.loadingdots .
+          span#loadingdots3.loadingdots .
+        p.pTip (This might take some time if the files are stored on a HDD)
     #display.display.hide
       #scrollUpButton.scrollUpButton(onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');")
       #upperContainer.container-fluid
