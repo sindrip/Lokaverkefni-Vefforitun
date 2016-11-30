@@ -5,8 +5,8 @@ function blablabla(whatChamp) {
   currentActiveChamp = whatChamp;
   const cdeath = championDeathArray(whatChamp);
   if (cdeath.length !== 0) {
-    var ifDivExists =  document.getElementById(whatChamp + 'chart')
-    if(ifDivExists) {
+    let ifDivExists = document.getElementById(whatChamp + 'chart');
+    if (ifDivExists) {
       document.getElementById(whatChamp).removeChild(ifDivExists);
     }
     const stuss = deathsAtMinute(cdeath);
@@ -18,14 +18,14 @@ function blablabla(whatChamp) {
   }
 }
 let currentActiveChamp = false;
-function lagagraphs(){
+function lagagraphs() {
   // console.log('outer ' + oneVW);
   oneVW = window.innerWidth * 0.8;
   if (piechampion) {
     drawPie(piechampion, 'chart3', pieWhich);
   }
   if (scatter) {
-    drawScatter(scatter, 'chart1',false, oneVW);
+    drawScatter(scatter, 'chart1', false, oneVW);
   }
   if (barsgraphs) {
     drawBars(barsgraphs, 'chart2', ' top 10 most played champs', 'champs');
@@ -33,8 +33,8 @@ function lagagraphs(){
   if (linechart) {
     drawChart(linechart, 'chart4', 'chart5');
   }
-  if(currentActiveChamp) {
-    blablabla(currentActiveChamp)
+  if (currentActiveChamp) {
+    blablabla(currentActiveChamp);
   }
   /*
   if (false) {
@@ -47,7 +47,7 @@ function lagagraphs(){
     oneVW = 0.5 * window.innerWidth;
     drawBars(scatterChampion, schatterChampionId);
   }*/
-};
+}
 let scatter;
 
 let barsgraphs;
@@ -150,14 +150,13 @@ function drawChart(array, id, id2) {
           const time = data.Tf[select].c[0].v;
           // Bý til nýtt div til að teikna pie chartið í
           const pie = document.createElement('div');
-          if(!document.getElementById(id2)){
+          if (!document.getElementById(id2)) {
             pie.setAttribute('id', id2);
             pie.setAttribute('class', 'chart');
             grandparent.appendChild(pie);
             drawPie(dateCharts(time), id2);
             parent.appendChild(pie);
-          }
-          else{ drawPie(dateCharts(time), id2);}
+          } else { drawPie(dateCharts(time), id2); }
         }
       }
     }
@@ -176,7 +175,7 @@ function drawBars(array, id, titles, subtitles) {
       subtitle: subtitles,
       bars: 'vertical',
       width: oneVW,
-      height:450,
+      height: 450,
     }; // Required for chart3 Bar Charts.
     const chart = new google.charts.Bar(document.getElementById(id));
     chart.draw(data, options);
@@ -184,23 +183,20 @@ function drawBars(array, id, titles, subtitles) {
 }
 
 function drawScatter(array, id, championSpecific, breidd) {
-  if(championSpecific) {
-    //const leng  = ;
+  if (championSpecific) {
     let maxmin = array[array.length - 1][0].replace(/[^0-9.]/g, '');
-    for (let i = 1; i < maxmin; i++) {
-      if(parseInt(array[i][0].replace(/[^0-9.]/g, '')) === i - 1){
-      } else {
+    for (let i = 1; i < maxmin; i += 1) {
+      if (parseInt(array[i][0].replace(/[^0-9.]/g, '')) !== i - 1) {
         const tempArray = [];
         const bla = i - 1;
         const tempString = bla;
         tempArray.push(tempString);
         const negaNumber = -1;
         tempArray.push(negaNumber);
-        array.splice(i,0,tempArray);
+        array.splice(i, 0, tempArray);
       }
     }
   }
-  //console.log(array);
   google.charts.setOnLoadCallback(draw);
   function draw() {
     // Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
@@ -211,30 +207,30 @@ function drawScatter(array, id, championSpecific, breidd) {
       width: breidd,
       legend: 'none',
       vAxis: {
-        //title: "Percentage Uptime",
-        //viewWindowMode:'explicit',
-        title: "Deaths",
+        // title: 'Percentage Uptime',
+        // viewWindowMode:'explicit',
+        title: 'Deaths',
         minValue: 4,
-        viewWindow:{
-          min:0,
-        }
+        viewWindow: {
+          min: 0,
+        },
       },
       hAxis: {
-        //title: "Percentage Uptime",
-        //viewWindowMode:'explicit',
+        // title: 'Percentage Uptime',
+        // viewWindowMode:'explicit',
         format: '0',
-        title: "Minute",
-        viewWindow:{
-          min:0,
-        }
+        title: 'Minute',
+        viewWindow: {
+          min: 0,
+        },
       },
     };    // Required for chart3 Bar Charts.
-    if(championSpecific) {
-      options['height'] = 0.5 * breidd;
+    if (championSpecific) {
+      options.height = 0.5 * breidd;
     }
     const chart = new google.visualization.ScatterChart(document.getElementById(id));
     chart.draw(data, options);
-    /*function selectHandler() {
+    /* function selectHandler() {
       // Eventhandler sem fer í gang þegar ýtt er á scatter chartið
       // Birtir barchart fyir winrate fyrir eitthvað spes fylki sem er á
       // sama sniði og filteredDB og birtir winrates úr því
@@ -243,7 +239,7 @@ function drawScatter(array, id, championSpecific, breidd) {
       which = true;
       schatterChampionId = id;
       drawBars(winrate, id, 'winrate as a  function of time', 'wins');
-    }*/
+    } */
   }
 }
 let test;
@@ -401,7 +397,7 @@ function gamesByLoad() {
 
 
 function compareFormattedDates(date1, date2) {
-  // tekur strengi á forminu "yyyy/mm/dd" og skilar hvor er stærri.
+  // tekur strengi á forminu 'yyyy/mm/dd' og skilar hvor er stærri.
   const indices1 = [];
   for (let i = 0; i < date1.length; i += 1) {
     // maus

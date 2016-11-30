@@ -242,8 +242,6 @@ function fillChampionElement(championObject, elementID) {
   liDE.innerHTML = 'Average death per game: ' + (championObject.deaths / championObject.totalGames).toFixed(2);
   ulListElement.appendChild(liDE);
   elementIDFound.appendChild(ulListElement);
-
-
 }
 
 // gathers info about set champion
@@ -349,7 +347,6 @@ function setActiveTab(evt, classNameHTML, classNameID, classNameID2) {
     document.getElementById(classNameHTML).style.display = 'block';
   }
   evt.currentTarget.className += ' active';
-
 }
 
 // creates champion cards in champion tab
