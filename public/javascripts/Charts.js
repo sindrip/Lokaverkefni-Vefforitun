@@ -14,6 +14,25 @@ function blablabla(whatChamp) {
     chart.classList.add('champChart');
     chart.setAttribute('id', whatChamp + 'chart');
     document.getElementById(whatChamp).appendChild(chart);
+    let maxmin = 0;
+    for (const key in stuss) {
+      if (parseInt(key) > maxmin) {
+        maxmin = parseInt(key);
+      }
+    }
+    // let maxmin = array[array.length - 1][0].replace(/[^0-9.]/g, '');
+    for (let i = 1; i < maxmin; i += 1) {
+      if (!(i in stuss)) {
+        const tempArray = [];
+        const bla = i - 1;
+        const tempString = bla;
+        tempArray.push(tempString);
+        const negaNumber = -1;
+        tempArray.push(negaNumber);
+        // stuss.splice(i, 0, tempArray);
+        stuss[i] = -1000;
+      }
+    }
     drawScatter(deathScatterchart(stuss), whatChamp + 'chart', true, 0.45 * window.innerWidth);
   }
 }
@@ -183,20 +202,6 @@ function drawBars(array, id, titles, subtitles) {
 }
 
 function drawScatter(array, id, championSpecific, breidd) {
-  if (championSpecific) {
-    let maxmin = array[array.length - 1][0].replace(/[^0-9.]/g, '');
-    for (let i = 1; i < maxmin; i += 1) {
-      if (parseInt(array[i][0].replace(/[^0-9.]/g, '')) !== i - 1) {
-        const tempArray = [];
-        const bla = i - 1;
-        const tempString = bla;
-        tempArray.push(tempString);
-        const negaNumber = -1;
-        tempArray.push(negaNumber);
-        array.splice(i, 0, tempArray);
-      }
-    }
-  }
   google.charts.setOnLoadCallback(draw);
   function draw() {
     // Tekur array og breytir því á formið sem þarf til að geta gert graf úr því
@@ -486,14 +491,11 @@ function deathScatterchart(array) {
   }
   function comparator(a, b) {
     // Fall til að raða fylki af fylkjum
-    const a1 = a[0].indexOf('m');
-    const b1 = b[0].indexOf('m');
+    const a1 = parseInt(a[0]);
+    const b1 = parseInt(b[0]);
 
-    const an = parseInt(a[0].substring(0, a1), 10);
-    const bn = parseInt(b[0].substring(0, b1), 10);
-
-    if (an < bn) return -1;
-    if (an > bn) return 1;
+    if (a1 < b1) return -1;
+    if (a1 > b1) return 1;
     return 0;
   }
   const chart = data.sort(comparator);
