@@ -4,7 +4,7 @@ const router = express.Router();
 
 const axios = require('axios');
 
-const API_KEY = 'RGAPI-f4d249c4-0cdd-4aa1-8307-3ec5164f0829';
+const API_KEY = 'XXX';
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
